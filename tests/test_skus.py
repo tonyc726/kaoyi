@@ -44,6 +44,18 @@ def test_openai_pro_uses_help_center_names_not_5x() -> None:
     assert "Pro $200" in names
     assert "Pro 5x" not in names
     assert "Pro 20x" not in names
+    assert "From $100" not in names
+
+
+def test_openai_go_is_official_eight_dollars() -> None:
+    go = next(plan for plan in assemble(ROOT).page("openai").snapshot.plans if plan.name == "Go")
+    assert go.price.display == "$8"
+    assert go.price.amount == 8
+    assert go.price.currency == "USD"
+    assert go.price.period == "month"
+    assert go.price.source_url == "https://chatgpt.com/pricing/"
+    assert go.price.note != "官方有这一档，未见单独报价"
+    assert "未见单独报价" not in (go.price.note or "")
 
 
 def test_grok_snapshot_lists_official_individual_ladder() -> None:

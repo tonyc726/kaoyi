@@ -32,7 +32,7 @@ Not a clone of `wmpeng/codingplan`. No dreamfree affiliate shortlinks. No finish
 - Cursor — https://cursor.com/pricing
 - Claude — https://claude.com/pricing
 - SuperGrok — https://x.ai/pricing
-- OpenAI ChatGPT/Codex — https://openai.com/chatgpt/pricing
+- OpenAI ChatGPT/Codex — https://chatgpt.com/pricing/
 
 按量:
 

@@ -106,12 +106,12 @@
   status: OPEN
   region: GLOBAL
   currency: USD
-  official_url: https://openai.com/chatgpt/pricing
-  buy_url: https://openai.com/chatgpt/pricing
+  official_url: https://chatgpt.com/pricing/
+  buy_url: https://chatgpt.com/pricing/
   docs_url: https://help.openai.com/en/articles/6950777
   adapter: openai
   short: ChatGPT membership
-  notes: 这是 ChatGPT 会员，不是 API。Codex 用量跟会员档走。Pro 有 $100 和 $200 两档。
+  notes: 这是 ChatGPT 会员，不是 API。Codex 用量跟会员档走。个人档是 Free、Go、Plus、Pro $100、Pro $200。Go 美国标价 $8/月。
 
 - id: openrouter
   name: OpenRouter

@@ -1,12 +1,12 @@
 {
   "vendor_id": "openai",
-  "source_url": "https://openai.com/chatgpt/pricing",
+  "source_url": "https://chatgpt.com/pricing/",
   "as_of": "2026-08-21",
   "fetched_ok": false,
   "parse_ok": false,
   "status": "OPEN",
   "billing_unit": "月订阅 · 会员",
-  "notes": "openai.com/chatgpt/pricing 在 2026-08-21 返回 Cloudflare 403。官方定价页标题列出 Free / Go / Plus / Pro。Plus $20 来自帮助中心；Pro 两档官方名称是 Pro $100 与 Pro $200，不是 Pro 5x / 20x。Go 未见数字。这是 ChatGPT/Codex 会员，不是 API 预付。",
+  "notes": "这是 ChatGPT/Codex 会员，不是 API 预付。Go 美国标价，部分市场本地货币。Plus $20 来自帮助中心；Pro 两档官方名称是 Pro $100 与 Pro $200，不是 Pro 5x / 20x。",
   "plans": [
     {
       "id": "free",
@@ -16,7 +16,7 @@
         "amount": 0,
         "currency": "USD",
         "period": "month",
-        "source_url": "https://openai.com/chatgpt/pricing",
+        "source_url": "https://chatgpt.com/pricing/",
         "as_of": "2026-08-21",
         "note": null
       },
@@ -27,13 +27,13 @@
       "id": "go",
       "name": "Go",
       "price": {
-        "display": "-",
-        "amount": null,
+        "display": "$8",
+        "amount": 8,
         "currency": "USD",
         "period": "month",
-        "source_url": "https://openai.com/chatgpt/pricing",
+        "source_url": "https://chatgpt.com/pricing/",
         "as_of": "2026-08-21",
-        "note": "官方有这一档，未见单独报价"
+        "note": "美国标价。部分市场本地货币。"
       },
       "quota": "-",
       "notes": ""
