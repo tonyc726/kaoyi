@@ -39,6 +39,7 @@ class OfficialChannel(BaseModel):
     url: str
     handle: str = ""
     label: str = ""
+    note: str = ""
 
     @property
     def display_label(self) -> str:
@@ -51,6 +52,7 @@ class OfficialChannel(BaseModel):
             "discord": "Discord",
             "github": "GitHub",
             "instagram": "Instagram",
+            "wechat": "微信",
         }
         base = kind_labels.get(self.kind, self.kind)
         handle = self.handle.strip().lstrip("@")

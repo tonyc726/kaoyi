@@ -61,7 +61,10 @@ SOURCES: dict[str, list[OfficialSource]] = {
     ],
     "claude": [OfficialSource("https://www.anthropic.com/news", "anthropic_news")],
     "grok": [OfficialSource("https://x.ai/news", "xai_news")],
-    "openai": [OfficialSource("https://openai.com/news/rss.xml", "rss")],
+    "openai": [
+        OfficialSource("https://openai.com/news/rss.xml", "rss"),
+        OfficialSource("https://developers.openai.com/rss.xml", "rss"),
+    ],
     "openrouter": [OfficialSource("https://openrouter.ai/blog/feed.xml", "rss")],
     "zhipu": [OfficialSource("https://www.zhipuai.cn/zh/news", "zhipu_news")],
     "minimax": [

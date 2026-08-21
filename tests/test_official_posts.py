@@ -166,10 +166,42 @@ def test_vendor_page_has_official_section_and_homepage_is_not_a_wall() -> None:
     assert "来自官方博客或更新日志。不是目录价。" in cursor_page
     assert "X @cursor_ai" in cursor_page
     assert "https://x.com/cursor_ai" in cursor_page
-    assert "https://x.com/claudeai" in (
-        ROOT / "dist" / "vendors" / "claude" / "index.html"
-    ).read_text(encoding="utf-8")
+    assert "https://github.com/cursor" in cursor_page
+    claude_page = (ROOT / "dist" / "vendors" / "claude" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    assert "https://x.com/claudeai" in claude_page
+    assert "https://x.com/AnthropicAI" in claude_page
+    assert "产品号" in claude_page
+    assert "https://github.com/anthropics" in claude_page
+    assert "https://x.com/Zai_org" in zhipu_page
     assert "@cursor_ai" not in zhipu_page
+    minimax_page = (ROOT / "dist" / "vendors" / "minimax" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    assert "https://x.com/MiniMax__AI" in minimax_page
+    assert "https://x.com/MiniMax_AI" in minimax_page
+    assert "并列不单选" in minimax_page
+    volc_page = (ROOT / "dist" / "vendors" / "volcengine" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    assert "x.com/" not in volc_page
+    aliyun_page = (ROOT / "dist" / "vendors" / "aliyun" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    assert "alibaba_cloud" in aliyun_page
+    assert "阿里云公司号" in aliyun_page
+    assert "百炼 X" not in aliyun_page or "没有单独的百炼" in aliyun_page
+    openai_page = (ROOT / "dist" / "vendors" / "openai" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    assert "https://x.com/OpenAIDevs" in openai_page
+    assert 'href="https://x.com/OpenAI"' not in openai_page
+    grok_page = (ROOT / "dist" / "vendors" / "grok" / "index.html").read_text(
+        encoding="utf-8"
+    )
+    assert "https://x.com/grok" in grok_page
+    assert "产品号" in grok_page
     assert "@OpenAI" not in index
     assert "@AnthropicAI" not in index
     assert "@xai" not in index
@@ -178,7 +210,7 @@ def test_vendor_page_has_official_section_and_homepage_is_not_a_wall() -> None:
     )
     assert "twitter.com/OpenRouterAI" not in openrouter_page
     assert "x.com/OpenRouterAI" not in openrouter_page
-    assert "twitter.com/openrouter" in openrouter_page
+    assert "https://x.com/openrouter" in openrouter_page
 
     site = assemble(ROOT)
     cursor_prices = [plan.price.display for plan in site.page("cursor").snapshot.plans]

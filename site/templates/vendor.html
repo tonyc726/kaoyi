@@ -47,9 +47,15 @@
   {% if page.vendor.channels %}
   <p class="channels">
     {% for ch in page.vendor.channels %}
-    <a class="btn" href="{{ ch.url }}" rel="noopener noreferrer">{{ ch.display_label }}</a>
+    <a class="btn" href="{{ ch.url }}" rel="noopener noreferrer"{% if ch.note %} title="{{ ch.note }}"{% endif %}>{{ ch.display_label }}</a>
     {% endfor %}
   </p>
+  {% set channel_notes = page.vendor.channels | selectattr("note") | list %}
+  {% if channel_notes %}
+  <p class="muted small">
+    {% for ch in channel_notes %}{{ ch.display_label }}：{{ ch.note }}{% if not loop.last %}；{% endif %}{% endfor %}
+  </p>
+  {% endif %}
   {% endif %}
   {% if page.official_posts %}
   <ul class="event-list official-posts">
