@@ -82,11 +82,12 @@ Not a clone of `wmpeng/codingplan`. No dreamfree affiliate shortlinks. No finish
 `adapters/` (one file per vendor)  
 `site/` templates + css  
 `scripts/fetch.py` `scripts/build.py`  
-`.github/workflows/pages.yml`
+`.github/workflows/pages.yml` — push `main` + daily 08:00 CST fetch (`0 0 * * *` UTC) + `workflow_dispatch`; same job builds/deploys after fetch  
+`data/fetch-status.json` — today's adapter fetch/parse failures (not snapshot `parse_ok`)
 
 ## GitHub Pages
 
-Deploy from Actions. Repo owner must enable Pages once if needed:
+Deploy from Actions. The scheduled fetch writes snapshots/events then builds `dist/` in the same job (`GITHUB_TOKEN` data commits do not retrigger workflows). Repo owner must enable Pages once if needed:
 
 Settings → Pages → Source: **GitHub Actions**.
 

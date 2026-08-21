@@ -138,6 +138,16 @@ h2 { font-size: 22px; margin: 0 0 8px; }
 
 .rule, .muted { color: var(--muted); }
 
+.banner {
+  display: inline-block;
+  border: 1px solid var(--hair);
+  border-radius: 999px;
+  padding: 6px 12px;
+  margin: 0 0 8px;
+  letter-spacing: 0.06em;
+  font-size: 12px;
+}
+
 .section-head { margin: 28px 0 14px; }
 
 .table-wrap {

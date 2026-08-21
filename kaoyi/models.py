@@ -119,6 +119,17 @@ class Event(BaseModel):
     note: str = ""
 
 
+class FetchStatus(BaseModel):
+    """Sidecar for today's adapter fetch/parse failures, not snapshot parse_ok."""
+
+    as_of: str
+    failed_vendor_ids: list[str] = Field(default_factory=list)
+
+    @property
+    def failed_count(self) -> int:
+        return len(self.failed_vendor_ids)
+
+
 class ReviewsFile(BaseModel):
     axes: list[str]
     vendors: dict[str, Review]
@@ -138,6 +149,7 @@ class SiteData(BaseModel):
     snapshots: dict[str, Snapshot]
     reviews: ReviewsFile
     events: list[Event]
+    fetch_status: FetchStatus | None = None
     pages: list[VendorPage] = Field(default_factory=list)
 
     def vendor(self, vendor_id: str) -> Vendor:

@@ -6,6 +6,7 @@ import yaml
 
 from kaoyi.models import (
     Event,
+    FetchStatus,
     Review,
     ReviewsFile,
     SiteConfig,
@@ -59,12 +60,20 @@ def load_snapshots(root: Path = ROOT) -> dict[str, Snapshot]:
     return snapshots
 
 
+def load_fetch_status(root: Path = ROOT) -> FetchStatus | None:
+    path = root / "data" / "fetch-status.json"
+    if not path.exists():
+        return None
+    return FetchStatus.model_validate_json(path.read_text(encoding="utf-8"))
+
+
 def assemble(root: Path = ROOT) -> SiteData:
     config = load_config(root)
     vendors = load_vendors(root)
     snapshots = load_snapshots(root)
     reviews = load_reviews(root)
     events = load_events(root)
+    fetch_status = load_fetch_status(root)
 
     pages: list[VendorPage] = []
     for vendor in vendors:
@@ -86,5 +95,6 @@ def assemble(root: Path = ROOT) -> SiteData:
         snapshots=snapshots,
         reviews=reviews,
         events=events,
+        fetch_status=fetch_status,
         pages=pages,
     )

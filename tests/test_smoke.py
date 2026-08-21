@@ -64,6 +64,7 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "Max 10x" not in html
     assert "套餐对照" in html
     assert "下单前请回官方页确认。" in html
+    assert "今日失败" not in html
     assert "plan-ladders" not in html
     assert "ladder-chip" not in html
     assert "sku-table" in html
