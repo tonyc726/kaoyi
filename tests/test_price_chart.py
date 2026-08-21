@@ -17,11 +17,13 @@ from kaoyi.models import (
 )
 from kaoyi.price_chart import (
     BAR_MAX,
-    amount_label,
-    bar_width,
-    groups_for,
-    panel_scale_max,
+    amount_parts,
+    chart_caption,
+    chart_rows,
+    format_approx_cny,
+    monthly_cny,
     render_price_chart_svg,
+    scale_max,
 )
 
 
@@ -79,7 +81,7 @@ def _page(vendor: Vendor, plans: list[Plan]) -> VendorPage:
     )
 
 
-def _site(pages: list[VendorPage]) -> SiteData:
+def _site(pages: list[VendorPage], rate: float = 6.8) -> SiteData:
     return SiteData(
         config=SiteConfig(
             site_name="考异",
@@ -87,7 +89,7 @@ def _site(pages: list[VendorPage]) -> SiteData:
             one_liner="x",
             site_base="/kaoyi/",
             pages_url="https://example.test",
-            usd_to_cny_rate=6.8,
+            usd_to_cny_rate=rate,
             usd_to_cny_as_of="2026-01-01",
             usd_to_cny_note="x",
             build_as_of="2026-01-01",
@@ -105,68 +107,70 @@ def _site(pages: list[VendorPage]) -> SiteData:
     )
 
 
-def _rects(svg: str, cls: str) -> list[dict[str, str]]:
+def _rects(svg: str) -> list[dict[str, str]]:
     found: list[dict[str, str]] = []
-    for match in re.finditer(rf'<rect class="{cls}"([^>]*)/?>', svg):
+    for match in re.finditer(r'<rect class="price-bar"([^>]*)/?>', svg):
         found.append(dict(re.findall(r'([\w-]+)="([^"]*)"', match.group(1))))
     return found
 
 
-def _bar_widths(svg: str, currency: str) -> dict[str, float]:
-    return {
-        rect["data-plan-id"]: float(rect["width"])
-        for rect in _rects(svg, "price-bar")
-        if rect.get("data-currency") == currency
-    }
-
-
-def _bar_width(svg: str, currency: str, vendor_id: str, plan_id: str) -> float:
-    for rect in _rects(svg, "price-bar"):
-        if (
-            rect.get("data-currency") == currency
-            and rect.get("data-vendor-id") == vendor_id
-            and rect.get("data-plan-id") == plan_id
-        ):
+def _bar_width(svg: str, vendor_id: str, plan_id: str) -> float:
+    for rect in _rects(svg):
+        if rect.get("data-vendor-id") == vendor_id and rect.get("data-plan-id") == plan_id:
             return float(rect["width"])
-    raise AssertionError(f"missing {currency} bar {vendor_id}/{plan_id}")
+    raise AssertionError(f"missing bar {vendor_id}/{plan_id}")
 
 
-def test_cny_and_usd_never_share_a_scale() -> None:
+def test_one_shared_cny_scale() -> None:
     site = _site(
         [
-            _page(
-                _vendor("cn", "人民币店"),
-                [
-                    _plan("cheap", "Cheap", "¥50", 50, "CNY"),
-                    _plan("full", "Full", "¥100", 100, "CNY"),
-                ],
-            ),
-            _page(
-                _vendor("us", "美元店"),
-                [_plan("ten", "Ten", "$10", 10, "USD")],
-            ),
+            _page(_vendor("cn", "人民币店"), [_plan("full", "Full", "¥100", 100, "CNY")]),
+            _page(_vendor("us", "美元店"), [_plan("ten", "Ten", "$10", 10, "USD")]),
         ]
     )
-    assert panel_scale_max(site, "CNY") == 100
-    assert panel_scale_max(site, "USD") == 10
+    rows = chart_rows(site)
+    assert scale_max(rows) == 100
     svg = render_price_chart_svg(site)
-    assert 'data-currency="CNY" data-scale-max="100"' in svg
-    assert 'data-currency="USD" data-scale-max="10"' in svg
-    cny = _bar_widths(svg, "CNY")
-    usd = _bar_widths(svg, "USD")
-    assert cny["full"] == BAR_MAX
-    assert cny["cheap"] == BAR_MAX / 2
-    assert usd["ten"] == BAR_MAX
-    assert usd["ten"] != cny["cheap"]
+    assert svg.count("<svg") == 1
+    assert 'data-scale-max="100"' in svg
+    assert "price-chart-panel" not in svg
+    assert _bar_width(svg, "cn", "full") == BAR_MAX
+    assert abs(_bar_width(svg, "us", "ten") - BAR_MAX * 68 / 100) < 0.02
+    assert format_approx_cny(monthly_cny(10, "USD", 6.8)) == "≈ ¥68"
 
 
-def test_missing_custom_and_currencyless_prices_are_omitted() -> None:
+def test_usd_conversion_uses_config_rate() -> None:
+    pages = [
+        _page(_vendor("cn", "人民币店"), [_plan("full", "Full", "¥50", 50, "CNY")]),
+        _page(_vendor("us", "美元店"), [_plan("twenty", "Twenty", "$20", 20, "USD")]),
+    ]
+    slow = _site(pages, rate=5.0)
+    fast = _site(pages, rate=10.0)
+    assert monthly_cny(20, "USD", 5.0) == 100
+    assert monthly_cny(20, "USD", 10.0) == 200
+    assert scale_max(chart_rows(slow)) == 100
+    assert scale_max(chart_rows(fast)) == 200
+    slow_svg = render_price_chart_svg(slow)
+    fast_svg = render_price_chart_svg(fast)
+    assert 'data-rate="5"' in slow_svg
+    assert "美元按 5 换算，不是牌价" in slow_svg
+    assert "≈ ¥100" in slow_svg
+    assert _bar_width(slow_svg, "us", "twenty") == BAR_MAX
+    assert _bar_width(slow_svg, "cn", "full") == BAR_MAX * (50 / 100)
+    assert "≈ ¥200" in fast_svg
+    assert _bar_width(fast_svg, "cn", "full") == BAR_MAX * (50 / 200)
+    assert chart_caption(6.8) == "约合 ¥/月 · 美元按 6.8 换算，不是牌价"
+
+
+def test_missing_custom_and_zeros_are_omitted() -> None:
     site = _site(
         [
             _page(
                 _vendor("mix", "混合"),
                 [
                     _plan("ok", "Ok", "¥80", 80, "CNY"),
+                    _plan("free", "Free", "$0", 0, "USD"),
+                    _plan("hobby", "Hobby", "$0", 0, "USD"),
                     _plan("dash", "Dash", "-", None, "CNY"),
                     _plan("custom", "Custom", "Custom", None, None, period=None),
                     _plan("noccy", "NoCcy", "99", 99, None),
@@ -176,39 +180,17 @@ def test_missing_custom_and_currencyless_prices_are_omitted() -> None:
         ]
     )
     svg = render_price_chart_svg(site)
-    assert "Ok" in svg
+    assert [row.plan_id for row in chart_rows(site)] == ["ok"]
+    assert "混合  Ok" in svg
     assert "¥80" in svg
+    assert "Free" not in svg
+    assert "Hobby" not in svg
+    assert "$0" not in svg
     assert "Dash" not in svg
     assert "Custom" not in svg
     assert "NoCcy" not in svg
     assert "NoneAmt" not in svg
-    assert "data-plan-id=" in svg
-    assert groups_for(site, "CNY")[0][1][0].id == "ok"
-    assert [plan.id for _, plans in groups_for(site, "CNY") for plan in plans] == ["ok"]
-
-
-def test_zero_amount_has_no_bar_width() -> None:
-    site = _site(
-        [
-            _page(
-                _vendor("us", "美元店"),
-                [
-                    _plan("free", "Free", "$0", 0, "USD"),
-                    _plan("paid", "Paid", "$20", 20, "USD"),
-                ],
-            )
-        ]
-    )
-    assert bar_width(0, 20) == 0
-    svg = render_price_chart_svg(site)
-    assert 'class="price-bar"' in svg
-    assert re.search(r'class="price-tick"[^>]*data-plan-id="free"', svg)
-    assert not re.search(r'class="price-bar"[^>]*data-plan-id="free"', svg)
-    assert "$0" in svg
-    assert "Free" in svg
-    paid = _bar_widths(svg, "USD")
-    assert paid["paid"] == BAR_MAX
-    assert "free" not in paid
+    assert "price-tick" not in svg
 
 
 def test_labels_are_xml_escaped() -> None:
@@ -228,66 +210,81 @@ def test_labels_are_xml_escaped() -> None:
 
 
 def test_vendor_and_sku_order_is_preserved_not_sorted_by_price() -> None:
-    first = _vendor("first", "先")
-    second = _vendor("second", "后")
     site = _site(
         [
             _page(
-                first,
+                _vendor("first", "先"),
                 [
                     _plan("high", "High", "¥900", 900, "CNY"),
                     _plan("low", "Low", "¥10", 10, "CNY"),
                 ],
             ),
             _page(
-                second,
+                _vendor("second", "后"),
                 [
                     _plan("mid", "Mid", "¥50", 50, "CNY"),
                     _plan("zero", "Zero", "¥0", 0, "CNY"),
                     _plan("gap", "Gap", "-", None, "CNY"),
+                    _plan("usd", "Seat", "$40", 40, "USD", period="user-month"),
                 ],
             ),
         ]
     )
+    ids = [(row.vendor_id, row.plan_id) for row in chart_rows(site)]
+    assert ids == [("first", "high"), ("first", "low"), ("second", "mid"), ("second", "usd")]
     svg = render_price_chart_svg(site)
-    vendor_ids = re.findall(r'class="price-chart-vendor" data-vendor-id="([^"]+)"', svg)
-    assert vendor_ids == ["first", "second"]
-    plan_ids = re.findall(r'class="price-chart-name" data-plan-id="([^"]+)"', svg)
-    assert plan_ids == ["high", "low", "mid", "zero"]
+    order = re.findall(
+        r'class="price-chart-name" data-vendor-id="([^"]+)" data-plan-id="([^"]+)"',
+        svg,
+    )
+    assert order == [("first", "high"), ("first", "low"), ("second", "mid"), ("second", "usd")]
+    assert "Zero" not in svg
     assert "Gap" not in svg
-
-
-def test_user_month_appends_seat_mark() -> None:
-    plan = _plan("teams", "Teams", "$40", 40, "USD", period="user-month")
-    assert amount_label(plan) == "$40 按席"
-    site = _site([_page(_vendor("us", "美元店"), [plan])])
-    svg = render_price_chart_svg(site)
-    assert "$40 按席" in svg
+    primary, secondary = amount_parts(chart_rows(site)[-1])
+    assert primary == "≈ ¥272 按席"
+    assert secondary == "$40"
+    assert "≈ ¥272 按席" in svg
+    assert "$40" in svg
     assert "SRC OFFICIAL" not in svg
-    assert "≈ ¥" not in svg
 
 
-def test_official_snapshots_split_scales_and_drop_gaps() -> None:
+def test_official_snapshots_share_converted_scale() -> None:
     site = assemble(Path(__file__).resolve().parents[1])
+    rate = site.config.usd_to_cny_rate
+    assert rate == 6.8
+    rows = chart_rows(site)
+    assert scale_max(rows) == monthly_cny(200, "USD", rate)
     svg = render_price_chart_svg(site)
-    assert panel_scale_max(site, "CNY") == 1078
-    assert panel_scale_max(site, "USD") == 200
-    assert _bar_width(svg, "CNY", "zhipu", "max") == BAR_MAX
-    assert _bar_width(svg, "USD", "openai", "pro-200") == BAR_MAX
-    assert abs(_bar_width(svg, "CNY", "aliyun", "pro") - BAR_MAX * (200 / 1078)) < 0.02
-    assert _bar_width(svg, "USD", "cursor", "pro") == BAR_MAX * (20 / 200)
+    peak = 200 * rate
+    assert abs(_bar_width(svg, "openai", "pro-200") - BAR_MAX) < 0.02
+    assert abs(_bar_width(svg, "zhipu", "max") - BAR_MAX * (1078 / peak)) < 0.02
+    assert abs(_bar_width(svg, "cursor", "pro") - BAR_MAX * (20 * rate / peak)) < 0.02
+    assert "约合 ¥/月 · 美元按 6.8 换算，不是牌价" in svg
+    assert "≈ ¥136" in svg
+    assert "$20" in svg
     assert "字节·方舟" not in svg
+    assert "Hobby" not in svg
     assert "Max 20x" not in svg
     assert "Pro+" not in svg
     assert "Go" not in svg
     assert "Custom" not in svg
-    vendor_ids = re.findall(r'class="price-chart-vendor" data-vendor-id="([^"]+)"', svg)
-    assert vendor_ids == [
-        "zhipu",
-        "minimax",
-        "aliyun",
-        "cursor",
-        "claude",
-        "grok",
-        "openai",
+    assert "price-chart-panel" not in svg
+    ids = [(row.vendor_id, row.plan_id) for row in rows]
+    assert ids == [
+        ("zhipu", "lite"),
+        ("zhipu", "pro"),
+        ("zhipu", "max"),
+        ("minimax", "plus"),
+        ("minimax", "max"),
+        ("minimax", "ultra"),
+        ("aliyun", "pro"),
+        ("cursor", "pro"),
+        ("cursor", "teams"),
+        ("claude", "pro"),
+        ("claude", "max-5x"),
+        ("grok", "supergrok"),
+        ("grok", "plus"),
+        ("openai", "plus"),
+        ("openai", "pro-100"),
+        ("openai", "pro-200"),
     ]

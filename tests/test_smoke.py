@@ -71,12 +71,17 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     chart = html[html.index("price-chart") : html.index("table-wrap")]
     assert "SRC OFFICIAL" not in chart
     assert "年付" not in chart
-    assert "≈ ¥" not in chart
+    assert "约合 ¥/月 · 美元按 6.8 换算，不是牌价" in chart
+    assert "≈ ¥" in chart
+    assert "≈ ¥136" in chart
+    assert "按席" in chart
+    assert "$40" in chart
+    assert "price-chart-panel" not in chart
     assert "Max 5x" in chart
     assert "Max 20x" not in chart
     assert "方舟" not in chart
+    assert "Hobby" not in chart
     assert "Custom" not in chart
-    assert "$40 按席" in chart
     assert "Max 20x" in html
     about = (dest / "about" / "index.html").read_text(encoding="utf-8")
     assert "invert for display" not in about

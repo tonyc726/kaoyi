@@ -141,49 +141,42 @@ h2 { font-size: 22px; margin: 0 0 8px; }
 .section-head { margin: 28px 0 14px; }
 
 .price-chart {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px 40px;
-  margin: 0 0 24px;
-}
-
-.price-chart-panel {
   width: 100%;
   height: auto;
   display: block;
+  margin: 0 0 20px;
 }
 
-.price-chart-title,
-.price-chart-vendor,
+.price-chart-caption,
 .price-chart-name,
-.price-chart-amount {
+.price-chart-amount,
+.price-chart-fx {
   font-family: var(--font-mono), ui-monospace, monospace;
-  fill: var(--fg);
 }
 
-.price-chart-title {
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.price-chart-vendor {
-  font-size: 12px;
+.price-chart-caption {
+  font-size: 10px;
+  fill: var(--muted);
 }
 
 .price-chart-name {
-  font-size: 11px;
+  font-size: 10px;
   fill: var(--muted);
   text-anchor: end;
   dominant-baseline: central;
 }
 
 .price-chart-amount {
-  font-size: 11px;
+  font-size: 10px;
+  fill: var(--fg);
   dominant-baseline: central;
 }
 
-.price-bar,
-.price-tick {
+.price-chart-fx {
+  fill: var(--muted);
+}
+
+.price-bar {
   fill: #fff;
 }
 
@@ -425,6 +418,5 @@ h2 { font-size: 22px; margin: 0 0 8px; }
 @media (max-width: 760px) {
   .top-inner { flex-direction: column; align-items: flex-start; padding: 12px 0; }
   .split { grid-template-columns: 1fr; }
-  .price-chart { grid-template-columns: 1fr; }
   h1 { font-size: 36px; }
 }
