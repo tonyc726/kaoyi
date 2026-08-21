@@ -6,7 +6,7 @@
   "parse_ok": true,
   "status": "OPEN",
   "billing_unit": "月订阅",
-  "notes": "2026-08-21 抓取 claude.com/pricing。个人梯子官方名称是 Free / Pro / Max 5x / Max 20x。Max 卡片只写 From $100；20x 列未见独立数字。Team / Enterprise / API 不并进个人会员行。",
+  "notes": "个人梯子官方名称是 Free / Pro / Max 5x / Max 20x。Max 5x 标价来自 claude.com/pricing（From $100）。Max 20x $200 来自 Anthropic Help Center。Team / Enterprise / API 不并进个人会员行。",
   "plans": [
     {
       "id": "free",
@@ -57,13 +57,13 @@
       "id": "max-20x",
       "name": "Max 20x",
       "price": {
-        "display": "-",
-        "amount": null,
+        "display": "$200",
+        "amount": 200,
         "currency": "USD",
         "period": "month",
-        "source_url": "https://claude.com/pricing",
+        "source_url": "https://support.anthropic.com/en/articles/11049741-what-is-the-max-plan",
         "as_of": "2026-08-21",
-        "note": "官方有这一档，未见单独报价"
+        "note": "定价页只写 From $100"
       },
       "quota": "Pro 的 20× 用量",
       "notes": "未含税"
