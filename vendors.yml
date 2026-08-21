@@ -97,7 +97,7 @@
   docs_url: https://x.ai/pricing
   adapter: grok
   short: SuperGrok membership
-  notes: 个人档是 Free、SuperGrok、SuperGrok Plus。Lite / Heavy 未见单独报价。
+  notes: 个人档是 Free、SuperGrok Lite、SuperGrok、SuperGrok Plus、SuperGrok Heavy。Lite / Heavy 标价来自 grok.com 订阅页（定价页对照表有档名无数字）。
 
 - id: openai
   name: OpenAI ChatGPT/Codex
