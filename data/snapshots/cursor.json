@@ -18,7 +18,7 @@
         "period": "month",
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "Free"
+        "note": null
       },
       "quota": "Limited Agent requests；Composer",
       "notes": "无需信用卡"
@@ -33,7 +33,7 @@
         "period": "month",
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "Individual 卡片在 Pro 标签下展示 $20/mo。"
+        "note": null
       },
       "quota": "Extended Agent limits；frontier models；cloud agents",
       "notes": "未含税"
@@ -48,7 +48,7 @@
         "period": "month",
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "官方名称存在，未见独立标价。"
+        "note": "官方有这一档，未见单独报价"
       },
       "quota": "-",
       "notes": ""
@@ -63,7 +63,7 @@
         "period": "month",
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "官方名称存在，未见独立标价。"
+        "note": "官方有这一档，未见单独报价"
       },
       "quota": "-",
       "notes": ""
@@ -78,7 +78,7 @@
         "period": "user-month",
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "per user / month"
+        "note": null
       },
       "quota": "团队管理 / SSO / 分析",
       "notes": "未含税"
@@ -93,7 +93,7 @@
         "period": null,
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "页面写 Custom，无目录数字。"
+        "note": null
       },
       "quota": "-",
       "notes": ""

@@ -51,6 +51,7 @@ def fetch() -> Snapshot:
                     period="usage",
                     source_url=SOURCE_URL,
                     as_of=as_of,
+                    note="无最低消费，按模型计价",
                 ),
                 quota="500+ models" if "500+" in html else "-",
             )

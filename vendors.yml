@@ -27,7 +27,7 @@
   docs_url: https://platform.minimaxi.com/docs/guides/pricing-token-plan
   adapter: minimax
   short: Token Plan
-  notes: 文本 / 图像 / 语音共享额度。积分包是另一套预付，不并进月订阅标价。
+  notes: 文本、图像、语音共用额度。积分包是另一套预付，不在月订阅标价里。
 
 - id: volcengine
   name: 字节·方舟
@@ -41,7 +41,7 @@
   docs_url: https://www.volcengine.com/activity/codingplan
   adapter: volcengine
   short: Coding Plan
-  notes: 活动页在脚手架抓取时未能解析出目录价，标价保持 "-"。状态暂记 LIMITED。
+  notes: 官方活动页未见可核对的目录价，标价写「-」。
 
 - id: aliyun
   name: 阿里·百炼
@@ -69,7 +69,7 @@
   docs_url: https://cursor.com/pricing
   adapter: cursor
   short: Individual / Teams
-  notes: 个人档官方名称是 Hobby / Pro / Pro+ / Ultra。定价页只印出 Hobby 免费与 Pro $20/mo；Pro+、Ultra 未见独立数字。
+  notes: 个人档是 Hobby、Pro、Pro+、Ultra。Pro+ 和 Ultra 未见单独报价。
 
 - id: claude
   name: Claude
@@ -83,7 +83,7 @@
   docs_url: https://claude.com/pricing
   adapter: claude
   short: Individual membership
-  notes: 个人梯子是 Free / Pro / Max 5x / Max 20x。Claude Code 含在付费会员里。API 按量价在同页另一层，不并进会员行。
+  notes: 个人档是 Free、Pro、Max 5x、Max 20x。付费档含 Claude Code。
 
 - id: grok
   name: SuperGrok
@@ -97,7 +97,7 @@
   docs_url: https://x.ai/pricing
   adapter: grok
   short: SuperGrok membership
-  notes: 已核对的个人卡是 Free / SuperGrok / SuperGrok Plus。对照表里的 Lite / Heavy 未见独立标价，不单列。
+  notes: 个人档是 Free、SuperGrok、SuperGrok Plus。Lite / Heavy 未见单独报价。
 
 - id: openai
   name: OpenAI ChatGPT/Codex
@@ -111,7 +111,7 @@
   docs_url: https://help.openai.com/en/articles/6950777
   adapter: openai
   short: ChatGPT membership
-  notes: 这是会员行，不与 OpenAI API 预付/按量合并。Codex 用量跟会员档走。官方帮助称 Pro 有 $100 与 $200 两档，不叫 Pro 5x / 20x。
+  notes: 这是 ChatGPT 会员，不是 API。Codex 用量跟会员档走。Pro 有 $100 和 $200 两档。
 
 - id: openrouter
   name: OpenRouter

@@ -33,7 +33,7 @@
         "period": "month",
         "source_url": "https://claude.com/pricing",
         "as_of": "2026-08-21",
-        "note": "月付 $20。年付 $17/月（$200 预付）。"
+        "note": "年付 $17/月（$200 预付）"
       },
       "quota": "含 Claude Code / Cowork / Design / Science；更多用量",
       "notes": "未含税"
@@ -48,7 +48,7 @@
         "period": "month",
         "source_url": "https://claude.com/pricing",
         "as_of": "2026-08-21",
-        "note": "卡片写 From $100 / month。文案：Choose 5x or 20x more usage than Pro。"
+        "note": null
       },
       "quota": "Pro 的 5× 用量；更高输出上限",
       "notes": "未含税"
@@ -63,7 +63,7 @@
         "period": "month",
         "source_url": "https://claude.com/pricing",
         "as_of": "2026-08-21",
-        "note": "对照表有 Max 20x 列，未见独立美元标价。不编造。"
+        "note": "官方有这一档，未见单独报价"
       },
       "quota": "Pro 的 20× 用量",
       "notes": "未含税"
