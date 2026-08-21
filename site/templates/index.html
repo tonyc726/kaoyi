@@ -19,6 +19,26 @@
     <h2>套餐对照</h2>
     <p class="muted">下单前请回官方页确认。</p>
   </div>
+  <div class="plan-ladders" aria-label="各家档位">
+    {% for page in site.plan_vendors() %}
+    <div class="ladder">
+      <div class="ladder-vendor">
+        <a class="name" href="{{ abs('vendors/' ~ page.vendor.id ~ '/') }}">{{ page.vendor.name }}</a>
+        {% if page.vendor.status != "OPEN" %}
+        <span class="status">{{ page.vendor.status }}</span>
+        {% endif %}
+      </div>
+      <div class="ladder-chips">
+        {% for plan in page.snapshot.plans %}
+        <span class="ladder-chip{% if plan.price.is_missing %} muted{% endif %}">
+          <span class="ladder-name">{{ plan.name }}</span>
+          <span class="ladder-price mono">{{ price_or_dash(plan) }}</span>
+        </span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
   <div class="table-wrap">
     <table class="grid sku-table">
       <thead>
