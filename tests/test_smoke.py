@@ -111,6 +111,10 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "能帮你什么" in about
     assert "买 coding 套餐之前，把官方标价放在一起看。" in about
     assert "<article" in about
+    assert "升格" in about
+    assert 'id="binary-field"' in html
+    assert "/kaoyi/assets/js/binary-field.js" in html
+    assert (dest / "assets" / "js" / "binary-field.js").exists()
 
 
 def test_volcengine_prices_are_dash() -> None:

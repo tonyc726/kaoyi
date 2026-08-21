@@ -48,6 +48,12 @@ GITHUB_TOKEN 提交数据**不会**再触发其他 workflow，所以定时任务
 
 If the first deploy needs a click, the repo owner must enable Pages (Source: GitHub Actions) once.
 
+## 社区来源 / Community intake
+
+纠错、新厂商、带方法的实测请开 GitHub Issue（见仓库 Issue 模板）。不抓取 Linux.do、小红书等登录墙后的帖子。
+
+Issues are the community intake. Linux.do and 小红书 login walls are not scraped.
+
 ## 数据原则 / Honesty
 
 - 官方页上看不到的数字写成 `-`

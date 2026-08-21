@@ -117,6 +117,23 @@ class Event(BaseModel):
     example: bool = False
     status: str = "OPEN"
     note: str = ""
+    # Omitted in YAML: official price_change/promo default high;
+    # example / community anecdote default low.
+    confidence: float | None = Field(default=None, ge=0, le=1)
+
+    @property
+    def effective_confidence(self) -> float:
+        if self.confidence is not None:
+            return self.confidence
+        if self.example or self.layer == "community" or self.kind in {"example", "anecdote"}:
+            return 0.3
+        if self.layer == "official" and self.kind in {"price_change", "promo"}:
+            return 0.9
+        return 0.5
+
+    @property
+    def is_unconfirmed(self) -> bool:
+        return self.example or self.effective_confidence < 0.6
 
 
 class FetchStatus(BaseModel):
