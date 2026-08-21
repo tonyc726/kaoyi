@@ -50,6 +50,17 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert not (ROOT / "affiliates.yml").exists()
     assert "dreamfree" not in html.lower()
     assert "/go/" not in html
+    assert "入门档" not in html
+    assert "主力档" not in html
+    assert "高用量档" not in html
+    assert "Max 5x" in html
+    assert "Max 20x" in html
+    assert "Max 10x" not in html
+    about = (dest / "about" / "index.html").read_text(encoding="utf-8")
+    assert "invert for display" not in about
+    assert "uv run python scripts/build.py" not in about
+    assert about.count("可获得性") == 1
+    assert "<article" in about
 
 
 def test_volcengine_prices_are_dash() -> None:

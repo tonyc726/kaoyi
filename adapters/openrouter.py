@@ -19,7 +19,6 @@ VENDOR = Vendor(
     docs_url=SOURCE_URL,
     adapter="openrouter",
     short="聚合按量",
-    slots={"entry": "payg", "mid": None, "high": None},
     notes="",
 )
 
@@ -45,7 +44,6 @@ def fetch() -> Snapshot:
             Plan(
                 id="payg",
                 name="Pay-as-you-go",
-                tier="entry",
                 price=PriceCell(
                     display="5.5% 平台费",
                     amount=None,

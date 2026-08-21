@@ -21,7 +21,6 @@ VENDOR = Vendor(
     docs_url=SOURCE_URL,
     adapter="aliyun",
     short="Coding Plan",
-    slots={"entry": None, "mid": "pro", "high": None},
     notes="",
 )
 
@@ -39,7 +38,6 @@ def fetch() -> Snapshot:
     pro = Plan(
         id="pro",
         name="Pro",
-        tier="mid",
         price=PriceCell(
             display="¥200",
             amount=200,
@@ -56,7 +54,7 @@ def fetch() -> Snapshot:
     lite = Plan(
         id="lite",
         name="Lite",
-        tier="entry",
+        status="SOLD OUT",
         price=PriceCell(
             display="-",
             amount=None,

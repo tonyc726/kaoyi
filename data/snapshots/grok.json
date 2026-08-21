@@ -11,7 +11,6 @@
     {
       "id": "free",
       "name": "Free",
-      "tier": "entry",
       "price": {
         "display": "$0",
         "amount": 0,
@@ -27,7 +26,6 @@
     {
       "id": "supergrok",
       "name": "SuperGrok",
-      "tier": "mid",
       "price": {
         "display": "$30",
         "amount": 30,
@@ -43,7 +41,6 @@
     {
       "id": "plus",
       "name": "SuperGrok Plus",
-      "tier": "high",
       "price": {
         "display": "$100",
         "amount": 100,

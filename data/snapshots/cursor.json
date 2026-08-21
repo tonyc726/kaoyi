@@ -6,12 +6,11 @@
   "parse_ok": true,
   "status": "OPEN",
   "billing_unit": "月订阅 / 席",
-  "notes": "2026-08-21 抓取 cursor.com/pricing。Individual 下有 Pro / Pro+ / Ultra 切换，但页面只给出 Individual $20/mo 与 Teams $40/user/mo。未见到的档位不填。官方声明只通过 cursor.com 直售。",
+  "notes": "2026-08-21 抓取 cursor.com/pricing。个人档官方名称是 Hobby / Pro / Pro+ / Ultra。Individual 卡片在 Pro 标签下印 $20/mo；Pro+ 与 Ultra 只有名称。另有 Teams $40/user/mo、Enterprise Custom。",
   "plans": [
     {
       "id": "hobby",
       "name": "Hobby",
-      "tier": "entry",
       "price": {
         "display": "$0",
         "amount": 0,
@@ -25,9 +24,8 @@
       "notes": "无需信用卡"
     },
     {
-      "id": "individual",
-      "name": "Individual",
-      "tier": "mid",
+      "id": "pro",
+      "name": "Pro",
       "price": {
         "display": "$20",
         "amount": 20,
@@ -35,15 +33,44 @@
         "period": "month",
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "页面标签含 Pro / Pro+ / Ultra，后两档未见独立数字"
+        "note": "Individual 卡片在 Pro 标签下展示 $20/mo。"
       },
       "quota": "Extended Agent limits；frontier models；cloud agents",
       "notes": "未含税"
     },
     {
+      "id": "pro-plus",
+      "name": "Pro+",
+      "price": {
+        "display": "-",
+        "amount": null,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://cursor.com/pricing",
+        "as_of": "2026-08-21",
+        "note": "官方名称存在，未见独立标价。"
+      },
+      "quota": "-",
+      "notes": ""
+    },
+    {
+      "id": "ultra",
+      "name": "Ultra",
+      "price": {
+        "display": "-",
+        "amount": null,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://cursor.com/pricing",
+        "as_of": "2026-08-21",
+        "note": "官方名称存在，未见独立标价。"
+      },
+      "quota": "-",
+      "notes": ""
+    },
+    {
       "id": "teams",
       "name": "Teams",
-      "tier": "high",
       "price": {
         "display": "$40",
         "amount": 40,
@@ -53,8 +80,23 @@
         "as_of": "2026-08-21",
         "note": "per user / month"
       },
-      "quota": "Individual 全部 + 团队管理 / SSO / 分析",
+      "quota": "团队管理 / SSO / 分析",
       "notes": "未含税"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price": {
+        "display": "Custom",
+        "amount": null,
+        "currency": null,
+        "period": null,
+        "source_url": "https://cursor.com/pricing",
+        "as_of": "2026-08-21",
+        "note": "页面写 Custom，无目录数字。"
+      },
+      "quota": "-",
+      "notes": ""
     }
   ]
 }

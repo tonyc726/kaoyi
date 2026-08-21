@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import re
-
 from adapters.base import get_html, stub, today
 from kaoyi.models import Plan, PriceCell, Snapshot, Vendor
 
@@ -21,7 +19,6 @@ VENDOR = Vendor(
     docs_url=SOURCE_URL,
     adapter="claude",
     short="Individual membership",
-    slots={"entry": "free", "mid": "pro", "high": "max"},
     notes="",
 )
 
@@ -31,10 +28,12 @@ def fetch() -> Snapshot:
     if not fetched:
         return stub(VENDOR, notes=f"Fetch failed. Source {SOURCE_URL}")
 
-    has_pro = "$20" in html and re.search(r"billed monthly|if billed monthly", html, flags=re.I)
-    has_max = re.search(r"From\s+\$100", html, flags=re.I)
-    if not has_pro or not has_max:
-        return stub(VENDOR, fetched_ok=True, notes="Pro/Max list text not both visible.")
+    has_pro = "$20" in html and "billed monthly" in html.lower()
+    has_max_card = "From $100" in html or "From\n$100" in html
+    has_max_5x = "Max 5x" in html
+    has_max_20x = "Max 20x" in html
+    if not (has_pro and has_max_card and has_max_5x and has_max_20x):
+        return stub(VENDOR, fetched_ok=True, notes="Official SKU labels not all visible.")
 
     as_of = today()
     return Snapshot(
@@ -45,48 +44,57 @@ def fetch() -> Snapshot:
         parse_ok=True,
         status="OPEN",
         billing_unit="月订阅",
-        notes="Parsed official membership cards. API rates ignored on this row.",
+        notes="Individual SKUs from claude.com/pricing. API rates ignored.",
         plans=[
             Plan(
                 id="free",
                 name="Free",
-                tier="entry",
-                price=PriceCell(
-                    display="$0",
-                    amount=0,
-                    currency="USD",
-                    period="month",
-                    source_url=SOURCE_URL,
-                    as_of=as_of,
-                ),
+                price=_usd("$0", 0, as_of),
             ),
             Plan(
                 id="pro",
                 name="Pro",
-                tier="mid",
-                price=PriceCell(
-                    display="$20",
-                    amount=20,
-                    currency="USD",
-                    period="month",
-                    source_url=SOURCE_URL,
-                    as_of=as_of,
-                    note="月付 $20；年付另见官方页",
+                price=_usd(
+                    "$20",
+                    20,
+                    as_of,
+                    note="月付 $20。年付 $17/月（$200 预付）。",
                 ),
             ),
             Plan(
-                id="max",
-                name="Max",
-                tier="high",
+                id="max-5x",
+                name="Max 5x",
+                price=_usd(
+                    "From $100",
+                    100,
+                    as_of,
+                    note="卡片写 From $100 / month。文案：Choose 5x or 20x more usage than Pro。",
+                ),
+            ),
+            Plan(
+                id="max-20x",
+                name="Max 20x",
                 price=PriceCell(
-                    display="From $100",
-                    amount=100,
+                    display="-",
+                    amount=None,
                     currency="USD",
                     period="month",
                     source_url=SOURCE_URL,
                     as_of=as_of,
-                    note="Only 'From $100' was visible",
+                    note="对照表有 Max 20x 列，未见独立美元标价。不编造。",
                 ),
             ),
         ],
+    )
+
+
+def _usd(display: str, amount: float, as_of: str, *, note: str | None = None) -> PriceCell:
+    return PriceCell(
+        display=display,
+        amount=amount,
+        currency="USD",
+        period="month",
+        source_url=SOURCE_URL,
+        as_of=as_of,
+        note=note,
     )

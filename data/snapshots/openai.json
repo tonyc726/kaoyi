@@ -6,12 +6,11 @@
   "parse_ok": false,
   "status": "OPEN",
   "billing_unit": "月订阅 · 会员",
-  "notes": "openai.com/chatgpt/pricing 在 2026-08-21 返回 Cloudflare 403，未能从定价页直接读出数字。Plus $20 来自官方帮助中心；Pro 两档来自官方 Pro tiers 帮助文。Go 未见可核对数字，保持 \"-\"。这是 ChatGPT/Codex 会员，不是 API 预付。",
+  "notes": "openai.com/chatgpt/pricing 在 2026-08-21 返回 Cloudflare 403。官方定价页标题列出 Free / Go / Plus / Pro。Plus $20 来自帮助中心；Pro 两档官方名称是 Pro $100 与 Pro $200，不是 Pro 5x / 20x。Go 未见数字。这是 ChatGPT/Codex 会员，不是 API 预付。",
   "plans": [
     {
       "id": "free",
       "name": "Free",
-      "tier": "entry",
       "price": {
         "display": "$0",
         "amount": 0,
@@ -25,9 +24,23 @@
       "notes": ""
     },
     {
+      "id": "go",
+      "name": "Go",
+      "price": {
+        "display": "-",
+        "amount": null,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://openai.com/chatgpt/pricing",
+        "as_of": "2026-08-21",
+        "note": "官方定价页列出该档，本次未能核对数字。"
+      },
+      "quota": "-",
+      "notes": ""
+    },
+    {
       "id": "plus",
       "name": "Plus",
-      "tier": "mid",
       "price": {
         "display": "$20",
         "amount": 20,
@@ -41,20 +54,34 @@
       "notes": "会员，不是 API prepaid"
     },
     {
-      "id": "pro",
-      "name": "Pro",
-      "tier": "high",
+      "id": "pro-100",
+      "name": "Pro $100",
       "price": {
-        "display": "$100 / $200",
-        "amount": null,
+        "display": "$100",
+        "amount": 100,
         "currency": "USD",
         "period": "month",
         "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
         "as_of": "2026-08-21",
-        "note": "官方帮助：Pro $100 = 5× Plus 用量；Pro $200 = 20× Plus 用量。不是单一数字。"
+        "note": "官方帮助：Pro $100 = 5× Plus 用量。官方名称不是 Pro 5x。"
       },
       "quota": "更高用量；Maximum Codex tasks（定价页文案）",
-      "notes": "两档并列，不合成一个星级"
+      "notes": "会员"
+    },
+    {
+      "id": "pro-200",
+      "name": "Pro $200",
+      "price": {
+        "display": "$200",
+        "amount": 200,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+        "as_of": "2026-08-21",
+        "note": "官方帮助：Pro $200 = 20× Plus 用量。官方名称不是 Pro 20x。"
+      },
+      "quota": "更高用量；Maximum Codex tasks（定价页文案）",
+      "notes": "会员"
     }
   ]
 }

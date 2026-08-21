@@ -70,17 +70,15 @@ def assemble(root: Path = ROOT) -> SiteData:
     for vendor in vendors:
         snapshot = snapshots.get(vendor.id) or empty_snapshot(vendor, config.build_as_of)
         review = reviews.vendors.get(vendor.id) or Review()
-        page = VendorPage(
-            vendor=vendor,
-            snapshot=snapshot,
-            review=review,
-            events=[event for event in events if event.vendor_id == vendor.id],
-            radar_svg=render_radar_svg(review, config.radar_axes),
+        pages.append(
+            VendorPage(
+                vendor=vendor,
+                snapshot=snapshot,
+                review=review,
+                events=[event for event in events if event.vendor_id == vendor.id],
+                radar_svg=render_radar_svg(review, config.radar_axes),
+            )
         )
-        page.entry = page.plan_by_id(vendor.slots.entry)
-        page.mid = page.plan_by_id(vendor.slots.mid)
-        page.high = page.plan_by_id(vendor.slots.high)
-        pages.append(page)
 
     return SiteData(
         config=config,

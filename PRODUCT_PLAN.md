@@ -19,6 +19,7 @@ Not a clone of `wmpeng/codingplan`. No dreamfree affiliate shortlinks. No finish
 - Missing official numbers stay `-`. Every price cell has `source_url` + `as_of`.
 - Reviews may be `未评`. Prefer placeholders over invented 1–5 scores.
 - OpenAI ChatGPT/Codex is a **membership row**, not merged with OpenAI API prepaid.
+- Homepage and vendor pages list **official SKUs** one-to-one (e.g. Claude Max 5x / Max 20x). Never compress platforms into 入门 / 主力 / 高用量 buckets.
 
 ## Cold-start vendors (9)
 
@@ -49,9 +50,9 @@ Not a clone of `wmpeng/codingplan`. No dreamfree affiliate shortlinks. No finish
 
 8 axes, integers 1–5, no overall star, do not sort by radar area:
 
-可获得性, 价格结构, 用量经济, 能力覆盖, 稳定性, 支付与区域, 计费透明度, 切换成本 (invert for display).
+可获得性, 价格结构, 用量经济, 能力覆盖, 稳定性, 支付与区域, 计费透明度, 切换成本。
 
-Outer = better. Switching-cost is inverted before drawing.
+外圈表示对用户更有利。切换成本在绘图时取反，外圈仍表示对用户更有利。
 
 ## Tech (locked)
 

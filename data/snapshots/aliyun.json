@@ -11,7 +11,7 @@
     {
       "id": "lite",
       "name": "Lite",
-      "tier": "entry",
+      "status": "SOLD OUT",
       "price": {
         "display": "-",
         "amount": null,
@@ -22,12 +22,12 @@
         "note": "已停新购，文档未再列有效目录价"
       },
       "quota": "已停新购 / 停续费",
-      "notes": "SOLD OUT for new purchases"
+      "notes": ""
     },
     {
       "id": "pro",
       "name": "Pro",
-      "tier": "mid",
+      "status": "LIMITED",
       "price": {
         "display": "¥200",
         "amount": 200,

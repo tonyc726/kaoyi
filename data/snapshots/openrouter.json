@@ -11,7 +11,6 @@
     {
       "id": "payg",
       "name": "Pay-as-you-go",
-      "tier": "entry",
       "price": {
         "display": "5.5% 平台费",
         "amount": null,

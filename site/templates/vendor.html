@@ -5,7 +5,8 @@
 <section class="hero">
   <p class="kicker mono">{{ page.vendor.kind | upper }} · {{ page.vendor.region }}</p>
   <h1>{{ page.vendor.name }} <span class="thin">{{ page.vendor.name_en }}</span></h1>
-  <p class="lede">{{ page.vendor.short }} · {{ page.vendor.notes }}</p>
+  <p class="lede">{{ page.vendor.short }}</p>
+  <p class="rule">{{ page.vendor.notes }}</p>
   <p>
     <a class="btn solid" href="{{ page.vendor.buy_url }}" rel="noopener noreferrer">官方购买</a>
     <a class="btn" href="{{ page.vendor.official_url }}" rel="noopener noreferrer">官方页</a>
@@ -15,40 +16,26 @@
 
 <section>
   <div class="section-head">
-    <h2>官方标价</h2>
+    <h2>官方 SKU</h2>
     <p class="muted">{{ page.snapshot.notes }}</p>
   </div>
-  <div class="table-wrap">
-    <table class="grid">
-      <thead>
-        <tr>
-          <th>档位</th>
-          <th>标价</th>
-          <th>额度</th>
-          <th>来源</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for plan in page.snapshot.plans %}
-        <tr>
-          <td>{{ plan.name }}</td>
-          <td>
-            {{ plan.price.display }}
-            {% if cny_equiv(plan.price.amount, plan.price.currency) %}
-            <div class="sub muted">{{ cny_equiv(plan.price.amount, plan.price.currency) }} · 编辑换算</div>
-            {% endif %}
-            {% if plan.price.note %}<div class="sub">{{ plan.price.note }}</div>{% endif %}
-          </td>
-          <td>{{ plan.quota }}</td>
-          <td class="src mono"><a href="{{ plan.price.source_url }}" rel="noopener noreferrer">SRC OFFICIAL · AS OF {{ plan.price.as_of }}</a></td>
-        </tr>
-        {% else %}
-        <tr>
-          <td colspan="4">-</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+  <div class="sku-list">
+    {% for plan in page.snapshot.plans %}
+    <article class="sku">
+      <p class="kicker mono">{{ plan.display_status(page.vendor.status) }}</p>
+      <h3>{{ plan.name }}</h3>
+      <p class="sku-price">{{ plan.price.display }}</p>
+      <p class="sku-period mono">{{ period_label(plan.price.period) }}</p>
+      {% if cny_equiv(plan.price.amount, plan.price.currency) %}
+      <p class="sub muted">{{ cny_equiv(plan.price.amount, plan.price.currency) }} · 编辑换算</p>
+      {% endif %}
+      {% if plan.price.note %}<p class="sku-note">{{ plan.price.note }}</p>{% endif %}
+      {% if plan.quota and plan.quota != "-" %}<p class="sku-note muted">{{ plan.quota }}</p>{% endif %}
+      <p class="src mono"><a href="{{ plan.price.source_url }}" rel="noopener noreferrer">SRC OFFICIAL · AS OF {{ plan.price.as_of }}</a></p>
+    </article>
+    {% else %}
+    <p class="muted">-</p>
+    {% endfor %}
   </div>
 </section>
 
@@ -56,7 +43,7 @@
   <div>
     <div class="section-head">
       <h2>编辑维度</h2>
-      <p class="muted">{{ page.review.status }}。无总分。切换成本绘图前取反，外圈更好。</p>
+      <p class="muted">{{ page.review.status }}。无总分。切换成本绘图时取反，外圈仍表示对用户更有利。</p>
     </div>
     <div class="radar-box">
       {{ page.radar_svg | safe }}

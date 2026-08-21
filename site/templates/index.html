@@ -11,43 +11,52 @@
     <li><span class="mono">{{ layer.id | upper }}</span> {{ layer.label }}</li>
     {% endfor %}
   </ul>
-  <p class="rule">官方标价、社区事件、编辑维度是三层，不合成一颗星，不按雷达面积排序。</p>
+  <p class="rule">一行一个官方 SKU。平台梯子不同，不压成入门 / 主力 / 高用量。缺数字写 “-”。</p>
 </section>
 
 <section>
   <div class="section-head">
     <h2>套餐对照</h2>
-    <p class="muted">OpenAI ChatGPT/Codex 是会员行，不与 OpenAI API 预付合并。缺数字写 “-”。</p>
+    <p class="muted">OpenAI ChatGPT/Codex 是会员行，不与 OpenAI API 预付合并。</p>
   </div>
   <div class="table-wrap">
-    <table class="grid">
+    <table class="grid sku-table">
       <thead>
         <tr>
           <th>平台</th>
+          <th>档位</th>
+          <th>标价</th>
+          <th>计费周期</th>
           <th>状态</th>
-          <th>入门档</th>
-          <th>主力档</th>
-          <th>高用量档</th>
-          <th>单位</th>
           <th>官方购买</th>
           <th>来源</th>
         </tr>
       </thead>
       <tbody>
         {% for page in site.plan_vendors() %}
-        <tr>
-          <td>
+        {% set plans = page.snapshot.plans %}
+        {% for plan in plans %}
+        <tr class="{% if loop.first %}sku-first{% endif %}">
+          {% if loop.first %}
+          <td rowspan="{{ plans|length }}" class="platform">
             <a class="name" href="{{ abs('vendors/' ~ page.vendor.id ~ '/') }}">{{ page.vendor.name }}</a>
             <div class="sub mono">{{ page.vendor.short }}</div>
           </td>
-          <td><span class="status">{{ page.vendor.status }}</span></td>
-          <td>{{ price_or_dash(page.entry) }}{% if page.entry and not page.entry.price.is_missing %}<div class="sub">{{ page.entry.name }}</div>{% endif %}</td>
-          <td>{{ price_or_dash(page.mid) }}{% if page.mid and not page.mid.price.is_missing %}<div class="sub">{{ page.mid.name }}</div>{% endif %}{% if page.mid and cny_equiv(page.mid.price.amount, page.mid.price.currency) %}<div class="sub muted">{{ cny_equiv(page.mid.price.amount, page.mid.price.currency) }}</div>{% endif %}</td>
-          <td>{{ price_or_dash(page.high) }}{% if page.high and not page.high.price.is_missing %}<div class="sub">{{ page.high.name }}</div>{% endif %}</td>
-          <td class="mono small">{{ page.snapshot.billing_unit }}</td>
+          {% endif %}
+          <td class="sku-name">{{ plan.name }}</td>
+          <td>
+            {{ plan.price.display }}
+            {% if cny_equiv(plan.price.amount, plan.price.currency) %}
+            <div class="sub muted">{{ cny_equiv(plan.price.amount, plan.price.currency) }}</div>
+            {% endif %}
+            {% if plan.price.note %}<div class="sub">{{ plan.price.note }}</div>{% endif %}
+          </td>
+          <td class="mono small">{{ period_label(plan.price.period) }}</td>
+          <td><span class="status">{{ plan.display_status(page.vendor.status) }}</span></td>
           <td><a class="btn" href="{{ page.vendor.buy_url }}" rel="noopener noreferrer">官方购买</a></td>
-          <td class="src mono">{% if page.mid %}SRC OFFICIAL · AS OF {{ page.mid.price.as_of }}{% elif page.entry %}SRC OFFICIAL · AS OF {{ page.entry.price.as_of }}{% else %}SRC OFFICIAL · AS OF {{ page.snapshot.as_of }}{% endif %}</td>
+          <td class="src mono"><a href="{{ plan.price.source_url }}" rel="noopener noreferrer">SRC OFFICIAL · AS OF {{ plan.price.as_of }}</a></td>
         </tr>
+        {% endfor %}
         {% endfor %}
       </tbody>
     </table>

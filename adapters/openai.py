@@ -19,7 +19,6 @@ VENDOR = Vendor(
     docs_url="https://help.openai.com/en/articles/6950777",
     adapter="openai",
     short="ChatGPT membership",
-    slots={"entry": "free", "mid": "plus", "high": "pro"},
     notes="",
 )
 
