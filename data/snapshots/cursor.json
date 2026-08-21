@@ -6,7 +6,7 @@
   "parse_ok": true,
   "status": "OPEN",
   "billing_unit": "月订阅 / 席",
-  "notes": "2026-08-21 抓取 cursor.com/pricing。个人档官方名称是 Hobby / Pro / Pro+ / Ultra。Individual 卡片在 Pro 标签下印 $20/mo；Pro+ 与 Ultra 只有名称。另有 Teams $40/user/mo、Enterprise Custom。",
+  "notes": "2026-08-21 抓取 cursor.com/pricing。价格来自定价页官方 JSON-LD Offers，不是 Individual 默认标签上的数字。个人档官方名称是 Hobby / Pro / Pro+ / Ultra。另有 Teams、Enterprise Custom。",
   "plans": [
     {
       "id": "hobby",
@@ -42,13 +42,13 @@
       "id": "pro-plus",
       "name": "Pro+",
       "price": {
-        "display": "-",
-        "amount": null,
+        "display": "$60",
+        "amount": 60,
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "官方有这一档，未见单独报价"
+        "note": null
       },
       "quota": "-",
       "notes": ""
@@ -57,13 +57,13 @@
       "id": "ultra",
       "name": "Ultra",
       "price": {
-        "display": "-",
-        "amount": null,
+        "display": "$200",
+        "amount": 200,
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
         "as_of": "2026-08-21",
-        "note": "官方有这一档，未见单独报价"
+        "note": null
       },
       "quota": "-",
       "notes": ""

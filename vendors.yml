@@ -69,7 +69,7 @@
   docs_url: https://cursor.com/pricing
   adapter: cursor
   short: Individual / Teams
-  notes: 个人档是 Hobby、Pro、Pro+、Ultra。Pro+ 和 Ultra 未见单独报价。
+  notes: 个人档是 Hobby、Pro、Pro+、Ultra。标价来自定价页官方 JSON-LD Offers。Enterprise 为 Custom。
 
 - id: claude
   name: Claude

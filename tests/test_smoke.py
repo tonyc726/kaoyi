@@ -69,6 +69,10 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "table-wrap" in html
     assert "Lite" in html
     assert "¥118" in html
+    cursor_page = (dest / "vendors" / "cursor" / "index.html").read_text(encoding="utf-8")
+    assert '<p class="sku-price">$60</p>' in cursor_page
+    assert '<p class="sku-price">$200</p>' in cursor_page
+    assert "未见单独报价" not in cursor_page
     about = (dest / "about" / "index.html").read_text(encoding="utf-8")
     assert "invert for display" not in about
     assert "uv run python scripts/build.py" not in about
