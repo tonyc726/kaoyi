@@ -81,6 +81,11 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     openai_html = (dest / "vendors" / "openai" / "index.html").read_text(encoding="utf-8")
     assert "$8" in openai_html
     assert "未见单独报价" not in openai_html
+    claude_page = (dest / "vendors" / "claude" / "index.html").read_text(encoding="utf-8")
+    assert '<p class="sku-price">From $100</p>' in claude_page
+    assert '<p class="sku-price">$200</p>' in claude_page
+    assert "未见单独报价" not in claude_page
+    assert "定价页只写 From $100" in claude_page
     about = (dest / "about" / "index.html").read_text(encoding="utf-8")
     assert "invert for display" not in about
     assert "uv run python scripts/build.py" not in about

@@ -17,9 +17,27 @@ def test_claude_lists_official_max_skus() -> None:
     page = assemble(ROOT).page("claude")
     names = [plan.name for plan in page.snapshot.plans]
     assert names == ["Free", "Pro", "Max 5x", "Max 20x"]
-    max20 = next(plan for plan in page.snapshot.plans if plan.name == "Max 20x")
-    assert max20.price.display == "-"
-    assert "10x" not in max20.name
+    by_name = {plan.name: plan for plan in page.snapshot.plans}
+
+    max5 = by_name["Max 5x"].price
+    assert max5.display == "From $100"
+    assert max5.amount == 100
+    assert max5.currency == "USD"
+    assert max5.period == "month"
+    assert max5.source_url == "https://claude.com/pricing"
+
+    max20 = by_name["Max 20x"].price
+    assert max20.display == "$200"
+    assert max20.amount == 200
+    assert max20.currency == "USD"
+    assert max20.period == "month"
+    assert max20.as_of == "2026-08-21"
+    assert max20.source_url == (
+        "https://support.anthropic.com/en/articles/11049741-what-is-the-max-plan"
+    )
+    assert max20.note == "定价页只写 From $100"
+    assert "未见单独报价" not in (max20.note or "")
+    assert "10x" not in by_name["Max 20x"].name
 
 
 def test_cursor_lists_individual_official_names() -> None:
