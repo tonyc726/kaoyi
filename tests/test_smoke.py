@@ -28,7 +28,12 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     html = index.read_text(encoding="utf-8")
     assert "/kaoyi/assets/css/site.css" in html
     assert "考异" in html
-    assert "一事多源并列，写明取舍" in html
+    assert "对照各家官方套餐，再决定买哪一档。" in html
+    assert "一事多源并列" not in html
+    assert "一行一个官方 SKU" not in html
+    assert "入门 / 主力 / 高用量" not in html
+    assert "会员行" not in html
+    assert "API 预付" not in html
     assert "OPEN" in html
     for vendor in (
         "zhipu",
@@ -59,7 +64,9 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     about = (dest / "about" / "index.html").read_text(encoding="utf-8")
     assert "invert for display" not in about
     assert "uv run python scripts/build.py" not in about
-    assert about.count("可获得性") == 1
+    assert "为什么做这个" in about
+    assert "能帮你什么" in about
+    assert "买 coding 套餐之前，把官方标价放在一起看。" in about
     assert "<article" in about
 
 

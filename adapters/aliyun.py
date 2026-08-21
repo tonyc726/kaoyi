@@ -45,7 +45,7 @@ def fetch() -> Snapshot:
             period="month",
             source_url=SOURCE_URL,
             as_of=as_of,
-            note="官网目录价",
+            note="新客首月 ¥39.90 见事件",
         ),
         quota="每 5 小时 6,000 次；每周 45,000 次；每月 90,000 次"
         if "6,000" in html or "6000" in html

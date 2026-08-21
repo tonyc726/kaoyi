@@ -50,39 +50,33 @@ def fetch() -> Snapshot:
             Plan(
                 id="hobby",
                 name="Hobby",
-                price=_cell("$0", 0, "month", as_of, note="Free"),
+                price=_cell("$0", 0, "month", as_of),
                 quota="Limited Agent requests；Composer",
             ),
             Plan(
                 id="pro",
                 name="Pro",
-                price=_cell(
-                    "$20",
-                    20,
-                    "month",
-                    as_of,
-                    note="Individual 卡片在 Pro 标签下展示 $20/mo。",
-                ),
+                price=_cell("$20", 20, "month", as_of),
             ),
             Plan(
                 id="pro-plus",
                 name="Pro+",
-                price=_cell("-", None, "month", as_of, note="官方名称存在，未见独立标价。"),
+                price=_cell("-", None, "month", as_of, note="官方有这一档，未见单独报价"),
             ),
             Plan(
                 id="ultra",
                 name="Ultra",
-                price=_cell("-", None, "month", as_of, note="官方名称存在，未见独立标价。"),
+                price=_cell("-", None, "month", as_of, note="官方有这一档，未见单独报价"),
             ),
             Plan(
                 id="teams",
                 name="Teams",
-                price=_cell("$40", 40, "user-month", as_of, note="per user / month"),
+                price=_cell("$40", 40, "user-month", as_of),
             ),
             Plan(
                 id="enterprise",
                 name="Enterprise",
-                price=_cell("Custom", None, None, as_of, note="页面写 Custom，无目录数字。"),
+                price=_cell("Custom", None, None, as_of),
             ),
         ],
     )

@@ -18,7 +18,7 @@
         "period": "month",
         "source_url": "https://openai.com/chatgpt/pricing",
         "as_of": "2026-08-21",
-        "note": "免费档存在于官方定价页标题/对照"
+        "note": null
       },
       "quota": "-",
       "notes": ""
@@ -33,7 +33,7 @@
         "period": "month",
         "source_url": "https://openai.com/chatgpt/pricing",
         "as_of": "2026-08-21",
-        "note": "官方定价页列出该档，本次未能核对数字。"
+        "note": "官方有这一档，未见单独报价"
       },
       "quota": "-",
       "notes": ""
@@ -48,7 +48,7 @@
         "period": "month",
         "source_url": "https://help.openai.com/en/articles/6950777",
         "as_of": "2026-08-21",
-        "note": "官方帮助中心：ChatGPT Plus is $20/month。"
+        "note": null
       },
       "quota": "官方定价页写 Expanded Codex usage；具体次数未在本次抓取中出现",
       "notes": "会员，不是 API prepaid"
@@ -63,7 +63,7 @@
         "period": "month",
         "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
         "as_of": "2026-08-21",
-        "note": "官方帮助：Pro $100 = 5× Plus 用量。官方名称不是 Pro 5x。"
+        "note": "用量约为 Plus 的 5 倍"
       },
       "quota": "更高用量；Maximum Codex tasks（定价页文案）",
       "notes": "会员"
@@ -78,7 +78,7 @@
         "period": "month",
         "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
         "as_of": "2026-08-21",
-        "note": "官方帮助：Pro $200 = 20× Plus 用量。官方名称不是 Pro 20x。"
+        "note": "用量约为 Plus 的 20 倍"
       },
       "quota": "更高用量；Maximum Codex tasks（定价页文案）",
       "notes": "会员"
