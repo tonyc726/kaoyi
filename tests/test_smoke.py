@@ -39,6 +39,7 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
         "zhipu",
         "minimax",
         "volcengine",
+        "volcengine-agent",
         "aliyun",
         "cursor",
         "claude",
@@ -74,6 +75,22 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "$300" in html
     assert "¥118" in html
     assert "$8" in html
+    assert "方舟 Agent Plan" in html
+    assert "¥40" in html
+    assert "¥500" in html
+    assert "¥1000" in html
+    agent_page = (dest / "vendors" / "volcengine-agent" / "index.html").read_text(encoding="utf-8")
+    assert '<p class="sku-price">¥40</p>' in agent_page
+    assert '<p class="sku-price">¥200</p>' in agent_page
+    assert '<p class="sku-price">¥500</p>' in agent_page
+    assert '<p class="sku-price">¥1000</p>' in agent_page
+    assert '<p class="sku-price">¥9.90</p>' not in agent_page
+    assert '<p class="sku-price">¥49.90</p>' not in agent_page
+    coding_page = (dest / "vendors" / "volcengine" / "index.html").read_text(encoding="utf-8")
+    assert "字节·方舟" in coding_page
+    assert "Coding Plan" in coding_page
+    assert "Lite" in coding_page
+    assert "Pro" in coding_page
     cursor_page = (dest / "vendors" / "cursor" / "index.html").read_text(encoding="utf-8")
     assert '<p class="sku-price">$60</p>' in cursor_page
     assert '<p class="sku-price">$200</p>' in cursor_page

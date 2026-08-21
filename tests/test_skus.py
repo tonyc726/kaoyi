@@ -8,9 +8,72 @@ from adapters.grok import (
     parse_subscribe_monthly_usd,
 )
 from adapters.grok import fetch as fetch_grok
+from adapters.volcengine_agent import fetch as fetch_volcengine_agent
 from kaoyi.load import assemble
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_volcengine_agent_lists_official_skus() -> None:
+    page = assemble(ROOT).page("volcengine-agent")
+    names = [plan.name for plan in page.snapshot.plans]
+    assert names == ["Small", "Medium", "Large", "Max"]
+    by_name = {plan.name: plan for plan in page.snapshot.plans}
+
+    expected = {
+        "Small": (40, "¥40"),
+        "Medium": (200, "¥200"),
+        "Large": (500, "¥500"),
+        "Max": (1000, "¥1000"),
+    }
+    for name, (amount, display) in expected.items():
+        price = by_name[name].price
+        assert price.display == display
+        assert price.amount == amount
+        assert price.currency == "CNY"
+        assert price.period == "month"
+        assert price.source_url == "https://www.volcengine.com/activity/agentplan"
+        assert "9.9" not in price.display
+        assert "49.9" not in price.display
+
+    assert "活动价 ¥9.90 见事件" in (by_name["Small"].price.note or "")
+    assert "活动价 ¥49.90 见事件" in (by_name["Medium"].price.note or "")
+    assert by_name["Large"].price.note is None
+    assert by_name["Max"].price.note is None
+
+
+def test_volcengine_coding_plan_is_unchanged() -> None:
+    vendor = assemble(ROOT).vendor("volcengine")
+    assert vendor.name == "字节·方舟"
+    assert vendor.short == "Coding Plan"
+    assert vendor.official_url == "https://www.volcengine.com/activity/codingplan"
+    plans = assemble(ROOT).page("volcengine").snapshot.plans
+    assert [plan.name for plan in plans] == ["Lite", "Pro"]
+    assert all(plan.price.display == "-" for plan in plans)
+    assert all(plan.price.amount is None for plan in plans)
+
+
+def test_volcengine_agent_adapter_does_not_use_promo_as_list(monkeypatch) -> None:
+    def fake_get_html(_url: str) -> tuple[bool, str]:
+        return True, "<html>活动价 ¥9.90 ¥49.90 Small Medium</html>"
+
+    monkeypatch.setattr("adapters.volcengine_agent.get_html", fake_get_html)
+    snapshot = fetch_volcengine_agent()
+    assert snapshot.parse_ok is False
+    assert snapshot.plans == []
+    assert all(plan.price.display != "¥9.90" for plan in snapshot.plans)
+
+
+def test_volcengine_agent_promo_lives_in_events() -> None:
+    events = assemble(ROOT).events_for("volcengine-agent")
+    assert events
+    event = events[0]
+    assert event.example is False
+    assert event.layer == "official"
+    assert event.kind == "promo"
+    assert "限时" in event.summary
+    assert "¥9.90" in event.summary
+    assert "¥49.90" in event.summary
 
 
 def test_claude_lists_official_max_skus() -> None:

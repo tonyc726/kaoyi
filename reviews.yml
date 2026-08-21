@@ -25,6 +25,10 @@ vendors:
     status: 未评
     scores: {}
     note: Phase 1 placeholder. No invented scores.
+  volcengine-agent:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
   aliyun:
     status: 未评
     scores: {}

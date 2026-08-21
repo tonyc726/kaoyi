@@ -1,0 +1,11 @@
+id: volcengine-agent-small-medium-25off
+vendor_id: volcengine-agent
+layer: official
+kind: promo
+title: 方舟 Agent Plan Small / Medium 限时 2.5 折
+summary: 官方活动页连续包月档：Small 活动价 ¥9.90/月（刊例价 ¥40.00），Medium 活动价 ¥49.90/月（刊例价 ¥200.00），2.5 折。名额有限。截止日未写明，限时，以下单页为准。
+as_of: "2026-08-21"
+source_url: https://www.volcengine.com/activity/agentplan
+example: false
+status: OPEN
+note: 官方层。目录价仍是刊例价，不把活动价写进标价列。
