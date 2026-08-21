@@ -1,0 +1,60 @@
+{
+  "vendor_id": "cursor",
+  "source_url": "https://cursor.com/pricing",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "status": "OPEN",
+  "billing_unit": "月订阅 / 席",
+  "notes": "2026-08-21 抓取 cursor.com/pricing。Individual 下有 Pro / Pro+ / Ultra 切换，但页面只给出 Individual $20/mo 与 Teams $40/user/mo。未见到的档位不填。官方声明只通过 cursor.com 直售。",
+  "plans": [
+    {
+      "id": "hobby",
+      "name": "Hobby",
+      "tier": "entry",
+      "price": {
+        "display": "$0",
+        "amount": 0,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://cursor.com/pricing",
+        "as_of": "2026-08-21",
+        "note": "Free"
+      },
+      "quota": "Limited Agent requests；Composer",
+      "notes": "无需信用卡"
+    },
+    {
+      "id": "individual",
+      "name": "Individual",
+      "tier": "mid",
+      "price": {
+        "display": "$20",
+        "amount": 20,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://cursor.com/pricing",
+        "as_of": "2026-08-21",
+        "note": "页面标签含 Pro / Pro+ / Ultra，后两档未见独立数字"
+      },
+      "quota": "Extended Agent limits；frontier models；cloud agents",
+      "notes": "未含税"
+    },
+    {
+      "id": "teams",
+      "name": "Teams",
+      "tier": "high",
+      "price": {
+        "display": "$40",
+        "amount": 40,
+        "currency": "USD",
+        "period": "user-month",
+        "source_url": "https://cursor.com/pricing",
+        "as_of": "2026-08-21",
+        "note": "per user / month"
+      },
+      "quota": "Individual 全部 + 团队管理 / SSO / 分析",
+      "notes": "未含税"
+    }
+  ]
+}

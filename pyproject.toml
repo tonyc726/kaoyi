@@ -1,0 +1,39 @@
+[project]
+name = "kaoyi"
+version = "0.1.0"
+description = "考异 kaoyi — 一事多源并列，写明取舍"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Jiangfeng" }]
+dependencies = [
+    "httpx>=0.27",
+    "jinja2>=3.1",
+    "pydantic>=2.9",
+    "pyyaml>=6.0",
+    "selectolax>=0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["kaoyi"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

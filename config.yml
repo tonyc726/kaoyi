@@ -1,0 +1,51 @@
+site_name: 考异
+site_name_en: kaoyi
+one_liner: 一事多源并列，写明取舍
+site_base: /kaoyi/
+pages_url: https://tonyc726.github.io/kaoyi/
+usd_to_cny_rate: 6.8
+usd_to_cny_as_of: "2026-08-21"
+usd_to_cny_note: 编辑换算快照，不是牌价，也不是官方人民币价
+build_as_of: "2026-08-21"
+footer_zh: 最终以官方为准。价格是快照，不是实时行情。
+footer_en: Official pages win. Prices are snapshots, not live quotes.
+layers:
+  - id: official
+    label: 官方标价
+    en: Official list
+  - id: community
+    label: 社区事件
+    en: Community events
+  - id: editorial
+    label: 编辑维度
+    en: Editorial axes
+radar_axes:
+  - id: availability
+    label: 可获得性
+    invert: false
+  - id: price_structure
+    label: 价格结构
+    invert: false
+  - id: usage_economy
+    label: 用量经济
+    invert: false
+  - id: capability
+    label: 能力覆盖
+    invert: false
+  - id: stability
+    label: 稳定性
+    invert: false
+  - id: payment_region
+    label: 支付与区域
+    invert: false
+  - id: billing_transparency
+    label: 计费透明度
+    invert: false
+  - id: switching_cost
+    label: 切换成本
+    invert: true
+status_literals:
+  - OPEN
+  - LIMITED
+  - SOLD OUT
+  - PAUSED

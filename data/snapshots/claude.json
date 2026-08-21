@@ -1,0 +1,60 @@
+{
+  "vendor_id": "claude",
+  "source_url": "https://claude.com/pricing",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "status": "OPEN",
+  "billing_unit": "月订阅",
+  "notes": "2026-08-21 抓取 claude.com/pricing。Max 只写 From $100。Team / Enterprise 是另一组席位价，不并进个人对照的高用量格。API 按量价不同层。",
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "tier": "entry",
+      "price": {
+        "display": "$0",
+        "amount": 0,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://claude.com/pricing",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "日常额度，含网页/应用聊天",
+      "notes": ""
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "tier": "mid",
+      "price": {
+        "display": "$20",
+        "amount": 20,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://claude.com/pricing",
+        "as_of": "2026-08-21",
+        "note": "月付 $20。年付 $17/月（$200 预付）。"
+      },
+      "quota": "含 Claude Code / Cowork / Design / Science；更多用量",
+      "notes": "未含税"
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "tier": "high",
+      "price": {
+        "display": "From $100",
+        "amount": 100,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://claude.com/pricing",
+        "as_of": "2026-08-21",
+        "note": "页面只写 From $100。5x / 20x 未见独立数字，不编造。"
+      },
+      "quota": "Pro 的 5× 或 20× 用量；更高输出上限",
+      "notes": "未含税"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vendor_id": "minimax",
+  "source_url": "https://platform.minimaxi.com/docs/guides/pricing-token-plan",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "status": "OPEN",
+  "billing_unit": "月订阅额度",
+  "notes": "官方 Token Plan 文档：Plus / Max / Ultra。积分包按 1,000 积分 = ¥7，不并进订阅标价列。",
+  "plans": [
+    {
+      "id": "plus",
+      "name": "Plus",
+      "tier": "entry",
+      "price": {
+        "display": "¥49",
+        "amount": 49,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://platform.minimaxi.com/docs/guides/pricing-token-plan",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "5 小时固定窗口和周窗口；约 3–4 个 Agent",
+      "notes": "轻量个人开发与日常试用"
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "tier": "mid",
+      "price": {
+        "display": "¥119",
+        "amount": 119,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://platform.minimaxi.com/docs/guides/pricing-token-plan",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "5 小时固定窗口和周窗口；约 4–5 个 Agent",
+      "notes": "高频编程 Agent 与多模态调用"
+    },
+    {
+      "id": "ultra",
+      "name": "Ultra",
+      "tier": "high",
+      "price": {
+        "display": "¥469",
+        "amount": 469,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://platform.minimaxi.com/docs/guides/pricing-token-plan",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "5 小时固定窗口和周窗口；约 6–7 个 Agent",
+      "notes": "重度 Agent 工作流"
+    }
+  ]
+}

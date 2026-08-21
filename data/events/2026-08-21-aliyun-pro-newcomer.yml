@@ -1,0 +1,11 @@
+id: aliyun-pro-newcomer-3990
+vendor_id: aliyun
+layer: official
+kind: promo
+title: 百炼 Coding Plan Pro 新客首月特惠
+summary: 官方文档写明首次订阅 Pro 可享首月 ¥39.90（官网目录价 ¥200/月），后续按目录价续费。限量，以下单页为准。
+as_of: "2026-08-21"
+source_url: https://help.aliyun.com/zh/model-studio/coding-plan
+example: false
+status: OPEN
+note: 官方层，不是社区传闻，也不是编辑打分。

@@ -1,0 +1,60 @@
+{
+  "vendor_id": "openai",
+  "source_url": "https://openai.com/chatgpt/pricing",
+  "as_of": "2026-08-21",
+  "fetched_ok": false,
+  "parse_ok": false,
+  "status": "OPEN",
+  "billing_unit": "月订阅 · 会员",
+  "notes": "openai.com/chatgpt/pricing 在 2026-08-21 返回 Cloudflare 403，未能从定价页直接读出数字。Plus $20 来自官方帮助中心；Pro 两档来自官方 Pro tiers 帮助文。Go 未见可核对数字，保持 \"-\"。这是 ChatGPT/Codex 会员，不是 API 预付。",
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "tier": "entry",
+      "price": {
+        "display": "$0",
+        "amount": 0,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://openai.com/chatgpt/pricing",
+        "as_of": "2026-08-21",
+        "note": "免费档存在于官方定价页标题/对照"
+      },
+      "quota": "-",
+      "notes": ""
+    },
+    {
+      "id": "plus",
+      "name": "Plus",
+      "tier": "mid",
+      "price": {
+        "display": "$20",
+        "amount": 20,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://help.openai.com/en/articles/6950777",
+        "as_of": "2026-08-21",
+        "note": "官方帮助中心：ChatGPT Plus is $20/month。"
+      },
+      "quota": "官方定价页写 Expanded Codex usage；具体次数未在本次抓取中出现",
+      "notes": "会员，不是 API prepaid"
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "tier": "high",
+      "price": {
+        "display": "$100 / $200",
+        "amount": null,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+        "as_of": "2026-08-21",
+        "note": "官方帮助：Pro $100 = 5× Plus 用量；Pro $200 = 20× Plus 用量。不是单一数字。"
+      },
+      "quota": "更高用量；Maximum Codex tasks（定价页文案）",
+      "notes": "两档并列，不合成一个星级"
+    }
+  ]
+}

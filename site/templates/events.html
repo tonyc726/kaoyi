@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% set nav = "events" %}
+{% block title %}事件 · {{ cfg.site_name }}{% endblock %}
+{% block main %}
+<section class="hero">
+  <p class="kicker mono">EVENTS</p>
+  <h1>事件</h1>
+  <p class="lede">社区事件是单独一层。促销、售罄、限量不改写官方目录价，也不进入雷达。</p>
+</section>
+
+{% if site.events %}
+<section>
+  <div class="table-wrap">
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>标记</th>
+          <th>层</th>
+          <th>平台</th>
+          <th>标题</th>
+          <th>日期</th>
+          <th>来源</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for event in site.events %}
+        <tr>
+          <td>{% if event.example %}<span class="status">EXAMPLE</span>{% else %}<span class="status">{{ event.status }}</span>{% endif %}</td>
+          <td class="mono">{{ event.layer | upper }}</td>
+          <td><a class="name" href="{{ abs('vendors/' ~ event.vendor_id ~ '/') }}">{{ site.vendor(event.vendor_id).name }}</a></td>
+          <td>
+            {{ event.title }}
+            <div class="sub">{{ event.summary }}</div>
+          </td>
+          <td class="mono small">{{ event.as_of }}</td>
+          <td class="src mono">{% if event.source_url %}<a href="{{ event.source_url }}" rel="noopener noreferrer">SRC OFFICIAL · AS OF {{ event.as_of }}</a>{% else %}SRC NONE · EXAMPLE{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% else %}
+<section class="empty">
+  <p class="mono">EMPTY</p>
+  <p>还没有事件。冷启动允许空状态。</p>
+</section>
+{% endif %}
+{% endblock %}
