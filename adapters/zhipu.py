@@ -20,7 +20,6 @@ VENDOR = Vendor(
     docs_url=DOCS_URL,
     adapter="zhipu",
     short="GLM Coding Plan",
-    slots={"entry": "lite", "mid": "pro", "high": "max"},
     notes="",
 )
 

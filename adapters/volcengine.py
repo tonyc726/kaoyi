@@ -19,7 +19,6 @@ VENDOR = Vendor(
     docs_url=SOURCE_URL,
     adapter="volcengine",
     short="Coding Plan",
-    slots={"entry": "lite", "mid": "pro", "high": None},
     notes="",
 )
 

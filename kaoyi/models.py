@@ -32,12 +32,6 @@ class SiteConfig(BaseModel):
     status_literals: list[str]
 
 
-class VendorSlots(BaseModel):
-    entry: str | None = None
-    mid: str | None = None
-    high: str | None = None
-
-
 class Vendor(BaseModel):
     id: str
     name: str
@@ -51,7 +45,6 @@ class Vendor(BaseModel):
     docs_url: str
     adapter: str
     short: str
-    slots: VendorSlots
     notes: str = ""
 
 
@@ -72,10 +65,13 @@ class PriceCell(BaseModel):
 class Plan(BaseModel):
     id: str
     name: str
-    tier: str | None = None
     price: PriceCell
     quota: str = "-"
     notes: str = ""
+    status: str | None = None
+
+    def display_status(self, vendor_status: str) -> str:
+        return self.status or vendor_status
 
 
 class UsageMeta(BaseModel):
@@ -134,17 +130,6 @@ class VendorPage(BaseModel):
     review: Review
     events: list[Event]
     radar_svg: str
-    entry: Plan | None = None
-    mid: Plan | None = None
-    high: Plan | None = None
-
-    def plan_by_id(self, plan_id: str | None) -> Plan | None:
-        if not plan_id:
-            return None
-        for plan in self.snapshot.plans:
-            if plan.id == plan_id:
-                return plan
-        return None
 
 
 class SiteData(BaseModel):

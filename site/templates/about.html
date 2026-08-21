@@ -2,36 +2,52 @@
 {% set nav = "about" %}
 {% block title %}关于 · {{ cfg.site_name }}{% endblock %}
 {% block main %}
-<section class="hero">
-  <p class="kicker mono">METHOD</p>
-  <h1>关于 {{ cfg.site_name }}</h1>
-  <p class="lede">{{ cfg.one_liner }} 这不是 wmpeng/codingplan 的克隆，也不是成品号柜台。</p>
-</section>
+<article class="article">
+  <header class="article-head">
+    <p class="kicker mono">方法</p>
+    <h1>关于{{ cfg.site_name }}</h1>
+    <p class="lede">{{ cfg.one_liner }}。这是一份静态对照，方便把多家官方目录价放在一起看，不代替任何官方页面。</p>
+  </header>
 
-<section class="prose">
-  <h2>三层，不合一</h2>
-  <ol>
-    <li><strong>官方标价</strong>：只写能从官方页核对的数字。看不到就写 “-”。每格带 <span class="mono">SRC OFFICIAL · AS OF</span>。</li>
-    <li><strong>社区事件</strong>：限时、售罄、首月折扣。示例条目必须标 EXAMPLE。</li>
-    <li><strong>编辑维度</strong>：8 轴 1–5 整数。Phase 1 全部 <span class="mono">未评</span>。没有总分，没有星，不按雷达面积排序。</li>
-  </ol>
+  <section>
+    <h2>三层分开看</h2>
+    <p>官方标价、社区事件、编辑维度是三层。限时折扣或传闻不改写目录价；编辑判断不合成一颗星，也不按雷达面积排序。</p>
+    <ol>
+      <li>官方标价：只写能在官方页核对的数字。看不到就写「-」。每格会带上 <span class="mono">SRC OFFICIAL · AS OF</span> 这样的来源和日期。</li>
+      <li>社区事件：售罄、限量、首月优惠。示例条目必须标成 EXAMPLE。</li>
+      <li>编辑维度：八个轴，各用 1 到 5 的整数。第一期全部写「未评」。</li>
+    </ol>
+  </section>
 
-  <h2>单位隔离</h2>
-  <p>人民币价与美元价分列。换算只用配置里的快照汇率 <span class="mono">usdToCnyRate {{ cfg.usd_to_cny_rate }} · AS OF {{ cfg.usd_to_cny_as_of }}</span>，并标明不是牌价。不把换算值写成官方价。</p>
+  <section>
+    <h2>档位用官方名称</h2>
+    <p>每个平台的梯子不一样。对照表按官方 SKU 逐行列出，例如 Claude 的 Max 5x 与 Max 20x，而不是「入门 / 主力 / 高用量」。</p>
+    <p>OpenAI ChatGPT/Codex 是会员套餐，不和 OpenAI API 预付或按量写在同一行。</p>
+  </section>
 
-  <h2>雷达 8 轴</h2>
-  <ul class="axes">
-    {% for axis in cfg.radar_axes %}
-    <li class="mono">{{ axis.label }}{% if axis.invert %} · invert for display{% endif %}</li>
-    {% endfor %}
-  </ul>
-  <p>切换成本在绘图前取反，外圈更好。可获得性、价格结构、用量经济、能力覆盖、稳定性、支付与区域、计费透明度、切换成本。</p>
+  <section>
+    <h2>单位怎么列</h2>
+    <p>人民币价和美元价分列。页脚里的汇率快照是 {{ cfg.usd_to_cny_rate }}，日期 {{ cfg.usd_to_cny_as_of }}。它不是牌价，更不是官方人民币价。约合数字只作阅读辅助，不写进官方标价格。</p>
+  </section>
 
-  <h2>Phase 1 披露</h2>
-  <p>只有官方购买按钮。没有 <span class="mono">/go</span> 跳转，仓库没有 <span class="mono">affiliates.yml</span>，没有 dreamfree 短链，不卖成品账号。</p>
-  <p>OpenAI ChatGPT/Codex 是会员行，不与 OpenAI API 预付合并。</p>
+  <section>
+    <h2>编辑雷达</h2>
+    <p>八个轴只列一次。外圈表示对用户更有利。切换成本在绘图时取反，外圈仍表示对用户更有利。</p>
+    <ul>
+      {% for axis in cfg.radar_axes %}
+      <li>{{ axis.label }}</li>
+      {% endfor %}
+    </ul>
+  </section>
 
-  <h2>构建</h2>
-  <p class="mono">uv run python scripts/build.py → {{ cfg.pages_url }}</p>
-</section>
+  <section>
+    <h2>第一期范围</h2>
+    <p>只有指向官方站的购买按钮。没有推广跳转，仓库里也没有联盟账号。不卖成品账号。这不是另一家对照站的复制品。</p>
+  </section>
+
+  <section>
+    <h2>以官方为准</h2>
+    <p>价格是抓取快照，不是实时行情。下单前请回到官方页核对。</p>
+  </section>
+</article>
 {% endblock %}

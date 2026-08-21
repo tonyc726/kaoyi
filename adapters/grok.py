@@ -19,7 +19,6 @@ VENDOR = Vendor(
     docs_url=SOURCE_URL,
     adapter="grok",
     short="SuperGrok membership",
-    slots={"entry": "free", "mid": "supergrok", "high": "plus"},
     notes="",
 )
 
@@ -42,18 +41,17 @@ def fetch() -> Snapshot:
         billing_unit="月订阅",
         notes="Parsed SuperGrok / SuperGrok Plus cards. Lite/Heavy not priced.",
         plans=[
-            _plan("free", "Free", "entry", "$0", 0, as_of),
-            _plan("supergrok", "SuperGrok", "mid", "$30", 30, as_of),
-            _plan("plus", "SuperGrok Plus", "high", "$100", 100, as_of),
+            _plan("free", "Free", "$0", 0, as_of),
+            _plan("supergrok", "SuperGrok", "$30", 30, as_of),
+            _plan("plus", "SuperGrok Plus", "$100", 100, as_of),
         ],
     )
 
 
-def _plan(plan_id: str, name: str, tier: str, display: str, amount: float, as_of: str) -> Plan:
+def _plan(plan_id: str, name: str, display: str, amount: float, as_of: str) -> Plan:
     return Plan(
         id=plan_id,
         name=name,
-        tier=tier,
         price=PriceCell(
             display=display,
             amount=amount,

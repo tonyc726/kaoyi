@@ -21,7 +21,6 @@ VENDOR = Vendor(
     docs_url=SOURCE_URL,
     adapter="minimax",
     short="Token Plan",
-    slots={"entry": "plus", "mid": "max", "high": "ultra"},
     notes="",
 )
 
@@ -50,12 +49,10 @@ def fetch() -> Snapshot:
 
     as_of = today()
     names = {"plus": "Plus", "max": "Max", "ultra": "Ultra"}
-    tiers = {"plus": "entry", "max": "mid", "ultra": "high"}
     plans = [
         Plan(
             id=plan_id,
             name=names[plan_id],
-            tier=tiers[plan_id],
             price=PriceCell(
                 display=f"¥{amount}",
                 amount=float(amount),

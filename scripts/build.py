@@ -27,9 +27,20 @@ def url_join(base: str, path: str) -> str:
 
 
 def cny_equiv(amount: float | None, currency: str | None, rate: float) -> str | None:
-    if amount is None or currency != "USD":
+    if amount is None or amount == 0 or currency != "USD":
         return None
     return f"≈ ¥{amount * rate:.1f}"
+
+
+def period_label(period: str | None) -> str:
+    labels = {
+        "month": "按月",
+        "user-month": "按席 / 月",
+        "usage": "按量",
+    }
+    if not period:
+        return "-"
+    return labels.get(period, period)
 
 
 def price_or_dash(plan: Plan | None) -> str:
@@ -54,6 +65,7 @@ def main() -> int:
                 amount, currency, data.config.usd_to_cny_rate
             ),
             "price_or_dash": price_or_dash,
+            "period_label": period_label,
         }
     )
 

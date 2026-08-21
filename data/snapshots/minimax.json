@@ -11,7 +11,6 @@
     {
       "id": "plus",
       "name": "Plus",
-      "tier": "entry",
       "price": {
         "display": "¥49",
         "amount": 49,
@@ -27,7 +26,6 @@
     {
       "id": "max",
       "name": "Max",
-      "tier": "mid",
       "price": {
         "display": "¥119",
         "amount": 119,
@@ -43,7 +41,6 @@
     {
       "id": "ultra",
       "name": "Ultra",
-      "tier": "high",
       "price": {
         "display": "¥469",
         "amount": 469,

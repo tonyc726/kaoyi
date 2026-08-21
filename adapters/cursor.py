@@ -21,7 +21,6 @@ VENDOR = Vendor(
     docs_url=SOURCE_URL,
     adapter="cursor",
     short="Individual / Teams",
-    slots={"entry": "hobby", "mid": "individual", "high": "teams"},
     notes="",
 )
 
@@ -31,10 +30,11 @@ def fetch() -> Snapshot:
     if not fetched:
         return stub(VENDOR, notes=f"Fetch failed. Source {SOURCE_URL}")
 
-    individual = re.search(r"\$20\s*/\s*mo", html, flags=re.I)
-    teams = re.search(r"\$40\s*/\s*user\s*/\s*mo", html, flags=re.I)
-    if not individual or not teams:
-        return stub(VENDOR, fetched_ok=True, notes="Expected $20 / $40 not both visible.")
+    has_pro = re.search(r"\$20\s*/\s*mo", html, flags=re.I)
+    has_teams = re.search(r"\$40\s*/\s*user\s*/\s*mo", html, flags=re.I)
+    has_names = all(name in html for name in ("Hobby", "Pro+", "Ultra", "Teams", "Enterprise"))
+    if not has_pro or not has_teams or not has_names:
+        return stub(VENDOR, fetched_ok=True, notes="Official SKU labels not all visible.")
 
     as_of = today()
     return Snapshot(
@@ -45,36 +45,61 @@ def fetch() -> Snapshot:
         parse_ok=True,
         status="OPEN",
         billing_unit="月订阅 / 席",
-        notes="Parsed visible list prices only. Pro+ / Ultra not filled.",
+        notes="Individual SKUs: Hobby / Pro / Pro+ / Ultra. Only Hobby and Pro printed a number.",
         plans=[
             Plan(
                 id="hobby",
                 name="Hobby",
-                tier="entry",
-                price=_usd("0", as_of, note="Free"),
-                quota="Limited Agent requests",
+                price=_cell("$0", 0, "month", as_of, note="Free"),
+                quota="Limited Agent requests；Composer",
             ),
             Plan(
-                id="individual",
-                name="Individual",
-                tier="mid",
-                price=_usd("20", as_of),
+                id="pro",
+                name="Pro",
+                price=_cell(
+                    "$20",
+                    20,
+                    "month",
+                    as_of,
+                    note="Individual 卡片在 Pro 标签下展示 $20/mo。",
+                ),
+            ),
+            Plan(
+                id="pro-plus",
+                name="Pro+",
+                price=_cell("-", None, "month", as_of, note="官方名称存在，未见独立标价。"),
+            ),
+            Plan(
+                id="ultra",
+                name="Ultra",
+                price=_cell("-", None, "month", as_of, note="官方名称存在，未见独立标价。"),
             ),
             Plan(
                 id="teams",
                 name="Teams",
-                tier="high",
-                price=_usd("40", as_of, period="user-month", note="per user / month"),
+                price=_cell("$40", 40, "user-month", as_of, note="per user / month"),
+            ),
+            Plan(
+                id="enterprise",
+                name="Enterprise",
+                price=_cell("Custom", None, None, as_of, note="页面写 Custom，无目录数字。"),
             ),
         ],
     )
 
 
-def _usd(amount: str, as_of: str, *, period: str = "month", note: str | None = None) -> PriceCell:
+def _cell(
+    display: str,
+    amount: float | None,
+    period: str | None,
+    as_of: str,
+    *,
+    note: str | None = None,
+) -> PriceCell:
     return PriceCell(
-        display=f"${amount}",
-        amount=float(amount),
-        currency="USD",
+        display=display,
+        amount=amount,
+        currency="USD" if display != "Custom" else None,
         period=period,
         source_url=SOURCE_URL,
         as_of=as_of,
