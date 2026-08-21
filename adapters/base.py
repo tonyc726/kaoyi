@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 import json
-from datetime import date
+from datetime import datetime
 from typing import Any, NamedTuple
+from zoneinfo import ZoneInfo
 
 import httpx
 from selectolax.parser import HTMLParser
@@ -20,7 +21,7 @@ class JsonLdOffer(NamedTuple):
 
 
 def today() -> str:
-    return date.today().isoformat()
+    return datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
 
 
 def get_html(url: str) -> tuple[bool, str]:

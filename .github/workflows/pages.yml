@@ -3,10 +3,13 @@ name: pages
 on:
   push:
     branches: [main]
+  schedule:
+    # 08:00 Asia/Shanghai
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -34,6 +37,28 @@ jobs:
 
       - name: Test
         run: uv run pytest
+
+      # GITHUB_TOKEN data commits do not retrigger this workflow.
+      # Fetch, then build/deploy from this same workspace.
+      - name: Fetch official prices
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          TZ: Asia/Shanghai
+        run: uv run python scripts/fetch.py
+
+      - name: Commit data artifacts
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/snapshots data/events data/fetch-status.json
+          if git diff --cached --quiet; then
+            echo "No data artifacts to commit"
+            exit 0
+          fi
+          git commit -m "data: daily official list prices"
+          git push
 
       - name: Build static site
         run: uv run python scripts/build.py

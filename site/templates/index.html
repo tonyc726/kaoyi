@@ -12,6 +12,9 @@
     {% endfor %}
   </ul>
   <p class="rule">数字来自官方定价页。没有公开数字就写「-」。</p>
+  {% if site.fetch_status and site.fetch_status.failed_vendor_ids %}
+  <p class="banner mono" role="status">今日失败 {{ site.fetch_status.failed_vendor_ids|length }} 家</p>
+  {% endif %}
 </section>
 
 <section>
