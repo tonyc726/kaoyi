@@ -78,7 +78,7 @@ Not a clone of `wmpeng/codingplan`. No dreamfree affiliate shortlinks. No finish
 ## Repo layout
 
 `vendors.yml`, `reviews.yml`, `config.yml` (`usdToCnyRate` 6.8 + date, `site_base` `/kaoyi/`)  
-`data/snapshots/`, `data/events/`  
+`data/snapshots/`, `data/events/`, `data/official-posts/`  
 `adapters/` (one file per vendor)  
 `site/` templates + css  
 `scripts/fetch.py` `scripts/build.py`  

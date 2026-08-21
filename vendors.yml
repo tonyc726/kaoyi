@@ -1,5 +1,7 @@
 # Cold-start vendors. Identity + official URLs only.
 # Prices live in data/snapshots/. Display uses official SKU names, not buckets.
+# channels: only X / 微博 / 公众号 / Discord / 其它账号，且必须出现在该厂商自己的官网
+# （页脚、about、press、帮助「官方账号」页）。没看到就留空，不靠记忆补 @handle。
 
 - id: zhipu
   name: 智谱AI
@@ -84,6 +86,14 @@
   adapter: cursor
   short: Individual / Teams
   notes: 个人档是 Hobby、Pro、Pro+、Ultra。标价来自定价页官方 JSON-LD Offers。Enterprise 为 Custom。
+  channels:
+    - kind: x
+      url: https://x.com/cursor_ai
+      handle: cursor_ai
+    - kind: youtube
+      url: https://www.youtube.com/@cursor_ai
+    - kind: linkedin
+      url: https://www.linkedin.com/company/cursorai
 
 - id: claude
   name: Claude
@@ -98,6 +108,16 @@
   adapter: claude
   short: Individual membership
   notes: 个人档是 Free、Pro、Max 5x、Max 20x。付费档含 Claude Code。
+  channels:
+    - kind: x
+      url: https://x.com/claudeai
+      handle: claudeai
+    - kind: instagram
+      url: https://www.instagram.com/claudeai
+    - kind: linkedin
+      url: https://www.linkedin.com/showcase/claude/
+    - kind: youtube
+      url: https://www.youtube.com/@anthropic-ai
 
 - id: grok
   name: SuperGrok
@@ -112,6 +132,15 @@
   adapter: grok
   short: SuperGrok membership
   notes: 个人档是 Free、SuperGrok Lite、SuperGrok、SuperGrok Plus、SuperGrok Heavy。Lite / Heavy 标价来自 grok.com 订阅页（定价页对照表有档名无数字）。
+  channels:
+    - kind: x
+      url: https://x.com/spacexai
+      handle: spacexai
+    - kind: x
+      url: https://x.com/grok
+      handle: grok
+    - kind: discord
+      url: https://discord.com/invite/kqCc86jM55
 
 - id: openai
   name: OpenAI ChatGPT/Codex
@@ -140,3 +169,15 @@
   adapter: openrouter
   short: 聚合按量
   notes: 按模型目录价 + 平台费。不是 OpenAI / Anthropic 官方渠道。
+  channels:
+    - kind: x
+      url: https://twitter.com/openrouter
+      handle: openrouter
+    - kind: youtube
+      url: https://www.youtube.com/@OpenRouterAI
+    - kind: discord
+      url: https://discord.gg/fVyRaUDgxW
+    - kind: github
+      url: https://github.com/OpenRouterTeam
+    - kind: linkedin
+      url: https://www.linkedin.com/company/104068329

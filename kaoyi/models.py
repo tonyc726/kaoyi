@@ -32,6 +32,49 @@ class SiteConfig(BaseModel):
     status_literals: list[str]
 
 
+class OfficialChannel(BaseModel):
+    """Social/media account linked from that vendor's own official domain."""
+
+    kind: str
+    url: str
+    handle: str = ""
+    label: str = ""
+
+    @property
+    def display_label(self) -> str:
+        if self.label.strip():
+            return self.label.strip()
+        kind_labels = {
+            "x": "X",
+            "youtube": "YouTube",
+            "linkedin": "LinkedIn",
+            "discord": "Discord",
+            "github": "GitHub",
+            "instagram": "Instagram",
+        }
+        base = kind_labels.get(self.kind, self.kind)
+        handle = self.handle.strip().lstrip("@")
+        if self.kind == "x" and handle:
+            return f"X @{handle}"
+        return base
+
+
+class OfficialPost(BaseModel):
+    title: str
+    date: str = ""
+    source_url: str
+    as_of: str
+
+
+class OfficialPostsFile(BaseModel):
+    vendor_id: str
+    source_url: str
+    as_of: str
+    fetched_ok: bool = False
+    parse_ok: bool = False
+    posts: list[OfficialPost] = Field(default_factory=list)
+
+
 class Vendor(BaseModel):
     id: str
     name: str
@@ -46,6 +89,7 @@ class Vendor(BaseModel):
     adapter: str
     short: str
     notes: str = ""
+    channels: list[OfficialChannel] = Field(default_factory=list)
 
 
 class PriceCell(BaseModel):
@@ -127,7 +171,11 @@ class Event(BaseModel):
             return self.confidence
         if self.example or self.layer == "community" or self.kind in {"example", "anecdote"}:
             return 0.3
-        if self.layer == "official" and self.kind in {"price_change", "promo"}:
+        if self.layer == "official" and self.kind in {
+            "price_change",
+            "promo",
+            "official_announce",
+        }:
             return 0.9
         return 0.5
 
@@ -158,6 +206,7 @@ class VendorPage(BaseModel):
     review: Review
     events: list[Event]
     radar_svg: str
+    official_posts: list[OfficialPost] = Field(default_factory=list)
 
 
 class SiteData(BaseModel):
@@ -167,6 +216,7 @@ class SiteData(BaseModel):
     reviews: ReviewsFile
     events: list[Event]
     fetch_status: FetchStatus | None = None
+    official_posts: dict[str, OfficialPostsFile] = Field(default_factory=dict)
     pages: list[VendorPage] = Field(default_factory=list)
 
     def vendor(self, vendor_id: str) -> Vendor:

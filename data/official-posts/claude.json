@@ -1,0 +1,39 @@
+{
+  "vendor_id": "claude",
+  "source_url": "https://www.anthropic.com/news",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "posts": [
+    {
+      "title": "How Claude’s text watermark works",
+      "date": "2026-08-14",
+      "source_url": "https://www.anthropic.com/news/claude-text-watermark",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Introducing Claude Opus 5",
+      "date": "2026-07-24",
+      "source_url": "https://www.anthropic.com/news/claude-opus-5",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Inviting hard questions",
+      "date": "2026-07-09",
+      "source_url": "https://www.anthropic.com/news/hard-questions",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Redeploying Fable 5",
+      "date": "2026-06-30",
+      "source_url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Introducing Claude Sonnet 5",
+      "date": "2026-06-30",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "as_of": "2026-08-21"
+    }
+  ]
+}

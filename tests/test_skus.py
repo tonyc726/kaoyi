@@ -67,7 +67,7 @@ def test_volcengine_agent_adapter_does_not_use_promo_as_list(monkeypatch) -> Non
 def test_volcengine_agent_promo_lives_in_events() -> None:
     events = assemble(ROOT).events_for("volcengine-agent")
     assert events
-    event = events[0]
+    event = next(item for item in events if item.kind == "promo")
     assert event.example is False
     assert event.layer == "official"
     assert event.kind == "promo"

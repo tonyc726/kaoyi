@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Cursor Changelog</title>
+    <link>https://cursor.com/changelog</link>
+    <item>
+      <title>Cloud Agents and Cursor Harness Improvements</title>
+      <link>https://cursor.com/changelog/08-19-26</link>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Origin Code Hosting</title>
+      <link>https://cursor.com/changelog/origin-code-hosting</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloud Agents Start 3x Faster with Builds</title>
+      <link>https://cursor.com/changelog/08-13-26</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

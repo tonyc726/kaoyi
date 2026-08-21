@@ -1,0 +1,39 @@
+{
+  "vendor_id": "grok",
+  "source_url": "https://x.ai/news",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "posts": [
+    {
+      "title": "Grok Build on web and mobile",
+      "date": "2026-08-19",
+      "source_url": "https://x.ai/news/grok-build-for-everyone",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Grok 4.6 on Amazon Bedrock",
+      "date": "2026-08-19",
+      "source_url": "https://x.ai/news/grok-4-6-amazon-bedrock",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Grok 4.6 in GitHub Copilot",
+      "date": "2026-08-14",
+      "source_url": "https://x.ai/news/grok-4-6-github-copilot",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Introducing Grok 4.6",
+      "date": "2026-08-12",
+      "source_url": "https://x.ai/news/grok-4-6",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Introducing Grok Bot",
+      "date": "2026-08-11",
+      "source_url": "https://x.ai/news/introducing-grok-bot",
+      "as_of": "2026-08-21"
+    }
+  ]
+}

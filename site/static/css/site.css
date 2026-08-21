@@ -385,6 +385,13 @@ h2 { font-size: 22px; margin: 0 0 8px; }
 }
 .radar-caption { fill: #9a9ea6; }
 
+.channels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+
 .event-list { list-style: none; padding: 0; margin: 0; }
 .event-list li {
   border-top: 1px solid var(--line);
