@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% set nav = "plans" if page.vendor.kind == "plan" else "usage" %}
+{% block title %}{{ page.vendor.name }} · {{ cfg.site_name }}{% endblock %}
+{% block main %}
+<section class="hero">
+  <p class="kicker mono">{{ page.vendor.kind | upper }} · {{ page.vendor.region }}</p>
+  <h1>{{ page.vendor.name }} <span class="thin">{{ page.vendor.name_en }}</span></h1>
+  <p class="lede">{{ page.vendor.short }} · {{ page.vendor.notes }}</p>
+  <p>
+    <a class="btn solid" href="{{ page.vendor.buy_url }}" rel="noopener noreferrer">官方购买</a>
+    <a class="btn" href="{{ page.vendor.official_url }}" rel="noopener noreferrer">官方页</a>
+  </p>
+  <p><span class="status">{{ page.vendor.status }}</span></p>
+</section>
+
+<section>
+  <div class="section-head">
+    <h2>官方标价</h2>
+    <p class="muted">{{ page.snapshot.notes }}</p>
+  </div>
+  <div class="table-wrap">
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>档位</th>
+          <th>标价</th>
+          <th>额度</th>
+          <th>来源</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for plan in page.snapshot.plans %}
+        <tr>
+          <td>{{ plan.name }}</td>
+          <td>
+            {{ plan.price.display }}
+            {% if cny_equiv(plan.price.amount, plan.price.currency) %}
+            <div class="sub muted">{{ cny_equiv(plan.price.amount, plan.price.currency) }} · 编辑换算</div>
+            {% endif %}
+            {% if plan.price.note %}<div class="sub">{{ plan.price.note }}</div>{% endif %}
+          </td>
+          <td>{{ plan.quota }}</td>
+          <td class="src mono"><a href="{{ plan.price.source_url }}" rel="noopener noreferrer">SRC OFFICIAL · AS OF {{ plan.price.as_of }}</a></td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="4">-</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="split">
+  <div>
+    <div class="section-head">
+      <h2>编辑维度</h2>
+      <p class="muted">{{ page.review.status }}。无总分。切换成本绘图前取反，外圈更好。</p>
+    </div>
+    <div class="radar-box">
+      {{ page.radar_svg | safe }}
+    </div>
+  </div>
+  <div>
+    <div class="section-head">
+      <h2>事件</h2>
+    </div>
+    {% if page.events %}
+    <ul class="event-list">
+      {% for event in page.events %}
+      <li>
+        <p class="mono">{% if event.example %}EXAMPLE{% else %}{{ event.layer | upper }}{% endif %} · {{ event.as_of }}</p>
+        <p>{{ event.title }}</p>
+        <p class="muted">{{ event.summary }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="muted mono">EMPTY</p>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

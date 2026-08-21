@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% set nav = "plans" %}
+{% block title %}套餐对照 · {{ cfg.site_name }}{% endblock %}
+{% block main %}
+<section class="hero">
+  <p class="kicker mono">CODING / TOKEN PLAN</p>
+  <h1>{{ cfg.site_name }} <span class="thin">{{ cfg.site_name_en }}</span></h1>
+  <p class="lede">{{ cfg.one_liner }}</p>
+  <ul class="layers" aria-label="三层数据">
+    {% for layer in cfg.layers %}
+    <li><span class="mono">{{ layer.id | upper }}</span> {{ layer.label }}</li>
+    {% endfor %}
+  </ul>
+  <p class="rule">官方标价、社区事件、编辑维度是三层，不合成一颗星，不按雷达面积排序。</p>
+</section>
+
+<section>
+  <div class="section-head">
+    <h2>套餐对照</h2>
+    <p class="muted">OpenAI ChatGPT/Codex 是会员行，不与 OpenAI API 预付合并。缺数字写 “-”。</p>
+  </div>
+  <div class="table-wrap">
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>平台</th>
+          <th>状态</th>
+          <th>入门档</th>
+          <th>主力档</th>
+          <th>高用量档</th>
+          <th>单位</th>
+          <th>官方购买</th>
+          <th>来源</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for page in site.plan_vendors() %}
+        <tr>
+          <td>
+            <a class="name" href="{{ abs('vendors/' ~ page.vendor.id ~ '/') }}">{{ page.vendor.name }}</a>
+            <div class="sub mono">{{ page.vendor.short }}</div>
+          </td>
+          <td><span class="status">{{ page.vendor.status }}</span></td>
+          <td>{{ price_or_dash(page.entry) }}{% if page.entry and not page.entry.price.is_missing %}<div class="sub">{{ page.entry.name }}</div>{% endif %}</td>
+          <td>{{ price_or_dash(page.mid) }}{% if page.mid and not page.mid.price.is_missing %}<div class="sub">{{ page.mid.name }}</div>{% endif %}{% if page.mid and cny_equiv(page.mid.price.amount, page.mid.price.currency) %}<div class="sub muted">{{ cny_equiv(page.mid.price.amount, page.mid.price.currency) }}</div>{% endif %}</td>
+          <td>{{ price_or_dash(page.high) }}{% if page.high and not page.high.price.is_missing %}<div class="sub">{{ page.high.name }}</div>{% endif %}</td>
+          <td class="mono small">{{ page.snapshot.billing_unit }}</td>
+          <td><a class="btn" href="{{ page.vendor.buy_url }}" rel="noopener noreferrer">官方购买</a></td>
+          <td class="src mono">{% if page.mid %}SRC OFFICIAL · AS OF {{ page.mid.price.as_of }}{% elif page.entry %}SRC OFFICIAL · AS OF {{ page.entry.price.as_of }}{% else %}SRC OFFICIAL · AS OF {{ page.snapshot.as_of }}{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

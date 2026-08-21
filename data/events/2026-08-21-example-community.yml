@@ -1,0 +1,11 @@
+id: example-community-soldout
+vendor_id: zhipu
+layer: community
+kind: example
+title: 【示例】社区反馈某档位短暂售罄
+summary: 此条是脚手架示例，用来演示「社区事件」层如何与官方标价、编辑雷达分开存放。不是实时情报，不要据此下单。
+as_of: "2026-08-21"
+source_url: ""
+example: true
+status: EXAMPLE
+note: EXAMPLE ONLY. Phase 1 ships an empty-ish event log plus marked samples.

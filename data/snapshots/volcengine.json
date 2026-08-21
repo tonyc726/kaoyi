@@ -1,0 +1,44 @@
+{
+  "vendor_id": "volcengine",
+  "source_url": "https://www.volcengine.com/activity/codingplan",
+  "as_of": "2026-08-21",
+  "fetched_ok": false,
+  "parse_ok": false,
+  "status": "LIMITED",
+  "billing_unit": "月订阅",
+  "notes": "官方活动页在 2026-08-21 抓取超时/未能解析出可核对的目录价。按诚实原则全部写 \"-\"，不引用二手文章里的首月促销价当官价。",
+  "plans": [
+    {
+      "id": "lite",
+      "name": "Lite",
+      "tier": "entry",
+      "price": {
+        "display": "-",
+        "amount": null,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.volcengine.com/activity/codingplan",
+        "as_of": "2026-08-21",
+        "note": "官方页未能解析出数字"
+      },
+      "quota": "-",
+      "notes": ""
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "tier": "mid",
+      "price": {
+        "display": "-",
+        "amount": null,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.volcengine.com/activity/codingplan",
+        "as_of": "2026-08-21",
+        "note": "官方页未能解析出数字"
+      },
+      "quota": "-",
+      "notes": ""
+    }
+  ]
+}

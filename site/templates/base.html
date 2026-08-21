@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ cfg.site_name }} / {{ cfg.site_name_en }}{% endblock %}</title>
+  <meta name="description" content="{{ cfg.one_liner }} Official list prices, community events, and editorial axes stay three separate layers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ abs('assets/css/site.css') }}">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="wordmark" href="{{ abs('') }}">
+        <span class="wordmark-zh">{{ cfg.site_name }}</span>
+        <span class="wordmark-en">{{ cfg.site_name_en }}</span>
+      </a>
+      <nav class="nav" aria-label="主栏目">
+        <a href="{{ abs('') }}" {% if nav == 'plans' %}aria-current="page"{% endif %}>套餐对照</a>
+        <a href="{{ abs('usage/') }}" {% if nav == 'usage' %}aria-current="page"{% endif %}>按量 / 聚合</a>
+        <a href="{{ abs('events/') }}" {% if nav == 'events' %}aria-current="page"{% endif %}>事件</a>
+        <a href="{{ abs('about/') }}" {% if nav == 'about' %}aria-current="page"{% endif %}>关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% block main %}{% endblock %}
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <p class="mono">{{ cfg.footer_zh }}</p>
+      <p class="muted">{{ cfg.footer_en }} · USD→CNY {{ cfg.usd_to_cny_rate }} · AS OF {{ cfg.usd_to_cny_as_of }} · {{ cfg.usd_to_cny_note }}</p>
+      <p class="muted">Phase 1：只有官方购买链。仓库不含 affiliate。站点 <a href="{{ cfg.pages_url }}">{{ cfg.pages_url }}</a></p>
+    </div>
+  </footer>
+</body>
+</html>

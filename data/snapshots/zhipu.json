@@ -1,0 +1,60 @@
+{
+  "vendor_id": "zhipu",
+  "source_url": "https://www.bigmodel.cn/glm-coding",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": false,
+  "status": "OPEN",
+  "billing_unit": "月订阅 · 积分",
+  "notes": "落地页为前端渲染。标价取自 2026-08-21 对官方页公开文案的抓取摘录（连续包月 / 连续包年）。文档页只给积分额度，不含人民币价。",
+  "plans": [
+    {
+      "id": "lite",
+      "name": "Lite",
+      "tier": "entry",
+      "price": {
+        "display": "¥118",
+        "amount": 118,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.bigmodel.cn/glm-coding",
+        "as_of": "2026-08-21",
+        "note": "连续包月。页面同时写连续包年折合 ¥94.4/月。"
+      },
+      "quota": "每周 10,000 积分；5 小时 2,000 积分（文档）",
+      "notes": "额度来自 docs.bigmodel.cn/cn/coding-plan/overview"
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "tier": "mid",
+      "price": {
+        "display": "¥538",
+        "amount": 538,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.bigmodel.cn/glm-coding",
+        "as_of": "2026-08-21",
+        "note": "连续包月。页面同时写连续包年折合 ¥430.4/月。"
+      },
+      "quota": "6× Lite；每周 60,000 积分；5 小时 12,000 积分（文档）",
+      "notes": ""
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "tier": "high",
+      "price": {
+        "display": "¥1078",
+        "amount": 1078,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.bigmodel.cn/glm-coding",
+        "as_of": "2026-08-21",
+        "note": "连续包月。页面同时写连续包年折合 ¥862.4/月。"
+      },
+      "quota": "14× Lite；每周 140,000 积分；5 小时 28,000 积分（文档）",
+      "notes": ""
+    }
+  ]
+}

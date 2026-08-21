@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% set nav = "about" %}
+{% block title %}关于 · {{ cfg.site_name }}{% endblock %}
+{% block main %}
+<section class="hero">
+  <p class="kicker mono">METHOD</p>
+  <h1>关于 {{ cfg.site_name }}</h1>
+  <p class="lede">{{ cfg.one_liner }} 这不是 wmpeng/codingplan 的克隆，也不是成品号柜台。</p>
+</section>
+
+<section class="prose">
+  <h2>三层，不合一</h2>
+  <ol>
+    <li><strong>官方标价</strong>：只写能从官方页核对的数字。看不到就写 “-”。每格带 <span class="mono">SRC OFFICIAL · AS OF</span>。</li>
+    <li><strong>社区事件</strong>：限时、售罄、首月折扣。示例条目必须标 EXAMPLE。</li>
+    <li><strong>编辑维度</strong>：8 轴 1–5 整数。Phase 1 全部 <span class="mono">未评</span>。没有总分，没有星，不按雷达面积排序。</li>
+  </ol>
+
+  <h2>单位隔离</h2>
+  <p>人民币价与美元价分列。换算只用配置里的快照汇率 <span class="mono">usdToCnyRate {{ cfg.usd_to_cny_rate }} · AS OF {{ cfg.usd_to_cny_as_of }}</span>，并标明不是牌价。不把换算值写成官方价。</p>
+
+  <h2>雷达 8 轴</h2>
+  <ul class="axes">
+    {% for axis in cfg.radar_axes %}
+    <li class="mono">{{ axis.label }}{% if axis.invert %} · invert for display{% endif %}</li>
+    {% endfor %}
+  </ul>
+  <p>切换成本在绘图前取反，外圈更好。可获得性、价格结构、用量经济、能力覆盖、稳定性、支付与区域、计费透明度、切换成本。</p>
+
+  <h2>Phase 1 披露</h2>
+  <p>只有官方购买按钮。没有 <span class="mono">/go</span> 跳转，仓库没有 <span class="mono">affiliates.yml</span>，没有 dreamfree 短链，不卖成品账号。</p>
+  <p>OpenAI ChatGPT/Codex 是会员行，不与 OpenAI API 预付合并。</p>
+
+  <h2>构建</h2>
+  <p class="mono">uv run python scripts/build.py → {{ cfg.pages_url }}</p>
+</section>
+{% endblock %}

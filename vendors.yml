@@ -1,0 +1,164 @@
+# Cold-start vendors. Identity + official URLs only.
+# Prices live in data/snapshots/. Missing numbers stay "-".
+
+- id: zhipu
+  name: 智谱AI
+  name_en: Zhipu GLM
+  kind: plan
+  status: OPEN
+  region: CN
+  currency: CNY
+  official_url: https://www.bigmodel.cn/glm-coding
+  buy_url: https://www.bigmodel.cn/glm-coding
+  docs_url: https://docs.bigmodel.cn/cn/coding-plan/overview
+  adapter: zhipu
+  short: GLM Coding Plan
+  slots:
+    entry: lite
+    mid: pro
+    high: max
+  notes: 编码套餐与开放平台按量余额隔离。禁止在规定工具外当通用 API 用。
+
+- id: minimax
+  name: MiniMax
+  name_en: MiniMax
+  kind: plan
+  status: OPEN
+  region: CN
+  currency: CNY
+  official_url: https://platform.minimaxi.com/docs/guides/pricing-token-plan
+  buy_url: https://platform.minimaxi.com/docs/guides/pricing-token-plan
+  docs_url: https://platform.minimaxi.com/docs/guides/pricing-token-plan
+  adapter: minimax
+  short: Token Plan
+  slots:
+    entry: plus
+    mid: max
+    high: ultra
+  notes: 文本 / 图像 / 语音共享额度。积分包是另一套预付，不并进月订阅标价。
+
+- id: volcengine
+  name: 字节·方舟
+  name_en: Volcengine Ark
+  kind: plan
+  status: LIMITED
+  region: CN
+  currency: CNY
+  official_url: https://www.volcengine.com/activity/codingplan
+  buy_url: https://www.volcengine.com/activity/codingplan
+  docs_url: https://www.volcengine.com/activity/codingplan
+  adapter: volcengine
+  short: Coding Plan
+  slots:
+    entry: lite
+    mid: pro
+    high: null
+  notes: 活动页在脚手架抓取时未能解析出目录价，标价保持 "-"。状态暂记 LIMITED。
+
+- id: aliyun
+  name: 阿里·百炼
+  name_en: Alibaba Model Studio
+  kind: plan
+  status: LIMITED
+  region: CN
+  currency: CNY
+  official_url: https://help.aliyun.com/zh/model-studio/coding-plan
+  buy_url: https://help.aliyun.com/zh/model-studio/coding-plan
+  docs_url: https://help.aliyun.com/zh/model-studio/coding-plan
+  adapter: aliyun
+  short: Coding Plan
+  slots:
+    entry: null
+    mid: pro
+    high: null
+  notes: Lite 已停新购。Pro 官方写明限量。Coding Plan Key 与百炼按量 Key 不互通。
+
+- id: cursor
+  name: Cursor
+  name_en: Cursor
+  kind: plan
+  status: OPEN
+  region: GLOBAL
+  currency: USD
+  official_url: https://cursor.com/pricing
+  buy_url: https://cursor.com/pricing
+  docs_url: https://cursor.com/pricing
+  adapter: cursor
+  short: Individual / Teams
+  slots:
+    entry: hobby
+    mid: individual
+    high: teams
+  notes: 定价页展示 Individual $20/mo、Teams $40/user/mo。Pro+ / Ultra 未在本次抓取中见到独立标价。
+
+- id: claude
+  name: Claude
+  name_en: Claude
+  kind: plan
+  status: OPEN
+  region: GLOBAL
+  currency: USD
+  official_url: https://claude.com/pricing
+  buy_url: https://claude.com/pricing
+  docs_url: https://claude.com/pricing
+  adapter: claude
+  short: Individual membership
+  slots:
+    entry: free
+    mid: pro
+    high: max
+  notes: Claude Code 含在付费会员里。API 按量价在同页另一层，不并进会员行。
+
+- id: grok
+  name: SuperGrok
+  name_en: SuperGrok
+  kind: plan
+  status: OPEN
+  region: GLOBAL
+  currency: USD
+  official_url: https://x.ai/pricing
+  buy_url: https://x.ai/pricing
+  docs_url: https://x.ai/pricing
+  adapter: grok
+  short: SuperGrok membership
+  slots:
+    entry: free
+    mid: supergrok
+    high: plus
+  notes: SuperGrok Lite / Heavy 出现在对照表，但本次抓取未见独立标价。
+
+- id: openai
+  name: OpenAI ChatGPT/Codex
+  name_en: ChatGPT / Codex
+  kind: plan
+  status: OPEN
+  region: GLOBAL
+  currency: USD
+  official_url: https://openai.com/chatgpt/pricing
+  buy_url: https://openai.com/chatgpt/pricing
+  docs_url: https://help.openai.com/en/articles/6950777
+  adapter: openai
+  short: ChatGPT membership
+  slots:
+    entry: free
+    mid: plus
+    high: pro
+  notes: 这是会员行，不与 OpenAI API 预付/按量合并。Codex 用量跟会员档走。
+
+- id: openrouter
+  name: OpenRouter
+  name_en: OpenRouter
+  kind: usage
+  status: OPEN
+  region: GLOBAL
+  currency: USD
+  official_url: https://openrouter.ai/pricing
+  buy_url: https://openrouter.ai/pricing
+  docs_url: https://openrouter.ai/pricing
+  adapter: openrouter
+  short: 聚合按量
+  slots:
+    entry: payg
+    mid: null
+    high: null
+  notes: 按模型目录价 + 平台费。不是 OpenAI / Anthropic 官方渠道。

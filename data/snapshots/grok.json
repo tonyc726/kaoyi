@@ -1,0 +1,60 @@
+{
+  "vendor_id": "grok",
+  "source_url": "https://x.ai/pricing",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "status": "OPEN",
+  "billing_unit": "月订阅",
+  "notes": "2026-08-21 抓取 x.ai/pricing。Individual 卡：Free / SuperGrok / SuperGrok Plus。Lite 与 Heavy 在对照表出现但无标价。",
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "tier": "entry",
+      "price": {
+        "display": "$0",
+        "amount": 0,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://x.ai/pricing",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "免费额度内的 Grok",
+      "notes": ""
+    },
+    {
+      "id": "supergrok",
+      "name": "SuperGrok",
+      "tier": "mid",
+      "price": {
+        "display": "$30",
+        "amount": 30,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://x.ai/pricing",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "更高速率；Grok 4.6；Imagine / Voice / Build",
+      "notes": ""
+    },
+    {
+      "id": "plus",
+      "name": "SuperGrok Plus",
+      "tier": "high",
+      "price": {
+        "display": "$100",
+        "amount": 100,
+        "currency": "USD",
+        "period": "month",
+        "source_url": "https://x.ai/pricing",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "显著更高用量；1080p 视频；高峰优先",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+dist/
+*.pyc
+*.pyo
+.python-version.local
+.uv/
+*.egg-info/
+.DS_Store

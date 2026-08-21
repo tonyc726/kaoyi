@@ -1,0 +1,51 @@
+# Editorial layer only. Phase 1: 未评.
+# Do not invent 1–5 scores. Do not compute an overall star.
+# Radar area must never be used as a sort key.
+
+axes:
+  - availability
+  - price_structure
+  - usage_economy
+  - capability
+  - stability
+  - payment_region
+  - billing_transparency
+  - switching_cost
+
+vendors:
+  zhipu:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
+  minimax:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
+  volcengine:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
+  aliyun:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
+  cursor:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
+  claude:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
+  grok:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
+  openai:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
+  openrouter:
+    status: 未评
+    scores: {}
+    note: Phase 1 placeholder. No invented scores.
