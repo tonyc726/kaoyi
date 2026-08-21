@@ -139,6 +139,7 @@ class SiteData(BaseModel):
     reviews: ReviewsFile
     events: list[Event]
     pages: list[VendorPage] = Field(default_factory=list)
+    price_chart_svg: str = ""
 
     def vendor(self, vendor_id: str) -> Vendor:
         for item in self.vendors:

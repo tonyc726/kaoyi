@@ -15,6 +15,7 @@ from kaoyi.models import (
     VendorPage,
     empty_snapshot,
 )
+from kaoyi.price_chart import render_price_chart_svg
 from kaoyi.radar import render_radar_svg
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -80,7 +81,7 @@ def assemble(root: Path = ROOT) -> SiteData:
             )
         )
 
-    return SiteData(
+    site = SiteData(
         config=config,
         vendors=vendors,
         snapshots=snapshots,
@@ -88,3 +89,5 @@ def assemble(root: Path = ROOT) -> SiteData:
         events=events,
         pages=pages,
     )
+    site.price_chart_svg = render_price_chart_svg(site)
+    return site
