@@ -68,6 +68,10 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "sku-table" in html
     assert "table-wrap" in html
     assert "Lite" in html
+    assert "SuperGrok Lite" in html
+    assert "SuperGrok Heavy" in html
+    assert "$10" in html
+    assert "$300" in html
     assert "¥118" in html
     cursor_page = (dest / "vendors" / "cursor" / "index.html").read_text(encoding="utf-8")
     assert '<p class="sku-price">$60</p>' in cursor_page
