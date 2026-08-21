@@ -17,8 +17,17 @@ def test_claude_lists_official_max_skus() -> None:
 
 
 def test_cursor_lists_individual_official_names() -> None:
-    names = [plan.name for plan in assemble(ROOT).page("cursor").snapshot.plans]
+    plans = assemble(ROOT).page("cursor").snapshot.plans
+    names = [plan.name for plan in plans]
     assert names[:4] == ["Hobby", "Pro", "Pro+", "Ultra"]
+    by_name = {plan.name: plan for plan in plans}
+    assert by_name["Pro+"].price.display == "$60"
+    assert by_name["Pro+"].price.amount == 60
+    assert by_name["Pro+"].price.note is None
+    assert by_name["Ultra"].price.display == "$200"
+    assert by_name["Ultra"].price.amount == 200
+    assert by_name["Ultra"].price.note is None
+    assert by_name["Enterprise"].price.display == "Custom"
 
 
 def test_openai_pro_uses_help_center_names_not_5x() -> None:
