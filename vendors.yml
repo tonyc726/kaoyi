@@ -43,6 +43,20 @@
   short: Coding Plan
   notes: 官方活动页未见可核对的目录价，标价写「-」。
 
+- id: volcengine-agent
+  name: 方舟 Agent Plan
+  name_en: Volcengine Agent Plan
+  kind: plan
+  status: LIMITED
+  region: CN
+  currency: CNY
+  official_url: https://www.volcengine.com/activity/agentplan
+  buy_url: https://www.volcengine.com/activity/agentplan
+  docs_url: https://docs.volcengine.com/docs/82379/2366394?lang=zh
+  adapter: volcengine-agent
+  short: Agent Plan
+  notes: 与 Coding Plan 是不同官方产品。活动页写名额有限。标价为连续包月刊例价。
+
 - id: aliyun
   name: 阿里·百炼
   name_en: Alibaba Model Studio

@@ -1,0 +1,72 @@
+{
+  "vendor_id": "volcengine-agent",
+  "source_url": "https://www.volcengine.com/activity/agentplan",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": false,
+  "status": "LIMITED",
+  "billing_unit": "月订阅",
+  "notes": "活动页为前端渲染。标价取自 2026-08-21 官方活动卡连续包月刊例价（Small ¥40、Medium ¥200、Large ¥500、Max ¥1000）。活动价不进标价列。文档 https://docs.volcengine.com/docs/82379/2366394?lang=zh",
+  "plans": [
+    {
+      "id": "small",
+      "name": "Small",
+      "price": {
+        "display": "¥40",
+        "amount": 40,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.volcengine.com/activity/agentplan",
+        "as_of": "2026-08-21",
+        "note": "连续包月刊例价；活动价 ¥9.90 见事件"
+      },
+      "quota": "-",
+      "notes": ""
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "price": {
+        "display": "¥200",
+        "amount": 200,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.volcengine.com/activity/agentplan",
+        "as_of": "2026-08-21",
+        "note": "连续包月刊例价；活动价 ¥49.90 见事件"
+      },
+      "quota": "-",
+      "notes": ""
+    },
+    {
+      "id": "large",
+      "name": "Large",
+      "price": {
+        "display": "¥500",
+        "amount": 500,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.volcengine.com/activity/agentplan",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "-",
+      "notes": ""
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "price": {
+        "display": "¥1000",
+        "amount": 1000,
+        "currency": "CNY",
+        "period": "month",
+        "source_url": "https://www.volcengine.com/activity/agentplan",
+        "as_of": "2026-08-21",
+        "note": null
+      },
+      "quota": "-",
+      "notes": ""
+    }
+  ]
+}

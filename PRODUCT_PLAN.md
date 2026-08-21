@@ -21,13 +21,14 @@ Not a clone of `wmpeng/codingplan`. No dreamfree affiliate shortlinks. No finish
 - OpenAI ChatGPT/Codex is a **membership row**, not merged with OpenAI API prepaid.
 - Homepage and vendor pages list **official SKUs** one-to-one (e.g. Claude Max 5x / Max 20x). Never compress platforms into 入门 / 主力 / 高用量 buckets.
 
-## Cold-start vendors (9)
+## Cold-start vendors (10)
 
 套餐:
 
 - 智谱AI — https://www.bigmodel.cn/glm-coding
 - MiniMax — https://platform.minimaxi.com/docs/guides/pricing-token-plan
-- 字节·方舟 — https://www.volcengine.com/activity/codingplan
+- 字节·方舟 Coding Plan — https://www.volcengine.com/activity/codingplan
+- 方舟 Agent Plan — https://www.volcengine.com/activity/agentplan
 - 阿里·百炼 — https://help.aliyun.com/zh/model-studio/coding-plan
 - Cursor — https://cursor.com/pricing
 - Claude — https://claude.com/pricing
