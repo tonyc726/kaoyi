@@ -24,8 +24,11 @@
       </thead>
       <tbody>
         {% for event in site.events %}
-        <tr>
-          <td>{% if event.example %}<span class="status">EXAMPLE</span>{% else %}<span class="status">{{ event.status }}</span>{% endif %}</td>
+        <tr{% if event.is_unconfirmed %} class="event-unconfirmed"{% endif %}>
+          <td>
+            {% if event.example %}<span class="status">EXAMPLE</span>{% else %}<span class="status">{{ event.status }}</span>{% endif %}
+            {% if event.is_unconfirmed %}<span class="status">未确认</span>{% endif %}
+          </td>
           <td class="mono">{{ event.layer | upper }}</td>
           <td><a class="name" href="{{ abs('vendors/' ~ event.vendor_id ~ '/') }}">{{ site.vendor(event.vendor_id).name }}</a></td>
           <td>

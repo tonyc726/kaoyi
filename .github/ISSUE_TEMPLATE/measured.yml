@@ -1,0 +1,51 @@
+name: 带方法的实测
+description: 提交可复核的用量、稳定性或到账实测，而不是观感打分
+title: "[实测] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        需要方法，才能和别人的结果对得上。单帖观感不会写成 1–5 分。不要贴 affiliate / 分销 / 返利短链。没有来源不要改价。
+  - type: input
+    id: source_url
+    attributes:
+      label: 官方或公开来源 URL
+      description: 对应套餐页、文档，或你公布方法的公开帖。必须能不登录打开。
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: vendor_id
+    attributes:
+      label: 厂商 id
+      description: 仓库 `vendors.yml` 里的 id。
+      placeholder: zhipu
+    validations:
+      required: true
+  - type: input
+    id: sku
+    attributes:
+      label: SKU（如知道）
+      description: 实测对应的官方档位名。
+      placeholder: Pro
+  - type: textarea
+    id: method
+    attributes:
+      label: 方法
+      description: 测了什么、用什么模型/任务、多久、如何计量。没有方法的「感觉卡」不会收录。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 结果
+      description: 可核对的数字或现象。不要据此要求改官方标价。
+  - type: checkboxes
+    id: honesty
+    attributes:
+      label: 承诺
+      options:
+        - label: 来源是官方页或可公开访问的页面，不是 affiliate / 分销短链
+          required: true
+        - label: 没有公开来源，我不会要求改价
+          required: true

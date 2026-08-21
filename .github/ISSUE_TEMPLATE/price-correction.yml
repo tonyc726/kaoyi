@@ -1,0 +1,46 @@
+name: 价格或规则纠错
+description: 指出某档官方标价、配额或规则与页面不符
+title: "[纠错] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        对照站只改有公开来源的数字。无来源改价不会被采纳。不要贴 affiliate / 分销 / 返利短链。
+  - type: input
+    id: source_url
+    attributes:
+      label: 官方或公开来源 URL
+      description: 必须能不登录打开，并看得出你指出的差异。
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: vendor_id
+    attributes:
+      label: 厂商 id
+      description: 仓库 `vendors.yml` 里的 id，例如 `aliyun`、`claude`。
+      placeholder: aliyun
+    validations:
+      required: true
+  - type: input
+    id: sku
+    attributes:
+      label: SKU（如知道）
+      description: 官方档位名，例如 Pro、Max 20x。
+      placeholder: Pro
+  - type: textarea
+    id: whats_wrong
+    attributes:
+      label: 哪里不对
+      description: 页面现在写了什么，官方页实际写了什么。不要凭记忆改价。
+    validations:
+      required: true
+  - type: checkboxes
+    id: honesty
+    attributes:
+      label: 承诺
+      options:
+        - label: 来源是官方页或可公开访问的页面，不是 affiliate / 分销短链
+          required: true
+        - label: 没有公开来源，我不会要求改价
+          required: true

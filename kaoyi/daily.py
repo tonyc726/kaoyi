@@ -158,6 +158,7 @@ def iter_price_change_events(
                 example=False,
                 status="OPEN",
                 note="官方层。由每日抓取对照上次快照生成，不是社区传闻。",
+                confidence=0.9,
             )
         )
     return events
@@ -223,6 +224,6 @@ def _vendor_names(root: Path) -> dict[str, str]:
 
 
 def _dump_event_yaml(event: Event) -> str:
-    payload = event.model_dump(mode="json")
+    payload = event.model_dump(mode="json", exclude_none=True)
     text = yaml.safe_dump(payload, allow_unicode=True, sort_keys=False)
     return text if text.endswith("\n") else text + "\n"

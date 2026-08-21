@@ -1,0 +1,51 @@
+name: 新厂商
+description: 建议收录一家尚未对照的官方套餐或按量平台
+title: "[新厂商] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        需要官方或可公开访问的来源。不要贴 affiliate / 分销 / 返利短链。没有来源不要改价。
+  - type: input
+    id: source_url
+    attributes:
+      label: 官方或公开来源 URL
+      description: 必须能不登录打开。不要填 affiliate、分销或登录墙后的链接。
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: vendor_id
+    attributes:
+      label: 厂商 id
+      description: 仓库 `vendors.yml` 里的 id；新厂商可写建议 slug，例如 `cursor`。
+      placeholder: cursor
+    validations:
+      required: true
+  - type: input
+    id: sku
+    attributes:
+      label: SKU（如知道）
+      description: 官方档位名，例如 Pro、Max 5x。不知道可留空。
+      placeholder: Pro
+  - type: input
+    id: official_name
+    attributes:
+      label: 官方名称
+      placeholder: Cursor
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充
+      description: 官方在卖哪几档、为何值得对照。不要凭记忆填价格。
+  - type: checkboxes
+    id: honesty
+    attributes:
+      label: 承诺
+      options:
+        - label: 来源是官方页或可公开访问的页面，不是 affiliate / 分销短链
+          required: true
+        - label: 没有公开来源，我不会要求改价
+          required: true

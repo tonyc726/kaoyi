@@ -107,6 +107,8 @@ def test_price_diff_writes_one_price_change_event(tmp_path: Path) -> None:
     assert event.summary == "官方标价从 ¥200 变为 ¥220。"
     assert event.source_url == SOURCE
     assert event.id == "2026-08-21-aliyun-pro-200-to-220"
+    assert event.confidence == 0.9
+    assert event.is_unconfirmed is False
 
     files = list((tmp_path / "data" / "events").glob("*.yml"))
     assert len(files) == 1

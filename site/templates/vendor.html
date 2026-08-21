@@ -56,8 +56,8 @@
     {% if page.events %}
     <ul class="event-list">
       {% for event in page.events %}
-      <li>
-        <p class="mono">{% if event.example %}EXAMPLE{% else %}{{ event.layer | upper }}{% endif %} · {{ event.as_of }}</p>
+      <li{% if event.is_unconfirmed %} class="event-unconfirmed"{% endif %}>
+        <p class="mono">{% if event.example %}EXAMPLE{% else %}{{ event.layer | upper }}{% endif %}{% if event.is_unconfirmed %} · 未确认{% endif %} · {{ event.as_of }}</p>
         <p>{{ event.title }}</p>
         <p class="muted">{{ event.summary }}</p>
       </li>

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="{{ abs('assets/css/site.css') }}">
 </head>
 <body>
+  <canvas id="binary-field" class="binary-field" aria-hidden="true"></canvas>
   <header class="top">
     <div class="wrap top-inner">
       <a class="wordmark" href="{{ abs('') }}">
@@ -37,5 +38,6 @@
       <p class="muted">Phase 1：只有官方购买链。仓库不含 affiliate。站点 <a href="{{ cfg.pages_url }}">{{ cfg.pages_url }}</a></p>
     </div>
   </footer>
+  <script src="{{ abs('assets/js/binary-field.js') }}" defer></script>
 </body>
 </html>
