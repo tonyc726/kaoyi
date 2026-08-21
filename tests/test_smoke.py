@@ -61,18 +61,14 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "Max 5x" in html
     assert "Max 20x" in html
     assert "Max 10x" not in html
-    assert "plan-ladders" in html
-    assert "ladder-chip" in html
-    assert html.index("plan-ladders") < html.index("table-wrap")
+    assert "套餐对照" in html
+    assert "下单前请回官方页确认。" in html
+    assert "plan-ladders" not in html
+    assert "ladder-chip" not in html
     assert "sku-table" in html
+    assert "table-wrap" in html
     assert "Lite" in html
     assert "¥118" in html
-    ladder = html[html.index("plan-ladders") : html.index("table-wrap")]
-    assert "SRC OFFICIAL" not in ladder
-    assert "年付" not in ladder
-    assert "≈ ¥" not in ladder
-    assert "Max 20x" in ladder
-    assert 'ladder-price mono">-</span>' in ladder
     about = (dest / "about" / "index.html").read_text(encoding="utf-8")
     assert "invert for display" not in about
     assert "uv run python scripts/build.py" not in about
