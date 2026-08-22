@@ -1,87 +1,92 @@
 {
   "vendor_id": "cursor",
   "source_url": "https://cursor.com/pricing",
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-22",
   "fetched_ok": true,
   "parse_ok": true,
   "status": "OPEN",
   "billing_unit": "月订阅 / 席",
-  "notes": "2026-08-21 抓取 cursor.com/pricing。价格来自定价页官方 JSON-LD Offers，不是 Individual 默认标签上的数字。个人档官方名称是 Hobby / Pro / Pro+ / Ultra。另有 Teams、Enterprise Custom。",
+  "notes": "Prices from official JSON-LD Offers on cursor.com/pricing, not the default Individual tab. Enterprise is Custom.",
   "plans": [
     {
       "id": "hobby",
       "name": "Hobby",
       "price": {
         "display": "$0",
-        "amount": 0,
+        "amount": 0.0,
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": null
       },
       "quota": "Limited Agent requests；Composer",
-      "notes": "无需信用卡"
+      "notes": "",
+      "status": null
     },
     {
       "id": "pro",
       "name": "Pro",
       "price": {
         "display": "$20",
-        "amount": 20,
+        "amount": 20.0,
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": null
       },
-      "quota": "Extended Agent limits；frontier models；cloud agents",
-      "notes": "未含税"
+      "quota": "-",
+      "notes": "",
+      "status": null
     },
     {
       "id": "pro-plus",
       "name": "Pro+",
       "price": {
         "display": "$60",
-        "amount": 60,
+        "amount": 60.0,
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": null
       },
       "quota": "-",
-      "notes": ""
+      "notes": "",
+      "status": null
     },
     {
       "id": "ultra",
       "name": "Ultra",
       "price": {
         "display": "$200",
-        "amount": 200,
+        "amount": 200.0,
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": null
       },
       "quota": "-",
-      "notes": ""
+      "notes": "",
+      "status": null
     },
     {
       "id": "teams",
       "name": "Teams",
       "price": {
         "display": "$40",
-        "amount": 40,
+        "amount": 40.0,
         "currency": "USD",
         "period": "user-month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": null
       },
-      "quota": "团队管理 / SSO / 分析",
-      "notes": "未含税"
+      "quota": "-",
+      "notes": "",
+      "status": null
     },
     {
       "id": "enterprise",
@@ -92,11 +97,13 @@
         "currency": null,
         "period": null,
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": null
       },
       "quota": "-",
-      "notes": ""
+      "notes": "",
+      "status": null
     }
-  ]
+  ],
+  "usage": null
 }

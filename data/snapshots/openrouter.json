@@ -1,12 +1,12 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/pricing",
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-22",
   "fetched_ok": true,
   "parse_ok": true,
   "status": "OPEN",
   "billing_unit": "按量 · 模型目录价 + 平台费",
-  "notes": "聚合器。模型单价随目录变化，本表不编造某个模型的 $/MTok。只记录官方平台费结构。",
+  "notes": "Platform fee only. Per-model token prices stay -.",
   "plans": [
     {
       "id": "payg",
@@ -17,11 +17,12 @@
         "currency": "USD",
         "period": "usage",
         "source_url": "https://openrouter.ai/pricing",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": "无最低消费，按模型计价"
       },
-      "quota": "500+ models · 80+ providers",
-      "notes": "BYOK 另有免平台费额度，见官方页"
+      "quota": "500+ models",
+      "notes": "",
+      "status": null
     }
   ],
   "usage": {
@@ -29,6 +30,6 @@
     "min_spend": "none",
     "token_list_price": "-",
     "source_url": "https://openrouter.ai/pricing",
-    "as_of": "2026-08-21"
+    "as_of": "2026-08-22"
   }
 }

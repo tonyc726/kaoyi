@@ -1,44 +1,45 @@
 {
   "vendor_id": "aliyun",
   "source_url": "https://help.aliyun.com/zh/model-studio/coding-plan",
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-22",
   "fetched_ok": true,
   "parse_ok": true,
   "status": "LIMITED",
   "billing_unit": "月订阅 · 请求次数",
-  "notes": "官方文档：Lite 自 2026-03-20 停新购，2026-04-13 停续费/升级。Pro 限量，每日 09:30（UTC+8）补库存。新客首月是事件层，不是目录价。",
+  "notes": "Parsed Pro list price from official help. Lite has no current list price.",
   "plans": [
     {
       "id": "lite",
       "name": "Lite",
-      "status": "SOLD OUT",
       "price": {
         "display": "-",
         "amount": null,
         "currency": "CNY",
         "period": "month",
         "source_url": "https://help.aliyun.com/zh/model-studio/coding-plan",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": "已停新购"
       },
       "quota": "已停新购 / 停续费",
-      "notes": ""
+      "notes": "",
+      "status": "SOLD OUT"
     },
     {
       "id": "pro",
       "name": "Pro",
-      "status": "LIMITED",
       "price": {
         "display": "¥200",
-        "amount": 200,
+        "amount": 200.0,
         "currency": "CNY",
         "period": "month",
         "source_url": "https://help.aliyun.com/zh/model-studio/coding-plan",
-        "as_of": "2026-08-21",
+        "as_of": "2026-08-22",
         "note": "新客首月 ¥39.90 见事件"
       },
       "quota": "每 5 小时 6,000 次；每周 45,000 次；每月 90,000 次",
-      "notes": "限量抢购"
+      "notes": "",
+      "status": null
     }
-  ]
+  ],
+  "usage": null
 }
