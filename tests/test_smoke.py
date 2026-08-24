@@ -112,6 +112,7 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "买 coding 套餐之前，把官方标价放在一起看。" in about
     assert "<article" in about
     assert "升格" in about
+    assert "编辑分是人手、每月至多一轮、稳定轴无事件则未评。" in about
     assert 'id="binary-field"' in html
     assert "/kaoyi/assets/js/binary-field.js" in html
     assert (dest / "assets" / "js" / "binary-field.js").exists()
@@ -120,14 +121,6 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
 def test_volcengine_prices_are_dash() -> None:
     text = (ROOT / "data" / "snapshots" / "volcengine.json").read_text(encoding="utf-8")
     assert '"display": "-"' in text
-
-
-def test_reviews_are_placeholders() -> None:
-    from kaoyi.load import assemble
-
-    site = assemble(ROOT)
-    assert all(page.review.is_placeholder for page in site.pages)
-    assert all(page.review.status == "未评" for page in site.pages)
 
 
 def test_openai_is_membership_not_api() -> None:

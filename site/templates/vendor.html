@@ -81,6 +81,28 @@
     <div class="radar-box">
       {{ page.radar_svg | safe }}
     </div>
+    <dl class="axis-list">
+      {% for axis in cfg.radar_axes %}
+      {% set score = page.review.scores.get(axis.id) %}
+      <div class="axis-row">
+        <dt>{{ axis.label }}</dt>
+        <dd>
+          {% if score %}
+          <span class="mono">{{ score }}</span>
+          <span class="muted">{{ page.review.reasons.get(axis.id) }}</span>
+          {% else %}
+          <span class="muted">未评</span>
+          {% endif %}
+        </dd>
+      </div>
+      {% endfor %}
+    </dl>
+    {% if page.review.note %}
+    <p class="muted">{{ page.review.note }}</p>
+    {% endif %}
+    {% if page.review.updated_at %}
+    <p class="src mono">SRC EDITORIAL · AS OF {{ page.review.updated_at }}</p>
+    {% endif %}
   </div>
   <div>
     <div class="section-head">

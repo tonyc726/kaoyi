@@ -377,6 +377,26 @@ h2 { font-size: 22px; margin: 0 0 8px; }
   stroke: #fff;
   stroke-width: 1.25;
 }
+.radar-dot { fill: #fff; }
+
+.axis-list { margin: 16px 0 0; }
+.axis-row {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 12px;
+  border-top: 1px solid var(--line);
+  padding: 10px 0;
+}
+.axis-list dt {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  margin: 0;
+}
+.axis-list dd {
+  margin: 0;
+  font-size: 13px;
+}
+.axis-list dd .mono { margin-right: 8px; }
 .radar-label, .radar-caption {
   fill: #f4f4f2;
   font-family: var(--font-mono), ui-monospace, monospace;
