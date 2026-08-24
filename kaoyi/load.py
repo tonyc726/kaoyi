@@ -62,7 +62,9 @@ def load_snapshots(root: Path = ROOT) -> dict[str, Snapshot]:
     return snapshots
 
 
-def load_official_posts(root: Path = ROOT, as_of: str | None = None) -> dict[str, OfficialPostsFile]:
+def load_official_posts(
+    root: Path = ROOT, as_of: str | None = None
+) -> dict[str, OfficialPostsFile]:
     return load_official_posts_dir(root, as_of=as_of)
 
 
