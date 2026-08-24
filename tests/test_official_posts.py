@@ -8,8 +8,11 @@ from pathlib import Path
 from kaoyi.load import assemble
 from kaoyi.models import Event, OfficialPost, OfficialPostsFile
 from kaoyi.official import (
+    SOURCES,
     OfficialSource,
     fetch_vendor_posts,
+    keep_recent_official_posts,
+    load_official_posts_dir,
     official_posts_as_events,
     parse_source,
     run_official_fetch,
@@ -141,6 +144,101 @@ def test_fetch_vendor_posts_empty_when_parse_fails() -> None:
     assert snapshot.posts == []
 
 
+def test_old_fixture_post_excluded_recent_kept() -> None:
+    parsed = parse_source(
+        "rss",
+        _read("official_rss_mixed_age.xml"),
+        "https://cursor.com/changelog/rss.xml",
+        "2026-08-21",
+    )
+    assert [post.date for post in parsed] == ["2026-08-19", "2025-10-15", "2024-11-28"]
+    kept = keep_recent_official_posts(parsed, "2026-08-21")
+    assert [post.date for post in kept] == ["2026-08-19"]
+    assert kept[0].title == "Cloud Agents and Cursor Harness Improvements"
+    assert all(post.date >= "2026-05-23" for post in kept)
+
+    snapshot = fetch_vendor_posts(
+        "cursor",
+        [OfficialSource("https://cursor.com/changelog/rss.xml", "rss")],
+        lambda _url: (True, _read("official_rss_mixed_age.xml")),
+        "2026-08-21",
+    )
+    assert snapshot.parse_ok is True
+    assert [post.date for post in snapshot.posts] == ["2026-08-19"]
+    assert "2025-10-15" not in {post.date for post in snapshot.posts}
+    assert "2024-11-28" not in {post.date for post in snapshot.posts}
+
+
+def test_volcengine_company_news_is_not_shared() -> None:
+    volc = {source.url for source in SOURCES.get("volcengine", [])}
+    agent = {source.url for source in SOURCES.get("volcengine-agent", [])}
+    company = "https://www.volcengine.com/news"
+    assert company not in volc
+    assert company not in agent
+    assert not (volc & agent)
+
+
+def test_existing_snapshot_file_is_filtered_on_load(tmp_path: Path) -> None:
+    folder = tmp_path / "data" / "official-posts"
+    folder.mkdir(parents=True)
+    stale = OfficialPostsFile(
+        vendor_id="zhipu",
+        source_url="https://www.zhipuai.cn/zh/news",
+        as_of="2026-08-21",
+        fetched_ok=True,
+        parse_ok=True,
+        posts=[
+            OfficialPost(
+                title="old 2025",
+                date="2025-08-25",
+                source_url="https://www.zhipuai.cn/zh/news/97",
+                as_of="2026-08-21",
+            ),
+            OfficialPost(
+                title="old 2024",
+                date="2024-11-28",
+                source_url="https://www.zhipuai.cn/zh/news/68",
+                as_of="2026-08-21",
+            ),
+            OfficialPost(
+                title="recent",
+                date="2026-08-01",
+                source_url="https://www.zhipuai.cn/zh/news/200",
+                as_of="2026-08-21",
+            ),
+        ],
+    )
+    (folder / "zhipu.json").write_text(
+        json.dumps(stale.model_dump(mode="json"), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    loaded = load_official_posts_dir(tmp_path, as_of="2026-08-21")
+    assert [post.title for post in loaded["zhipu"].posts] == ["recent"]
+    events = official_posts_as_events(loaded, as_of="2026-08-21")
+    assert [event.title for event in events] == ["recent"]
+
+
+def test_assemble_drops_stale_official_snapshot_rows() -> None:
+    site = assemble(ROOT)
+    zhipu_dates = {post.date for post in site.page("zhipu").official_posts}
+    assert "2025-08-25" not in zhipu_dates
+    assert "2024-12-30" not in zhipu_dates
+    assert "2024-11-28" not in zhipu_dates
+    volc_titles = {post.title for post in site.page("volcengine").official_posts}
+    agent_titles = {post.title for post in site.page("volcengine-agent").official_posts}
+    assert not volc_titles.intersection(agent_titles) or not volc_titles
+    stale_title = "豆包大模型1.6升级：国内首个原生支持“分档调节思考长度”的大模型"
+    assert stale_title not in volc_titles
+    assert stale_title not in agent_titles
+    announce_dates = {
+        event.as_of for event in site.events if event.kind == "official_announce"
+    }
+    assert "2025-10-15" not in announce_dates
+    assert "2024-11-28" not in announce_dates
+    for post in site.page("cursor").official_posts:
+        assert post.date >= "2026-05-23"
+
+
 def test_vendor_page_has_official_section_and_homepage_is_not_a_wall() -> None:
     result = subprocess.run(
         [sys.executable, "scripts/build.py"],
@@ -163,7 +261,7 @@ def test_vendor_page_has_official_section_and_homepage_is_not_a_wall() -> None:
 
     assert "<h2>官方动态</h2>" in cursor_page
     assert "<h2>官方动态</h2>" in zhipu_page
-    assert "来自官方博客或更新日志。不是目录价。" in cursor_page
+    assert "来自官方博客或更新日志，只列近 90 天。不是目录价。" in cursor_page
     assert "X @cursor_ai" in cursor_page
     assert "https://x.com/cursor_ai" in cursor_page
     assert "https://github.com/cursor" in cursor_page

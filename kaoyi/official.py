@@ -6,11 +6,12 @@ import json
 import re
 from collections.abc import Callable
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from xml.etree import ElementTree as ET
+from zoneinfo import ZoneInfo
 
 from selectolax.parser import HTMLParser
 
@@ -21,6 +22,8 @@ ACCEPT_DOCUMENT = (
     "text/html,application/xhtml+xml,application/rss+xml,application/xml;q=0.9,text/xml;q=0.8"
 )
 MAX_POSTS = 5
+OFFICIAL_POST_MAX_AGE_DAYS = 90
+SHANGHAI = ZoneInfo("Asia/Shanghai")
 MONTHS = {
     "jan": 1,
     "feb": 2,
@@ -71,8 +74,8 @@ SOURCES: dict[str, list[OfficialSource]] = {
         OfficialSource("https://www.minimaxi.com/", "minimax_listing"),
         OfficialSource("https://www.minimaxi.com/news", "minimax_listing"),
     ],
-    "volcengine": [OfficialSource("https://www.volcengine.com/news", "volcengine_news")],
-    "volcengine-agent": [OfficialSource("https://www.volcengine.com/news", "volcengine_news")],
+    # Company-wide https://www.volcengine.com/news is not Coding Plan / Agent Plan.
+    # Do not attach that feed to both vendors; skip it until a product-specific source exists.
     "aliyun": [OfficialSource("https://www.aliyun.com/product/news/", "aliyun_product_news")],
 }
 
@@ -137,14 +140,19 @@ def fetch_vendor_posts(
 ) -> OfficialPostsFile:
     groups: list[list[OfficialPost]] = []
     fetched_any = False
+    extracted_any = False
     primary_url = sources[0].url if sources else ""
     for source in sources:
         fetched, body = getter(source.url)
         if fetched and body.strip():
             fetched_any = True
-            groups.append(parse_source(source.parser, body, source.url, as_of))
+            extracted = parse_source(source.parser, body, source.url, as_of)
+            if extracted:
+                extracted_any = True
+            groups.append(keep_recent_official_posts(extracted, as_of))
     posts = merge_posts(groups)
-    parse_ok = bool(posts)
+    # Parsed rows may all fall outside the 90-day window; that is still a successful parse.
+    parse_ok = extracted_any
     notes_url = primary_url
     return OfficialPostsFile(
         vendor_id=vendor_id,
@@ -432,25 +440,57 @@ def merge_posts(groups: list[list[OfficialPost]]) -> list[OfficialPost]:
     return merged[:MAX_POSTS]
 
 
-def load_official_posts_dir(root: Path) -> dict[str, OfficialPostsFile]:
+def official_as_of_date(as_of: str | None = None) -> date:
+    """Calendar day for the 90-day window. `as_of` is already Asia/Shanghai YYYY-MM-DD."""
+    if as_of:
+        parsed = _parse_ymd(as_of)
+        if parsed is not None:
+            return parsed
+    return datetime.now(SHANGHAI).date()
+
+
+def keep_recent_official_posts(
+    posts: list[OfficialPost],
+    as_of: str,
+    *,
+    max_age_days: int = OFFICIAL_POST_MAX_AGE_DAYS,
+) -> list[OfficialPost]:
+    """Keep posts whose publish date is within `max_age_days` of `as_of` (inclusive)."""
+    cutoff = official_as_of_date(as_of) - timedelta(days=max_age_days)
+    horizon = official_as_of_date(as_of)
+    kept: list[OfficialPost] = []
+    for post in posts:
+        published = _parse_ymd(post.date)
+        if published is None:
+            continue
+        if cutoff <= published <= horizon:
+            kept.append(post)
+    return kept
+
+
+def load_official_posts_dir(root: Path, as_of: str | None = None) -> dict[str, OfficialPostsFile]:
     files: dict[str, OfficialPostsFile] = {}
     folder = root / "data" / "official-posts"
     if not folder.exists():
         return files
     for path in sorted(folder.glob("*.json")):
         snapshot = OfficialPostsFile.model_validate_json(path.read_text(encoding="utf-8"))
-        files[snapshot.vendor_id] = snapshot
+        window = as_of or snapshot.as_of
+        posts = keep_recent_official_posts(snapshot.posts, window)
+        files[snapshot.vendor_id] = snapshot.model_copy(update={"posts": posts})
     return files
 
 
 def official_posts_as_events(
     files: dict[str, OfficialPostsFile],
+    as_of: str | None = None,
 ) -> list[Event]:
     events: list[Event] = []
     for vendor_id, snapshot in files.items():
         if not snapshot.parse_ok:
             continue
-        for post in snapshot.posts:
+        window = as_of or snapshot.as_of
+        for post in keep_recent_official_posts(snapshot.posts, window):
             events.append(
                 Event(
                     id=_announce_id(vendor_id, post),
@@ -639,6 +679,16 @@ def _is_cursor_blog_post(href: str) -> bool:
 def _path_match(href: str, prefix: str) -> bool:
     path = urlparse(href).path if "://" in href else href.split("?", 1)[0]
     return path.startswith(prefix) and len(path) > len(prefix)
+
+
+def _parse_ymd(text: str) -> date | None:
+    raw = (text or "").strip()
+    if not raw:
+        return None
+    try:
+        return date.fromisoformat(raw)
+    except ValueError:
+        return None
 
 
 def _extract_ymd(text: str) -> str | None:

@@ -4,36 +4,5 @@
   "as_of": "2026-08-21",
   "fetched_ok": true,
   "parse_ok": true,
-  "posts": [
-    {
-      "title": "智谱首份业绩报告发布，探索AGI智能上界",
-      "date": "2026-03-31",
-      "source_url": "https://www.zhipuai.cn/zh/news/152",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "智谱（02513.HK）公布2025年度业绩发布会安排",
-      "date": "2026-03-30",
-      "source_url": "https://www.zhipuai.cn/zh/news/151",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "中关村自主大模型产业联盟第一次会员大会 结果公示",
-      "date": "2025-08-25",
-      "source_url": "https://www.zhipuai.cn/zh/news/97",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "GLM-PC 基座模型，CogAgent-9B 开源",
-      "date": "2024-12-30",
-      "source_url": "https://www.zhipuai.cn/zh/news/76",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "Agent 新进展：跨 app、跨设备、更多玩法｜智谱 Agent OpenDay",
-      "date": "2024-11-28",
-      "source_url": "https://www.zhipuai.cn/zh/news/68",
-      "as_of": "2026-08-21"
-    }
-  ]
+  "posts": []
 }

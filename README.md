@@ -28,7 +28,7 @@ uv run ruff check .
 uv run python scripts/fetch.py
 ```
 
-每日 08:00（Asia/Shanghai，cron `0 0 * * *` UTC）GitHub Action 会对每家 adapter 跑 `scripts/fetch.py`，写入 `data/snapshots/`；只有官方目录价真的变了才新增 `price_change` 事件。今日抓取/解析失败记在 `data/fetch-status.json`（与快照里的 `parse_ok` 分开——保留上次有效数字时快照仍是 `parse_ok=true`），首页在 N>0 时显示「今日失败 N 家」。`workflow_dispatch` 可立刻跑同一条流水线。官方动态来自各家官网博客/更新日志（解析失败保留上次有效条目）；X / 微博 / 公众号 / Discord 账号只在该厂商自己的官网链出时才写入 `vendors.yml`。
+每日 08:00（Asia/Shanghai，cron `0 0 * * *` UTC）GitHub Action 会对每家 adapter 跑 `scripts/fetch.py`，写入 `data/snapshots/`；只有官方目录价真的变了才新增 `price_change` 事件。今日抓取/解析失败记在 `data/fetch-status.json`（与快照里的 `parse_ok` 分开——保留上次有效数字时快照仍是 `parse_ok=true`），首页在 N>0 时显示「今日失败 N 家」。`workflow_dispatch` 可立刻跑同一条流水线。官方动态来自各家官网博客/更新日志（解析失败保留上次有效条目），只保留 `as_of` / 构建日（Asia/Shanghai）起近 90 天的条目；火山引擎公司新闻不挂到 Coding Plan 与 Agent Plan 两家。X / 微博 / 公众号 / Discord 账号只在该厂商自己的官网链出时才写入 `vendors.yml`。
 
 GITHUB_TOKEN 提交数据**不会**再触发其他 workflow，所以定时任务在同一次 job 里、用抓取后的工作区构建并部署 Pages，不依赖数据提交去重跑 `pages.yml`。只提交数据产物（snapshots、新事件、fetch-status），不提交 `dist/`。
 
