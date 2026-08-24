@@ -1,0 +1,26 @@
+{
+  "page": {
+    "id": "0tp9ssgtptvs",
+    "name": "Cursor",
+    "url": "https://status.cursor.com",
+    "time_zone": "Etc/UTC"
+  },
+  "incidents": [
+    {
+      "id": "68krhwzd0r1m",
+      "name": "Investigating service degradation",
+      "status": "resolved",
+      "created_at": "2026-08-21T09:20:30.097Z",
+      "started_at": "2026-08-21T09:20:30.087Z",
+      "shortlink": "https://stspg.io/78xk3v9s8jmp"
+    },
+    {
+      "id": "ancient-outage",
+      "name": "Ancient outage from 2025",
+      "status": "resolved",
+      "created_at": "2025-10-15T00:00:00.000Z",
+      "started_at": "2025-10-15T00:00:00.000Z",
+      "shortlink": "https://stspg.io/old"
+    }
+  ]
+}

@@ -1,39 +1,72 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-24",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.149.1",
+      "date": "2026-08-24",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1",
+      "as_of": "2026-08-24",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.149.0-alpha.4.3",
+      "date": "2026-08-23",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.4.3",
+      "as_of": "2026-08-24",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex rust-v0.149.0-alpha.4.2",
+      "date": "2026-08-23",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.4.2",
+      "as_of": "2026-08-24",
+      "source_kind": "releases"
+    },
+    {
+      "title": "Unexpected logouts for some ChatGPT web users",
+      "date": "2026-08-21",
+      "source_url": "https://status.openai.com/incidents/01M0JXWD740S0Y50DWJZS7SH75",
+      "as_of": "2026-08-24",
+      "source_kind": "status"
+    },
+    {
+      "title": "Elevated Codex API authentication errors",
+      "date": "2026-08-20",
+      "source_url": "https://status.openai.com/incidents/01M0G1RZER839AZXWMYKSZF3GR",
+      "as_of": "2026-08-24",
+      "source_kind": "status"
+    },
+    {
+      "title": "Elevated Errors for Thinking mode in ChatGPT",
+      "date": "2026-08-20",
+      "source_url": "https://status.openai.com/incidents/01M0FQAR3NNH3ANVTQMBRD47DC",
+      "as_of": "2026-08-24",
+      "source_kind": "status"
+    },
+    {
       "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
       "date": "2026-08-20",
       "source_url": "https://openai.com/index/stampli",
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
     },
     {
       "title": "Introducing AI Futures",
       "date": "2026-08-20",
       "source_url": "https://openai.com/index/introducing-ai-futures",
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
     },
     {
       "title": "Replit expands access to software creation with GPT-5.6 Luna",
       "date": "2026-08-19",
       "source_url": "https://openai.com/index/replit",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "Offering Zero Data Retention for frontier models",
-      "date": "2026-08-19",
-      "source_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "ChatGPT Ads expands across Europe",
-      "date": "2026-08-18",
-      "source_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
     }
   ]
 }

@@ -79,6 +79,7 @@ Not a clone of `wmpeng/codingplan`. No dreamfree affiliate shortlinks. No finish
 
 `vendors.yml`, `reviews.yml`, `config.yml` (`usdToCnyRate` 6.8 + date, `site_base` `/kaoyi/`)  
 `data/snapshots/`, `data/events/`, `data/official-posts/`  
+Official 动态: vendor-domain blogs/changelogs plus verified GitHub Releases, public status pages, and official forum announcement categories. 90-day window. Not catalog prices.  
 `adapters/` (one file per vendor)  
 `site/` templates + css  
 `scripts/fetch.py` `scripts/build.py`  
