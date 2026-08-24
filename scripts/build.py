@@ -104,7 +104,11 @@ def _assert_no_cname(dist: Path) -> None:
 
 
 def _summary(data: SiteData) -> None:
-    print(f"vendors={len(data.vendors)} events={len(data.events)} base={data.config.site_base}")
+    official_n = sum(len(item.posts) for item in data.official_posts.values() if item.parse_ok)
+    print(
+        f"vendors={len(data.vendors)} events={len(data.events)} "
+        f"official_posts={official_n} base={data.config.site_base}"
+    )
 
 
 if __name__ == "__main__":

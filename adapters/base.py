@@ -25,10 +25,18 @@ def today() -> str:
 
 
 def get_html(url: str) -> tuple[bool, str]:
+    return get_url(url, accept="text/html,application/xhtml+xml")
+
+
+def get_url(
+    url: str,
+    *,
+    accept: str = "text/html,application/xhtml+xml",
+) -> tuple[bool, str]:
     try:
         response = httpx.get(
             url,
-            headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml"},
+            headers={"User-Agent": USER_AGENT, "Accept": accept},
             follow_redirects=True,
             timeout=TIMEOUT,
         )

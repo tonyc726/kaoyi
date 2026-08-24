@@ -39,6 +39,39 @@
   </div>
 </section>
 
+<section>
+  <div class="section-head">
+    <h2>官方动态</h2>
+    <p class="muted">来自官方博客或更新日志。不是目录价。</p>
+  </div>
+  {% if page.vendor.channels %}
+  <p class="channels">
+    {% for ch in page.vendor.channels %}
+    <a class="btn" href="{{ ch.url }}" rel="noopener noreferrer"{% if ch.note %} title="{{ ch.note }}"{% endif %}>{{ ch.display_label }}</a>
+    {% endfor %}
+  </p>
+  {% set channel_notes = page.vendor.channels | selectattr("note") | list %}
+  {% if channel_notes %}
+  <p class="muted small">
+    {% for ch in channel_notes %}{{ ch.display_label }}：{{ ch.note }}{% if not loop.last %}；{% endif %}{% endfor %}
+  </p>
+  {% endif %}
+  {% endif %}
+  {% if page.official_posts %}
+  <ul class="event-list official-posts">
+    {% for post in page.official_posts %}
+    <li>
+      <p class="mono">OFFICIAL · {{ post.date or post.as_of }}</p>
+      <p><a class="name" href="{{ post.source_url }}" rel="noopener noreferrer">{{ post.title }}</a></p>
+      <p class="src mono"><a href="{{ post.source_url }}" rel="noopener noreferrer">SRC OFFICIAL · AS OF {{ post.as_of }}</a></p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="muted mono">EMPTY</p>
+  {% endif %}
+</section>
+
 <section class="split">
   <div>
     <div class="section-head">

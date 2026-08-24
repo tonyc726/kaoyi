@@ -1,0 +1,39 @@
+{
+  "vendor_id": "cursor",
+  "source_url": "https://cursor.com/changelog/rss.xml",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "posts": [
+    {
+      "title": "Cloud Agents and Cursor Harness Improvements",
+      "date": "2026-08-19",
+      "source_url": "https://cursor.com/changelog/08-19-26",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Git at any scale",
+      "date": "2026-08-18",
+      "source_url": "https://cursor.com/blog/git-at-any-scale",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Origin Code Hosting",
+      "date": "2026-08-17",
+      "source_url": "https://cursor.com/changelog/origin-code-hosting",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Cursor is now a part of SpaceX",
+      "date": "2026-08-14",
+      "source_url": "https://cursor.com/blog/joining-spacex",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Cloud Agents Start 3x Faster with Builds",
+      "date": "2026-08-13",
+      "source_url": "https://cursor.com/changelog/08-13-26",
+      "as_of": "2026-08-21"
+    }
+  ]
+}

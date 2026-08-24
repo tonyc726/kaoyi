@@ -7,6 +7,7 @@ import yaml
 from kaoyi.models import (
     Event,
     FetchStatus,
+    OfficialPostsFile,
     Review,
     ReviewsFile,
     SiteConfig,
@@ -16,6 +17,7 @@ from kaoyi.models import (
     VendorPage,
     empty_snapshot,
 )
+from kaoyi.official import load_official_posts_dir, official_posts_as_events
 from kaoyi.radar import render_radar_svg
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -60,6 +62,10 @@ def load_snapshots(root: Path = ROOT) -> dict[str, Snapshot]:
     return snapshots
 
 
+def load_official_posts(root: Path = ROOT) -> dict[str, OfficialPostsFile]:
+    return load_official_posts_dir(root)
+
+
 def load_fetch_status(root: Path = ROOT) -> FetchStatus | None:
     path = root / "data" / "fetch-status.json"
     if not path.exists():
@@ -74,18 +80,30 @@ def assemble(root: Path = ROOT) -> SiteData:
     reviews = load_reviews(root)
     events = load_events(root)
     fetch_status = load_fetch_status(root)
+    official_posts = load_official_posts(root)
+    announce_events = official_posts_as_events(official_posts)
+    yaml_ids = {event.id for event in events}
+    merged_events = events + [event for event in announce_events if event.id not in yaml_ids]
+    merged_events.sort(key=lambda event: (event.as_of, event.id), reverse=True)
 
     pages: list[VendorPage] = []
     for vendor in vendors:
         snapshot = snapshots.get(vendor.id) or empty_snapshot(vendor, config.build_as_of)
         review = reviews.vendors.get(vendor.id) or Review()
+        vendor_events = [
+            event
+            for event in merged_events
+            if event.vendor_id == vendor.id and event.kind != "official_announce"
+        ]
+        file = official_posts.get(vendor.id)
         pages.append(
             VendorPage(
                 vendor=vendor,
                 snapshot=snapshot,
                 review=review,
-                events=[event for event in events if event.vendor_id == vendor.id],
+                events=vendor_events,
                 radar_svg=render_radar_svg(review, config.radar_axes),
+                official_posts=file.posts if file and file.parse_ok else [],
             )
         )
 
@@ -94,7 +112,8 @@ def assemble(root: Path = ROOT) -> SiteData:
         vendors=vendors,
         snapshots=snapshots,
         reviews=reviews,
-        events=events,
+        events=merged_events,
         fetch_status=fetch_status,
+        official_posts=official_posts,
         pages=pages,
     )

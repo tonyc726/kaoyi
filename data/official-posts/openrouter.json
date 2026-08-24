@@ -1,0 +1,39 @@
+{
+  "vendor_id": "openrouter",
+  "source_url": "https://openrouter.ai/blog/feed.xml",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "posts": [
+    {
+      "title": "OpenRouter is Joining Stripe",
+      "date": "2026-08-19",
+      "source_url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "OpenRouter Image Generation: A Code-First API Tutorial",
+      "date": "2026-08-17",
+      "source_url": "https://openrouter.ai/blog/tutorials/image-generation/",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Understand your AI usage: every agent, model, and request",
+      "date": "2026-08-17",
+      "source_url": "https://openrouter.ai/blog/announcements/activity-dashboard/",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "How to Send an Image to an LLM via API (Vision Guide)",
+      "date": "2026-08-14",
+      "source_url": "https://openrouter.ai/blog/tutorials/send-image-to-llm/",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Tool Calling Across Any Model: Write the Loop Once, Swap the Model String",
+      "date": "2026-08-12",
+      "source_url": "https://openrouter.ai/blog/tutorials/tool-calling/",
+      "as_of": "2026-08-21"
+    }
+  ]
+}

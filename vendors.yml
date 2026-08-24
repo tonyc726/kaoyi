@@ -1,5 +1,7 @@
 # Cold-start vendors. Identity + official URLs only.
 # Prices live in data/snapshots/. Display uses official SKU names, not buckets.
+# channels: only X / 微博 / 公众号 / Discord / 其它账号，且必须出现在该厂商自己的官网
+# （页脚、about、press、帮助「官方账号」页）。没看到就留空，不靠记忆补 @handle。
 
 - id: zhipu
   name: 智谱AI
@@ -14,6 +16,21 @@
   adapter: zhipu
   short: GLM Coding Plan
   notes: 编码套餐与开放平台按量余额隔离。禁止在规定工具外当通用 API 用。
+  channels:
+    - kind: x
+      url: https://x.com/Zai_org
+      handle: Zai_org
+      note: docs.z.ai 快速开始页脚。zhipuai.cn 页脚有 X 图标但静态 HTML 无 href。
+    - kind: github
+      url: https://github.com/zai-org
+    - kind: discord
+      url: https://discord.gg/QR7SARHRxK
+    - kind: linkedin
+      url: https://www.linkedin.com/company/zdotai
+    - kind: wechat
+      url: https://www.zhipuai.cn/wechat_qrcode.png
+      label: 微信（页脚二维码）
+      note: zhipuai.cn 页脚只有二维码，没有印出公众号名称。
 
 - id: minimax
   name: MiniMax
@@ -28,6 +45,25 @@
   adapter: minimax
   short: Token Plan
   notes: 文本、图像、语音共用额度。积分包是另一套预付，不在月订阅标价里。
+  channels:
+    - kind: x
+      url: https://x.com/MiniMax__AI
+      handle: MiniMax__AI
+      note: minimaxi.com JSON-LD / twitter:site。与开放平台页脚账号不一致，并列不单选。
+    - kind: x
+      url: https://x.com/MiniMax_AI
+      handle: MiniMax_AI
+      note: platform.minimaxi.com 页脚。与官网 JSON-LD 的 @MiniMax__AI 不一致，并列不单选。
+    - kind: github
+      url: https://github.com/MiniMax-AI
+    - kind: linkedin
+      url: https://www.linkedin.com/company/minimax-ai
+    - kind: discord
+      url: https://www.minimax.io/discord
+    - kind: wechat
+      url: https://filecdn.minimax.chat/public/46a6af8f-eeef-462b-b4a3-0da2481ebd43.png
+      label: 开放平台公众号
+      note: platform.minimaxi.com 页脚链接的二维码，未见英文 handle。
 
 - id: volcengine
   name: 字节·方舟
@@ -70,6 +106,21 @@
   adapter: aliyun
   short: Coding Plan
   notes: Lite 已停新购。Pro 官方写明限量。Coding Plan Key 与百炼按量 Key 不互通。
+  channels:
+    - kind: x
+      url: https://www.twitter.com/alibaba_cloud
+      handle: alibaba_cloud
+      label: X @alibaba_cloud（阿里云公司号）
+      note: www.aliyun.com 会到国际站页脚。没有单独的百炼 X。
+    - kind: linkedin
+      url: https://www.linkedin.com/company/alibabacloudtech
+      label: LinkedIn（阿里云公司号）
+    - kind: discord
+      url: https://discord.com/invite/xEuwmj6qaA
+    - kind: wechat
+      url: https://help.aliyun.com/zh
+      label: 阿里云公众号
+      note: 帮助中心页脚写「关注阿里云公众号」，未见独立账号名。官网未见 modelstudioai/cli。
 
 - id: cursor
   name: Cursor
@@ -84,6 +135,17 @@
   adapter: cursor
   short: Individual / Teams
   notes: 个人档是 Hobby、Pro、Pro+、Ultra。标价来自定价页官方 JSON-LD Offers。Enterprise 为 Custom。
+  channels:
+    - kind: x
+      url: https://x.com/cursor_ai
+      handle: cursor_ai
+      note: cursor.com 页脚。不是 @cursor。
+    - kind: github
+      url: https://github.com/cursor
+    - kind: linkedin
+      url: https://www.linkedin.com/company/cursorai
+    - kind: youtube
+      url: https://www.youtube.com/@cursor_ai
 
 - id: claude
   name: Claude
@@ -98,6 +160,25 @@
   adapter: claude
   short: Individual membership
   notes: 个人档是 Free、Pro、Max 5x、Max 20x。付费档含 Claude Code。
+  channels:
+    - kind: x
+      url: https://x.com/claudeai
+      handle: claudeai
+      label: X @claudeai（产品号）
+      note: claude.com 页脚。
+    - kind: x
+      url: https://x.com/AnthropicAI
+      handle: AnthropicAI
+      label: X @AnthropicAI（公司号）
+      note: claude.com JSON-LD sameAs 与 anthropic.com 页脚。
+    - kind: github
+      url: https://github.com/anthropics
+    - kind: linkedin
+      url: https://www.linkedin.com/showcase/claude/
+    - kind: instagram
+      url: https://www.instagram.com/claudeai
+    - kind: youtube
+      url: https://www.youtube.com/@anthropic-ai
 
 - id: grok
   name: SuperGrok
@@ -112,6 +193,24 @@
   adapter: grok
   short: SuperGrok membership
   notes: 个人档是 Free、SuperGrok Lite、SuperGrok、SuperGrok Plus、SuperGrok Heavy。Lite / Heavy 标价来自 grok.com 订阅页（定价页对照表有档名无数字）。
+  channels:
+    - kind: x
+      url: https://x.com/grok
+      handle: grok
+      label: X @grok（产品号）
+      note: x.ai 页脚与 docs.x.ai JSON-LD。
+    - kind: x
+      url: https://x.com/spacexai
+      handle: spacexai
+      label: X @spacexai（公司号）
+      note: x.ai 首页页脚。
+    - kind: x
+      url: https://x.com/xai
+      handle: xai
+      label: X @xai（文档仍列出）
+      note: docs.x.ai JSON-LD sameAs 与 grok.com。产品号以 @grok 为准。
+    - kind: discord
+      url: https://discord.com/invite/kqCc86jM55
 
 - id: openai
   name: OpenAI ChatGPT/Codex
@@ -126,6 +225,16 @@
   adapter: openai
   short: ChatGPT membership
   notes: 这是 ChatGPT 会员，不是 API。Codex 用量跟会员档走。个人档是 Free、Go、Plus、Pro $100、Pro $200。Go 美国标价 $8/月。
+  channels:
+    - kind: x
+      url: https://x.com/OpenAIDevs
+      handle: OpenAIDevs
+      label: X @OpenAIDevs（开发者号）
+      note: developers.openai.com 页脚。openai.com HTML 本次 403，未见可核对的 @OpenAI 或 LinkedIn。
+    - kind: github
+      url: https://github.com/openai
+    - kind: discord
+      url: https://discord.com/invite/openai
 
 - id: openrouter
   name: OpenRouter
@@ -140,3 +249,15 @@
   adapter: openrouter
   short: 聚合按量
   notes: 按模型目录价 + 平台费。不是 OpenAI / Anthropic 官方渠道。
+  channels:
+    - kind: x
+      url: https://x.com/openrouter
+      handle: openrouter
+    - kind: github
+      url: https://github.com/OpenRouterTeam
+    - kind: discord
+      url: https://discord.gg/fVyRaUDgxW
+    - kind: linkedin
+      url: https://www.linkedin.com/company/104068329
+    - kind: youtube
+      url: https://www.youtube.com/@OpenRouterAI

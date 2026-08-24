@@ -13,6 +13,7 @@ if str(ROOT) not in sys.path:
 
 from adapters import REGISTRY  # noqa: E402
 from kaoyi.daily import run_fetch  # noqa: E402
+from kaoyi.official import run_official_fetch  # noqa: E402
 
 
 def main() -> int:
@@ -32,9 +33,10 @@ def main() -> int:
             return 2
 
     result = run_fetch(ROOT, vendor_ids=selected, force=args.force)
+    official = run_official_fetch(ROOT, vendor_ids=selected, force=args.force)
     print(
         f"fetch-status as_of={result.as_of} failed={len(result.failed_vendor_ids)} "
-        f"events={len(result.events)}"
+        f"events={len(result.events)} official_posts={len(official.written_vendor_ids)}"
     )
     return 0
 

@@ -1,0 +1,39 @@
+{
+  "vendor_id": "openai",
+  "source_url": "https://openai.com/news/rss.xml",
+  "as_of": "2026-08-21",
+  "fetched_ok": true,
+  "parse_ok": true,
+  "posts": [
+    {
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "date": "2026-08-20",
+      "source_url": "https://openai.com/index/stampli",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Introducing AI Futures",
+      "date": "2026-08-20",
+      "source_url": "https://openai.com/index/introducing-ai-futures",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "date": "2026-08-19",
+      "source_url": "https://openai.com/index/replit",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "date": "2026-08-19",
+      "source_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "as_of": "2026-08-21"
+    },
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "date": "2026-08-18",
+      "source_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "as_of": "2026-08-21"
+    }
+  ]
+}
