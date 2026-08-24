@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 Kind = Literal["plan", "usage"]
 Layer = Literal["official", "community", "editorial"]
@@ -144,11 +144,31 @@ class Snapshot(BaseModel):
 class Review(BaseModel):
     status: str = "未评"
     scores: dict[str, int] = Field(default_factory=dict)
+    reasons: dict[str, str] = Field(default_factory=dict)
     note: str = ""
+    updated_at: str = ""
 
     @property
     def is_placeholder(self) -> bool:
         return self.status == "未评" or not self.scores
+
+    @field_validator("scores")
+    @classmethod
+    def scores_are_integers_1_to_5(cls, value: dict[str, int]) -> dict[str, int]:
+        for axis, score in value.items():
+            if isinstance(score, bool) or not isinstance(score, int) or not (1 <= score <= 5):
+                raise ValueError(f"{axis} score must be an integer 1–5")
+        return value
+
+    @model_validator(mode="after")
+    def reasons_for_scored_axes(self) -> Review:
+        if self.scores and self.status == "未评":
+            raise ValueError("a scored review cannot stay 未评")
+        for axis in self.scores:
+            reason = (self.reasons.get(axis) or "").strip()
+            if not reason:
+                raise ValueError(f"{axis} needs a one-line reason")
+        return self
 
 
 class Event(BaseModel):
@@ -200,6 +220,15 @@ class FetchStatus(BaseModel):
 class ReviewsFile(BaseModel):
     axes: list[str]
     vendors: dict[str, Review]
+
+    @model_validator(mode="after")
+    def scores_use_declared_axes(self) -> ReviewsFile:
+        allowed = set(self.axes)
+        for vendor_id, review in self.vendors.items():
+            unknown = set(review.scores) - allowed
+            if unknown:
+                raise ValueError(f"{vendor_id} has unknown axes: {sorted(unknown)}")
+        return self
 
 
 class VendorPage(BaseModel):

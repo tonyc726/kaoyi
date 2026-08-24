@@ -1,6 +1,8 @@
-# Editorial layer only. Phase 1: 未评.
-# Do not invent 1–5 scores. Do not compute an overall star.
+# Editorial layer. Handwritten first round, approved 2026-08-24.
+# Integers 1–5 only with official evidence. Omit an axis when 未评.
+# Do not invent a 3 to fill the radar. No overall star.
 # Radar area must never be used as a sort key.
+# switching_cost is buyer-facing (high = easier to leave); inverted at draw time.
 
 axes:
   - availability
@@ -14,42 +16,187 @@ axes:
 
 vendors:
   zhipu:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 5
+      price_structure: 4
+      usage_economy: 4
+      capability: 3
+      payment_region: 5
+      billing_transparency: 3
+      switching_cost: 2
+    reasons:
+      availability: 官方落地页状态 OPEN，现时可买。
+      price_structure: 落地页刊例清楚，并写年付约价。
+      usage_economy: 官方文档写明积分与每周 5 小时额度。
+      capability: 官方限定为编码套餐、规定工具内使用。
+      payment_region: 人民币官网可购。
+      billing_transparency: 刊例在落地页，额度细则在文档。
+      switching_cost: 官方写明套餐余额与开放平台按量隔离，禁止当通用 API。
   minimax:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 5
+      price_structure: 5
+      usage_economy: 3
+      capability: 4
+      payment_region: 5
+      billing_transparency: 4
+      switching_cost: 3
+    reasons:
+      availability: 官方文档状态 OPEN，现时可买。
+      price_structure: 官方文档 Plus / Max / Ultra 刊例清楚，积分包不并进订阅列。
+      usage_economy: 官方额度写成「约 N 个 Agent」，单位偏含糊。
+      capability: 官方写明文本 / 图像 / 语音共用额度。
+      payment_region: 人民币官网可购。
+      billing_transparency: 官方将订阅与积分包分开写。
+      switching_cost: 平台额度，未见成品号锁定。
   volcengine:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 2
+      price_structure: 1
+      payment_region: 4
+      billing_transparency: 1
+    reasons:
+      availability: 官方活动页状态 LIMITED，且目录价为「-」。
+      price_structure: 活动页有档名，未见单独报价。
+      payment_region: 国内人民币活动页。
+      billing_transparency: 活动页未能解析刊例。
   volcengine-agent:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 2
+      price_structure: 4
+      usage_economy: 3
+      capability: 3
+      payment_region: 5
+      billing_transparency: 4
+      switching_cost: 3
+    reasons:
+      availability: 官方活动页 LIMITED，写明名额有限。
+      price_structure: 官方文档刊例 Small ¥40、Medium ¥200、Large ¥500、Max ¥1000。
+      usage_economy: 官方套餐概览写有额度单位。
+      capability: 官方定位为 Agent 产品线。
+      payment_region: 人民币官网可购。
+      billing_transparency: 官方将刊例与活动价分层。
+      switching_cost: 绑定火山账号体系。
   aliyun:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 2
+      price_structure: 4
+      usage_economy: 4
+      capability: 3
+      payment_region: 5
+      billing_transparency: 4
+      switching_cost: 2
+    reasons:
+      availability: 官方写明 Lite 停新购、Pro 限量。
+      price_structure: 官方 Pro 刊例 ¥200 清楚。
+      usage_economy: 官方写明每周 5 小时与月请求次数。
+      capability: 官方定位为编码套餐。
+      payment_region: 人民币官网可购。
+      billing_transparency: 首月活动记入事件，不改刊例。
+      switching_cost: 官方写明 Coding Plan Key 与按量 Key 不互通。
   cursor:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 5
+      price_structure: 5
+      usage_economy: 3
+      capability: 5
+      payment_region: 3
+      billing_transparency: 4
+      switching_cost: 3
+    reasons:
+      availability: 官方定价页状态 OPEN，现时可买。
+      price_structure: 定价页 JSON-LD Offers 刊例清楚。
+      usage_economy: 官方用量描述单位不统一。
+      capability: 官方含编辑器、Agent 与 cloud。
+      payment_region: 美元全球定价，外卡支付。
+      billing_transparency: 定价页结构清楚。
+      switching_cost: 绑定编辑器，代码仍在本地。
   claude:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 5
+      price_structure: 4
+      usage_economy: 2
+      capability: 5
+      payment_region: 3
+      billing_transparency: 4
+      switching_cost: 4
+    reasons:
+      availability: 官方定价页状态 OPEN，现时可买。
+      price_structure: Max 5x 定价页写 From $100；Max 20x $200 来自 Anthropic 官方帮助（权威官方渠道，不是第三方）。
+      usage_economy: 官方 5x / 20x 是倍率，不是可核对用量单位。
+      capability: 官方付费档含 Claude Code。
+      payment_region: 美元定价。
+      billing_transparency: 帮助页补齐 Max 20x 刊例。
+      switching_cost: 会员可换工具使用。
   grok:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 5
+      price_structure: 4
+      usage_economy: 2
+      capability: 4
+      payment_region: 3
+      billing_transparency: 3
+      switching_cost: 3
+    reasons:
+      availability: 官方定价页状态 OPEN，现时可买。
+      price_structure: Lite $10 / Heavy $300 来自 grok.com 官方订阅页（权威官方渠道）。
+      usage_economy: 官方额度多为「更高」，无可核对数。
+      capability: 官方含 Imagine / Voice / Build。
+      payment_region: 美元定价。
+      billing_transparency: x.ai 对照表有档名无数字，数字在 grok.com 订阅页。
+      switching_cost: X 生态订阅绑定。
   openai:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 5
+      price_structure: 4
+      usage_economy: 3
+      capability: 4
+      payment_region: 3
+      billing_transparency: 4
+      switching_cost: 3
+    reasons:
+      availability: 官方定价页状态 OPEN，现时可买。
+      price_structure: ChatGPT 会员档刊例清楚（Go 美国 $8，部分市场本地货币）。
+      usage_economy: 官方写 Pro 约为 Plus 的 5x / 20x。
+      capability: Codex 跟会员走，不是 API 预付。
+      payment_region: 美元定价。
+      billing_transparency: 帮助中心与定价页并列可核。
+      switching_cost: 绑定 ChatGPT 会员。
   openrouter:
-    status: 未评
-    scores: {}
-    note: Phase 1 placeholder. No invented scores.
+    status: 已评
+    updated_at: "2026-08-24"
+    scores:
+      availability: 5
+      price_structure: 3
+      usage_economy: 3
+      capability: 5
+      payment_region: 3
+      billing_transparency: 4
+      switching_cost: 5
+    reasons:
+      availability: 官方定价页状态 OPEN，现时可买。
+      price_structure: 平台费 5.5% 写明，模型目录价仍为「-」。
+      usage_economy: 按量计费，但模型单价未进本表。
+      capability: 官方聚合 500+ 模型。
+      payment_region: 美元计价。
+      billing_transparency: 官方写明无最低消费。
+      switching_cost: 一 Key 多家，迁出容易。
+    note: 不是官方直营，是模型聚合平台。

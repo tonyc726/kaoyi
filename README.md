@@ -60,6 +60,7 @@ Issues are the community intake. Linux.do and 小红书 login walls are not scra
 - 每个价格格带 `source_url` 与 `as_of`
 - OpenAI ChatGPT/Codex 是会员行，不与 OpenAI API 预付合并
 - 汇率快照：`config.yml` 里 `usd_to_cny_rate: 6.8`，带日期，不是牌价
+- 编辑分是人手、每月至多一轮、稳定轴无事件则未评
 
 ## 许可 / License
 
