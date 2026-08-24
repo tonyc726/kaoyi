@@ -1,39 +1,72 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-24",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors for multiple models",
+      "date": "2026-08-24",
+      "source_url": "https://status.claude.com/incidents/vgz5psbjmt1h",
+      "as_of": "2026-08-24",
+      "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.241",
+      "date": "2026-08-23",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
+      "as_of": "2026-08-24",
+      "source_kind": "releases"
+    },
+    {
+      "title": "claude-code v2.1.240",
+      "date": "2026-08-22",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
+      "as_of": "2026-08-24",
+      "source_kind": "releases"
+    },
+    {
+      "title": "claude-code v2.1.239",
+      "date": "2026-08-21",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
+      "as_of": "2026-08-24",
+      "source_kind": "releases"
+    },
+    {
+      "title": "Elevated errors on requests to multiple models",
+      "date": "2026-08-20",
+      "source_url": "https://status.claude.com/incidents/c0ncxxm2wd9r",
+      "as_of": "2026-08-24",
+      "source_kind": "status"
+    },
+    {
+      "title": "Elevated errors on Google connectors",
+      "date": "2026-08-20",
+      "source_url": "https://status.claude.com/incidents/6xskhw7rn4tf",
+      "as_of": "2026-08-24",
+      "source_kind": "status"
+    },
+    {
       "title": "How Claude’s text watermark works",
       "date": "2026-08-14",
       "source_url": "https://www.anthropic.com/news/claude-text-watermark",
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
     },
     {
       "title": "Introducing Claude Opus 5",
       "date": "2026-07-24",
       "source_url": "https://www.anthropic.com/news/claude-opus-5",
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
     },
     {
       "title": "Inviting hard questions",
       "date": "2026-07-09",
       "source_url": "https://www.anthropic.com/news/hard-questions",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "Redeploying Fable 5",
-      "date": "2026-06-30",
-      "source_url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "Introducing Claude Sonnet 5",
-      "date": "2026-06-30",
-      "source_url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
     }
   ]
 }

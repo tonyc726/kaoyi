@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Cursor Community Forum - Announcements</title>
+    <link>https://forum.cursor.com/c/announcements/11</link>
+    <item>
+      <title>Grok 4.6 is now Live!</title>
+      <link>https://forum.cursor.com/t/grok-4-6-is-now-live/168189</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Kevin Neilson</dc:creator>
+      <category>Announcements</category>
+    </item>
+    <item>
+      <title>Share your Thoughts on Grok 4.6</title>
+      <link>https://forum.cursor.com/t/share-your-thoughts-on-grok-4-6/168190</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Kevin Neilson</dc:creator>
+      <category>Release Discussions</category>
+    </item>
+    <item>
+      <title>Old announcement from 2025</title>
+      <link>https://forum.cursor.com/t/old-announcement/1</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Colin</dc:creator>
+      <category>Announcements</category>
+    </item>
+  </channel>
+</rss>

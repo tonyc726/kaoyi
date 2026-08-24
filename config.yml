@@ -6,7 +6,7 @@ pages_url: https://tonyc726.github.io/kaoyi/
 usd_to_cny_rate: 6.8
 usd_to_cny_as_of: "2026-08-21"
 usd_to_cny_note: 编辑换算快照，不是牌价，也不是官方人民币价
-build_as_of: "2026-08-21"
+build_as_of: "2026-08-24"
 footer_zh: 最终以官方为准。价格是快照，不是实时行情。
 footer_en: Official pages win. Prices are snapshots, not live quotes.
 layers:

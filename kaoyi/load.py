@@ -62,8 +62,10 @@ def load_snapshots(root: Path = ROOT) -> dict[str, Snapshot]:
     return snapshots
 
 
-def load_official_posts(root: Path = ROOT) -> dict[str, OfficialPostsFile]:
-    return load_official_posts_dir(root)
+def load_official_posts(
+    root: Path = ROOT, as_of: str | None = None
+) -> dict[str, OfficialPostsFile]:
+    return load_official_posts_dir(root, as_of=as_of)
 
 
 def load_fetch_status(root: Path = ROOT) -> FetchStatus | None:
@@ -80,8 +82,8 @@ def assemble(root: Path = ROOT) -> SiteData:
     reviews = load_reviews(root)
     events = load_events(root)
     fetch_status = load_fetch_status(root)
-    official_posts = load_official_posts(root)
-    announce_events = official_posts_as_events(official_posts)
+    official_posts = load_official_posts(root, as_of=config.build_as_of)
+    announce_events = official_posts_as_events(official_posts, as_of=config.build_as_of)
     yaml_ids = {event.id for event in events}
     merged_events = events + [event for event in announce_events if event.id not in yaml_ids]
     merged_events.sort(key=lambda event: (event.as_of, event.id), reverse=True)
@@ -93,7 +95,7 @@ def assemble(root: Path = ROOT) -> SiteData:
         vendor_events = [
             event
             for event in merged_events
-            if event.vendor_id == vendor.id and event.kind != "official_announce"
+            if event.vendor_id == vendor.id and event.kind not in {"official_announce", "status"}
         ]
         file = official_posts.get(vendor.id)
         pages.append(

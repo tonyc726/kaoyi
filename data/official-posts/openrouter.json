@@ -1,39 +1,44 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-24",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Image Benchmarks: See the Capabilities of Every Model",
+      "date": "2026-08-21",
+      "source_url": "https://openrouter.ai/blog/announcements/image-benchmarks/",
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
+    },
+    {
       "title": "OpenRouter is Joining Stripe",
       "date": "2026-08-19",
       "source_url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
     },
     {
       "title": "OpenRouter Image Generation: A Code-First API Tutorial",
       "date": "2026-08-17",
       "source_url": "https://openrouter.ai/blog/tutorials/image-generation/",
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24",
+      "source_kind": "blog"
     },
     {
-      "title": "Understand your AI usage: every agent, model, and request",
-      "date": "2026-08-17",
-      "source_url": "https://openrouter.ai/blog/announcements/activity-dashboard/",
-      "as_of": "2026-08-21"
+      "title": "Erroneous outage status",
+      "date": "2026-07-23",
+      "source_url": "https://status.openrouter.ai/incidents/rNB9qLkp-dOw",
+      "as_of": "2026-08-24",
+      "source_kind": "status"
     },
     {
-      "title": "How to Send an Image to an LLM via API (Vision Guide)",
-      "date": "2026-08-14",
-      "source_url": "https://openrouter.ai/blog/tutorials/send-image-to-llm/",
-      "as_of": "2026-08-21"
-    },
-    {
-      "title": "Tool Calling Across Any Model: Write the Loop Once, Swap the Model String",
-      "date": "2026-08-12",
-      "source_url": "https://openrouter.ai/blog/tutorials/tool-calling/",
-      "as_of": "2026-08-21"
+      "title": "Scheduled Database Maintenance",
+      "date": "2026-07-05",
+      "source_url": "https://status.openrouter.ai/incidents/0DVmalJZ9ozn",
+      "as_of": "2026-08-24",
+      "source_kind": "status"
     }
   ]
 }

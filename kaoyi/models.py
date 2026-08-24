@@ -61,11 +61,24 @@ class OfficialChannel(BaseModel):
         return base
 
 
+SOURCE_KIND_LABELS = {
+    "blog": "BLOG",
+    "releases": "RELEASES",
+    "status": "STATUS",
+    "forum": "FORUM",
+}
+
+
 class OfficialPost(BaseModel):
     title: str
     date: str = ""
     source_url: str
     as_of: str
+    source_kind: str = "blog"
+
+    @property
+    def source_label(self) -> str:
+        return SOURCE_KIND_LABELS.get(self.source_kind, "BLOG")
 
 
 class OfficialPostsFile(BaseModel):
@@ -183,9 +196,16 @@ class Event(BaseModel):
     example: bool = False
     status: str = "OPEN"
     note: str = ""
+    source_kind: str | None = None
     # Omitted in YAML: official price_change/promo default high;
     # example / community anecdote default low.
     confidence: float | None = Field(default=None, ge=0, le=1)
+
+    @property
+    def source_label(self) -> str:
+        if self.source_kind in SOURCE_KIND_LABELS:
+            return SOURCE_KIND_LABELS[self.source_kind]
+        return "OFFICIAL"
 
     @property
     def effective_confidence(self) -> float:
@@ -197,6 +217,7 @@ class Event(BaseModel):
             "price_change",
             "promo",
             "official_announce",
+            "status",
         }:
             return 0.9
         return 0.5
