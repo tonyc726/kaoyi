@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+from datetime import date
 from pathlib import Path
+from re import fullmatch
 
 from adapters.grok import (
     HEAVY_SUBSCRIBE_URL,
@@ -12,6 +14,14 @@ from adapters.volcengine_agent import fetch as fetch_volcengine_agent
 from kaoyi.load import assemble
 
 ROOT = Path(__file__).resolve().parents[1]
+ISO_DAY = r"\d{4}-\d{2}-\d{2}"
+
+
+def _assert_snapshot_as_of(value: str, snapshot_as_of: str) -> None:
+    assert value
+    assert fullmatch(ISO_DAY, value)
+    date.fromisoformat(value)
+    assert value == snapshot_as_of
 
 
 def test_volcengine_agent_lists_official_skus() -> None:
@@ -94,7 +104,7 @@ def test_claude_lists_official_max_skus() -> None:
     assert max20.amount == 200
     assert max20.currency == "USD"
     assert max20.period == "month"
-    assert max20.as_of == "2026-08-21"
+    _assert_snapshot_as_of(max20.as_of, page.snapshot.as_of)
     assert max20.source_url == (
         "https://support.anthropic.com/en/articles/11049741-what-is-the-max-plan"
     )
@@ -140,7 +150,8 @@ def test_openai_go_is_official_eight_dollars() -> None:
 
 
 def test_grok_snapshot_lists_official_individual_ladder() -> None:
-    plans = assemble(ROOT).page("grok").snapshot.plans
+    snapshot = assemble(ROOT).page("grok").snapshot
+    plans = snapshot.plans
     assert [plan.name for plan in plans] == [
         "Free",
         "SuperGrok Lite",
@@ -160,7 +171,7 @@ def test_grok_snapshot_lists_official_individual_ladder() -> None:
     assert lite.amount == 10
     assert lite.currency == "USD"
     assert lite.period == "month"
-    assert lite.as_of == "2026-08-21"
+    _assert_snapshot_as_of(lite.as_of, snapshot.as_of)
     assert lite.source_url == LITE_SUBSCRIBE_URL
 
     assert by_name["SuperGrok"].price.display == "$30"
@@ -176,7 +187,7 @@ def test_grok_snapshot_lists_official_individual_ladder() -> None:
     assert heavy.amount == 300
     assert heavy.currency == "USD"
     assert heavy.period == "month"
-    assert heavy.as_of == "2026-08-21"
+    _assert_snapshot_as_of(heavy.as_of, snapshot.as_of)
     assert heavy.source_url == HEAVY_SUBSCRIBE_URL
 
 
