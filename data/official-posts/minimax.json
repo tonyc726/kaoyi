@@ -1,7 +1,7 @@
 {
   "vendor_id": "minimax",
   "source_url": "https://www.minimaxi.com/",
-  "as_of": "2026-08-24",
+  "as_of": "2026-08-25",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,42 +9,42 @@
       "title": "cli v1.0.22",
       "date": "2026-08-21",
       "source_url": "https://github.com/MiniMax-AI/cli/releases/tag/v1.0.22",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_kind": "releases"
     },
     {
       "title": "cli v1.0.21",
       "date": "2026-08-21",
       "source_url": "https://github.com/MiniMax-AI/cli/releases/tag/v1.0.21",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_kind": "releases"
     },
     {
       "title": "MiniMax Music 3.0：新一代开放权重、生产级全能音乐模型",
       "date": "2026-08-13",
       "source_url": "https://www.minimaxi.com/blog/minimax-music-3-0-cn",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_kind": "blog"
     },
     {
       "title": "cli v1.0.19",
       "date": "2026-08-01",
       "source_url": "https://github.com/MiniMax-AI/cli/releases/tag/v1.0.19",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_kind": "releases"
     },
     {
       "title": "MiniMax H3：打破任务和模态的边界",
       "date": "2026-07-31",
       "source_url": "https://www.minimaxi.com/blog/minimax-h3",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_kind": "blog"
     },
     {
       "title": "M3MaxProof: 生成式验证强化学习驱动的数学证明进化系统",
       "date": "2026-06-09",
       "source_url": "https://www.minimaxi.com/blog/minimax-maxproof-math-proof-evolution",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_kind": "blog"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "vendor_id": "aliyun",
   "source_url": "https://help.aliyun.com/zh/model-studio/coding-plan",
-  "as_of": "2026-08-22",
+  "as_of": "2026-08-25",
   "fetched_ok": true,
   "parse_ok": true,
   "status": "LIMITED",
@@ -17,7 +17,7 @@
         "currency": "CNY",
         "period": "month",
         "source_url": "https://help.aliyun.com/zh/model-studio/coding-plan",
-        "as_of": "2026-08-22",
+        "as_of": "2026-08-25",
         "note": "已停新购"
       },
       "quota": "已停新购 / 停续费",
@@ -33,7 +33,7 @@
         "currency": "CNY",
         "period": "month",
         "source_url": "https://help.aliyun.com/zh/model-studio/coding-plan",
-        "as_of": "2026-08-22",
+        "as_of": "2026-08-25",
         "note": "新客首月 ¥39.90 见事件"
       },
       "quota": "每 5 小时 6,000 次；每周 45,000 次；每月 90,000 次",
