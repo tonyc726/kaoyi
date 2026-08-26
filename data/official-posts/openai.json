@@ -1,72 +1,72 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-08-25",
+  "as_of": "2026-08-26",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "date": "2026-08-24",
-      "source_url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "as_of": "2026-08-25",
+      "title": "The full stack behind abundant intelligence",
+      "date": "2026-08-25",
+      "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "as_of": "2026-08-26",
       "source_kind": "blog"
     },
     {
-      "title": "codex 0.150.0-alpha.8",
-      "date": "2026-08-24",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.8",
-      "as_of": "2026-08-25",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "date": "2026-08-25",
+      "source_url": "https://openai.com/index/jalapeno-first-results",
+      "as_of": "2026-08-26",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "date": "2026-08-25",
+      "source_url": "https://openai.com/index/introducing-admin-plugin",
+      "as_of": "2026-08-26",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.150.0-alpha.9",
+      "date": "2026-08-25",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.9",
+      "as_of": "2026-08-26",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.149.1",
-      "date": "2026-08-24",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1",
-      "as_of": "2026-08-25",
+      "title": "codex 0.150.0-alpha.11",
+      "date": "2026-08-25",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.11",
+      "as_of": "2026-08-26",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.149.0-alpha.4.3",
-      "date": "2026-08-23",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.4.3",
-      "as_of": "2026-08-25",
+      "title": "codex 0.150.0-alpha.10",
+      "date": "2026-08-25",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.10",
+      "as_of": "2026-08-26",
       "source_kind": "releases"
     },
     {
       "title": "Unexpected logouts for some ChatGPT web users",
       "date": "2026-08-21",
       "source_url": "https://status.openai.com/incidents/01M0JXWD740S0Y50DWJZS7SH75",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "status"
     },
     {
       "title": "Elevated Codex API authentication errors",
       "date": "2026-08-20",
       "source_url": "https://status.openai.com/incidents/01M0G1RZER839AZXWMYKSZF3GR",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "status"
     },
     {
       "title": "Elevated Errors for Thinking mode in ChatGPT",
       "date": "2026-08-20",
       "source_url": "https://status.openai.com/incidents/01M0FQAR3NNH3ANVTQMBRD47DC",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "status"
-    },
-    {
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "date": "2026-08-20",
-      "source_url": "https://openai.com/index/stampli",
-      "as_of": "2026-08-25",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Introducing AI Futures",
-      "date": "2026-08-20",
-      "source_url": "https://openai.com/index/introducing-ai-futures",
-      "as_of": "2026-08-25",
-      "source_kind": "blog"
     }
   ]
 }

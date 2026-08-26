@@ -1,71 +1,71 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-08-25",
+  "as_of": "2026-08-26",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "date": "2026-08-25",
+      "source_url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "as_of": "2026-08-26",
+      "source_kind": "blog"
+    },
+    {
+      "title": "claude-code v2.1.246",
+      "date": "2026-08-25",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
+      "as_of": "2026-08-26",
+      "source_kind": "releases"
+    },
+    {
+      "title": "claude-code v2.1.245",
+      "date": "2026-08-25",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
+      "as_of": "2026-08-26",
+      "source_kind": "releases"
+    },
+    {
       "title": "Errors logging into Claude.ai",
       "date": "2026-08-24",
       "source_url": "https://status.claude.com/incidents/w43j3xmngxgj",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "status"
     },
     {
       "title": "Elevated errors for multiple models",
       "date": "2026-08-24",
       "source_url": "https://status.claude.com/incidents/vgz5psbjmt1h",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "status"
     },
     {
       "title": "Issues logging into Claude.ai",
       "date": "2026-08-24",
       "source_url": "https://status.claude.com/incidents/n0rlp126qf8g",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "status"
     },
     {
       "title": "claude-code v2.1.243",
       "date": "2026-08-24",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243",
-      "as_of": "2026-08-25",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.241",
-      "date": "2026-08-23",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
-      "as_of": "2026-08-25",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.240",
-      "date": "2026-08-22",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "releases"
     },
     {
       "title": "How Claude’s text watermark works",
       "date": "2026-08-14",
       "source_url": "https://www.anthropic.com/news/claude-text-watermark",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "blog"
     },
     {
       "title": "Improving Fable 5's biology safeguards",
       "date": "2026-08-07",
       "source_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "as_of": "2026-08-25",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
-      "date": "2026-08-04",
-      "source_url": "https://www.anthropic.com/news/tino-cuellar",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_kind": "blog"
     }
   ]
