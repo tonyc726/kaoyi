@@ -1,29 +1,29 @@
 {
   "vendor_id": "aliyun",
   "source_url": "https://www.aliyun.com/product/news/",
-  "as_of": "2026-08-27",
+  "as_of": "2026-08-28",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "大模型服务平台百炼 - 视频生成模型 Wan3.0 正式上线",
+      "date": "2026-08-24",
+      "source_url": "https://www.aliyun.com/product/news/30378",
+      "as_of": "2026-08-28",
+      "source_kind": "blog"
+    },
+    {
       "title": "大模型服务平台百炼 - Qwen-Image-3.0 上线",
       "date": "2026-08-05",
       "source_url": "https://www.aliyun.com/product/news/30190",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     },
     {
       "title": "大模型服务平台百炼 - DeepSeek-V4-Flash-0731 上线，支持按量付费和 Token Plan 调用",
       "date": "2026-08-03",
       "source_url": "https://www.aliyun.com/product/news/30085",
-      "as_of": "2026-08-27",
-      "source_kind": "blog"
-    },
-    {
-      "title": "大模型服务平台百炼 - Qwen3.8-Max 模型上线",
-      "date": "2026-08-03",
-      "source_url": "https://www.aliyun.com/product/news/30083",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     }
   ]

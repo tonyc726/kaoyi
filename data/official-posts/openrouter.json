@@ -1,43 +1,50 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-08-27",
+  "as_of": "2026-08-28",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated 429s on Anthropic and OpenAI",
+      "date": "2026-08-28",
+      "source_url": "https://status.openrouter.ai/incidents/n8d-Ze48m14W",
+      "as_of": "2026-08-28",
+      "source_kind": "status"
+    },
+    {
       "title": "OpenRouter Video Generation API: A Code-First Guide",
       "date": "2026-08-25",
       "source_url": "https://openrouter.ai/blog/tutorials/video-generation-api/",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     },
     {
       "title": "How to Choose the Best AI Model (Live, in Your Editor)",
       "date": "2026-08-25",
       "source_url": "https://openrouter.ai/blog/tutorials/choose-best-ai-model/",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     },
     {
-      "title": "Image Benchmarks: See the Capabilities of Every Model",
-      "date": "2026-08-21",
-      "source_url": "https://openrouter.ai/blog/announcements/image-benchmarks/",
-      "as_of": "2026-08-27",
+      "title": "GPT 5.6 Discounts & Jevons Paradox",
+      "date": "2026-08-25",
+      "source_url": "https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     },
     {
       "title": "Erroneous outage status",
       "date": "2026-07-23",
       "source_url": "https://status.openrouter.ai/incidents/rNB9qLkp-dOw",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "status"
     },
     {
       "title": "Scheduled Database Maintenance",
       "date": "2026-07-05",
       "source_url": "https://status.openrouter.ai/incidents/0DVmalJZ9ozn",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "status"
     }
   ]

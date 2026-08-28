@@ -1,71 +1,71 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-08-27",
+  "as_of": "2026-08-28",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "claude-code v2.1.247",
-      "date": "2026-08-26",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
-      "as_of": "2026-08-27",
+      "title": "claude-code v2.1.250",
+      "date": "2026-08-28",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+      "as_of": "2026-08-28",
       "source_kind": "releases"
     },
     {
-      "title": "Funding better evaluations of AI’s impact on wellbeing",
-      "date": "2026-08-25",
-      "source_url": "https://www.anthropic.com/news/wellbeing-research-grants",
-      "as_of": "2026-08-27",
+      "title": "Previewing the Model Hardware Standard",
+      "date": "2026-08-27",
+      "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     },
     {
-      "title": "claude-code v2.1.246",
-      "date": "2026-08-25",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
-      "as_of": "2026-08-27",
+      "title": "Expanding our support for scientists",
+      "date": "2026-08-27",
+      "source_url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "as_of": "2026-08-28",
+      "source_kind": "blog"
+    },
+    {
+      "title": "claude-code v2.1.248",
+      "date": "2026-08-27",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+      "as_of": "2026-08-28",
       "source_kind": "releases"
     },
     {
-      "title": "claude-code v2.1.245",
-      "date": "2026-08-25",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
-      "as_of": "2026-08-27",
+      "title": "claude-code v2.1.247",
+      "date": "2026-08-26",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
+      "as_of": "2026-08-28",
       "source_kind": "releases"
     },
     {
       "title": "Errors logging into Claude.ai",
       "date": "2026-08-24",
       "source_url": "https://status.claude.com/incidents/w43j3xmngxgj",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "status"
     },
     {
       "title": "Elevated errors for multiple models",
       "date": "2026-08-24",
       "source_url": "https://status.claude.com/incidents/vgz5psbjmt1h",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "status"
     },
     {
       "title": "Issues logging into Claude.ai",
       "date": "2026-08-24",
       "source_url": "https://status.claude.com/incidents/n0rlp126qf8g",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "status"
     },
     {
       "title": "How Claude’s text watermark works",
       "date": "2026-08-14",
       "source_url": "https://www.anthropic.com/news/claude-text-watermark",
-      "as_of": "2026-08-27",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Improving Fable 5's biology safeguards",
-      "date": "2026-08-07",
-      "source_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     }
   ]

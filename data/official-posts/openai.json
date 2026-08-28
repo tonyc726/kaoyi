@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-08-27",
+  "as_of": "2026-08-28",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "codex 0.151.0-alpha.5",
-      "date": "2026-08-27",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.5",
-      "as_of": "2026-08-27",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.151.0-alpha.4",
-      "date": "2026-08-27",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.4",
-      "as_of": "2026-08-27",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.151.0-alpha.3",
-      "date": "2026-08-27",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.3",
-      "as_of": "2026-08-27",
-      "source_kind": "releases"
-    },
-    {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "date": "2026-08-26",
-      "source_url": "https://openai.com/index/loveholidays",
-      "as_of": "2026-08-27",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "date": "2026-08-28",
+      "source_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     },
     {
-      "title": "Learning never stops: How AI makes learning continuous",
-      "date": "2026-08-26",
-      "source_url": "https://openai.com/index/learning-never-stops",
-      "as_of": "2026-08-27",
+      "title": "codex 0.151.0-alpha.8",
+      "date": "2026-08-28",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.8",
+      "as_of": "2026-08-28",
+      "source_kind": "releases"
+    },
+    {
+      "title": "Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile",
+      "date": "2026-08-27",
+      "source_url": "https://status.openai.com/incidents/01M1263309PD7VYV8EF95W2M2P",
+      "as_of": "2026-08-28",
+      "source_kind": "status"
+    },
+    {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "date": "2026-08-27",
+      "source_url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
     },
     {
-      "title": "The Hugging Face incident and the road ahead",
-      "date": "2026-08-26",
-      "source_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "as_of": "2026-08-27",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "date": "2026-08-27",
+      "source_url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "as_of": "2026-08-28",
       "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.151.0-alpha.7",
+      "date": "2026-08-27",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.7",
+      "as_of": "2026-08-28",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.151.0-alpha.6",
+      "date": "2026-08-27",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.6",
+      "as_of": "2026-08-28",
+      "source_kind": "releases"
     },
     {
       "title": "Unexpected logouts for some ChatGPT web users",
       "date": "2026-08-21",
       "source_url": "https://status.openai.com/incidents/01M0JXWD740S0Y50DWJZS7SH75",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "status"
     },
     {
       "title": "Elevated Codex API authentication errors",
       "date": "2026-08-20",
       "source_url": "https://status.openai.com/incidents/01M0G1RZER839AZXWMYKSZF3GR",
-      "as_of": "2026-08-27",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated Errors for Thinking mode in ChatGPT",
-      "date": "2026-08-20",
-      "source_url": "https://status.openai.com/incidents/01M0FQAR3NNH3ANVTQMBRD47DC",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "source_kind": "status"
     }
   ]
