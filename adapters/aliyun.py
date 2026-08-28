@@ -4,6 +4,7 @@ import re
 
 from adapters.base import get_html, stub, today
 from kaoyi.models import Plan, PriceCell, Snapshot, Vendor
+from kaoyi.quota import parse_official_quota
 
 SOURCE_URL = "https://help.aliyun.com/zh/model-studio/coding-plan"
 VENDOR_ID = "aliyun"
@@ -35,6 +36,11 @@ def fetch() -> Snapshot:
         return stub(VENDOR, fetched_ok=True, notes="¥200/月 not found. No invented number.")
 
     as_of = today()
+    quota_text = (
+        "每 5 小时 6,000 次；每周 45,000 次；每月 90,000 次"
+        if "6,000" in html or "6000" in html
+        else "-"
+    )
     pro = Plan(
         id="pro",
         name="Pro",
@@ -47,9 +53,8 @@ def fetch() -> Snapshot:
             as_of=as_of,
             note="新客首月 ¥39.90 见事件",
         ),
-        quota="每 5 小时 6,000 次；每周 45,000 次；每月 90,000 次"
-        if "6,000" in html or "6000" in html
-        else "-",
+        quota=quota_text,
+        official_quota=parse_official_quota(quota_text, SOURCE_URL, as_of),
     )
     lite = Plan(
         id="lite",

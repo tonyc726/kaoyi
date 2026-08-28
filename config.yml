@@ -1,14 +1,14 @@
 site_name: 考异
 site_name_en: kaoyi
-one_liner: 对照各家官方套餐，再决定买哪一档。
+one_liner: 对照官方标价、单位成本与综合分，再决定买哪一档。
 site_base: /kaoyi/
 pages_url: https://tonyc726.github.io/kaoyi/
 usd_to_cny_rate: 6.8
 usd_to_cny_as_of: "2026-08-21"
 usd_to_cny_note: 编辑换算快照，不是牌价，也不是官方人民币价
-build_as_of: "2026-08-24"
-footer_zh: 最终以官方为准。价格是快照，不是实时行情。
-footer_en: Official pages win. Prices are snapshots, not live quotes.
+build_as_of: "2026-08-28"
+footer_zh: 最终以官方为准。价格与分数是定时快照（约每 3 小时），不是实时行情。
+footer_en: Official pages win. Prices and scores are snapshots about every 3 hours, not live quotes.
 layers:
   - id: official
     label: 官方标价

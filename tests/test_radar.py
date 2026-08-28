@@ -51,7 +51,8 @@ def test_partial_radar_skips_missing_axes() -> None:
     svg = render_radar_svg(review, _axes())
     assert "radar-shape" in svg
     assert "radar-dot" in svg
-    assert "编辑维度 · 无总分" in svg
+    assert "2.0 / 5" in svg
+    assert "无总分" not in svg
     assert svg.count("radar-dot") == 4
     assert review.scores.get("usage_economy") is None
     assert review.scores.get("capability") is None

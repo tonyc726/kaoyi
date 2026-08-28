@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # 08:00 Asia/Shanghai
-    - cron: "0 0 * * *"
+    # Every 3 hours UTC = 02/05/08/11/14/17/20/23 Asia/Shanghai
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -52,12 +52,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- data/snapshots data/events data/official-posts data/fetch-status.json
+          git add -- data/snapshots data/events data/official-posts data/fetch-status.json data/scores.json
           if git diff --cached --quiet; then
             echo "No data artifacts to commit"
             exit 0
           fi
-          git commit -m "data: daily official list prices"
+          git commit -m "data: official prices and derived scores"
           git push
 
       - name: Build static site

@@ -128,6 +128,14 @@ SOURCES: dict[str, list[OfficialSource]] = {
 }
 
 
+def has_official_status_source(
+    vendor_id: str,
+    sources: dict[str, list[OfficialSource]] | None = None,
+) -> bool:
+    catalog = SOURCES if sources is None else sources
+    return any(item.kind == "status" for item in catalog.get(vendor_id, []))
+
+
 def run_official_fetch(
     root: Path,
     *,

@@ -7,6 +7,8 @@ from pydantic import BaseModel, Field, field_validator, model_validator
 Kind = Literal["plan", "usage"]
 Layer = Literal["official", "community", "editorial"]
 Status = Literal["OPEN", "LIMITED", "SOLD OUT", "PAUSED"]
+QuotaUnit = Literal["credits", "requests"]
+QuotaWindow = Literal["week", "month", "5h"]
 
 
 class RadarAxis(BaseModel):
@@ -121,11 +123,29 @@ class PriceCell(BaseModel):
         return self.display.strip() in {"", "-"}
 
 
+class OfficialQuota(BaseModel):
+    """Numeric official allowance. Adapters fill this only when the page gives a number."""
+
+    amount: float
+    unit: QuotaUnit
+    window: QuotaWindow
+    source_url: str
+    as_of: str
+
+    @field_validator("amount")
+    @classmethod
+    def amount_must_be_positive(cls, value: float) -> float:
+        if isinstance(value, bool) or value <= 0:
+            raise ValueError("official quota amount must be a positive number")
+        return value
+
+
 class Plan(BaseModel):
     id: str
     name: str
     price: PriceCell
     quota: str = "-"
+    official_quota: OfficialQuota | None = None
     notes: str = ""
     status: str | None = None
 
@@ -252,6 +272,74 @@ class ReviewsFile(BaseModel):
         return self
 
 
+class CompositeScore(BaseModel):
+    value: float | None = None
+    scored_n: int = 0
+    axis_n: int = 8
+
+    @property
+    def display(self) -> str:
+        if self.value is None:
+            return "暂无综合分"
+        return f"{self.value:.1f} / 5"
+
+    @property
+    def scored_label(self) -> str:
+        return f"已评 {self.scored_n}/{self.axis_n}"
+
+
+class UnitCostRow(BaseModel):
+    vendor_id: str
+    vendor_name: str
+    sku_id: str
+    sku_name: str
+    league_id: str
+    league_label: str
+    monthly_list_cny: float
+    quota_amount: float
+    unit_cost_cny: float
+    display: str
+    converted: bool
+    source_url: str
+    as_of: str
+    is_best: bool = False
+
+
+class UnitCostLeague(BaseModel):
+    id: str
+    label: str
+    unit: str
+    window: str
+    rows: list[UnitCostRow] = Field(default_factory=list)
+    opinion: str = ""
+
+
+class UnrankedSku(BaseModel):
+    vendor_id: str
+    vendor_name: str
+    sku_id: str
+    sku_name: str
+    reason: str
+    as_of: str
+
+
+class VendorValueRow(BaseModel):
+    vendor_id: str
+    name: str
+    kind: str
+    composite: CompositeScore
+    review: Review
+    best_unit_cost: str | None = None
+    as_of: str
+
+
+class ValueReport(BaseModel):
+    as_of: str
+    vendors: list[VendorValueRow] = Field(default_factory=list)
+    leagues: list[UnitCostLeague] = Field(default_factory=list)
+    unranked: list[UnrankedSku] = Field(default_factory=list)
+
+
 class VendorPage(BaseModel):
     vendor: Vendor
     snapshot: Snapshot
@@ -259,6 +347,9 @@ class VendorPage(BaseModel):
     events: list[Event]
     radar_svg: str
     official_posts: list[OfficialPost] = Field(default_factory=list)
+    editorial: Review = Field(default_factory=Review)
+    composite: CompositeScore = Field(default_factory=CompositeScore)
+    best_unit_cost: str | None = None
 
 
 class SiteData(BaseModel):
@@ -270,6 +361,9 @@ class SiteData(BaseModel):
     fetch_status: FetchStatus | None = None
     official_posts: dict[str, OfficialPostsFile] = Field(default_factory=dict)
     pages: list[VendorPage] = Field(default_factory=list)
+    editorial_reviews: ReviewsFile | None = None
+    value: ValueReport | None = None
+    scores_as_of: str = ""
 
     def vendor(self, vendor_id: str) -> Vendor:
         for item in self.vendors:

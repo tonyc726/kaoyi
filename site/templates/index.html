@@ -11,11 +11,30 @@
     <li><span class="mono">{{ layer.id | upper }}</span> {{ layer.label }}</li>
     {% endfor %}
   </ul>
-  <p class="rule">数字来自官方定价页。没有公开数字就写「-」。</p>
+  <p class="rule">数字来自官方定价页。没有公开数字就写「-」。综合分不写进标价格。</p>
   {% if site.fetch_status and site.fetch_status.failed_vendor_ids %}
   <p class="banner mono" role="status">今日失败 {{ site.fetch_status.failed_vendor_ids|length }} 家</p>
   {% endif %}
 </section>
+
+<aside class="value-strip">
+  <div>
+    <p class="kicker mono">VALUE / COMPOSITE</p>
+    <h2>性价比与综合分</h2>
+    <p class="muted">综合分是已评轴的算术平均；单位成本按同一用量单位分组。官方标价表不按分数排序。</p>
+    {% if site.value %}
+    <ul class="value-pills">
+      {% for row in site.value.vendors[:6] %}
+      <li>
+        <a class="name" href="{{ abs('vendors/' ~ row.vendor_id ~ '/') }}">{{ row.name }}</a>
+        <span class="mono">{{ row.composite.display }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  <a class="btn solid" href="{{ abs('value/') }}">查看性价比</a>
+</aside>
 
 <section>
   <div class="section-head">
