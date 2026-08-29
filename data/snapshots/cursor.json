@@ -1,7 +1,7 @@
 {
   "vendor_id": "cursor",
   "source_url": "https://cursor.com/pricing",
-  "as_of": "2026-08-29",
+  "as_of": "2026-08-30",
   "fetched_ok": true,
   "parse_ok": true,
   "status": "OPEN",
@@ -17,7 +17,7 @@
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-29",
+        "as_of": "2026-08-30",
         "note": null
       },
       "quota": "Limited Agent requests；Composer",
@@ -34,7 +34,7 @@
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-29",
+        "as_of": "2026-08-30",
         "note": null
       },
       "quota": "-",
@@ -51,7 +51,7 @@
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-29",
+        "as_of": "2026-08-30",
         "note": null
       },
       "quota": "-",
@@ -68,7 +68,7 @@
         "currency": "USD",
         "period": "month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-29",
+        "as_of": "2026-08-30",
         "note": null
       },
       "quota": "-",
@@ -85,7 +85,7 @@
         "currency": "USD",
         "period": "user-month",
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-29",
+        "as_of": "2026-08-30",
         "note": null
       },
       "quota": "-",
@@ -102,7 +102,7 @@
         "currency": null,
         "period": null,
         "source_url": "https://cursor.com/pricing",
-        "as_of": "2026-08-29",
+        "as_of": "2026-08-30",
         "note": null
       },
       "quota": "-",

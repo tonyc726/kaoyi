@@ -1,7 +1,7 @@
 {
   "vendor_id": "cursor",
   "source_url": "https://cursor.com/changelog/rss.xml",
-  "as_of": "2026-08-29",
+  "as_of": "2026-08-30",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "Investigating service degradation — cursor.com and IDE",
       "date": "2026-08-27",
       "source_url": "https://status.cursor.com/incidents/ttm7sdszxfy4",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "status"
     },
     {
       "title": "Investigating service degradation — Grok Bot",
       "date": "2026-08-27",
       "source_url": "https://status.cursor.com/incidents/jvn3tt2zcqkw",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "status"
     },
     {
       "title": "Start from scratch, without a repo",
       "date": "2026-08-27",
       "source_url": "https://cursor.com/changelog/start-from-scratch",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "blog"
     },
     {
       "title": "Degraded performance of Grok models",
       "date": "2026-08-25",
       "source_url": "https://status.cursor.com/incidents/b5gh4w9q83dj",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "status"
     },
     {
       "title": "Cloud Agents and Cursor Harness Improvements",
       "date": "2026-08-19",
       "source_url": "https://cursor.com/changelog/08-19-26",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "blog"
     },
     {
       "title": "Git at any scale",
       "date": "2026-08-18",
       "source_url": "https://cursor.com/blog/git-at-any-scale",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "blog"
     },
     {
       "title": "Grok 4.6 is now Live!",
       "date": "2026-08-12",
       "source_url": "https://forum.cursor.com/t/grok-4-6-is-now-live/168189",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "forum"
     },
     {
       "title": "Introducing Grok Bot",
       "date": "2026-08-11",
       "source_url": "https://forum.cursor.com/t/introducing-grok-bot/168053",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "forum"
     },
     {
       "title": "Cursor Start: a new plan for developers in India",
       "date": "2026-07-28",
       "source_url": "https://forum.cursor.com/t/cursor-start-a-new-plan-for-developers-in-india/166792",
-      "as_of": "2026-08-29",
+      "as_of": "2026-08-30",
       "source_kind": "forum"
     }
   ]
