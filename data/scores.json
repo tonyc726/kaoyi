@@ -1,0 +1,255 @@
+{
+  "as_of": "2026-08-28",
+  "derived_axes": [
+    "availability",
+    "price_structure",
+    "usage_economy",
+    "stability",
+    "payment_region",
+    "billing_transparency"
+  ],
+  "handwritten_axes": [
+    "capability",
+    "switching_cost"
+  ],
+  "vendors": {
+    "zhipu": {
+      "status": "已评",
+      "scores": {
+        "availability": 5,
+        "price_structure": 5,
+        "usage_economy": 5,
+        "payment_region": 5,
+        "billing_transparency": 5,
+        "capability": 3,
+        "switching_cost": 2
+      },
+      "reasons": {
+        "availability": "官方状态 OPEN。",
+        "price_structure": "官方各档均有刊例数字。",
+        "usage_economy": "官方可核单位成本 ¥77.0 / 万积分，本联赛最低（每周积分）。",
+        "payment_region": "官方区域 CN，购买页人民币计价。",
+        "billing_transparency": "刊例含来源与日期，且官方用量为可核对数。",
+        "capability": "官方限定为编码套餐、规定工具内使用。",
+        "switching_cost": "官方写明套餐余额与开放平台按量隔离，禁止当通用 API。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 4.6,
+      "scored_n": 7
+    },
+    "minimax": {
+      "status": "已评",
+      "scores": {
+        "availability": 5,
+        "price_structure": 5,
+        "payment_region": 5,
+        "billing_transparency": 4,
+        "capability": 4,
+        "switching_cost": 3
+      },
+      "reasons": {
+        "availability": "官方状态 OPEN。",
+        "price_structure": "官方各档均有刊例数字。",
+        "payment_region": "官方区域 CN，购买页人民币计价。",
+        "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
+        "capability": "官方写明文本 / 图像 / 语音共用额度。",
+        "switching_cost": "平台额度，未见成品号锁定。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 4.3,
+      "scored_n": 6
+    },
+    "volcengine": {
+      "status": "已评",
+      "scores": {
+        "availability": 3,
+        "price_structure": 1,
+        "payment_region": 5,
+        "billing_transparency": 1
+      },
+      "reasons": {
+        "availability": "官方状态 LIMITED。",
+        "price_structure": "官方各档刊例均为「-」。",
+        "payment_region": "官方区域 CN，购买页人民币计价。",
+        "billing_transparency": "官方套餐未见刊例数字。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 2.5,
+      "scored_n": 4
+    },
+    "volcengine-agent": {
+      "status": "已评",
+      "scores": {
+        "availability": 3,
+        "price_structure": 5,
+        "payment_region": 5,
+        "billing_transparency": 4,
+        "capability": 3,
+        "switching_cost": 3
+      },
+      "reasons": {
+        "availability": "官方状态 LIMITED。",
+        "price_structure": "官方各档均有刊例数字。",
+        "payment_region": "官方区域 CN，购买页人民币计价。",
+        "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
+        "capability": "官方定位为 Agent 产品线。",
+        "switching_cost": "绑定火山账号体系。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 3.8,
+      "scored_n": 6
+    },
+    "aliyun": {
+      "status": "已评",
+      "scores": {
+        "availability": 3,
+        "price_structure": 3,
+        "usage_economy": 5,
+        "payment_region": 5,
+        "billing_transparency": 5,
+        "capability": 3,
+        "switching_cost": 2
+      },
+      "reasons": {
+        "availability": "官方状态 LIMITED。",
+        "price_structure": "官方 Lite 未见刊例数字。",
+        "usage_economy": "官方可核单位成本 ¥22.2 / 万次，本联赛最低（每月请求）。",
+        "payment_region": "官方区域 CN，购买页人民币计价。",
+        "billing_transparency": "刊例含来源与日期，且官方用量为可核对数。",
+        "capability": "官方定位为编码套餐。",
+        "switching_cost": "官方写明 Coding Plan Key 与按量 Key 不互通。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 4.0,
+      "scored_n": 7
+    },
+    "cursor": {
+      "status": "已评",
+      "scores": {
+        "availability": 5,
+        "price_structure": 3,
+        "stability": 2,
+        "payment_region": 3,
+        "billing_transparency": 4,
+        "capability": 5,
+        "switching_cost": 3
+      },
+      "reasons": {
+        "availability": "官方状态 OPEN。",
+        "price_structure": "官方 Enterprise 未见刊例数字。",
+        "stability": "官方状态页近90天记录 3 起事故。",
+        "payment_region": "官方区域 GLOBAL，购买页美元计价。",
+        "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
+        "capability": "官方含编辑器、Agent 与 cloud。",
+        "switching_cost": "绑定编辑器，代码仍在本地。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 3.6,
+      "scored_n": 7
+    },
+    "claude": {
+      "status": "已评",
+      "scores": {
+        "availability": 5,
+        "price_structure": 5,
+        "stability": 2,
+        "payment_region": 3,
+        "billing_transparency": 4,
+        "capability": 5,
+        "switching_cost": 4
+      },
+      "reasons": {
+        "availability": "官方状态 OPEN。",
+        "price_structure": "官方各档均有刊例数字。",
+        "stability": "官方状态页近90天记录 3 起事故。",
+        "payment_region": "官方区域 GLOBAL，购买页美元计价。",
+        "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
+        "capability": "官方付费档含 Claude Code。",
+        "switching_cost": "会员可换工具使用。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 3.7,
+      "scored_n": 7
+    },
+    "grok": {
+      "status": "已评",
+      "scores": {
+        "availability": 5,
+        "price_structure": 5,
+        "payment_region": 3,
+        "billing_transparency": 4,
+        "capability": 4,
+        "switching_cost": 3
+      },
+      "reasons": {
+        "availability": "官方状态 OPEN。",
+        "price_structure": "官方各档均有刊例数字。",
+        "payment_region": "官方区域 GLOBAL，购买页美元计价。",
+        "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
+        "capability": "官方含 Imagine / Voice / Build。",
+        "switching_cost": "X 生态订阅绑定。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 4.0,
+      "scored_n": 6
+    },
+    "openai": {
+      "status": "已评",
+      "scores": {
+        "availability": 5,
+        "price_structure": 5,
+        "stability": 2,
+        "payment_region": 3,
+        "billing_transparency": 4,
+        "capability": 4,
+        "switching_cost": 3
+      },
+      "reasons": {
+        "availability": "官方状态 OPEN。",
+        "price_structure": "官方各档均有刊例数字。",
+        "stability": "官方状态页近90天记录 3 起事故。",
+        "payment_region": "官方区域 GLOBAL，购买页美元计价。",
+        "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
+        "capability": "Codex 跟会员走，不是 API 预付。",
+        "switching_cost": "绑定 ChatGPT 会员。"
+      },
+      "note": "",
+      "updated_at": "2026-08-28",
+      "composite": 3.7,
+      "scored_n": 7
+    },
+    "openrouter": {
+      "status": "已评",
+      "scores": {
+        "availability": 5,
+        "price_structure": 1,
+        "stability": 2,
+        "payment_region": 3,
+        "billing_transparency": 1,
+        "capability": 5,
+        "switching_cost": 5
+      },
+      "reasons": {
+        "availability": "官方状态 OPEN。",
+        "price_structure": "官方各档刊例均为「-」。",
+        "stability": "官方状态页近90天记录 3 起事故。",
+        "payment_region": "官方区域 GLOBAL，购买页美元计价。",
+        "billing_transparency": "官方套餐未见刊例数字。",
+        "capability": "官方聚合 500+ 模型。",
+        "switching_cost": "一 Key 多家，迁出容易。"
+      },
+      "note": "不是官方直营，是模型聚合平台。",
+      "updated_at": "2026-08-28",
+      "composite": 2.6,
+      "scored_n": 7
+    }
+  }
+}

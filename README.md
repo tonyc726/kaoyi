@@ -2,9 +2,9 @@
 
 一事多源并列，写明取舍。
 
-静态对照站：AI Coding / Token Plan 的**官方标价**、**社区事件**、**编辑维度**分三层陈列，不合成为一颗星。
+静态对照站：AI Coding / Token Plan 的**官方标价**、**社区事件**、**综合分 / 单位成本**分三层陈列。综合分是已评轴的算术平均，不是填空黑盒星；官方标价表不被分数改写。
 
-A static comparison site for AI coding and token plans. Official list prices, community events, and editorial axes stay three separate layers. No overall star rating.
+A static comparison site for AI coding and token plans. Official list prices, community events, and scores stay three separate layers. The composite is the mean of scored axes only.
 
 站点 / Site: <https://tonyc726.github.io/kaoyi/>
 
@@ -28,7 +28,7 @@ uv run ruff check .
 uv run python scripts/fetch.py
 ```
 
-每日 08:00（Asia/Shanghai，cron `0 0 * * *` UTC）GitHub Action 会对每家 adapter 跑 `scripts/fetch.py`，写入 `data/snapshots/`；只有官方目录价真的变了才新增 `price_change` 事件。今日抓取/解析失败记在 `data/fetch-status.json`（与快照里的 `parse_ok` 分开——保留上次有效数字时快照仍是 `parse_ok=true`），首页在 N>0 时显示「今日失败 N 家」。`workflow_dispatch` 可立刻跑同一条流水线。官方动态来自各家官网博客/更新日志、已核验的 GitHub Releases、公开状态页和论坛公告分类（解析失败保留上次有效条目），只保留 `as_of` / 构建日（Asia/Shanghai）起近 90 天的条目，标签为 BLOG / RELEASES / STATUS / FORUM；火山引擎公司新闻不挂到 Coding Plan 与 Agent Plan 两家。不抓 X，不把社区站当权威源。X / 微博 / 公众号 / Discord 账号只在该厂商自己的官网链出时才写入 `vendors.yml`。
+约每 3 小时（cron `0 */3 * * *` UTC，上海时间 02/05/08/11/14/17/20/23）GitHub Action 会对每家 adapter 跑 `scripts/fetch.py`，写入 `data/snapshots/` 与推导分数 `data/scores.json`；只有官方目录价真的变了才新增 `price_change` 事件。今日抓取/解析失败记在 `data/fetch-status.json`（与快照里的 `parse_ok` 分开——保留上次有效数字时快照仍是 `parse_ok=true`），首页在 N>0 时显示「今日失败 N 家」。`workflow_dispatch` 可立刻跑同一条流水线。官方动态来自各家官网博客/更新日志、已核验的 GitHub Releases、公开状态页和论坛公告分类（解析失败保留上次有效条目），只保留 `as_of` / 构建日（Asia/Shanghai）起近 90 天的条目，标签为 BLOG / RELEASES / STATUS / FORUM；火山引擎公司新闻不挂到 Coding Plan 与 Agent Plan 两家。不抓 X，不把社区站当权威源。X / 微博 / 公众号 / Discord 账号只在该厂商自己的官网链出时才写入 `vendors.yml`。价格与分数是定时快照，不是实时行情。
 
 GITHUB_TOKEN 提交数据**不会**再触发其他 workflow，所以定时任务在同一次 job 里、用抓取后的工作区构建并部署 Pages，不依赖数据提交去重跑 `pages.yml`。只提交数据产物（snapshots、新事件、fetch-status），不提交 `dist/`。
 
@@ -60,7 +60,9 @@ Issues are the community intake. Linux.do and 小红书 login walls are not scra
 - 每个价格格带 `source_url` 与 `as_of`
 - OpenAI ChatGPT/Codex 是会员行，不与 OpenAI API 预付合并
 - 汇率快照：`config.yml` 里 `usd_to_cny_rate: 6.8`，带日期，不是牌价
-- 编辑分是人手、每月至多一轮、稳定轴无事件则未评
+- 推导轴（可获得性、价格结构、用量经济、稳定性、支付与区域、计费透明度）每次抓取重算；能力覆盖与切换成本仍是手写，不编造
+- 综合分是已评轴平均；缺轴不记 3；不足 3 轴则暂无综合分
+- 单位成本只比较同一官方用量单位；没有可核对数就不进联赛
 
 ## 许可 / License
 

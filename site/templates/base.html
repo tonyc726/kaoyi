@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}{{ cfg.site_name }} / {{ cfg.site_name_en }}{% endblock %}</title>
-  <meta name="description" content="{{ cfg.one_liner }} Official list prices, community events, and editorial axes stay three separate layers.">
+  <meta name="description" content="{{ cfg.one_liner }} Official list prices, community events, and scores stay visually separate layers.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
@@ -20,6 +20,7 @@
       </a>
       <nav class="nav" aria-label="主栏目">
         <a href="{{ abs('') }}" {% if nav == 'plans' %}aria-current="page"{% endif %}>套餐对照</a>
+        <a href="{{ abs('value/') }}" {% if nav == 'value' %}aria-current="page"{% endif %}>性价比</a>
         <a href="{{ abs('usage/') }}" {% if nav == 'usage' %}aria-current="page"{% endif %}>按量 / 聚合</a>
         <a href="{{ abs('events/') }}" {% if nav == 'events' %}aria-current="page"{% endif %}>事件</a>
         <a href="{{ abs('about/') }}" {% if nav == 'about' %}aria-current="page"{% endif %}>关于</a>

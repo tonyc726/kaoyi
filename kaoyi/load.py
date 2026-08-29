@@ -18,7 +18,9 @@ from kaoyi.models import (
     empty_snapshot,
 )
 from kaoyi.official import load_official_posts_dir, official_posts_as_events
+from kaoyi.quota import hydrate_snapshot
 from kaoyi.radar import render_radar_svg
+from kaoyi.scores import build_value_layer, composite_score
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -75,11 +77,11 @@ def load_fetch_status(root: Path = ROOT) -> FetchStatus | None:
     return FetchStatus.model_validate_json(path.read_text(encoding="utf-8"))
 
 
-def assemble(root: Path = ROOT) -> SiteData:
+def assemble(root: Path = ROOT, *, scores_as_of: str | None = None) -> SiteData:
     config = load_config(root)
     vendors = load_vendors(root)
-    snapshots = load_snapshots(root)
-    reviews = load_reviews(root)
+    snapshots = {key: hydrate_snapshot(item) for key, item in load_snapshots(root).items()}
+    editorial = load_reviews(root)
     events = load_events(root)
     fetch_status = load_fetch_status(root)
     official_posts = load_official_posts(root, as_of=config.build_as_of)
@@ -88,9 +90,25 @@ def assemble(root: Path = ROOT) -> SiteData:
     merged_events = events + [event for event in announce_events if event.id not in yaml_ids]
     merged_events.sort(key=lambda event: (event.as_of, event.id), reverse=True)
 
+    as_of = scores_as_of or config.build_as_of
+    live_snapshots = {
+        vendor.id: snapshots.get(vendor.id) or empty_snapshot(vendor, config.build_as_of)
+        for vendor in vendors
+    }
+    reviews, value, _artifact = build_value_layer(
+        vendors,
+        live_snapshots,
+        editorial,
+        official_posts,
+        config.radar_axes,
+        usd_to_cny_rate=config.usd_to_cny_rate,
+        as_of=as_of,
+    )
+    value_by_id = {row.vendor_id: row for row in value.vendors}
+
     pages: list[VendorPage] = []
     for vendor in vendors:
-        snapshot = snapshots.get(vendor.id) or empty_snapshot(vendor, config.build_as_of)
+        snapshot = live_snapshots[vendor.id]
         review = reviews.vendors.get(vendor.id) or Review()
         vendor_events = [
             event
@@ -98,6 +116,7 @@ def assemble(root: Path = ROOT) -> SiteData:
             if event.vendor_id == vendor.id and event.kind not in {"official_announce", "status"}
         ]
         file = official_posts.get(vendor.id)
+        row = value_by_id.get(vendor.id)
         pages.append(
             VendorPage(
                 vendor=vendor,
@@ -106,16 +125,22 @@ def assemble(root: Path = ROOT) -> SiteData:
                 events=vendor_events,
                 radar_svg=render_radar_svg(review, config.radar_axes),
                 official_posts=file.posts if file and file.parse_ok else [],
+                editorial=editorial.vendors.get(vendor.id) or Review(),
+                composite=row.composite if row else composite_score(review, config.radar_axes),
+                best_unit_cost=row.best_unit_cost if row else None,
             )
         )
 
     return SiteData(
         config=config,
         vendors=vendors,
-        snapshots=snapshots,
+        snapshots=live_snapshots,
         reviews=reviews,
         events=merged_events,
         fetch_status=fetch_status,
         official_posts=official_posts,
         pages=pages,
+        editorial_reviews=editorial,
+        value=value,
+        scores_as_of=as_of,
     )

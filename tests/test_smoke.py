@@ -28,7 +28,7 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     html = index.read_text(encoding="utf-8")
     assert "/kaoyi/assets/css/site.css" in html
     assert "考异" in html
-    assert "对照各家官方套餐，再决定买哪一档。" in html
+    assert "对照官方标价、单位成本与综合分，再决定买哪一档。" in html
     assert "一事多源并列" not in html
     assert "一行一个官方 SKU" not in html
     assert "入门 / 主力 / 高用量" not in html
@@ -51,6 +51,7 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert (dest / "usage" / "index.html").exists()
     assert (dest / "events" / "index.html").exists()
     assert (dest / "about" / "index.html").exists()
+    assert (dest / "value" / "index.html").exists()
     assert not (dest / "CNAME").exists()
     assert not (ROOT / "CNAME").exists()
     assert not (ROOT / "affiliates.yml").exists()
@@ -63,6 +64,9 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "Max 20x" in html
     assert "Max 10x" not in html
     assert "套餐对照" in html
+    assert "性价比" in html
+    assert "查看性价比" in html
+    assert "价格与分数是定时快照（约每 3 小时），不是实时行情。" in html
     assert "下单前请回官方页确认。" in html
     assert "今日失败" not in html
     assert "plan-ladders" not in html
@@ -109,10 +113,20 @@ def test_build_writes_pages_under_kaoyi_base(tmp_path: Path, monkeypatch) -> Non
     assert "uv run python scripts/build.py" not in about
     assert "为什么做这个" in about
     assert "能帮你什么" in about
-    assert "买 coding 套餐之前，把官方标价放在一起看。" in about
+    assert "买 coding 套餐之前，把官方标价、单位成本和综合分放在一起看。" in about
     assert "<article" in about
     assert "升格" in about
-    assert "编辑分是人手、每月至多一轮、稳定轴无事件则未评。" in about
+    assert "价格与分数是定时快照（约每 3 小时），不是实时行情。" in about
+    assert "不替你排序该买哪家" not in about
+    value = (dest / "value" / "index.html").read_text(encoding="utf-8")
+    assert "怎么看这个分" in value
+    assert "无法自动比性价比" in value
+    assert "每周积分" in value
+    assert "每月请求" in value
+    assert "智谱AI" in value
+    assert "¥118 / 万积分" in value
+    assert "无总分" not in value
+    assert "/go/" not in value
     assert 'id="binary-field"' in html
     assert "/kaoyi/assets/js/binary-field.js" in html
     assert (dest / "assets" / "js" / "binary-field.js").exists()

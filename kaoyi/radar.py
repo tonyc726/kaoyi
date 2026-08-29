@@ -18,6 +18,29 @@ def invert_for_display(axis: RadarAxis, score: int) -> int:
     return value
 
 
+def buyer_axis_values(review: Review, axes: list[RadarAxis]) -> list[int]:
+    """Higher is better for the buyer. switching_cost is inverted like the radar."""
+    values: list[int] = []
+    for axis in axes:
+        raw = review.scores.get(axis.id)
+        if raw is None:
+            continue
+        value = int(raw)
+        if not (1 <= value <= DEFAULT_MAX):
+            continue
+        values.append(invert_for_display(axis, value))
+    return values
+
+
+def radar_caption(review: Review, axes: list[RadarAxis]) -> str:
+    values = buyer_axis_values(review, axes)
+    if not values:
+        return "未评"
+    if len(values) < 3:
+        return "暂无综合分"
+    return f"{sum(values) / len(values):.1f} / 5"
+
+
 def _point(index: int, total: int, magnitude: float) -> tuple[float, float]:
     # Start at 12 o'clock, clockwise.
     angle = -math.pi / 2 + (2 * math.pi * index / total)
@@ -50,7 +73,7 @@ def render_radar_svg(review: Review, axes: list[RadarAxis]) -> str:
 
     polygon = ""
     dots: list[str] = []
-    caption = "未评"
+    caption = radar_caption(review, axes)
     scored_points: list[tuple[float, float]] = []
     for index, axis in enumerate(axes):
         raw = review.scores.get(axis.id)
@@ -65,7 +88,6 @@ def render_radar_svg(review: Review, axes: list[RadarAxis]) -> str:
         dots.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.5" class="radar-dot" />')
 
     if scored_points:
-        caption = "编辑维度 · 无总分"
         if len(scored_points) >= 3:
             points = " ".join(f"{x:.1f},{y:.1f}" for x, y in scored_points)
             polygon = f'<polygon points="{points}" class="radar-shape" />'

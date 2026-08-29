@@ -15,6 +15,7 @@ if str(ROOT) not in sys.path:
 
 from kaoyi.load import assemble  # noqa: E402
 from kaoyi.models import Plan, SiteData  # noqa: E402
+from kaoyi.scores import persist_scores  # noqa: E402
 
 SITE = ROOT / "site"
 DIST = ROOT / "dist"
@@ -51,6 +52,7 @@ def price_or_dash(plan: Plan | None) -> str:
 
 def main() -> int:
     data = assemble(ROOT)
+    persist_scores(ROOT, data)
     env = Environment(
         loader=FileSystemLoader(str(SITE / "templates")),
         autoescape=select_autoescape(["html", "xml"]),
@@ -77,6 +79,7 @@ def main() -> int:
     _write(DIST / "usage" / "index.html", env.get_template("usage.html").render())
     _write(DIST / "events" / "index.html", env.get_template("events.html").render())
     _write(DIST / "about" / "index.html", env.get_template("about.html").render())
+    _write(DIST / "value" / "index.html", env.get_template("value.html").render())
     for page in data.pages:
         _write(
             DIST / "vendors" / page.vendor.id / "index.html",

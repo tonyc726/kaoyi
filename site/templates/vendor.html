@@ -75,8 +75,9 @@
 <section class="split">
   <div>
     <div class="section-head">
-      <h2>编辑维度</h2>
-      <p class="muted">{{ page.review.status }}。无总分。切换成本绘图时取反，外圈仍表示对用户更有利。</p>
+      <h2>综合分</h2>
+      <p class="composite">{{ page.composite.display }}</p>
+      <p class="muted">{{ page.composite.scored_label }}。综合分是已评轴的算术平均，缺轴不记 3。切换成本按对买家更有利取反后计入。</p>
     </div>
     <div class="radar-box">
       {{ page.radar_svg | safe }}
@@ -100,8 +101,14 @@
     {% if page.review.note %}
     <p class="muted">{{ page.review.note }}</p>
     {% endif %}
+    {% if page.best_unit_cost %}
+    <p class="muted">最低单位成本：{{ page.best_unit_cost }}</p>
+    {% endif %}
     {% if page.review.updated_at %}
-    <p class="src mono">SRC EDITORIAL · AS OF {{ page.review.updated_at }}</p>
+    <p class="src mono">SRC DERIVED · AS OF {{ page.review.updated_at }}</p>
+    {% endif %}
+    {% if page.editorial.updated_at %}
+    <p class="src mono">SRC EDITORIAL · AS OF {{ page.editorial.updated_at }}</p>
     {% endif %}
   </div>
   <div>

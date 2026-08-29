@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% set nav = "value" %}
+{% block title %}性价比 · {{ cfg.site_name }}{% endblock %}
+{% block main %}
+<section class="hero">
+  <p class="kicker mono">VALUE / COMPOSITE</p>
+  <h1>性价比 <span class="thin">综合分</span></h1>
+  <p class="lede">一眼看综合分，再按同一用量单位比刊例单位成本。缺证据的轴和套餐会空着，不会补 3，也不会改写官方标价。</p>
+</section>
+
+<section class="value-how">
+  <p class="kicker mono">怎么看这个分</p>
+  <p>综合分 = 已评轴的算术平均。缺轴不计入，也不当成 3。已评不足 3 轴则写「暂无综合分」。切换成本按对买家更有利取反后计入。</p>
+  <p>单位成本是另一张表：只比较官方写出的同一用量单位（例如积分/周 与 请求/月 不混排）。美元刊例按页脚汇率换成人民币，并标「编辑换算」。用的是刊例，不是活动价。</p>
+</section>
+
+<section>
+  <div class="section-head">
+    <h2>综合分</h2>
+    <p class="muted">官方标价表不按此排序。SRC {{ site.scores_as_of or cfg.build_as_of }}</p>
+  </div>
+  <div class="table-wrap">
+    <table class="grid value-table">
+      <thead>
+        <tr>
+          <th>平台</th>
+          <th>综合分</th>
+          <th>已评</th>
+          <th>最低单位成本</th>
+          <th>AS OF</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in site.value.vendors %}
+        <tr>
+          <td>
+            <a class="name" href="{{ abs('vendors/' ~ row.vendor_id ~ '/') }}">{{ row.name }}</a>
+          </td>
+          <td>
+            <div class="mono">{{ row.composite.display }}</div>
+            <details class="axis-expand">
+              <summary>八轴</summary>
+              <dl class="axis-list">
+                {% for axis in cfg.radar_axes %}
+                {% set score = row.review.scores.get(axis.id) %}
+                <div class="axis-row">
+                  <dt>{{ axis.label }}</dt>
+                  <dd>
+                    {% if score %}
+                    <span class="mono">{{ score }}</span>
+                    <span class="muted">{{ row.review.reasons.get(axis.id) }}</span>
+                    {% else %}
+                    <span class="muted">未评</span>
+                    {% endif %}
+                  </dd>
+                </div>
+                {% endfor %}
+              </dl>
+            </details>
+          </td>
+          <td class="mono small">{{ row.composite.scored_label }}</td>
+          <td>
+            {% if row.best_unit_cost %}
+            {{ row.best_unit_cost }}
+            {% else %}
+            <span class="muted">无法自动比性价比</span>
+            {% endif %}
+          </td>
+          <td class="mono small">{{ row.as_of }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{% for league in site.value.leagues %}
+<section>
+  <div class="section-head">
+    <h2>{{ league.label }}</h2>
+    <p class="muted">{{ league.opinion }}</p>
+  </div>
+  <div class="table-wrap">
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>套餐</th>
+          <th>刊例单位成本</th>
+          <th>官方用量</th>
+          <th>来源</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in league.rows %}
+        <tr>
+          <td>
+            <a class="name" href="{{ abs('vendors/' ~ row.vendor_id ~ '/') }}">{{ row.vendor_name }}</a>
+            <div class="sub">{{ row.sku_name }}{% if row.is_best %} · 本轮最低{% endif %}</div>
+          </td>
+          <td class="mono">{{ row.display }}</td>
+          <td class="mono small">{{ row.quota_amount|int }} · {{ league.label }}</td>
+          <td class="src mono"><a href="{{ row.source_url }}" rel="noopener noreferrer">SRC OFFICIAL · AS OF {{ row.as_of }}</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endfor %}
+
+<section>
+  <div class="section-head">
+    <h2>无法自动比性价比</h2>
+    <p class="muted">官方未给可核对用量或刊例的 SKU。倍率（5x / 20x）和「约 N 个 Agent」不算硬数量。</p>
+  </div>
+  {% if site.value.unranked %}
+  <div class="table-wrap">
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>平台</th>
+          <th>档位</th>
+          <th>说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in site.value.unranked %}
+        <tr>
+          <td><a class="name" href="{{ abs('vendors/' ~ row.vendor_id ~ '/') }}">{{ row.vendor_name }}</a></td>
+          <td>{{ row.sku_name }}</td>
+          <td class="muted">{{ row.reason }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <p class="muted mono">EMPTY</p>
+  {% endif %}
+</section>
+{% endblock %}

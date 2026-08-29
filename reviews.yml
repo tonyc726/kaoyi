@@ -1,8 +1,11 @@
-# Editorial layer. Handwritten first round, approved 2026-08-24.
+# Handwritten overlay. Derived official-signal axes are recomputed every fetch
+# and win for those ids (availability, price_structure, usage_economy, stability,
+# payment_region, billing_transparency). This file fills capability / switching_cost
+# (and payment_region only when region+currency cannot be derived).
 # Integers 1–5 only with official evidence. Omit an axis when 未评.
-# Do not invent a 3 to fill the radar. No overall star.
-# Radar area must never be used as a sort key.
-# switching_cost is buyer-facing (high = easier to leave); inverted at draw time.
+# Do not invent a 3 to fill the radar. Do not fabricate handwritten axes.
+# Composite = mean of scored axes; official price table is not sorted by score.
+# switching_cost is buyer-facing (high = easier to leave); inverted at draw / composite.
 
 axes:
   - availability
