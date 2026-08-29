@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/pricing",
-  "as_of": "2026-08-28",
+  "as_of": "2026-08-29",
   "fetched_ok": true,
   "parse_ok": true,
   "status": "OPEN",
@@ -17,10 +17,11 @@
         "currency": "USD",
         "period": "usage",
         "source_url": "https://openrouter.ai/pricing",
-        "as_of": "2026-08-28",
+        "as_of": "2026-08-29",
         "note": "无最低消费，按模型计价"
       },
       "quota": "500+ models",
+      "official_quota": null,
       "notes": "",
       "status": null
     }
@@ -30,6 +31,6 @@
     "min_spend": "none",
     "token_list_price": "-",
     "source_url": "https://openrouter.ai/pricing",
-    "as_of": "2026-08-28"
+    "as_of": "2026-08-29"
   }
 }
