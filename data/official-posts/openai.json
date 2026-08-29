@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.152.0-alpha.1",
+      "date": "2026-08-29",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.1",
+      "as_of": "2026-08-29",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.151.0-alpha.12",
       "date": "2026-08-29",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.12",
@@ -13,7 +20,7 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex rust-v0.151.0",
+      "title": "codex 0.151.0",
       "date": "2026-08-29",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0",
       "as_of": "2026-08-29",
@@ -32,13 +39,6 @@
       "source_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "as_of": "2026-08-29",
       "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.151.0-alpha.9",
-      "date": "2026-08-28",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.9",
-      "as_of": "2026-08-29",
-      "source_kind": "releases"
     },
     {
       "title": "Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile",
