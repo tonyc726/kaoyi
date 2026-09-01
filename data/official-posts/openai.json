@@ -13,6 +13,13 @@
       "source_kind": "status"
     },
     {
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "date": "2026-09-01",
+      "source_url": "https://openai.com/index/path-to-astra",
+      "as_of": "2026-09-02",
+      "source_kind": "blog"
+    },
+    {
       "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
       "date": "2026-09-01",
       "source_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
@@ -27,23 +34,23 @@
       "source_kind": "blog"
     },
     {
+      "title": "codex 0.153.0-alpha.4",
+      "date": "2026-09-01",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.4",
+      "as_of": "2026-09-02",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex rust-v0.153.0-alpha.3",
+      "date": "2026-09-01",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.3",
+      "as_of": "2026-09-02",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.153.0-alpha.2",
       "date": "2026-09-01",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.2",
-      "as_of": "2026-09-02",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.153.0-alpha.1",
-      "date": "2026-09-01",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.1",
-      "as_of": "2026-09-02",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.152.0-alpha.7.2",
-      "date": "2026-09-01",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7.2",
       "as_of": "2026-09-02",
       "source_kind": "releases"
     },
@@ -60,13 +67,6 @@
       "source_url": "https://status.openai.com/incidents/01M1C5M4K0WC8PPT0Z175RJA1E",
       "as_of": "2026-09-02",
       "source_kind": "status"
-    },
-    {
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "date": "2026-08-31",
-      "source_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "as_of": "2026-09-02",
-      "source_kind": "blog"
     }
   ]
 }

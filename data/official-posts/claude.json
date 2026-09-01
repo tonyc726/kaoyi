@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "date": "2026-09-01",
+      "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "as_of": "2026-09-02",
+      "source_kind": "blog"
+    },
+    {
       "title": "Degraded performance on Claude for Microsoft Office 365",
       "date": "2026-09-01",
       "source_url": "https://status.claude.com/incidents/nr3h7bw8b3k3",
@@ -18,6 +25,13 @@
       "source_url": "https://status.claude.com/incidents/3g3d55q6vk3h",
       "as_of": "2026-09-02",
       "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.258",
+      "date": "2026-09-01",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
+      "as_of": "2026-09-02",
+      "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.257",
@@ -48,23 +62,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "claude-code v2.1.251",
-      "date": "2026-08-28",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
-      "as_of": "2026-09-02",
-      "source_kind": "releases"
-    },
-    {
       "title": "Previewing the Model Hardware Standard",
       "date": "2026-08-27",
       "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "as_of": "2026-09-02",
-      "source_kind": "blog"
-    },
-    {
-      "title": "How Claude’s text watermark works",
-      "date": "2026-08-14",
-      "source_url": "https://www.anthropic.com/news/claude-text-watermark",
       "as_of": "2026-09-02",
       "source_kind": "blog"
     }
