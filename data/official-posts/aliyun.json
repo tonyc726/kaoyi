@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "大模型服务平台百炼 - Qwen3.8-Flash 发布",
+      "date": "2026-08-28",
+      "source_url": "https://www.aliyun.com/product/news/30535",
+      "as_of": "2026-09-01",
+      "source_kind": "blog"
+    },
+    {
       "title": "大模型服务平台百炼 - 上新Qwen3.8-2.4T-A95B开源模型",
       "date": "2026-08-24",
       "source_url": "https://www.aliyun.com/product/news/30379",
@@ -16,13 +23,6 @@
       "title": "大模型服务平台百炼 - 视频生成模型 Wan3.0 正式上线",
       "date": "2026-08-24",
       "source_url": "https://www.aliyun.com/product/news/30378",
-      "as_of": "2026-09-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "大模型服务平台百炼 - Qwen-Image-3.0 上线",
-      "date": "2026-08-05",
-      "source_url": "https://www.aliyun.com/product/news/30190",
       "as_of": "2026-09-01",
       "source_kind": "blog"
     }
