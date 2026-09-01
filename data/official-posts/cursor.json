@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Investigating service degradation",
+      "date": "2026-09-01",
+      "source_url": "https://status.cursor.com/incidents/zxhsl1vgfvf0",
+      "as_of": "2026-09-01",
+      "source_kind": "status"
+    },
+    {
       "title": "Investigating service degradation — cursor.com and IDE",
       "date": "2026-08-27",
       "source_url": "https://status.cursor.com/incidents/ttm7sdszxfy4",
@@ -25,13 +32,6 @@
       "source_url": "https://cursor.com/changelog/start-from-scratch",
       "as_of": "2026-09-01",
       "source_kind": "blog"
-    },
-    {
-      "title": "Degraded performance of Grok models",
-      "date": "2026-08-25",
-      "source_url": "https://status.cursor.com/incidents/b5gh4w9q83dj",
-      "as_of": "2026-09-01",
-      "source_kind": "status"
     },
     {
       "title": "Cloud Agents and Cursor Harness Improvements",

@@ -133,7 +133,7 @@
       "scores": {
         "availability": 5,
         "price_structure": 3,
-        "stability": 2,
+        "stability": 3,
         "payment_region": 3,
         "billing_transparency": 4,
         "capability": 5,
@@ -142,7 +142,7 @@
       "reasons": {
         "availability": "官方状态 OPEN。",
         "price_structure": "官方 Enterprise 未见刊例数字。",
-        "stability": "官方状态页近90天记录 3 起事故。",
+        "stability": "官方状态页近90天记录 2 起事故。",
         "payment_region": "官方区域 GLOBAL，购买页美元计价。",
         "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
         "capability": "官方含编辑器、Agent 与 cloud。",
@@ -150,7 +150,7 @@
       },
       "note": "",
       "updated_at": "2026-09-01",
-      "composite": 3.6,
+      "composite": 3.7,
       "scored_n": 7
     },
     "claude": {
@@ -206,7 +206,7 @@
       "scores": {
         "availability": 5,
         "price_structure": 5,
-        "stability": 3,
+        "stability": 4,
         "payment_region": 3,
         "billing_transparency": 4,
         "capability": 4,
@@ -215,7 +215,7 @@
       "reasons": {
         "availability": "官方状态 OPEN。",
         "price_structure": "官方各档均有刊例数字。",
-        "stability": "官方状态页近90天记录 1 起事故。",
+        "stability": "官方状态页近90天无事故",
         "payment_region": "官方区域 GLOBAL，购买页美元计价。",
         "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
         "capability": "Codex 跟会员走，不是 API 预付。",
@@ -223,7 +223,7 @@
       },
       "note": "",
       "updated_at": "2026-09-01",
-      "composite": 3.9,
+      "composite": 4.0,
       "scored_n": 7
     },
     "openrouter": {
