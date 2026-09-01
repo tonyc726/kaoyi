@@ -1,7 +1,7 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-02",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "Elevated errors in ChatGPT conversations for Free and Go plans",
       "date": "2026-09-01",
       "source_url": "https://status.openai.com/incidents/01M1D6E14BQSYQA3R5CNQBB7EB",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "status"
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "date": "2026-09-01",
+      "source_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "as_of": "2026-09-02",
+      "source_kind": "blog"
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "date": "2026-09-01",
+      "source_url": "https://openai.com/index/ai-native-company-workflows",
+      "as_of": "2026-09-02",
+      "source_kind": "blog"
     },
     {
       "title": "codex 0.153.0-alpha.2",
       "date": "2026-09-01",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.2",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.153.0-alpha.1",
       "date": "2026-09-01",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.1",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.152.0-alpha.7.2",
       "date": "2026-09-01",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7.2",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "releases"
     },
     {
       "title": "Elevated latency in the Responses API",
       "date": "2026-08-31",
       "source_url": "https://status.openai.com/incidents/01M1CYZDD84XD0H56XNEV2PT98",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "status"
     },
     {
       "title": "ChatGPT Work seeing elevated errors and latency",
       "date": "2026-08-31",
       "source_url": "https://status.openai.com/incidents/01M1C5M4K0WC8PPT0Z175RJA1E",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "status"
     },
     {
       "title": "OpenAI supports California’s bill to advance youth AI safety",
       "date": "2026-08-31",
       "source_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "as_of": "2026-09-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "date": "2026-08-31",
-      "source_url": "https://openai.com/index/polimill",
-      "as_of": "2026-09-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "A milestone in expanding access to AI",
-      "date": "2026-08-31",
-      "source_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "blog"
     }
   ]

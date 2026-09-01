@@ -1,71 +1,71 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-02",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Degraded performance on Claude for Microsoft Office 365",
+      "date": "2026-09-01",
+      "source_url": "https://status.claude.com/incidents/nr3h7bw8b3k3",
+      "as_of": "2026-09-02",
+      "source_kind": "status"
+    },
+    {
+      "title": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+      "date": "2026-09-01",
+      "source_url": "https://status.claude.com/incidents/3g3d55q6vk3h",
+      "as_of": "2026-09-02",
+      "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.257",
+      "date": "2026-09-01",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+      "as_of": "2026-09-02",
+      "source_kind": "releases"
+    },
+    {
       "title": "Improving our alignment and security efforts",
       "date": "2026-08-31",
       "source_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "blog"
     },
     {
       "title": "Degraded performance on claude.ai and Claude Code",
       "date": "2026-08-31",
       "source_url": "https://status.claude.com/incidents/r82kdk0m7vqh",
-      "as_of": "2026-09-01",
-      "source_kind": "status"
-    },
-    {
-      "title": "Degraded performance on claude.ai",
-      "date": "2026-08-31",
-      "source_url": "https://status.claude.com/incidents/9jrp5rtyzrf6",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "status"
     },
     {
       "title": "claude-code v2.1.252",
       "date": "2026-08-31",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "releases"
-    },
-    {
-      "title": "Elevated errors on Claude Code and Claude Cowork",
-      "date": "2026-08-28",
-      "source_url": "https://status.claude.com/incidents/vr9tpk8w7zr8",
-      "as_of": "2026-09-01",
-      "source_kind": "status"
     },
     {
       "title": "claude-code v2.1.251",
       "date": "2026-08-28",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
-      "as_of": "2026-09-01",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.250",
-      "date": "2026-08-28",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "releases"
     },
     {
       "title": "Previewing the Model Hardware Standard",
       "date": "2026-08-27",
       "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "blog"
     },
     {
       "title": "How Claude’s text watermark works",
       "date": "2026-08-14",
       "source_url": "https://www.anthropic.com/news/claude-text-watermark",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "source_kind": "blog"
     }
   ]
