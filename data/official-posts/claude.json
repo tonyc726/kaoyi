@@ -6,11 +6,32 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Improving our alignment and security efforts",
+      "date": "2026-08-31",
+      "source_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "as_of": "2026-09-01",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Degraded performance on claude.ai and Claude Code",
+      "date": "2026-08-31",
+      "source_url": "https://status.claude.com/incidents/r82kdk0m7vqh",
+      "as_of": "2026-09-01",
+      "source_kind": "status"
+    },
+    {
       "title": "Degraded performance on claude.ai",
       "date": "2026-08-31",
       "source_url": "https://status.claude.com/incidents/9jrp5rtyzrf6",
       "as_of": "2026-09-01",
       "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.252",
+      "date": "2026-08-31",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+      "as_of": "2026-09-01",
+      "source_kind": "releases"
     },
     {
       "title": "Elevated errors on Claude Code and Claude Cowork",
@@ -39,27 +60,6 @@
       "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "as_of": "2026-09-01",
       "source_kind": "blog"
-    },
-    {
-      "title": "Expanding our support for scientists",
-      "date": "2026-08-27",
-      "source_url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "as_of": "2026-09-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "claude-code v2.1.248",
-      "date": "2026-08-27",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
-      "as_of": "2026-09-01",
-      "source_kind": "releases"
-    },
-    {
-      "title": "Errors logging into Claude.ai",
-      "date": "2026-08-24",
-      "source_url": "https://status.claude.com/incidents/w43j3xmngxgj",
-      "as_of": "2026-09-01",
-      "source_kind": "status"
     },
     {
       "title": "How Claude’s text watermark works",

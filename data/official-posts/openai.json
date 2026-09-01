@@ -6,11 +6,25 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated latency in the Responses API",
+      "date": "2026-08-31",
+      "source_url": "https://status.openai.com/incidents/01M1CYZDD84XD0H56XNEV2PT98",
+      "as_of": "2026-09-01",
+      "source_kind": "status"
+    },
+    {
       "title": "ChatGPT Work seeing elevated errors and latency",
       "date": "2026-08-31",
       "source_url": "https://status.openai.com/incidents/01M1C5M4K0WC8PPT0Z175RJA1E",
       "as_of": "2026-09-01",
       "source_kind": "status"
+    },
+    {
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "date": "2026-08-31",
+      "source_url": "https://openai.com/index/polimill",
+      "as_of": "2026-09-01",
+      "source_kind": "blog"
     },
     {
       "title": "A milestone in expanding access to AI",
@@ -20,23 +34,23 @@
       "source_kind": "blog"
     },
     {
+      "title": "codex rust-v0.152.0-alpha.7.2",
+      "date": "2026-08-31",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7.2",
+      "as_of": "2026-09-01",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex rust-v0.152.0-alpha.7.1",
+      "date": "2026-08-31",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7.1",
+      "as_of": "2026-09-01",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.152.0-alpha.7",
       "date": "2026-08-31",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7",
-      "as_of": "2026-09-01",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.152.0-alpha.6",
-      "date": "2026-08-31",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.6",
-      "as_of": "2026-09-01",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.152.0-alpha.5",
-      "date": "2026-08-31",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.5",
       "as_of": "2026-09-01",
       "source_kind": "releases"
     },
@@ -48,23 +62,9 @@
       "source_kind": "blog"
     },
     {
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "date": "2026-08-28",
-      "source_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "as_of": "2026-09-01",
-      "source_kind": "blog"
-    },
-    {
       "title": "Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile",
       "date": "2026-08-27",
       "source_url": "https://status.openai.com/incidents/01M1263309PD7VYV8EF95W2M2P",
-      "as_of": "2026-09-01",
-      "source_kind": "status"
-    },
-    {
-      "title": "Unexpected logouts for some ChatGPT web users",
-      "date": "2026-08-21",
-      "source_url": "https://status.openai.com/incidents/01M0JXWD740S0Y50DWJZS7SH75",
       "as_of": "2026-09-01",
       "source_kind": "status"
     }

@@ -167,7 +167,7 @@
       "reasons": {
         "availability": "官方状态 OPEN。",
         "price_structure": "官方各档均有刊例数字。",
-        "stability": "官方状态页近90天记录 2 起事故。",
+        "stability": "官方状态页近90天记录 1 起事故。",
         "payment_region": "官方区域 GLOBAL，购买页美元计价。",
         "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
         "capability": "官方付费档含 Claude Code。",
@@ -215,7 +215,7 @@
       "reasons": {
         "availability": "官方状态 OPEN。",
         "price_structure": "官方各档均有刊例数字。",
-        "stability": "官方状态页近90天记录 2 起事故。",
+        "stability": "官方状态页近90天记录 1 起事故。",
         "payment_region": "官方区域 GLOBAL，购买页美元计价。",
         "billing_transparency": "刊例含来源与日期，但官方用量为文字或「-」。",
         "capability": "Codex 跟会员走，不是 API 预付。",
