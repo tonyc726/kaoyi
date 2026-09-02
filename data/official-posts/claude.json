@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors for Claude Sonnet 5",
+      "date": "2026-09-02",
+      "source_url": "https://status.claude.com/incidents/ls6bn1x81m0w",
+      "as_of": "2026-09-03",
+      "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.259",
+      "date": "2026-09-02",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+      "as_of": "2026-09-03",
+      "source_kind": "releases"
+    },
+    {
       "title": "Developing Enterprise Frontier Safeguards with our customers",
       "date": "2026-09-01",
       "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
@@ -23,13 +37,6 @@
       "title": "Delays in credit purchases",
       "date": "2026-09-01",
       "source_url": "https://status.claude.com/incidents/620swtqyn24k",
-      "as_of": "2026-09-03",
-      "source_kind": "status"
-    },
-    {
-      "title": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
-      "date": "2026-09-01",
-      "source_url": "https://status.claude.com/incidents/3g3d55q6vk3h",
       "as_of": "2026-09-03",
       "source_kind": "status"
     },
@@ -53,13 +60,6 @@
       "source_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
       "as_of": "2026-09-03",
       "source_kind": "blog"
-    },
-    {
-      "title": "claude-code v2.1.252",
-      "date": "2026-08-31",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
-      "as_of": "2026-09-03",
-      "source_kind": "releases"
     },
     {
       "title": "Previewing the Model Hardware Standard",
