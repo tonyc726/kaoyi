@@ -7,6 +7,13 @@
   "posts": [
     {
       "title": "Investigating service degradation",
+      "date": "2026-09-02",
+      "source_url": "https://status.cursor.com/incidents/mdvngs1cnchd",
+      "as_of": "2026-09-02",
+      "source_kind": "status"
+    },
+    {
+      "title": "Investigating service degradation",
       "date": "2026-09-01",
       "source_url": "https://status.cursor.com/incidents/zxhsl1vgfvf0",
       "as_of": "2026-09-02",
@@ -16,13 +23,6 @@
       "title": "Degraded performance of Grok 4.5",
       "date": "2026-09-01",
       "source_url": "https://status.cursor.com/incidents/j827pshbz93b",
-      "as_of": "2026-09-02",
-      "source_kind": "status"
-    },
-    {
-      "title": "Investigating service degradation — cursor.com and IDE",
-      "date": "2026-08-27",
-      "source_url": "https://status.cursor.com/incidents/ttm7sdszxfy4",
       "as_of": "2026-09-02",
       "source_kind": "status"
     },
