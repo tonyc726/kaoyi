@@ -20,6 +20,13 @@
       "source_kind": "status"
     },
     {
+      "title": "Safety overview: GPT-6 Astra",
+      "date": "2026-09-03",
+      "source_url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "as_of": "2026-09-04",
+      "source_kind": "blog"
+    },
+    {
       "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
       "date": "2026-09-03",
       "source_url": "https://openai.com/index/playco-game-prototyping-with-astra",
@@ -34,23 +41,23 @@
       "source_kind": "blog"
     },
     {
+      "title": "codex rust-v0.154.0-alpha.3",
+      "date": "2026-09-03",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.3",
+      "as_of": "2026-09-04",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.154.0-alpha.2",
+      "date": "2026-09-03",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.2",
+      "as_of": "2026-09-04",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.154.0-alpha.1",
       "date": "2026-09-03",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.1",
-      "as_of": "2026-09-04",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.153.0-alpha.5.1",
-      "date": "2026-09-03",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.5.1",
-      "as_of": "2026-09-04",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.153.0",
-      "date": "2026-09-03",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0",
       "as_of": "2026-09-04",
       "source_kind": "releases"
     },
@@ -60,13 +67,6 @@
       "source_url": "https://status.openai.com/incidents/01M1HN7GRR6FJNWFVX2F8QMA3R",
       "as_of": "2026-09-04",
       "source_kind": "status"
-    },
-    {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "date": "2026-09-02",
-      "source_url": "https://openai.com/index/atv-big-air-tour",
-      "as_of": "2026-09-04",
-      "source_kind": "blog"
     }
   ]
 }
