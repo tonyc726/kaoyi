@@ -7,6 +7,13 @@
   "posts": [
     {
       "title": "Elevated errors for Claude Sonnet 5",
+      "date": "2026-09-03",
+      "source_url": "https://status.claude.com/incidents/288w7p4hk1l1",
+      "as_of": "2026-09-03",
+      "source_kind": "status"
+    },
+    {
+      "title": "Elevated errors for Claude Sonnet 5",
       "date": "2026-09-02",
       "source_url": "https://status.claude.com/incidents/ls6bn1x81m0w",
       "as_of": "2026-09-03",
@@ -30,13 +37,6 @@
       "title": "Degraded performance on Claude for Microsoft Office 365",
       "date": "2026-09-01",
       "source_url": "https://status.claude.com/incidents/nr3h7bw8b3k3",
-      "as_of": "2026-09-03",
-      "source_kind": "status"
-    },
-    {
-      "title": "Delays in credit purchases",
-      "date": "2026-09-01",
-      "source_url": "https://status.claude.com/incidents/620swtqyn24k",
       "as_of": "2026-09-03",
       "source_kind": "status"
     },
