@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-03",
+  "as_of": "2026-09-04",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors across ChatGPT and Codex",
+      "date": "2026-09-03",
+      "source_url": "https://status.openai.com/incidents/01M1KWEDH417T2CF44YYHZDFCR",
+      "as_of": "2026-09-04",
+      "source_kind": "status"
+    },
+    {
       "title": "ChatGPT Work Mode High Error Rates",
       "date": "2026-09-03",
       "source_url": "https://status.openai.com/incidents/01M1J99EDCYED5GP2W8GZ3N2NA",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-04",
       "source_kind": "status"
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "date": "2026-09-03",
+      "source_url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "as_of": "2026-09-04",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "date": "2026-09-03",
+      "source_url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "as_of": "2026-09-04",
+      "source_kind": "blog"
     },
     {
       "title": "codex 0.154.0-alpha.1",
       "date": "2026-09-03",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.1",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-04",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.153.0-alpha.5.1",
       "date": "2026-09-03",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0-alpha.5.1",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-04",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.153.0",
       "date": "2026-09-03",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-04",
       "source_kind": "releases"
     },
     {
       "title": "Elevated errors creating new accounts",
       "date": "2026-09-02",
       "source_url": "https://status.openai.com/incidents/01M1HN7GRR6FJNWFVX2F8QMA3R",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-04",
       "source_kind": "status"
     },
     {
       "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
       "date": "2026-09-02",
       "source_url": "https://openai.com/index/atv-big-air-tour",
-      "as_of": "2026-09-03",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Elevated errors in ChatGPT conversations for Free and Go plans",
-      "date": "2026-09-01",
-      "source_url": "https://status.openai.com/incidents/01M1D6E14BQSYQA3R5CNQBB7EB",
-      "as_of": "2026-09-03",
-      "source_kind": "status"
-    },
-    {
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "date": "2026-09-01",
-      "source_url": "https://openai.com/index/path-to-astra",
-      "as_of": "2026-09-03",
-      "source_kind": "blog"
-    },
-    {
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "date": "2026-09-01",
-      "source_url": "https://openai.com/index/gilbert-tobin",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-04",
       "source_kind": "blog"
     }
   ]
