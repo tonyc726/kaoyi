@@ -1,7 +1,7 @@
 {
   "vendor_id": "claude",
   "source_url": "https://claude.com/pricing",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "fetched_ok": true,
   "parse_ok": true,
   "status": "OPEN",
@@ -17,7 +17,7 @@
         "currency": "USD",
         "period": "month",
         "source_url": "https://claude.com/pricing",
-        "as_of": "2026-09-04",
+        "as_of": "2026-09-05",
         "note": null
       },
       "quota": "-",
@@ -34,7 +34,7 @@
         "currency": "USD",
         "period": "month",
         "source_url": "https://claude.com/pricing",
-        "as_of": "2026-09-04",
+        "as_of": "2026-09-05",
         "note": "年付 $17/月（$200 预付）"
       },
       "quota": "-",
@@ -51,7 +51,7 @@
         "currency": "USD",
         "period": "month",
         "source_url": "https://claude.com/pricing",
-        "as_of": "2026-09-04",
+        "as_of": "2026-09-05",
         "note": null
       },
       "quota": "-",
@@ -68,7 +68,7 @@
         "currency": "USD",
         "period": "month",
         "source_url": "https://support.anthropic.com/en/articles/11049741-what-is-the-max-plan",
-        "as_of": "2026-09-04",
+        "as_of": "2026-09-05",
         "note": "定价页只写 From $100"
       },
       "quota": "-",

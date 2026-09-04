@@ -1,7 +1,7 @@
 {
   "vendor_id": "aliyun",
   "source_url": "https://www.aliyun.com/product/news/",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "大模型服务平台百炼 - Qwen3-VL-Rerank 模型降价通知",
       "date": "2026-09-01",
       "source_url": "https://www.aliyun.com/product/news/30572",
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-05",
       "source_kind": "blog"
     },
     {
       "title": "大模型服务平台百炼 - Qwen-MT-Image-2.0模型上线",
       "date": "2026-08-28",
       "source_url": "https://www.aliyun.com/product/news/30545",
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-05",
       "source_kind": "blog"
     },
     {
       "title": "大模型服务平台百炼 - Qwen3.8-Flash 发布",
       "date": "2026-08-28",
       "source_url": "https://www.aliyun.com/product/news/30535",
-      "as_of": "2026-09-04",
+      "as_of": "2026-09-05",
       "source_kind": "blog"
     }
   ]

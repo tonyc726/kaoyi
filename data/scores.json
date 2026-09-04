@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "derived_axes": [
     "availability",
     "price_structure",
@@ -34,7 +34,7 @@
         "switching_cost": "官方写明套餐余额与开放平台按量隔离，禁止当通用 API。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 4.6,
       "scored_n": 7
     },
@@ -57,7 +57,7 @@
         "switching_cost": "平台额度，未见成品号锁定。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 4.3,
       "scored_n": 6
     },
@@ -76,7 +76,7 @@
         "billing_transparency": "官方套餐未见刊例数字。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 2.5,
       "scored_n": 4
     },
@@ -99,7 +99,7 @@
         "switching_cost": "绑定火山账号体系。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 3.8,
       "scored_n": 6
     },
@@ -124,7 +124,7 @@
         "switching_cost": "官方写明 Coding Plan Key 与按量 Key 不互通。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 4.0,
       "scored_n": 7
     },
@@ -149,7 +149,7 @@
         "switching_cost": "绑定编辑器，代码仍在本地。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 3.9,
       "scored_n": 7
     },
@@ -174,7 +174,7 @@
         "switching_cost": "会员可换工具使用。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 4.0,
       "scored_n": 7
     },
@@ -197,7 +197,7 @@
         "switching_cost": "X 生态订阅绑定。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 4.0,
       "scored_n": 6
     },
@@ -222,7 +222,7 @@
         "switching_cost": "绑定 ChatGPT 会员。"
       },
       "note": "",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 4.0,
       "scored_n": 7
     },
@@ -247,7 +247,7 @@
         "switching_cost": "一 Key 多家，迁出容易。"
       },
       "note": "不是官方直营，是模型聚合平台。",
-      "updated_at": "2026-09-04",
+      "updated_at": "2026-09-05",
       "composite": 2.6,
       "scored_n": 7
     }
