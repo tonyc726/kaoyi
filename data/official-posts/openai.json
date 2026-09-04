@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Users in APAC region may face increased error in ChatGPT, Work, image generation, file upload, Voice, and Codex Cloud",
+      "date": "2026-09-04",
+      "source_url": "https://status.openai.com/incidents/01M1NKFZH5EEYEREC54HNAHY35",
+      "as_of": "2026-09-04",
+      "source_kind": "status"
+    },
+    {
       "title": "codex 0.154.0-alpha.3",
       "date": "2026-09-04",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.3",
@@ -60,13 +67,6 @@
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.1",
       "as_of": "2026-09-04",
       "source_kind": "releases"
-    },
-    {
-      "title": "Elevated errors creating new accounts",
-      "date": "2026-09-02",
-      "source_url": "https://status.openai.com/incidents/01M1HN7GRR6FJNWFVX2F8QMA3R",
-      "as_of": "2026-09-04",
-      "source_kind": "status"
     }
   ]
 }
