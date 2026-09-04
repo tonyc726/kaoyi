@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.261",
+      "date": "2026-09-04",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+      "as_of": "2026-09-05",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors for multiple models",
       "date": "2026-09-03",
       "source_url": "https://status.claude.com/incidents/461yvfrzpwtt",
@@ -46,13 +53,6 @@
       "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
       "as_of": "2026-09-05",
       "source_kind": "blog"
-    },
-    {
-      "title": "claude-code v2.1.258",
-      "date": "2026-09-01",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
-      "as_of": "2026-09-05",
-      "source_kind": "releases"
     },
     {
       "title": "Improving our alignment and security efforts",

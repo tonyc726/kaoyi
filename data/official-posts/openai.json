@@ -20,6 +20,13 @@
       "source_kind": "releases"
     },
     {
+      "title": "codex 0.153.3",
+      "date": "2026-09-04",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.3",
+      "as_of": "2026-09-05",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors across ChatGPT and Codex",
       "date": "2026-09-03",
       "source_url": "https://status.openai.com/incidents/01M1KWEDH417T2CF44YYHZDFCR",
@@ -58,13 +65,6 @@
       "title": "codex 0.154.0-alpha.2",
       "date": "2026-09-03",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.2",
-      "as_of": "2026-09-05",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.154.0-alpha.1",
-      "date": "2026-09-03",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.1",
       "as_of": "2026-09-05",
       "source_kind": "releases"
     }

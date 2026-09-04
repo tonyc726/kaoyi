@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Degraded video generation and batch jobs APIs",
+      "date": "2026-09-04",
+      "source_url": "https://status.openrouter.ai/incidents/RJ0mNKO5Arwy",
+      "as_of": "2026-09-05",
+      "source_kind": "status"
+    },
+    {
       "title": "Elevated 429s on Anthropic and OpenAI",
       "date": "2026-08-28",
       "source_url": "https://status.openrouter.ai/incidents/n8d-Ze48m14W",
@@ -39,13 +46,6 @@
       "source_url": "https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/",
       "as_of": "2026-09-05",
       "source_kind": "blog"
-    },
-    {
-      "title": "Erroneous outage status",
-      "date": "2026-07-23",
-      "source_url": "https://status.openrouter.ai/incidents/rNB9qLkp-dOw",
-      "as_of": "2026-09-05",
-      "source_kind": "status"
     }
   ]
 }

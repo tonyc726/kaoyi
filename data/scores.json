@@ -231,7 +231,7 @@
       "scores": {
         "availability": 5,
         "price_structure": 1,
-        "stability": 2,
+        "stability": 3,
         "payment_region": 3,
         "billing_transparency": 1,
         "capability": 5,
@@ -240,7 +240,7 @@
       "reasons": {
         "availability": "官方状态 OPEN。",
         "price_structure": "官方各档刊例均为「-」。",
-        "stability": "官方状态页近90天记录 3 起事故。",
+        "stability": "官方状态页近90天记录 2 起事故。",
         "payment_region": "官方区域 GLOBAL，购买页美元计价。",
         "billing_transparency": "官方套餐未见刊例数字。",
         "capability": "官方聚合 500+ 模型。",
@@ -248,7 +248,7 @@
       },
       "note": "不是官方直营，是模型聚合平台。",
       "updated_at": "2026-09-05",
-      "composite": 2.6,
+      "composite": 2.7,
       "scored_n": 7
     }
   }
