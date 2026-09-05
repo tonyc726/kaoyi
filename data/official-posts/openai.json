@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex rust-v0.154.0-alpha.4",
+      "date": "2026-09-05",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.4",
+      "as_of": "2026-09-05",
+      "source_kind": "releases"
+    },
+    {
       "title": "Users in APAC region may face increased error in ChatGPT, Work, image generation, file upload, Voice, and Codex Cloud",
       "date": "2026-09-04",
       "source_url": "https://status.openai.com/incidents/01M1NKFZH5EEYEREC54HNAHY35",
@@ -20,9 +27,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.153.3",
+      "title": "codex 0.153.4",
       "date": "2026-09-04",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.3",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
       "as_of": "2026-09-05",
       "source_kind": "releases"
     },
@@ -60,13 +67,6 @@
       "source_url": "https://openai.com/index/legora-financial-statement-review-with-astra",
       "as_of": "2026-09-05",
       "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.154.0-alpha.2",
-      "date": "2026-09-03",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.2",
-      "as_of": "2026-09-05",
-      "source_kind": "releases"
     }
   ]
 }
