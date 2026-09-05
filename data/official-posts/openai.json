@@ -1,7 +1,7 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-05",
+  "as_of": "2026-09-06",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "codex rust-v0.154.0-alpha.4",
       "date": "2026-09-05",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.4",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "releases"
     },
     {
       "title": "Users in APAC region may face increased error in ChatGPT, Work, image generation, file upload, Voice, and Codex Cloud",
       "date": "2026-09-04",
       "source_url": "https://status.openai.com/incidents/01M1NKFZH5EEYEREC54HNAHY35",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "status"
     },
     {
       "title": "codex 0.154.0-alpha.3",
       "date": "2026-09-04",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.3",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.153.4",
       "date": "2026-09-04",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "releases"
     },
     {
       "title": "Elevated errors across ChatGPT and Codex",
       "date": "2026-09-03",
       "source_url": "https://status.openai.com/incidents/01M1KWEDH417T2CF44YYHZDFCR",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "status"
     },
     {
       "title": "ChatGPT Work Mode High Error Rates",
       "date": "2026-09-03",
       "source_url": "https://status.openai.com/incidents/01M1J99EDCYED5GP2W8GZ3N2NA",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "status"
     },
     {
       "title": "Safety overview: GPT-6 Astra",
       "date": "2026-09-03",
       "source_url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "blog"
     },
     {
       "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
       "date": "2026-09-03",
       "source_url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "blog"
     },
     {
       "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
       "date": "2026-09-03",
       "source_url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "as_of": "2026-09-05",
+      "as_of": "2026-09-06",
       "source_kind": "blog"
     }
   ]
