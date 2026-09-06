@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.263",
+      "date": "2026-09-06",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+      "as_of": "2026-09-06",
+      "source_kind": "releases"
+    },
+    {
       "title": "claude-code v2.1.261",
       "date": "2026-09-04",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
@@ -39,13 +46,6 @@
       "source_url": "https://status.claude.com/incidents/ls6bn1x81m0w",
       "as_of": "2026-09-06",
       "source_kind": "status"
-    },
-    {
-      "title": "claude-code v2.1.259",
-      "date": "2026-09-02",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
-      "as_of": "2026-09-06",
-      "source_kind": "releases"
     },
     {
       "title": "Developing Enterprise Frontier Safeguards with our customers",
