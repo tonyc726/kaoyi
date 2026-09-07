@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Supporting independent journalism in Ukraine",
+      "date": "2026-09-07",
+      "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "as_of": "2026-09-07",
+      "source_kind": "blog"
+    },
+    {
       "title": "Research acceleration: The view inside OpenAI",
       "date": "2026-09-06",
       "source_url": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -60,13 +67,6 @@
       "source_url": "https://status.openai.com/incidents/01M1J99EDCYED5GP2W8GZ3N2NA",
       "as_of": "2026-09-07",
       "source_kind": "status"
-    },
-    {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "date": "2026-09-03",
-      "source_url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "as_of": "2026-09-07",
-      "source_kind": "blog"
     }
   ]
 }
