@@ -1,7 +1,7 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-08",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "Supporting independent journalism in Ukraine",
       "date": "2026-09-07",
       "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "as_of": "2026-09-07",
+      "as_of": "2026-09-08",
       "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.154.0-alpha.6",
+      "date": "2026-09-07",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6",
+      "as_of": "2026-09-08",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex rust-v0.154.0-alpha.5",
+      "date": "2026-09-07",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.5",
+      "as_of": "2026-09-08",
+      "source_kind": "releases"
     },
     {
       "title": "Research acceleration: The view inside OpenAI",
       "date": "2026-09-06",
       "source_url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "as_of": "2026-09-07",
+      "as_of": "2026-09-08",
       "source_kind": "blog"
     },
     {
       "title": "An Alien Mind",
       "date": "2026-09-06",
       "source_url": "https://openai.com/index/an-alien-mind",
-      "as_of": "2026-09-07",
+      "as_of": "2026-09-08",
       "source_kind": "blog"
     },
     {
       "title": "codex rust-v0.154.0-alpha.4",
       "date": "2026-09-05",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.4",
-      "as_of": "2026-09-07",
+      "as_of": "2026-09-08",
       "source_kind": "releases"
     },
     {
       "title": "Users in APAC region may face increased error in ChatGPT, Work, image generation, file upload, Voice, and Codex Cloud",
       "date": "2026-09-04",
       "source_url": "https://status.openai.com/incidents/01M1NKFZH5EEYEREC54HNAHY35",
-      "as_of": "2026-09-07",
+      "as_of": "2026-09-08",
       "source_kind": "status"
-    },
-    {
-      "title": "codex 0.154.0-alpha.3",
-      "date": "2026-09-04",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.3",
-      "as_of": "2026-09-07",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.153.4",
-      "date": "2026-09-04",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
-      "as_of": "2026-09-07",
-      "source_kind": "releases"
     },
     {
       "title": "Elevated errors across ChatGPT and Codex",
       "date": "2026-09-03",
       "source_url": "https://status.openai.com/incidents/01M1KWEDH417T2CF44YYHZDFCR",
-      "as_of": "2026-09-07",
+      "as_of": "2026-09-08",
       "source_kind": "status"
     },
     {
       "title": "ChatGPT Work Mode High Error Rates",
       "date": "2026-09-03",
       "source_url": "https://status.openai.com/incidents/01M1J99EDCYED5GP2W8GZ3N2NA",
-      "as_of": "2026-09-07",
+      "as_of": "2026-09-08",
       "source_kind": "status"
     }
   ]
