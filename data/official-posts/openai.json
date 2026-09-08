@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "The Work Now Within Reach",
+      "date": "2026-09-08",
+      "source_url": "https://openai.com/index/the-work-now-within-reach",
+      "as_of": "2026-09-08",
+      "source_kind": "blog"
+    },
+    {
       "title": "Supporting independent journalism in Ukraine",
       "date": "2026-09-07",
       "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
@@ -30,13 +37,6 @@
       "title": "Research acceleration: The view inside OpenAI",
       "date": "2026-09-06",
       "source_url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "as_of": "2026-09-08",
-      "source_kind": "blog"
-    },
-    {
-      "title": "An Alien Mind",
-      "date": "2026-09-06",
-      "source_url": "https://openai.com/index/an-alien-mind",
       "as_of": "2026-09-08",
       "source_kind": "blog"
     },
