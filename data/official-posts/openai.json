@@ -34,11 +34,18 @@
       "source_kind": "blog"
     },
     {
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
       "date": "2026-09-08",
-      "source_url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "source_url": "https://openai.com/index/navier-stokes-solution",
       "as_of": "2026-09-09",
       "source_kind": "blog"
+    },
+    {
+      "title": "codex rust-v0.154.0-alpha.8",
+      "date": "2026-09-08",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.8",
+      "as_of": "2026-09-09",
+      "source_kind": "releases"
     },
     {
       "title": "codex 0.154.0-alpha.7",
@@ -51,13 +58,6 @@
       "title": "codex 0.154.0-alpha.6",
       "date": "2026-09-07",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6",
-      "as_of": "2026-09-09",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.154.0-alpha.5",
-      "date": "2026-09-07",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.5",
       "as_of": "2026-09-09",
       "source_kind": "releases"
     },

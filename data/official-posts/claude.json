@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.265",
+      "date": "2026-09-08",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+      "as_of": "2026-09-09",
+      "source_kind": "releases"
+    },
+    {
       "title": "claude-code v2.1.263",
       "date": "2026-09-06",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
@@ -32,13 +39,6 @@
       "source_url": "https://status.claude.com/incidents/288w7p4hk1l1",
       "as_of": "2026-09-09",
       "source_kind": "status"
-    },
-    {
-      "title": "claude-code v2.1.260",
-      "date": "2026-09-03",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
-      "as_of": "2026-09-09",
-      "source_kind": "releases"
     },
     {
       "title": "Elevated errors for Claude Sonnet 5",
