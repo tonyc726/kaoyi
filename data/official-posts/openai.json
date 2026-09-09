@@ -27,11 +27,11 @@
       "source_kind": "blog"
     },
     {
-      "title": "codex rust-v0.154.0-alpha.9",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
       "date": "2026-09-09",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.9",
+      "source_url": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "as_of": "2026-09-10",
-      "source_kind": "releases"
+      "source_kind": "blog"
     },
     {
       "title": "codex 0.154.0-alpha.11",
@@ -48,6 +48,13 @@
       "source_kind": "releases"
     },
     {
+      "title": "codex rust-v0.154.0-alpha.10.1",
+      "date": "2026-09-09",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.1",
+      "as_of": "2026-09-10",
+      "source_kind": "releases"
+    },
+    {
       "title": "File uploads are delayed or failing",
       "date": "2026-09-08",
       "source_url": "https://status.openai.com/incidents/01M20QBACYZMK2PRCJQCBSWTYJ",
@@ -58,13 +65,6 @@
       "title": "The Work Now Within Reach",
       "date": "2026-09-08",
       "source_url": "https://openai.com/index/the-work-now-within-reach",
-      "as_of": "2026-09-10",
-      "source_kind": "blog"
-    },
-    {
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "date": "2026-09-08",
-      "source_url": "https://openai.com/index/navier-stokes-solution",
       "as_of": "2026-09-10",
       "source_kind": "blog"
     }
