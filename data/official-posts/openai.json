@@ -6,6 +6,27 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex rust-v0.154.0-alpha.9",
+      "date": "2026-09-09",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.9",
+      "as_of": "2026-09-09",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex rust-v0.154.0-alpha.8.1",
+      "date": "2026-09-09",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.8.1",
+      "as_of": "2026-09-09",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex rust-v0.154.0-alpha.10.2",
+      "date": "2026-09-09",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.2",
+      "as_of": "2026-09-09",
+      "source_kind": "releases"
+    },
+    {
       "title": "File uploads are delayed or failing",
       "date": "2026-09-08",
       "source_url": "https://status.openai.com/incidents/01M20QBACYZMK2PRCJQCBSWTYJ",
@@ -39,27 +60,6 @@
       "source_url": "https://openai.com/index/navier-stokes-solution",
       "as_of": "2026-09-09",
       "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.154.0-alpha.8",
-      "date": "2026-09-08",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.8",
-      "as_of": "2026-09-09",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.154.0-alpha.7",
-      "date": "2026-09-08",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.7",
-      "as_of": "2026-09-09",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.154.0-alpha.6",
-      "date": "2026-09-07",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6",
-      "as_of": "2026-09-09",
-      "source_kind": "releases"
     },
     {
       "title": "Users in APAC region may face increased error in ChatGPT, Work, image generation, file upload, Voice, and Codex Cloud",
