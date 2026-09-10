@@ -34,6 +34,13 @@
       "source_kind": "blog"
     },
     {
+      "title": "The AI policy window is open. We need to act.",
+      "date": "2026-09-09",
+      "source_url": "https://openai.com/index/ai-policy-window",
+      "as_of": "2026-09-10",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.154.0-alpha.11",
       "date": "2026-09-09",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.11",
@@ -60,13 +67,6 @@
       "source_url": "https://status.openai.com/incidents/01M20QBACYZMK2PRCJQCBSWTYJ",
       "as_of": "2026-09-10",
       "source_kind": "status"
-    },
-    {
-      "title": "The Work Now Within Reach",
-      "date": "2026-09-08",
-      "source_url": "https://openai.com/index/the-work-now-within-reach",
-      "as_of": "2026-09-10",
-      "source_kind": "blog"
     }
   ]
 }
