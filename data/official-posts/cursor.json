@@ -13,6 +13,20 @@
       "source_kind": "status"
     },
     {
+      "title": "Cursor Projects",
+      "date": "2026-09-10",
+      "source_url": "https://cursor.com/changelog/projects",
+      "as_of": "2026-09-11",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Introducing ProjectsAlexi & Fredrika5mAlexi & Fredrika",
+      "date": "2026-09-10",
+      "source_url": "https://cursor.com/blog/projects",
+      "as_of": "2026-09-11",
+      "source_kind": "blog"
+    },
+    {
       "title": "Investigating service degradation — CLI, Cloud Agents, and IDE",
       "date": "2026-09-07",
       "source_url": "https://status.cursor.com/incidents/nk7ln2sb6n6q",
@@ -37,20 +51,6 @@
       "title": "Self-hosted machines",
       "date": "2026-09-02",
       "source_url": "https://cursor.com/changelog/self-hosted-machines",
-      "as_of": "2026-09-11",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Run cloud agents on machines you manage",
-      "date": "2026-09-02",
-      "source_url": "https://cursor.com/blog/self-hosted-machines",
-      "as_of": "2026-09-11",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Start from scratch, without a repo",
-      "date": "2026-08-27",
-      "source_url": "https://cursor.com/changelog/start-from-scratch",
       "as_of": "2026-09-11",
       "source_kind": "blog"
     },

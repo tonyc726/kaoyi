@@ -13,6 +13,20 @@
       "source_kind": "status"
     },
     {
+      "title": "Elevated latency on the Claude API for some users",
+      "date": "2026-09-10",
+      "source_url": "https://status.claude.com/incidents/2pt83vlkk7x7",
+      "as_of": "2026-09-11",
+      "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.268",
+      "date": "2026-09-10",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "as_of": "2026-09-11",
+      "source_kind": "releases"
+    },
+    {
       "title": "claude-code v2.1.267",
       "date": "2026-09-09",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
@@ -27,23 +41,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "claude-code v2.1.265",
-      "date": "2026-09-08",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
-      "as_of": "2026-09-11",
-      "source_kind": "releases"
-    },
-    {
       "title": "Elevated errors for multiple models",
       "date": "2026-09-03",
       "source_url": "https://status.claude.com/incidents/461yvfrzpwtt",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors for Claude Sonnet 5",
-      "date": "2026-09-03",
-      "source_url": "https://status.claude.com/incidents/288w7p4hk1l1",
       "as_of": "2026-09-11",
       "source_kind": "status"
     },
