@@ -1,7 +1,7 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-10",
+  "as_of": "2026-09-11",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "Unable to open shared ChatGPT Project using direct link",
       "date": "2026-09-10",
       "source_url": "https://status.openai.com/incidents/01M24HYC9SX2Q4471EVMY6EXQE",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "source_kind": "status"
+    },
+    {
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "date": "2026-09-10",
+      "source_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "as_of": "2026-09-11",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Now everyone can put data to work",
+      "date": "2026-09-10",
+      "source_url": "https://openai.com/index/put-data-to-work",
+      "as_of": "2026-09-11",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "date": "2026-09-10",
+      "source_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "as_of": "2026-09-11",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex rust-v0.155.0-alpha.2",
+      "date": "2026-09-10",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2",
+      "as_of": "2026-09-11",
+      "source_kind": "releases"
     },
     {
       "title": "codex 0.155.0-alpha.1",
       "date": "2026-09-10",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.1",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "source_kind": "releases"
     },
     {
       "title": "Investigating unexpected usage limit resets",
       "date": "2026-09-09",
       "source_url": "https://status.openai.com/incidents/01M23KG62KKK448RN434CQ64Z8",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "source_kind": "status"
     },
     {
       "title": "Increased Error Rate For Pro and Plus Plan Conversations",
       "date": "2026-09-09",
       "source_url": "https://status.openai.com/incidents/01M23BNX5V1XT9P3NP0PX56FTN",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "source_kind": "status"
-    },
-    {
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "date": "2026-09-09",
-      "source_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "as_of": "2026-09-10",
-      "source_kind": "blog"
-    },
-    {
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "date": "2026-09-09",
-      "source_url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "as_of": "2026-09-10",
-      "source_kind": "blog"
-    },
-    {
-      "title": "The AI policy window is open. We need to act.",
-      "date": "2026-09-09",
-      "source_url": "https://openai.com/index/ai-policy-window",
-      "as_of": "2026-09-10",
-      "source_kind": "blog"
     },
     {
       "title": "codex 0.154.0-alpha.11",
       "date": "2026-09-09",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.11",
-      "as_of": "2026-09-10",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.154.0-alpha.10.2",
-      "date": "2026-09-09",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.2",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "source_kind": "releases"
     }
   ]
