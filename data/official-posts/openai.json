@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Delays in customer support responses",
+      "date": "2026-09-10",
+      "source_url": "https://status.openai.com/incidents/01M26E3PPAYJMMRHX2MZJCTHMF",
+      "as_of": "2026-09-11",
+      "source_kind": "status"
+    },
+    {
+      "title": "Elevated errors affecting ChatGPT Work",
+      "date": "2026-09-10",
+      "source_url": "https://status.openai.com/incidents/01M26DX2PP1AFHGJK5E4M6S2J6",
+      "as_of": "2026-09-11",
+      "source_kind": "status"
+    },
+    {
       "title": "Unable to open shared ChatGPT Project using direct link",
       "date": "2026-09-10",
       "source_url": "https://status.openai.com/incidents/01M24HYC9SX2Q4471EVMY6EXQE",
@@ -34,37 +48,23 @@
       "source_kind": "blog"
     },
     {
-      "title": "codex rust-v0.155.0-alpha.2",
+      "title": "codex Cygwin build inputs and matching source for Windows voice",
       "date": "2026-09-10",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2",
+      "source_url": "https://github.com/openai/codex/releases/tag/voice-cygwin-108b38cf67cbb731",
       "as_of": "2026-09-11",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.155.0-alpha.1",
+      "title": "codex rust-v0.155.0-alpha.2.2",
       "date": "2026-09-10",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.1",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.2",
       "as_of": "2026-09-11",
       "source_kind": "releases"
     },
     {
-      "title": "Investigating unexpected usage limit resets",
-      "date": "2026-09-09",
-      "source_url": "https://status.openai.com/incidents/01M23KG62KKK448RN434CQ64Z8",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "Increased Error Rate For Pro and Plus Plan Conversations",
-      "date": "2026-09-09",
-      "source_url": "https://status.openai.com/incidents/01M23BNX5V1XT9P3NP0PX56FTN",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "codex 0.154.0-alpha.11",
-      "date": "2026-09-09",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.11",
+      "title": "codex rust-v0.155.0-alpha.2.1",
+      "date": "2026-09-10",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.1",
       "as_of": "2026-09-11",
       "source_kind": "releases"
     }
