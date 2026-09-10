@@ -13,6 +13,13 @@
       "source_kind": "status"
     },
     {
+      "title": "codex 0.155.0-alpha.1",
+      "date": "2026-09-10",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.1",
+      "as_of": "2026-09-10",
+      "source_kind": "releases"
+    },
+    {
       "title": "Investigating unexpected usage limit resets",
       "date": "2026-09-09",
       "source_url": "https://status.openai.com/incidents/01M23KG62KKK448RN434CQ64Z8",
@@ -58,13 +65,6 @@
       "title": "codex 0.154.0-alpha.10.2",
       "date": "2026-09-09",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.2",
-      "as_of": "2026-09-10",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.154.0-alpha.10.1",
-      "date": "2026-09-09",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.1",
       "as_of": "2026-09-10",
       "source_kind": "releases"
     }
