@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Unable to open shared ChatGPT Project using direct link",
+      "date": "2026-09-10",
+      "source_url": "https://status.openai.com/incidents/01M24HYC9SX2Q4471EVMY6EXQE",
+      "as_of": "2026-09-10",
+      "source_kind": "status"
+    },
+    {
       "title": "Investigating unexpected usage limit resets",
       "date": "2026-09-09",
       "source_url": "https://status.openai.com/incidents/01M23KG62KKK448RN434CQ64Z8",
@@ -60,13 +67,6 @@
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.1",
       "as_of": "2026-09-10",
       "source_kind": "releases"
-    },
-    {
-      "title": "File uploads are delayed or failing",
-      "date": "2026-09-08",
-      "source_url": "https://status.openai.com/incidents/01M20QBACYZMK2PRCJQCBSWTYJ",
-      "as_of": "2026-09-10",
-      "source_kind": "status"
     }
   ]
 }
