@@ -6,23 +6,23 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "codex rust-v0.155.0-alpha.3",
+      "title": "codex rust-v0.155.0-alpha.3.7",
       "date": "2026-09-11",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.7",
       "as_of": "2026-09-11",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.155.0-alpha.2.3",
+      "title": "codex rust-v0.155.0-alpha.3.6",
       "date": "2026-09-11",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.3",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.6",
       "as_of": "2026-09-11",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.154.0-alpha.6.2",
+      "title": "codex rust-v0.155.0-alpha.3.5",
       "date": "2026-09-11",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.2",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.5",
       "as_of": "2026-09-11",
       "source_kind": "releases"
     },

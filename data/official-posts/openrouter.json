@@ -6,44 +6,23 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "In-Region Routing: Keep your data in the US or EU",
+      "title": "How to Use OpenRouter Presets: Config-as-Code Guide",
+      "date": "2026-09-10",
+      "source_url": "https://openrouter.ai/blog/tutorials/presets/",
+      "as_of": "2026-09-11",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Nano Banana API: Edit Images with Gemini in Code",
       "date": "2026-09-09",
-      "source_url": "https://openrouter.ai/blog/announcements/us-in-region-routing/",
+      "source_url": "https://openrouter.ai/blog/tutorials/nano-banana/",
       "as_of": "2026-09-11",
       "source_kind": "blog"
     },
     {
-      "title": "Give any model a terminal and files",
-      "date": "2026-09-08",
-      "source_url": "https://openrouter.ai/blog/announcements/shell-tool/",
-      "as_of": "2026-09-11",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Degraded video generation and batch jobs APIs",
-      "date": "2026-09-04",
-      "source_url": "https://status.openrouter.ai/incidents/RJ0mNKO5Arwy",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated 429s on Anthropic and OpenAI",
-      "date": "2026-08-28",
-      "source_url": "https://status.openrouter.ai/incidents/n8d-Ze48m14W",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "Web application degraded",
-      "date": "2026-08-28",
-      "source_url": "https://status.openrouter.ai/incidents/l4Gmz6NbAW1o",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "OpenRouter Video Generation API: A Code-First Guide",
-      "date": "2026-08-25",
-      "source_url": "https://openrouter.ai/blog/tutorials/video-generation-api/",
+      "title": "Seedance 2.5 Review: What It's Best At and When to Use It",
+      "date": "2026-09-09",
+      "source_url": "https://openrouter.ai/blog/insights/seedance-2-5-review/",
       "as_of": "2026-09-11",
       "source_kind": "blog"
     }
