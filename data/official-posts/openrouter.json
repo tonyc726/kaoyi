@@ -1,29 +1,29 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-09-11",
+  "as_of": "2026-09-12",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "OpenRouter Text-to-Speech: API Tutorial in 5 Minutes",
+      "date": "2026-09-11",
+      "source_url": "https://openrouter.ai/blog/tutorials/text-to-speech/",
+      "as_of": "2026-09-12",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Zero Data Retention (ZDR): What It Means for AI APIs",
+      "date": "2026-09-11",
+      "source_url": "https://openrouter.ai/blog/insights/zero-data-retention/",
+      "as_of": "2026-09-12",
+      "source_kind": "blog"
+    },
+    {
       "title": "How to Use OpenRouter Presets: Config-as-Code Guide",
       "date": "2026-09-10",
       "source_url": "https://openrouter.ai/blog/tutorials/presets/",
-      "as_of": "2026-09-11",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Nano Banana API: Edit Images with Gemini in Code",
-      "date": "2026-09-09",
-      "source_url": "https://openrouter.ai/blog/tutorials/nano-banana/",
-      "as_of": "2026-09-11",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Seedance 2.5 Review: What It's Best At and When to Use It",
-      "date": "2026-09-09",
-      "source_url": "https://openrouter.ai/blog/insights/seedance-2-5-review/",
-      "as_of": "2026-09-11",
+      "as_of": "2026-09-12",
       "source_kind": "blog"
     }
   ]
