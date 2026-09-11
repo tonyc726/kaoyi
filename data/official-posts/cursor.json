@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Investigating service degradation",
+      "date": "2026-09-11",
+      "source_url": "https://status.cursor.com/incidents/vgsv8kjxxylh",
+      "as_of": "2026-09-11",
+      "source_kind": "status"
+    },
+    {
       "title": "Investigating service degradation — Review Agents and Cloud Agents",
       "date": "2026-09-10",
       "source_url": "https://status.cursor.com/incidents/8mwzyv0n0jyk",
@@ -30,13 +37,6 @@
       "title": "Investigating service degradation — CLI, Cloud Agents, and IDE",
       "date": "2026-09-07",
       "source_url": "https://status.cursor.com/incidents/nk7ln2sb6n6q",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "Grok Bot computers unreachable for some users",
-      "date": "2026-09-07",
-      "source_url": "https://status.cursor.com/incidents/jw6mzctqkq56",
       "as_of": "2026-09-11",
       "source_kind": "status"
     },

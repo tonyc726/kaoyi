@@ -6,23 +6,37 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "codex rust-v0.155.0-alpha.3.7",
+      "title": "Elevated errors for GPT-5.6 Sol on the API",
+      "date": "2026-09-11",
+      "source_url": "https://status.openai.com/incidents/01M27VK1VN54RQJGJEHB5JTQJJ",
+      "as_of": "2026-09-11",
+      "source_kind": "status"
+    },
+    {
+      "title": "Elevated errors for ChatGPT users in Europe",
+      "date": "2026-09-11",
+      "source_url": "https://status.openai.com/incidents/01M27Q9GH7WVKNA61ZR3RDMSY5",
+      "as_of": "2026-09-11",
+      "source_kind": "status"
+    },
+    {
+      "title": "codex 0.155.0-alpha.3.9",
+      "date": "2026-09-11",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.9",
+      "as_of": "2026-09-11",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.155.0-alpha.3.8",
+      "date": "2026-09-11",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.8",
+      "as_of": "2026-09-11",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.155.0-alpha.3.7",
       "date": "2026-09-11",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.7",
-      "as_of": "2026-09-11",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.155.0-alpha.3.6",
-      "date": "2026-09-11",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.6",
-      "as_of": "2026-09-11",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.155.0-alpha.3.5",
-      "date": "2026-09-11",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.5",
       "as_of": "2026-09-11",
       "source_kind": "releases"
     },
@@ -30,20 +44,6 @@
       "title": "Delays in customer support responses",
       "date": "2026-09-10",
       "source_url": "https://status.openai.com/incidents/01M26E3PPAYJMMRHX2MZJCTHMF",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors affecting ChatGPT Work",
-      "date": "2026-09-10",
-      "source_url": "https://status.openai.com/incidents/01M26DX2PP1AFHGJK5E4M6S2J6",
-      "as_of": "2026-09-11",
-      "source_kind": "status"
-    },
-    {
-      "title": "Unable to open shared ChatGPT Project using direct link",
-      "date": "2026-09-10",
-      "source_url": "https://status.openai.com/incidents/01M24HYC9SX2Q4471EVMY6EXQE",
       "as_of": "2026-09-11",
       "source_kind": "status"
     },
@@ -62,9 +62,9 @@
       "source_kind": "blog"
     },
     {
-      "title": "Introducing the Agents API",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "date": "2026-09-10",
-      "source_url": "https://openai.com/index/introducing-the-agents-api",
+      "source_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "as_of": "2026-09-11",
       "source_kind": "blog"
     }
