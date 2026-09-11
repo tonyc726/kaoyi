@@ -13,6 +13,13 @@
       "source_kind": "status"
     },
     {
+      "title": "claude-code v2.1.269",
+      "date": "2026-09-11",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+      "as_of": "2026-09-12",
+      "source_kind": "releases"
+    },
+    {
       "title": "Degraded functionality for Claude Cowork on Windows",
       "date": "2026-09-10",
       "source_url": "https://status.claude.com/incidents/r1pqn1kb4hvk",
@@ -37,13 +44,6 @@
       "title": "claude-code v2.1.267",
       "date": "2026-09-09",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
-      "as_of": "2026-09-12",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.266",
-      "date": "2026-09-08",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
       "as_of": "2026-09-12",
       "source_kind": "releases"
     },
