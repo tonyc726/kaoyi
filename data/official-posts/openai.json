@@ -6,6 +6,27 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex rust-v0.155.0-alpha.3",
+      "date": "2026-09-11",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3",
+      "as_of": "2026-09-11",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.155.0-alpha.2.3",
+      "date": "2026-09-11",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.3",
+      "as_of": "2026-09-11",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.154.0-alpha.6.2",
+      "date": "2026-09-11",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.2",
+      "as_of": "2026-09-11",
+      "source_kind": "releases"
+    },
+    {
       "title": "Delays in customer support responses",
       "date": "2026-09-10",
       "source_url": "https://status.openai.com/incidents/01M26E3PPAYJMMRHX2MZJCTHMF",
@@ -46,27 +67,6 @@
       "source_url": "https://openai.com/index/introducing-the-agents-api",
       "as_of": "2026-09-11",
       "source_kind": "blog"
-    },
-    {
-      "title": "codex Cygwin build inputs and matching source for Windows voice",
-      "date": "2026-09-10",
-      "source_url": "https://github.com/openai/codex/releases/tag/voice-cygwin-108b38cf67cbb731",
-      "as_of": "2026-09-11",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.155.0-alpha.2.2",
-      "date": "2026-09-10",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.2",
-      "as_of": "2026-09-11",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.155.0-alpha.2.1",
-      "date": "2026-09-10",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.1",
-      "as_of": "2026-09-11",
-      "source_kind": "releases"
     }
   ]
 }
