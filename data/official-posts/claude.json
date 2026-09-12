@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.270",
+      "date": "2026-09-12",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+      "as_of": "2026-09-13",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
       "date": "2026-09-11",
       "source_url": "https://status.claude.com/incidents/t33dncr5ydvl",
@@ -37,13 +44,6 @@
       "title": "claude-code v2.1.268",
       "date": "2026-09-10",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
-      "as_of": "2026-09-13",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.267",
-      "date": "2026-09-09",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
       "as_of": "2026-09-13",
       "source_kind": "releases"
     },
