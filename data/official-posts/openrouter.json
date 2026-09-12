@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-09-12",
+  "as_of": "2026-09-13",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "OpenRouter Text-to-Speech: API Tutorial in 5 Minutes",
       "date": "2026-09-11",
       "source_url": "https://openrouter.ai/blog/tutorials/text-to-speech/",
-      "as_of": "2026-09-12",
+      "as_of": "2026-09-13",
       "source_kind": "blog"
     },
     {
       "title": "Zero Data Retention (ZDR): What It Means for AI APIs",
       "date": "2026-09-11",
       "source_url": "https://openrouter.ai/blog/insights/zero-data-retention/",
-      "as_of": "2026-09-12",
+      "as_of": "2026-09-13",
       "source_kind": "blog"
     },
     {
       "title": "How to Use OpenRouter Presets: Config-as-Code Guide",
       "date": "2026-09-10",
       "source_url": "https://openrouter.ai/blog/tutorials/presets/",
-      "as_of": "2026-09-12",
+      "as_of": "2026-09-13",
       "source_kind": "blog"
     }
   ]
