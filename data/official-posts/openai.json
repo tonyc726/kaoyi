@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated error rates for Codex and ChatGPT Work",
+      "date": "2026-09-14",
+      "source_url": "https://status.openai.com/incidents/01M2EWYR55J47M2BPG9WC76VEG",
+      "as_of": "2026-09-14",
+      "source_kind": "status"
+    },
+    {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "date": "2026-09-14",
       "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
@@ -23,13 +30,6 @@
       "title": "Codex GitHub Review and Pull Request Failures",
       "date": "2026-09-13",
       "source_url": "https://status.openai.com/incidents/01M2D1CZG0862JB4JHVW56QF89",
-      "as_of": "2026-09-14",
-      "source_kind": "status"
-    },
-    {
-      "title": "1% of ChatGPT Work (mobile/web) turns are failing for existing threads",
-      "date": "2026-09-11",
-      "source_url": "https://status.openai.com/incidents/01M28MEQWTQJDRCRPFD9FWQ0H3",
       "as_of": "2026-09-14",
       "source_kind": "status"
     },
