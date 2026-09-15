@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.272",
+      "date": "2026-09-15",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+      "as_of": "2026-09-15",
+      "source_kind": "releases"
+    },
+    {
+      "title": "claude-code v2.1.271",
+      "date": "2026-09-14",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "as_of": "2026-09-15",
+      "source_kind": "releases"
+    },
+    {
       "title": "claude-code v2.1.270",
       "date": "2026-09-12",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
@@ -20,13 +34,6 @@
       "source_kind": "status"
     },
     {
-      "title": "claude-code v2.1.269",
-      "date": "2026-09-11",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
-      "as_of": "2026-09-15",
-      "source_kind": "releases"
-    },
-    {
       "title": "Degraded functionality for Claude Cowork on Windows",
       "date": "2026-09-10",
       "source_url": "https://status.claude.com/incidents/r1pqn1kb4hvk",
@@ -39,13 +46,6 @@
       "source_url": "https://status.claude.com/incidents/2pt83vlkk7x7",
       "as_of": "2026-09-15",
       "source_kind": "status"
-    },
-    {
-      "title": "claude-code v2.1.268",
-      "date": "2026-09-10",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
-      "as_of": "2026-09-15",
-      "source_kind": "releases"
     },
     {
       "title": "Developing Enterprise Frontier Safeguards with our customers",

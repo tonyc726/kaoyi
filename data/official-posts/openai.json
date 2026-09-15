@@ -6,6 +6,27 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.155.0-alpha.6",
+      "date": "2026-09-15",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.6",
+      "as_of": "2026-09-15",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.155.0-alpha.5",
+      "date": "2026-09-15",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.5",
+      "as_of": "2026-09-15",
+      "source_kind": "releases"
+    },
+    {
+      "title": "Degraded Performance affecting Agents API",
+      "date": "2026-09-14",
+      "source_url": "https://status.openai.com/incidents/01M2H3J1D6Y7RHAP49GRWGJAY0",
+      "as_of": "2026-09-15",
+      "source_kind": "status"
+    },
+    {
       "title": "Elevated errors affecting Work Mode in ChatGPT",
       "date": "2026-09-14",
       "source_url": "https://status.openai.com/incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5",
@@ -41,32 +62,11 @@
       "source_kind": "releases"
     },
     {
-      "title": "Elevated errors for ChatGPT users in Europe",
-      "date": "2026-09-13",
-      "source_url": "https://status.openai.com/incidents/01M2DV6788RRSDZ5K98S5HN0A8",
-      "as_of": "2026-09-15",
-      "source_kind": "status"
-    },
-    {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
       "date": "2026-09-11",
       "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "as_of": "2026-09-15",
       "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.155.0-alpha.3.9",
-      "date": "2026-09-11",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.9",
-      "as_of": "2026-09-15",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.155.0-alpha.3.8",
-      "date": "2026-09-11",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.3.8",
-      "as_of": "2026-09-15",
-      "source_kind": "releases"
     }
   ]
 }
