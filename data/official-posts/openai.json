@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors from GPT-5.6 and GPT-5.6 Instant on paid plans",
+      "date": "2026-09-15",
+      "source_url": "https://status.openai.com/incidents/01M2HYH64J2CZMZ63HEV2FCQFA",
+      "as_of": "2026-09-15",
+      "source_kind": "status"
+    },
+    {
       "title": "codex 0.155.0-alpha.6",
       "date": "2026-09-15",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.6",
@@ -30,13 +37,6 @@
       "title": "Elevated errors affecting Work Mode in ChatGPT",
       "date": "2026-09-14",
       "source_url": "https://status.openai.com/incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5",
-      "as_of": "2026-09-15",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated error rates for Codex and ChatGPT Work",
-      "date": "2026-09-14",
-      "source_url": "https://status.openai.com/incidents/01M2EWYR55J47M2BPG9WC76VEG",
       "as_of": "2026-09-15",
       "source_kind": "status"
     },
