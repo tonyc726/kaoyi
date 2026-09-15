@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+      "date": "2026-09-15",
+      "source_url": "https://status.claude.com/incidents/6304r9jjhj34",
+      "as_of": "2026-09-15",
+      "source_kind": "status"
+    },
+    {
       "title": "claude-code v2.1.272",
       "date": "2026-09-15",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
@@ -37,13 +44,6 @@
       "title": "Degraded functionality for Claude Cowork on Windows",
       "date": "2026-09-10",
       "source_url": "https://status.claude.com/incidents/r1pqn1kb4hvk",
-      "as_of": "2026-09-15",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated latency on the Claude API for some users",
-      "date": "2026-09-10",
-      "source_url": "https://status.claude.com/incidents/2pt83vlkk7x7",
       "as_of": "2026-09-15",
       "source_kind": "status"
     },
