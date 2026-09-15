@@ -13,6 +13,13 @@
       "source_kind": "status"
     },
     {
+      "title": "claude-code v2.1.273",
+      "date": "2026-09-15",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "as_of": "2026-09-16",
+      "source_kind": "releases"
+    },
+    {
       "title": "claude-code v2.1.272",
       "date": "2026-09-15",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
@@ -23,13 +30,6 @@
       "title": "claude-code v2.1.271",
       "date": "2026-09-14",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
-      "as_of": "2026-09-16",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.270",
-      "date": "2026-09-12",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
       "as_of": "2026-09-16",
       "source_kind": "releases"
     },
