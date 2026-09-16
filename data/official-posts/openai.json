@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors in ChatGPT Work",
+      "date": "2026-09-16",
+      "source_url": "https://status.openai.com/incidents/01M2NRHTYAM3K3M93X1D068MCY",
+      "as_of": "2026-09-17",
+      "source_kind": "status"
+    },
+    {
       "title": "How workers are unlocking new ways of working",
       "date": "2026-09-16",
       "source_url": "https://openai.com/index/unlocking-new-ways-of-working",
@@ -20,9 +27,9 @@
       "source_kind": "blog"
     },
     {
-      "title": "Helping older adults use AI in everyday life",
+      "title": "Our framework for reporting model misalignment",
       "date": "2026-09-16",
-      "source_url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "source_url": "https://openai.com/index/model-misalignment-reporting-framework",
       "as_of": "2026-09-17",
       "source_kind": "blog"
     },
@@ -34,16 +41,16 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.155.0-alpha.9",
+      "title": "codex 0.155.0-alpha.14",
       "date": "2026-09-16",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.9",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.14",
       "as_of": "2026-09-17",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.155.0-alpha.12",
+      "title": "codex 0.155.0-alpha.13",
       "date": "2026-09-16",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.12",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.13",
       "as_of": "2026-09-17",
       "source_kind": "releases"
     },
@@ -58,13 +65,6 @@
       "title": "Ads Manager login issues",
       "date": "2026-09-15",
       "source_url": "https://status.openai.com/incidents/01M2JZR57HRQTKQGTCWG31M3AS",
-      "as_of": "2026-09-17",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors from GPT-5.6 and GPT-5.6 Instant on paid plans",
-      "date": "2026-09-15",
-      "source_url": "https://status.openai.com/incidents/01M2HYH64J2CZMZ63HEV2FCQFA",
       "as_of": "2026-09-17",
       "source_kind": "status"
     }
