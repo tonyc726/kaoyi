@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.155.0-alpha.9",
+      "date": "2026-09-16",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.9",
+      "as_of": "2026-09-16",
+      "source_kind": "releases"
+    },
+    {
+      "title": "Elevated errors with gpt-image-2.5-flare",
+      "date": "2026-09-15",
+      "source_url": "https://status.openai.com/incidents/01M2KQNE5C42NEZPX6V01NHH5W",
+      "as_of": "2026-09-16",
+      "source_kind": "status"
+    },
+    {
       "title": "Ads Manager login issues",
       "date": "2026-09-15",
       "source_url": "https://status.openai.com/incidents/01M2JZR57HRQTKQGTCWG31M3AS",
@@ -20,13 +34,6 @@
       "source_kind": "status"
     },
     {
-      "title": "codex rust-v0.155.0-alpha.9",
-      "date": "2026-09-15",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.9",
-      "as_of": "2026-09-16",
-      "source_kind": "releases"
-    },
-    {
       "title": "codex 0.155.0-alpha.8",
       "date": "2026-09-15",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.8",
@@ -39,13 +46,6 @@
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.7",
       "as_of": "2026-09-16",
       "source_kind": "releases"
-    },
-    {
-      "title": "Degraded Performance affecting Agents API",
-      "date": "2026-09-14",
-      "source_url": "https://status.openai.com/incidents/01M2H3J1D6Y7RHAP49GRWGJAY0",
-      "as_of": "2026-09-16",
-      "source_kind": "status"
     },
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
