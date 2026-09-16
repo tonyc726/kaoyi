@@ -7,6 +7,13 @@
   "posts": [
     {
       "title": "Investigating service degradation",
+      "date": "2026-09-16",
+      "source_url": "https://status.cursor.com/incidents/p463n7yf5fq9",
+      "as_of": "2026-09-16",
+      "source_kind": "status"
+    },
+    {
+      "title": "Investigating service degradation",
       "date": "2026-09-15",
       "source_url": "https://status.cursor.com/incidents/2bw21tcjqzg6",
       "as_of": "2026-09-16",
@@ -16,13 +23,6 @@
       "title": "Investigating Grok service degradation",
       "date": "2026-09-14",
       "source_url": "https://status.cursor.com/incidents/bgwm1q5652hy",
-      "as_of": "2026-09-16",
-      "source_kind": "status"
-    },
-    {
-      "title": "Investigating service degradation",
-      "date": "2026-09-11",
-      "source_url": "https://status.cursor.com/incidents/vgsv8kjxxylh",
       "as_of": "2026-09-16",
       "source_kind": "status"
     },

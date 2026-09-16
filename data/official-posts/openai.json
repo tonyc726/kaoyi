@@ -13,6 +13,20 @@
       "source_kind": "releases"
     },
     {
+      "title": "codex rust-v0.155.0-alpha.2.5",
+      "date": "2026-09-16",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.5",
+      "as_of": "2026-09-16",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.155.0-alpha.10",
+      "date": "2026-09-16",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.10",
+      "as_of": "2026-09-16",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors with gpt-image-2.5-flare",
       "date": "2026-09-15",
       "source_url": "https://status.openai.com/incidents/01M2KQNE5C42NEZPX6V01NHH5W",
@@ -32,20 +46,6 @@
       "source_url": "https://status.openai.com/incidents/01M2HYH64J2CZMZ63HEV2FCQFA",
       "as_of": "2026-09-16",
       "source_kind": "status"
-    },
-    {
-      "title": "codex 0.155.0-alpha.8",
-      "date": "2026-09-15",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.8",
-      "as_of": "2026-09-16",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.155.0-alpha.7",
-      "date": "2026-09-15",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.7",
-      "as_of": "2026-09-16",
-      "source_kind": "releases"
     },
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
