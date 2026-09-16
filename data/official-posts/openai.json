@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Reimagining advertising with AI",
+      "date": "2026-09-16",
+      "source_url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "as_of": "2026-09-16",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex rusty-v8-v152.2.0",
+      "date": "2026-09-16",
+      "source_url": "https://github.com/openai/codex/releases/tag/rusty-v8-v152.2.0",
+      "as_of": "2026-09-16",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.155.0-alpha.9",
       "date": "2026-09-16",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.9",
@@ -13,16 +27,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex rust-v0.155.0-alpha.2.5",
+      "title": "codex 0.155.0-alpha.2.5",
       "date": "2026-09-16",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2.5",
-      "as_of": "2026-09-16",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.155.0-alpha.10",
-      "date": "2026-09-16",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.10",
       "as_of": "2026-09-16",
       "source_kind": "releases"
     },
@@ -58,13 +65,6 @@
       "title": "How Fyxer built an AI executive assistant people trust",
       "date": "2026-09-14",
       "source_url": "https://openai.com/index/fyxer",
-      "as_of": "2026-09-16",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "date": "2026-09-11",
-      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "as_of": "2026-09-16",
       "source_kind": "blog"
     }
