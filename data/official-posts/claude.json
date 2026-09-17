@@ -1,71 +1,71 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-09-17",
+  "as_of": "2026-09-18",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Introducing the Life Sciences Verification Program",
+      "date": "2026-09-17",
+      "source_url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "as_of": "2026-09-18",
+      "source_kind": "blog"
+    },
+    {
       "title": "claude-code v2.1.274",
       "date": "2026-09-17",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
-      "as_of": "2026-09-17",
+      "as_of": "2026-09-18",
       "source_kind": "releases"
     },
     {
       "title": "Issues with Google Play subscriptions",
       "date": "2026-09-16",
       "source_url": "https://status.claude.com/incidents/t8fpw9vcshl9",
-      "as_of": "2026-09-17",
+      "as_of": "2026-09-18",
       "source_kind": "status"
     },
     {
       "title": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
       "date": "2026-09-15",
       "source_url": "https://status.claude.com/incidents/6304r9jjhj34",
-      "as_of": "2026-09-17",
+      "as_of": "2026-09-18",
       "source_kind": "status"
     },
     {
       "title": "claude-code v2.1.273",
       "date": "2026-09-15",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
-      "as_of": "2026-09-17",
+      "as_of": "2026-09-18",
       "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.272",
       "date": "2026-09-15",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
-      "as_of": "2026-09-17",
+      "as_of": "2026-09-18",
       "source_kind": "releases"
     },
     {
       "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
       "date": "2026-09-11",
       "source_url": "https://status.claude.com/incidents/t33dncr5ydvl",
-      "as_of": "2026-09-17",
+      "as_of": "2026-09-18",
       "source_kind": "status"
     },
     {
       "title": "Developing Enterprise Frontier Safeguards with our customers",
       "date": "2026-09-01",
       "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "as_of": "2026-09-17",
+      "as_of": "2026-09-18",
       "source_kind": "blog"
     },
     {
       "title": "Improving our alignment and security efforts",
       "date": "2026-08-31",
       "source_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "as_of": "2026-09-17",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Previewing the Model Hardware Standard",
-      "date": "2026-08-27",
-      "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "as_of": "2026-09-17",
+      "as_of": "2026-09-18",
       "source_kind": "blog"
     }
   ]
