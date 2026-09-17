@@ -6,23 +6,44 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "We are seeing elevated error rates across API models",
+      "date": "2026-09-17",
+      "source_url": "https://status.openai.com/incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+      "as_of": "2026-09-18",
+      "source_kind": "status"
+    },
+    {
+      "title": "Elevated errors affecting ChatGPT Work mode",
+      "date": "2026-09-17",
+      "source_url": "https://status.openai.com/incidents/01M2RC0WHGTX8EHDH7D60JJ7FC",
+      "as_of": "2026-09-18",
+      "source_kind": "status"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "date": "2026-09-17",
+      "source_url": "https://openai.com/index/astra-for-law",
+      "as_of": "2026-09-18",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.155.0-alpha.18",
+      "date": "2026-09-17",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.18",
+      "as_of": "2026-09-18",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.155.0-alpha.17",
+      "date": "2026-09-17",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.17",
+      "as_of": "2026-09-18",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.155.0-alpha.16",
       "date": "2026-09-17",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.16",
-      "as_of": "2026-09-18",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.155.0-alpha.15",
-      "date": "2026-09-17",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.15",
-      "as_of": "2026-09-18",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.155.0",
-      "date": "2026-09-17",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0",
       "as_of": "2026-09-18",
       "source_kind": "releases"
     },
@@ -32,13 +53,6 @@
       "source_url": "https://status.openai.com/incidents/01M2NRHTYAM3K3M93X1D068MCY",
       "as_of": "2026-09-18",
       "source_kind": "status"
-    },
-    {
-      "title": "How workers are unlocking new ways of working",
-      "date": "2026-09-16",
-      "source_url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "as_of": "2026-09-18",
-      "source_kind": "blog"
     },
     {
       "title": "Reimagining advertising with AI",
@@ -53,20 +67,6 @@
       "source_url": "https://openai.com/index/model-misalignment-reporting-framework",
       "as_of": "2026-09-18",
       "source_kind": "blog"
-    },
-    {
-      "title": "Elevated errors with gpt-image-2.5-flare",
-      "date": "2026-09-15",
-      "source_url": "https://status.openai.com/incidents/01M2KQNE5C42NEZPX6V01NHH5W",
-      "as_of": "2026-09-18",
-      "source_kind": "status"
-    },
-    {
-      "title": "Ads Manager login issues",
-      "date": "2026-09-15",
-      "source_url": "https://status.openai.com/incidents/01M2JZR57HRQTKQGTCWG31M3AS",
-      "as_of": "2026-09-18",
-      "source_kind": "status"
     }
   ]
 }
