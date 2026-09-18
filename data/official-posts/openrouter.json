@@ -1,29 +1,29 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-09-18",
+  "as_of": "2026-09-19",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "OpenRouter Text-to-Speech: API Tutorial in 5 Minutes",
-      "date": "2026-09-11",
-      "source_url": "https://openrouter.ai/blog/tutorials/text-to-speech/",
-      "as_of": "2026-09-18",
+      "title": "Image Generation Models Compared: Cost, Edit, Quality",
+      "date": "2026-09-18",
+      "source_url": "https://openrouter.ai/blog/insights/image-generation-models-compared/",
+      "as_of": "2026-09-19",
       "source_kind": "blog"
     },
     {
-      "title": "Zero Data Retention (ZDR): What It Means for AI APIs",
-      "date": "2026-09-11",
-      "source_url": "https://openrouter.ai/blog/insights/zero-data-retention/",
-      "as_of": "2026-09-18",
+      "title": "Build a Reliable Tool-Calling Agent Loop on OpenRouter",
+      "date": "2026-09-17",
+      "source_url": "https://openrouter.ai/blog/tutorials/build-tool-calling-agent-loop/",
+      "as_of": "2026-09-19",
       "source_kind": "blog"
     },
     {
-      "title": "How to Use OpenRouter Presets: Config-as-Code Guide",
-      "date": "2026-09-10",
-      "source_url": "https://openrouter.ai/blog/tutorials/presets/",
-      "as_of": "2026-09-18",
+      "title": "Does DeepSeek V4 Have Vision?",
+      "date": "2026-09-16",
+      "source_url": "https://openrouter.ai/blog/insights/deepseek-v4-vision/",
+      "as_of": "2026-09-19",
       "source_kind": "blog"
     }
   ]
