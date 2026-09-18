@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-09-18",
+      "source_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "as_of": "2026-09-19",
+      "source_kind": "blog"
+    },
+    {
+      "title": "claude-code v2.1.277",
+      "date": "2026-09-18",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "as_of": "2026-09-19",
+      "source_kind": "releases"
+    },
+    {
       "title": "claude-code v2.1.276",
       "date": "2026-09-18",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
@@ -23,13 +37,6 @@
       "title": "claude-code v2.1.275",
       "date": "2026-09-17",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
-      "as_of": "2026-09-19",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.274",
-      "date": "2026-09-17",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
       "as_of": "2026-09-19",
       "source_kind": "releases"
     },
@@ -58,13 +65,6 @@
       "title": "Developing Enterprise Frontier Safeguards with our customers",
       "date": "2026-09-01",
       "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "as_of": "2026-09-19",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Improving our alignment and security efforts",
-      "date": "2026-08-31",
-      "source_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
       "as_of": "2026-09-19",
       "source_kind": "blog"
     }
