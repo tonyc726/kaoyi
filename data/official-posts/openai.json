@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-19",
+  "as_of": "2026-09-20",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.156.0-alpha.8",
+      "date": "2026-09-19",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.8",
+      "as_of": "2026-09-20",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.156.0-alpha.7",
       "date": "2026-09-19",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.7",
-      "as_of": "2026-09-19",
+      "as_of": "2026-09-20",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.156.0-alpha.6",
       "date": "2026-09-19",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.6",
-      "as_of": "2026-09-19",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.156.0-alpha.5",
-      "date": "2026-09-19",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.5",
-      "as_of": "2026-09-19",
+      "as_of": "2026-09-20",
       "source_kind": "releases"
     },
     {
       "title": "SSO sign-in and SCIM provisioning issues",
       "date": "2026-09-18",
       "source_url": "https://status.openai.com/incidents/01M2VBZB1RYSMXHZNRA25ZJ36X",
-      "as_of": "2026-09-19",
+      "as_of": "2026-09-20",
       "source_kind": "status"
     },
     {
       "title": "Overbilling for OpenAI-hosted containers in the Agent API",
       "date": "2026-09-18",
       "source_url": "https://status.openai.com/incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
-      "as_of": "2026-09-19",
+      "as_of": "2026-09-20",
       "source_kind": "status"
     },
     {
       "title": "Delayed support responses",
       "date": "2026-09-18",
       "source_url": "https://status.openai.com/incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
-      "as_of": "2026-09-19",
+      "as_of": "2026-09-20",
       "source_kind": "status"
     },
     {
       "title": "Introducing the Australian Youth Safety Blueprint",
       "date": "2026-09-18",
       "source_url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "as_of": "2026-09-19",
+      "as_of": "2026-09-20",
       "source_kind": "blog"
     },
     {
       "title": "How Cooley is accelerating IPO work with ChatGPT",
       "date": "2026-09-17",
       "source_url": "https://openai.com/index/cooley-gopublic",
-      "as_of": "2026-09-19",
+      "as_of": "2026-09-20",
       "source_kind": "blog"
     },
     {
       "title": "Introducing Astra for Law",
       "date": "2026-09-17",
       "source_url": "https://openai.com/index/astra-for-law",
-      "as_of": "2026-09-19",
+      "as_of": "2026-09-20",
       "source_kind": "blog"
     }
   ]
