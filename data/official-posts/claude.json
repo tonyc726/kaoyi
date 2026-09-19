@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.278",
+      "date": "2026-09-19",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "as_of": "2026-09-19",
+      "source_kind": "releases"
+    },
+    {
       "title": "Partnering with Accenture on embedded evaluation",
       "date": "2026-09-18",
       "source_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
@@ -32,13 +39,6 @@
       "source_url": "https://www.anthropic.com/news/life-sciences-verification-program",
       "as_of": "2026-09-19",
       "source_kind": "blog"
-    },
-    {
-      "title": "claude-code v2.1.275",
-      "date": "2026-09-17",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
-      "as_of": "2026-09-19",
-      "source_kind": "releases"
     },
     {
       "title": "Issues with Google Play subscriptions",
