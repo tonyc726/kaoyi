@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-09-20",
+  "as_of": "2026-09-21",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "Image Generation Models Compared: Cost, Edit, Quality",
       "date": "2026-09-18",
       "source_url": "https://openrouter.ai/blog/insights/image-generation-models-compared/",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "blog"
     },
     {
       "title": "Build a Reliable Tool-Calling Agent Loop on OpenRouter",
       "date": "2026-09-17",
       "source_url": "https://openrouter.ai/blog/tutorials/build-tool-calling-agent-loop/",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "blog"
     },
     {
       "title": "Does DeepSeek V4 Have Vision?",
       "date": "2026-09-16",
       "source_url": "https://openrouter.ai/blog/insights/deepseek-v4-vision/",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "blog"
     }
   ]

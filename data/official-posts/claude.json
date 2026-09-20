@@ -1,7 +1,7 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-09-20",
+  "as_of": "2026-09-21",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "claude-code v2.1.278",
       "date": "2026-09-19",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "releases"
     },
     {
       "title": "Partnering with Accenture on embedded evaluation",
       "date": "2026-09-18",
       "source_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "blog"
     },
     {
       "title": "claude-code v2.1.277",
       "date": "2026-09-18",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.276",
       "date": "2026-09-18",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "releases"
     },
     {
       "title": "Introducing the Life Sciences Verification Program",
       "date": "2026-09-17",
       "source_url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "blog"
     },
     {
       "title": "Issues with Google Play subscriptions",
       "date": "2026-09-16",
       "source_url": "https://status.claude.com/incidents/t8fpw9vcshl9",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "status"
     },
     {
       "title": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
       "date": "2026-09-15",
       "source_url": "https://status.claude.com/incidents/6304r9jjhj34",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "status"
     },
     {
       "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
       "date": "2026-09-11",
       "source_url": "https://status.claude.com/incidents/t33dncr5ydvl",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "status"
     },
     {
       "title": "Developing Enterprise Frontier Safeguards with our customers",
       "date": "2026-09-01",
       "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "as_of": "2026-09-20",
+      "as_of": "2026-09-21",
       "source_kind": "blog"
     }
   ]
