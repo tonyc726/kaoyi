@@ -1,7 +1,7 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-22",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,64 +9,64 @@
       "title": "How V7 gives AI agents institutional memory",
       "date": "2026-09-21",
       "source_url": "https://openai.com/index/v7",
-      "as_of": "2026-09-21",
+      "as_of": "2026-09-22",
       "source_kind": "blog"
     },
     {
-      "title": "codex rust-v0.156.0-alpha.15",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "date": "2026-09-21",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.15",
-      "as_of": "2026-09-21",
+      "source_url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "as_of": "2026-09-22",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "date": "2026-09-21",
+      "source_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "as_of": "2026-09-22",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.157.0-alpha.1",
+      "date": "2026-09-21",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.1",
+      "as_of": "2026-09-22",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.156.0-alpha.14",
+      "title": "codex rust-v0.156.0-alpha.17",
       "date": "2026-09-21",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.14",
-      "as_of": "2026-09-21",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.17",
+      "as_of": "2026-09-22",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.156.0-alpha.13",
+      "title": "codex 0.156.0-alpha.16",
       "date": "2026-09-21",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.13",
-      "as_of": "2026-09-21",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.16",
+      "as_of": "2026-09-22",
       "source_kind": "releases"
     },
     {
       "title": "SSO sign-in and SCIM provisioning issues",
       "date": "2026-09-18",
       "source_url": "https://status.openai.com/incidents/01M2VBZB1RYSMXHZNRA25ZJ36X",
-      "as_of": "2026-09-21",
+      "as_of": "2026-09-22",
       "source_kind": "status"
     },
     {
       "title": "Overbilling for OpenAI-hosted containers in the Agent API",
       "date": "2026-09-18",
       "source_url": "https://status.openai.com/incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
-      "as_of": "2026-09-21",
+      "as_of": "2026-09-22",
       "source_kind": "status"
     },
     {
       "title": "Delayed support responses",
       "date": "2026-09-18",
       "source_url": "https://status.openai.com/incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
-      "as_of": "2026-09-21",
+      "as_of": "2026-09-22",
       "source_kind": "status"
-    },
-    {
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "date": "2026-09-18",
-      "source_url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "as_of": "2026-09-21",
-      "source_kind": "blog"
-    },
-    {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "date": "2026-09-17",
-      "source_url": "https://openai.com/index/cooley-gopublic",
-      "as_of": "2026-09-21",
-      "source_kind": "blog"
     }
   ]
 }
