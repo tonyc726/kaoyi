@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Two Hours of Work That Takes a Week",
+      "date": "2026-09-21",
+      "source_url": "https://openrouter.ai/blog/insights/descript-model-evaluation-queue/",
+      "as_of": "2026-09-21",
+      "source_kind": "blog"
+    },
+    {
       "title": "Image Generation Models Compared: Cost, Edit, Quality",
       "date": "2026-09-18",
       "source_url": "https://openrouter.ai/blog/insights/image-generation-models-compared/",
@@ -16,13 +23,6 @@
       "title": "Build a Reliable Tool-Calling Agent Loop on OpenRouter",
       "date": "2026-09-17",
       "source_url": "https://openrouter.ai/blog/tutorials/build-tool-calling-agent-loop/",
-      "as_of": "2026-09-21",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Does DeepSeek V4 Have Vision?",
-      "date": "2026-09-16",
-      "source_url": "https://openrouter.ai/blog/insights/deepseek-v4-vision/",
       "as_of": "2026-09-21",
       "source_kind": "blog"
     }
