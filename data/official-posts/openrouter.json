@@ -13,16 +13,16 @@
       "source_kind": "blog"
     },
     {
-      "title": "Two Hours of Work That Takes a Week",
-      "date": "2026-09-21",
-      "source_url": "https://openrouter.ai/blog/insights/descript-model-evaluation-queue/",
+      "title": "Batch API: half-price inference by bundling requests",
+      "date": "2026-09-22",
+      "source_url": "https://openrouter.ai/blog/announcements/batch-api/",
       "as_of": "2026-09-22",
       "source_kind": "blog"
     },
     {
-      "title": "Image Generation Models Compared: Cost, Edit, Quality",
-      "date": "2026-09-18",
-      "source_url": "https://openrouter.ai/blog/insights/image-generation-models-compared/",
+      "title": "Two Hours of Work That Takes a Week",
+      "date": "2026-09-21",
+      "source_url": "https://openrouter.ai/blog/insights/descript-model-evaluation-queue/",
       "as_of": "2026-09-22",
       "source_kind": "blog"
     }
