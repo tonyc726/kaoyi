@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors for multiple models",
+      "date": "2026-09-22",
+      "source_url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "as_of": "2026-09-22",
+      "source_kind": "status"
+    },
+    {
       "title": "claude-code v2.1.278",
       "date": "2026-09-19",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
@@ -51,13 +58,6 @@
       "title": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
       "date": "2026-09-15",
       "source_url": "https://status.claude.com/incidents/6304r9jjhj34",
-      "as_of": "2026-09-22",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
-      "date": "2026-09-11",
-      "source_url": "https://status.claude.com/incidents/t33dncr5ydvl",
       "as_of": "2026-09-22",
       "source_kind": "status"
     },

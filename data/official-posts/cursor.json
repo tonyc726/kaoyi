@@ -7,6 +7,13 @@
   "posts": [
     {
       "title": "Investigating service degradation",
+      "date": "2026-09-22",
+      "source_url": "https://status.cursor.com/incidents/ymdqwbhcc85q",
+      "as_of": "2026-09-22",
+      "source_kind": "status"
+    },
+    {
+      "title": "Investigating service degradation",
       "date": "2026-09-21",
       "source_url": "https://status.cursor.com/incidents/9lzqc8vy6jjj",
       "as_of": "2026-09-22",
@@ -23,13 +30,6 @@
       "title": "Sign-in and dashboard errors for some users",
       "date": "2026-09-18",
       "source_url": "https://status.cursor.com/incidents/r44l5qk34kj1",
-      "as_of": "2026-09-22",
-      "source_kind": "status"
-    },
-    {
-      "title": "Investigating service degradation — Grok Bot",
-      "date": "2026-09-18",
-      "source_url": "https://status.cursor.com/incidents/3slwgs0612sc",
       "as_of": "2026-09-22",
       "source_kind": "status"
     },
