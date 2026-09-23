@@ -1,72 +1,72 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-23",
+  "as_of": "2026-09-24",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "date": "2026-09-24",
+      "source_url": "https://openai.com/index/ringg",
+      "as_of": "2026-09-24",
+      "source_kind": "blog"
+    },
+    {
       "title": "Elevated Error Rates for ChatGPT across Plus and Pro plans.",
       "date": "2026-09-23",
       "source_url": "https://status.openai.com/incidents/01M36RMC01ZFWQ861WYJKC4XE1",
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-24",
       "source_kind": "status"
+    },
+    {
+      "title": "Two years of OpenAI Academy",
+      "date": "2026-09-23",
+      "source_url": "https://openai.com/index/two-years-of-openai-academy",
+      "as_of": "2026-09-24",
+      "source_kind": "blog"
     },
     {
       "title": "OpenAI extends cyber access to Ukraine for civilian defense",
       "date": "2026-09-23",
       "source_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-24",
       "source_kind": "blog"
     },
     {
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "title": "codex 0.158.0-alpha.4",
       "date": "2026-09-23",
-      "source_url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "as_of": "2026-09-23",
-      "source_kind": "blog"
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.4",
+      "as_of": "2026-09-24",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.158.0-alpha.3",
+      "date": "2026-09-23",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.3",
+      "as_of": "2026-09-24",
+      "source_kind": "releases"
     },
     {
       "title": "codex 0.158.0-alpha.2",
       "date": "2026-09-23",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.2",
-      "as_of": "2026-09-23",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.158.0-alpha.1",
-      "date": "2026-09-23",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.1",
-      "as_of": "2026-09-23",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.157.0-alpha.11",
-      "date": "2026-09-23",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.11",
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-24",
       "source_kind": "releases"
     },
     {
       "title": "Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.",
       "date": "2026-09-22",
       "source_url": "https://status.openai.com/incidents/01M34TAFM9WBGEBE3G1GBH4SE8",
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-24",
       "source_kind": "status"
     },
     {
       "title": "Increased error rate for Plus and Pro users.",
       "date": "2026-09-22",
       "source_url": "https://status.openai.com/incidents/01M348TX2DX7KPM9X857N4APNV",
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-24",
       "source_kind": "status"
-    },
-    {
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "date": "2026-09-22",
-      "source_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "as_of": "2026-09-23",
-      "source_kind": "blog"
     }
   ]
 }
