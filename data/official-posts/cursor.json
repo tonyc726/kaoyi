@@ -1,7 +1,7 @@
 {
   "vendor_id": "cursor",
   "source_url": "https://cursor.com/changelog/rss.xml",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "Investigating service degradation - Grok 4.7",
       "date": "2026-09-23",
       "source_url": "https://status.cursor.com/incidents/wkjw4b51h1yq",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "status"
     },
     {
       "title": "Investigating — Cloud Agent Dockerfile Builds",
       "date": "2026-09-23",
       "source_url": "https://status.cursor.com/incidents/lh1fpdkb4kcp",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "status"
     },
     {
       "title": "Rollouts and Security Review",
       "date": "2026-09-23",
       "source_url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "blog"
     },
     {
       "title": "Bots for the last mile: Rollouts, Security Review",
       "date": "2026-09-23",
       "source_url": "https://cursor.com/blog/rollouts-and-security-reviewer",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "blog"
     },
     {
       "title": "Improved token efficiency for longer agent runsJediah, Connor & Calvin7mJediah, Connor & Calvin",
       "date": "2026-09-23",
       "source_url": "https://cursor.com/blog/improved-token-efficiency",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "blog"
     },
     {
       "title": "Investigating service degradation",
       "date": "2026-09-22",
       "source_url": "https://status.cursor.com/incidents/ymdqwbhcc85q",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "status"
     },
     {
       "title": "Grok 4.7 is now Live!",
       "date": "2026-09-21",
       "source_url": "https://forum.cursor.com/t/grok-4-7-is-now-live/172526",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "forum"
     },
     {
       "title": "Grok Bot is Now Live on Android",
       "date": "2026-09-02",
       "source_url": "https://forum.cursor.com/t/grok-bot-is-now-live-on-android/170384",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "forum"
     },
     {
       "title": "Grok 4.6 is now Live!",
       "date": "2026-08-12",
       "source_url": "https://forum.cursor.com/t/grok-4-6-is-now-live/168189",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-25",
       "source_kind": "forum"
     }
   ]
