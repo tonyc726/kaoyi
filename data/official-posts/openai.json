@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-26",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "date": "2026-09-25",
+      "source_url": "https://openai.com/index/proaction",
+      "as_of": "2026-09-26",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.159.0-alpha.1",
+      "date": "2026-09-25",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.1",
+      "as_of": "2026-09-26",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.158.0-alpha.15",
+      "date": "2026-09-25",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15",
+      "as_of": "2026-09-26",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.158.0-alpha.14",
       "date": "2026-09-25",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.14",
-      "as_of": "2026-09-25",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.158.0-alpha.13",
-      "date": "2026-09-25",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.13",
-      "as_of": "2026-09-25",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.158.0-alpha.12",
-      "date": "2026-09-25",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.12",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-26",
       "source_kind": "releases"
     },
     {
       "title": "Elevated Error Rates on GPT-6 Astra Pro",
       "date": "2026-09-24",
       "source_url": "https://status.openai.com/incidents/01M3ACKDE4GYY67FXXNRRSC0CE",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-26",
       "source_kind": "status"
     },
     {
       "title": "Mobile users unable to see Work Mode and the Model Picker",
       "date": "2026-09-23",
       "source_url": "https://status.openai.com/incidents/01M389CDQ97B11QPMSRAAYSE5S",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-26",
       "source_kind": "status"
     },
     {
       "title": "Elevated Error Rates for ChatGPT across Plus and Pro plans.",
       "date": "2026-09-23",
       "source_url": "https://status.openai.com/incidents/01M36RMC01ZFWQ861WYJKC4XE1",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-26",
       "source_kind": "status"
     },
     {
       "title": "Two years of OpenAI Academy",
       "date": "2026-09-23",
       "source_url": "https://openai.com/index/two-years-of-openai-academy",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-26",
       "source_kind": "blog"
     },
     {
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "date": "2026-09-23",
       "source_url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "as_of": "2026-09-25",
-      "source_kind": "blog"
-    },
-    {
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "date": "2026-09-23",
-      "source_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-26",
       "source_kind": "blog"
     }
   ]
