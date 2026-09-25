@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Investigating service degradation — Grok Bot",
+      "date": "2026-09-25",
+      "source_url": "https://status.cursor.com/incidents/n540z31sbqp6",
+      "as_of": "2026-09-25",
+      "source_kind": "status"
+    },
+    {
       "title": "Investigating service degradation - Grok 4.7",
       "date": "2026-09-23",
       "source_url": "https://status.cursor.com/incidents/wkjw4b51h1yq",
@@ -39,13 +46,6 @@
       "source_url": "https://cursor.com/blog/improved-token-efficiency",
       "as_of": "2026-09-25",
       "source_kind": "blog"
-    },
-    {
-      "title": "Investigating service degradation",
-      "date": "2026-09-22",
-      "source_url": "https://status.cursor.com/incidents/ymdqwbhcc85q",
-      "as_of": "2026-09-25",
-      "source_kind": "status"
     },
     {
       "title": "Grok 4.7 is now Live!",

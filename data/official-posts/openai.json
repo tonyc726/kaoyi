@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.158.0-alpha.13",
+      "date": "2026-09-25",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.13",
+      "as_of": "2026-09-25",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.158.0-alpha.12",
       "date": "2026-09-25",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.12",
@@ -25,13 +32,6 @@
       "source_url": "https://status.openai.com/incidents/01M3ACKDE4GYY67FXXNRRSC0CE",
       "as_of": "2026-09-25",
       "source_kind": "status"
-    },
-    {
-      "title": "codex 0.158.0-alpha.9",
-      "date": "2026-09-24",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.9",
-      "as_of": "2026-09-25",
-      "source_kind": "releases"
     },
     {
       "title": "Mobile users unable to see Work Mode and the Model Picker",
