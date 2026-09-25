@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.283",
+      "date": "2026-09-25",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "as_of": "2026-09-26",
+      "source_kind": "releases"
+    },
+    {
       "title": "claude-code v2.1.282",
       "date": "2026-09-24",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
@@ -32,13 +39,6 @@
       "source_url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
       "as_of": "2026-09-26",
       "source_kind": "status"
-    },
-    {
-      "title": "claude-code v2.1.280",
-      "date": "2026-09-22",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
-      "as_of": "2026-09-26",
-      "source_kind": "releases"
     },
     {
       "title": "Partnering with Accenture on embedded evaluation",
