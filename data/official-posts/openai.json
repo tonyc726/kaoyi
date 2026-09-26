@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex rust-v0.158.0-alpha.15.1",
+      "date": "2026-09-26",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15.1",
+      "as_of": "2026-09-26",
+      "source_kind": "releases"
+    },
+    {
       "title": "Issues with Codex",
       "date": "2026-09-25",
       "source_url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
@@ -30,13 +37,6 @@
       "title": "codex 0.159.0-alpha.2",
       "date": "2026-09-25",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.2",
-      "as_of": "2026-09-26",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.159.0-alpha.1",
-      "date": "2026-09-25",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.1",
       "as_of": "2026-09-26",
       "source_kind": "releases"
     },
