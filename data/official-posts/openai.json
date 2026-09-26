@@ -6,7 +6,21 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "codex rust-v0.158.0-alpha.15.1",
+      "title": "codex 0.159.0-alpha.4",
+      "date": "2026-09-26",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.4",
+      "as_of": "2026-09-26",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.158.0-alpha.2.1",
+      "date": "2026-09-26",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.2.1",
+      "as_of": "2026-09-26",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.158.0-alpha.15.1",
       "date": "2026-09-26",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15.1",
       "as_of": "2026-09-26",
@@ -25,20 +39,6 @@
       "source_url": "https://openai.com/index/proaction",
       "as_of": "2026-09-26",
       "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.159.0-alpha.3",
-      "date": "2026-09-25",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.3",
-      "as_of": "2026-09-26",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.159.0-alpha.2",
-      "date": "2026-09-25",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.2",
-      "as_of": "2026-09-26",
-      "source_kind": "releases"
     },
     {
       "title": "Elevated Error Rates on GPT-6 Astra Pro",
