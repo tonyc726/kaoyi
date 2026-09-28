@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "What Is Qwen 3.8",
       "date": "2026-09-28",
       "source_url": "https://openrouter.ai/blog/insights/qwen-3-8/",
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "source_kind": "blog"
     },
     {
       "title": "How to Use Jev: Moderation with the Jev API in TypeScript",
       "date": "2026-09-23",
       "source_url": "https://openrouter.ai/blog/tutorials/how-to-use-jev/",
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "source_kind": "blog"
     },
     {
       "title": "Best Embedding Models in 2026",
       "date": "2026-09-23",
       "source_url": "https://openrouter.ai/blog/insights/best-embedding-models-2026/",
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "source_kind": "blog"
     }
   ]
