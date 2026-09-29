@@ -6,6 +6,34 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex rust-v0.161.0-alpha.1",
+      "date": "2026-09-29",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.1",
+      "as_of": "2026-09-29",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.160.0-alpha.6",
+      "date": "2026-09-29",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.6",
+      "as_of": "2026-09-29",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex rust-v0.160.0-alpha.5",
+      "date": "2026-09-29",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.5",
+      "as_of": "2026-09-29",
+      "source_kind": "releases"
+    },
+    {
+      "title": "Towards safety cases for frontier AI training",
+      "date": "2026-09-28",
+      "source_url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "as_of": "2026-09-29",
+      "source_kind": "blog"
+    },
+    {
       "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
       "date": "2026-09-28",
       "source_url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
@@ -13,39 +41,11 @@
       "source_kind": "blog"
     },
     {
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "title": "How we will do better for Australia",
       "date": "2026-09-28",
-      "source_url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "source_url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "as_of": "2026-09-29",
       "source_kind": "blog"
-    },
-    {
-      "title": "Are you a Codex Original?",
-      "date": "2026-09-28",
-      "source_url": "https://openai.com/form/codex-originals",
-      "as_of": "2026-09-29",
-      "source_kind": "blog"
-    },
-    {
-      "title": "codex rust-v0.160.0-alpha.3",
-      "date": "2026-09-28",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.3",
-      "as_of": "2026-09-29",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.160.0-alpha.2",
-      "date": "2026-09-28",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.2",
-      "as_of": "2026-09-29",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.160.0-alpha.1",
-      "date": "2026-09-28",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.1",
-      "as_of": "2026-09-29",
-      "source_kind": "releases"
     },
     {
       "title": "Issues with Codex",
