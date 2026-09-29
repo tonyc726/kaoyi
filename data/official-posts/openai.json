@@ -13,7 +13,28 @@
       "source_kind": "blog"
     },
     {
-      "title": "codex rust-v0.160.0-alpha.2",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "date": "2026-09-28",
+      "source_url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "as_of": "2026-09-29",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Are you a Codex Original?",
+      "date": "2026-09-28",
+      "source_url": "https://openai.com/form/codex-originals",
+      "as_of": "2026-09-29",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex rust-v0.160.0-alpha.3",
+      "date": "2026-09-28",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.3",
+      "as_of": "2026-09-29",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.160.0-alpha.2",
       "date": "2026-09-28",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.2",
       "as_of": "2026-09-29",
@@ -27,25 +48,11 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.159.0-alpha.13",
-      "date": "2026-09-28",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.13",
-      "as_of": "2026-09-29",
-      "source_kind": "releases"
-    },
-    {
       "title": "Issues with Codex",
       "date": "2026-09-25",
       "source_url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
       "as_of": "2026-09-29",
       "source_kind": "status"
-    },
-    {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "date": "2026-09-25",
-      "source_url": "https://openai.com/index/proaction",
-      "as_of": "2026-09-29",
-      "source_kind": "blog"
     },
     {
       "title": "Elevated Error Rates on GPT-6 Astra Pro",
@@ -60,13 +67,6 @@
       "source_url": "https://status.openai.com/incidents/01M389CDQ97B11QPMSRAAYSE5S",
       "as_of": "2026-09-29",
       "source_kind": "status"
-    },
-    {
-      "title": "Two years of OpenAI Academy",
-      "date": "2026-09-23",
-      "source_url": "https://openai.com/index/two-years-of-openai-academy",
-      "as_of": "2026-09-29",
-      "source_kind": "blog"
     }
   ]
 }

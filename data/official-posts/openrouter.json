@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Image-to-Video AI Models Compared: Cost, Resolution, and Control",
+      "date": "2026-09-29",
+      "source_url": "https://openrouter.ai/blog/insights/image-to-video-models-compared/",
+      "as_of": "2026-09-29",
+      "source_kind": "blog"
+    },
+    {
       "title": "What Is Qwen 3.8",
       "date": "2026-09-28",
       "source_url": "https://openrouter.ai/blog/insights/qwen-3-8/",
@@ -16,13 +23,6 @@
       "title": "How to Use Jev: Moderation with the Jev API in TypeScript",
       "date": "2026-09-23",
       "source_url": "https://openrouter.ai/blog/tutorials/how-to-use-jev/",
-      "as_of": "2026-09-29",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Best Embedding Models in 2026",
-      "date": "2026-09-23",
-      "source_url": "https://openrouter.ai/blog/insights/best-embedding-models-2026/",
       "as_of": "2026-09-29",
       "source_kind": "blog"
     }
