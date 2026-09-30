@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-09-30",
+  "as_of": "2026-10-01",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "How to Test Tool-Calling Accuracy in AI Agents",
       "date": "2026-09-30",
       "source_url": "https://openrouter.ai/blog/tutorials/how-to-test-tool-calling-accuracy-in-ai-agents/",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-01",
       "source_kind": "blog"
     },
     {
       "title": "Building a Golden Eval Dataset from Production Traffic",
       "date": "2026-09-30",
       "source_url": "https://openrouter.ai/blog/tutorials/building-a-golden-eval-dataset-from-production-traffic/",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-01",
       "source_kind": "blog"
     },
     {
       "title": "AI Agent Regression Testing After a Prompt or Model Change",
       "date": "2026-09-30",
       "source_url": "https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change/",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-01",
       "source_kind": "blog"
     }
   ]
