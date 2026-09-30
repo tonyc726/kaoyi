@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.286",
+      "date": "2026-09-30",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+      "as_of": "2026-10-01",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
       "date": "2026-09-29",
       "source_url": "https://status.claude.com/incidents/4xvtc2gnq73l",
@@ -23,13 +30,6 @@
       "title": "claude-code v2.1.284",
       "date": "2026-09-28",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
-      "as_of": "2026-10-01",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.283",
-      "date": "2026-09-25",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
       "as_of": "2026-10-01",
       "source_kind": "releases"
     },

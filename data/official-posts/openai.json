@@ -34,6 +34,20 @@
       "source_kind": "blog"
     },
     {
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "date": "2026-09-30",
+      "source_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "as_of": "2026-10-01",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.161.0-alpha.5",
+      "date": "2026-09-30",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.5",
+      "as_of": "2026-10-01",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.161.0-alpha.4",
       "date": "2026-09-30",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.4",
@@ -48,23 +62,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.160.0-alpha.6.1",
-      "date": "2026-09-30",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.6.1",
-      "as_of": "2026-10-01",
-      "source_kind": "releases"
-    },
-    {
       "title": "Introducing GPT-6.1 Sol",
       "date": "2026-09-29",
       "source_url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "as_of": "2026-10-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Introducing dots",
-      "date": "2026-09-29",
-      "source_url": "https://openai.com/index/introducing-dots",
       "as_of": "2026-10-01",
       "source_kind": "blog"
     }
