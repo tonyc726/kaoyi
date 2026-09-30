@@ -6,6 +6,27 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors in ChatGPT Space Pages",
+      "date": "2026-09-30",
+      "source_url": "https://status.openai.com/incidents/01M3R1T4FCR1337FBBYY9K2RPB",
+      "as_of": "2026-09-30",
+      "source_kind": "status"
+    },
+    {
+      "title": "codex 0.161.0-alpha.3",
+      "date": "2026-09-30",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.3",
+      "as_of": "2026-09-30",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.160.0-alpha.6.1",
+      "date": "2026-09-30",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.6.1",
+      "as_of": "2026-09-30",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
       "date": "2026-09-29",
       "source_url": "https://status.openai.com/incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
@@ -46,27 +67,6 @@
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.2",
       "as_of": "2026-09-30",
       "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.161.0-alpha.1",
-      "date": "2026-09-29",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.1",
-      "as_of": "2026-09-30",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.160.0-alpha.6",
-      "date": "2026-09-29",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.6",
-      "as_of": "2026-09-30",
-      "source_kind": "releases"
-    },
-    {
-      "title": "Issues with Codex",
-      "date": "2026-09-25",
-      "source_url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-      "as_of": "2026-09-30",
-      "source_kind": "status"
     }
   ]
 }
