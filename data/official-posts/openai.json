@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex rust-v0.161.0-alpha.7",
+      "date": "2026-10-01",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.7",
+      "as_of": "2026-10-01",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.161.0-alpha.6",
+      "date": "2026-10-01",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.6",
+      "as_of": "2026-10-01",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated latency for some API requests",
       "date": "2026-09-30",
       "source_url": "https://status.openai.com/incidents/01M3SMF1Q0TDCQVNYSXYG37QMR",
@@ -44,20 +58,6 @@
       "title": "codex 0.161.0-alpha.5",
       "date": "2026-09-30",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.5",
-      "as_of": "2026-10-01",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.161.0-alpha.4",
-      "date": "2026-09-30",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.4",
-      "as_of": "2026-10-01",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.161.0-alpha.3",
-      "date": "2026-09-30",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.3",
       "as_of": "2026-10-01",
       "source_kind": "releases"
     },

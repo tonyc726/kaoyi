@@ -6,23 +6,23 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "How to Test Tool-Calling Accuracy in AI Agents",
-      "date": "2026-09-30",
-      "source_url": "https://openrouter.ai/blog/tutorials/how-to-test-tool-calling-accuracy-in-ai-agents/",
+      "title": "How to Gate Pull Requests on LLM Evals in CI",
+      "date": "2026-10-01",
+      "source_url": "https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/",
       "as_of": "2026-10-01",
       "source_kind": "blog"
     },
     {
-      "title": "Building a Golden Eval Dataset from Production Traffic",
-      "date": "2026-09-30",
-      "source_url": "https://openrouter.ai/blog/tutorials/building-a-golden-eval-dataset-from-production-traffic/",
+      "title": "Cost vs. Quality Tradeoff Framework for Agent Models",
+      "date": "2026-10-01",
+      "source_url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
       "as_of": "2026-10-01",
       "source_kind": "blog"
     },
     {
-      "title": "AI Agent Regression Testing After a Prompt or Model Change",
-      "date": "2026-09-30",
-      "source_url": "https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change/",
+      "title": "Confidence Thresholds for Model Escalation Routing",
+      "date": "2026-10-01",
+      "source_url": "https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/",
       "as_of": "2026-10-01",
       "source_kind": "blog"
     }
