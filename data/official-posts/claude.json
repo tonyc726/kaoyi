@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "date": "2026-10-01",
+      "source_url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "as_of": "2026-10-01",
+      "source_kind": "blog"
+    },
+    {
       "title": "claude-code v2.1.286",
       "date": "2026-09-30",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
@@ -51,13 +58,6 @@
       "title": "Partnering with Accenture on embedded evaluation",
       "date": "2026-09-18",
       "source_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "as_of": "2026-10-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Introducing the Life Sciences Verification Program",
-      "date": "2026-09-17",
-      "source_url": "https://www.anthropic.com/news/life-sciences-verification-program",
       "as_of": "2026-10-01",
       "source_kind": "blog"
     },
