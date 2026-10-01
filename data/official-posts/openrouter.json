@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-10-01",
+  "as_of": "2026-10-02",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "How to Gate Pull Requests on LLM Evals in CI",
       "date": "2026-10-01",
       "source_url": "https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/",
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "source_kind": "blog"
     },
     {
       "title": "Cost vs. Quality Tradeoff Framework for Agent Models",
       "date": "2026-10-01",
       "source_url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "source_kind": "blog"
     },
     {
       "title": "Confidence Thresholds for Model Escalation Routing",
       "date": "2026-10-01",
       "source_url": "https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/",
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "source_kind": "blog"
     }
   ]

@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-01",
+  "as_of": "2026-10-02",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Issues with login, signup, and ads",
+      "date": "2026-10-01",
+      "source_url": "https://status.openai.com/incidents/01M3WCKTAN41RZ01SBRRTY4AYM",
+      "as_of": "2026-10-02",
+      "source_kind": "status"
+    },
+    {
+      "title": "The eternal complement",
+      "date": "2026-10-01",
+      "source_url": "https://openai.com/index/the-eternal-complement",
+      "as_of": "2026-10-02",
+      "source_kind": "blog"
+    },
+    {
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "date": "2026-10-01",
+      "source_url": "https://openai.com/index/albertsons-reimagining-retail",
+      "as_of": "2026-10-02",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.161.0-alpha.9",
       "date": "2026-10-01",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.9",
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.161.0-alpha.8",
+      "title": "codex 0.161.0-alpha.13",
       "date": "2026-10-01",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.8",
-      "as_of": "2026-10-01",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.13",
+      "as_of": "2026-10-02",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.161.0-alpha.7",
+      "title": "codex 0.161.0-alpha.12",
       "date": "2026-10-01",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.7",
-      "as_of": "2026-10-01",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.12",
+      "as_of": "2026-10-02",
       "source_kind": "releases"
     },
     {
       "title": "Elevated latency for some API requests",
       "date": "2026-09-30",
       "source_url": "https://status.openai.com/incidents/01M3SMF1Q0TDCQVNYSXYG37QMR",
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "source_kind": "status"
     },
     {
       "title": "Elevated error rates for ChatGPT Pro and Plus users",
       "date": "2026-09-30",
       "source_url": "https://status.openai.com/incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
-      "as_of": "2026-10-01",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors in ChatGPT Space Pages",
-      "date": "2026-09-30",
-      "source_url": "https://status.openai.com/incidents/01M3R1T4FCR1337FBBYY9K2RPB",
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "source_kind": "status"
     },
     {
       "title": "Helping small businesses put AI to work",
       "date": "2026-09-30",
       "source_url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "as_of": "2026-10-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "date": "2026-09-30",
-      "source_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "as_of": "2026-10-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Introducing GPT-6.1 Sol",
-      "date": "2026-09-29",
-      "source_url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-02",
       "source_kind": "blog"
     }
   ]
