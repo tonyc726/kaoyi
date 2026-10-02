@@ -20,6 +20,13 @@
       "source_kind": "blog"
     },
     {
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "date": "2026-10-02",
+      "source_url": "https://openai.com/index/chatham-financial",
+      "as_of": "2026-10-03",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.162.0-alpha.7",
       "date": "2026-10-02",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.7",
@@ -51,13 +58,6 @@
       "title": "The eternal complement",
       "date": "2026-10-01",
       "source_url": "https://openai.com/index/the-eternal-complement",
-      "as_of": "2026-10-03",
-      "source_kind": "blog"
-    },
-    {
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "date": "2026-10-01",
-      "source_url": "https://openai.com/index/the-den-family-social",
       "as_of": "2026-10-03",
       "source_kind": "blog"
     },
