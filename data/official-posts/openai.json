@@ -20,6 +20,13 @@
       "source_kind": "blog"
     },
     {
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "date": "2026-10-01",
+      "source_url": "https://openai.com/index/the-den-family-social",
+      "as_of": "2026-10-02",
+      "source_kind": "blog"
+    },
+    {
       "title": "How Albertsons Companies is reimagining retail from the inside out",
       "date": "2026-10-01",
       "source_url": "https://openai.com/index/albertsons-reimagining-retail",
@@ -27,9 +34,9 @@
       "source_kind": "blog"
     },
     {
-      "title": "codex 0.161.0-alpha.9",
+      "title": "codex 0.162.0-alpha.1",
       "date": "2026-10-01",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.9",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.1",
       "as_of": "2026-10-02",
       "source_kind": "releases"
     },
@@ -60,13 +67,6 @@
       "source_url": "https://status.openai.com/incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
       "as_of": "2026-10-02",
       "source_kind": "status"
-    },
-    {
-      "title": "Helping small businesses put AI to work",
-      "date": "2026-09-30",
-      "source_url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "as_of": "2026-10-02",
-      "source_kind": "blog"
     }
   ]
 }
