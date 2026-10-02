@@ -6,23 +6,23 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "How to Gate Pull Requests on LLM Evals in CI",
-      "date": "2026-10-01",
-      "source_url": "https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/",
+      "title": "Model Routing for Support Bots: Cheap-First FAQ Handling",
+      "date": "2026-10-02",
+      "source_url": "https://openrouter.ai/blog/tutorials/model-routing-for-support-bots-cheap-first-faq-handling/",
       "as_of": "2026-10-02",
       "source_kind": "blog"
     },
     {
-      "title": "Cost vs. Quality Tradeoff Framework for Agent Models",
-      "date": "2026-10-01",
-      "source_url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
+      "title": "LangChain vs CrewAI: Orchestration Compared to OpenRouter-Native Routing",
+      "date": "2026-10-02",
+      "source_url": "https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/",
       "as_of": "2026-10-02",
       "source_kind": "blog"
     },
     {
-      "title": "Confidence Thresholds for Model Escalation Routing",
-      "date": "2026-10-01",
-      "source_url": "https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/",
+      "title": "Agent Frameworks Compared: Tool-Calling Schema Handling",
+      "date": "2026-10-02",
+      "source_url": "https://openrouter.ai/blog/insights/agent-frameworks-compared-tool-calling-schema-handling/",
       "as_of": "2026-10-02",
       "source_kind": "blog"
     }
