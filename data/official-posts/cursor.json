@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Investigating service degradation — Grok Bot and Review Agents",
+      "date": "2026-10-03",
+      "source_url": "https://status.cursor.com/incidents/tjs10pzx9qxg",
+      "as_of": "2026-10-03",
+      "source_kind": "status"
+    },
+    {
       "title": "Investigating service degradation — Cloud Agents and Grok Bot",
       "date": "2026-09-29",
       "source_url": "https://status.cursor.com/incidents/jb59kzth2pwf",
@@ -16,13 +23,6 @@
       "title": "Investigating service degradation - xAI models",
       "date": "2026-09-29",
       "source_url": "https://status.cursor.com/incidents/dk1g1h4q8yf8",
-      "as_of": "2026-10-03",
-      "source_kind": "status"
-    },
-    {
-      "title": "Investigating service degradation — Grok Bot",
-      "date": "2026-09-28",
-      "source_url": "https://status.cursor.com/incidents/x2g19tzq27sg",
       "as_of": "2026-10-03",
       "source_kind": "status"
     },
