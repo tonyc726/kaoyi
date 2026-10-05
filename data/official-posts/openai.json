@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-06",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "Issues saving and editing Pages",
+      "title": "Elevated error rates in Codex Cloud",
       "date": "2026-10-05",
-      "source_url": "https://status.openai.com/incidents/01M461GYDMCVJJK8330PVCH42C",
-      "as_of": "2026-10-05",
+      "source_url": "https://status.openai.com/incidents/01M46KED6KQ6PR195KZYYVNY8W",
+      "as_of": "2026-10-06",
       "source_kind": "status"
     },
     {
-      "title": "Elevated Work Mode errors",
+      "title": "Elevated errors in ChatGPT conversations",
       "date": "2026-10-05",
-      "source_url": "https://status.openai.com/incidents/01M45E0JFFJZ6EQ3BWYPW74R2Z",
-      "as_of": "2026-10-05",
+      "source_url": "https://status.openai.com/incidents/01M46G248GGHV9RSAJE82BZY1X",
+      "as_of": "2026-10-06",
+      "source_kind": "status"
+    },
+    {
+      "title": "Admin Console Intermittently Inaccessible",
+      "date": "2026-10-05",
+      "source_url": "https://status.openai.com/incidents/01M46C47WYYD9NMZVGH83X3ZR1",
+      "as_of": "2026-10-06",
       "source_kind": "status"
     },
     {
       "title": "Building advertising for the way people use AI",
       "date": "2026-10-05",
       "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "source_kind": "blog"
     },
     {
-      "title": "codex rust-v0.162.0-alpha.15",
+      "title": "Our approach to EU text provenance rules",
+      "date": "2026-10-05",
+      "source_url": "https://openai.com/index/eu-text-provenance",
+      "as_of": "2026-10-06",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.162.0-alpha.16",
+      "date": "2026-10-05",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.16",
+      "as_of": "2026-10-06",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.162.0-alpha.15",
       "date": "2026-10-05",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.162.0-alpha.14",
       "date": "2026-10-05",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.14",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.162.0-alpha.13",
-      "date": "2026-10-04",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.13",
-      "as_of": "2026-10-05",
-      "source_kind": "releases"
-    },
-    {
-      "title": "Issues with data analysis and file creation in ChatGPT",
-      "date": "2026-10-02",
-      "source_url": "https://status.openai.com/incidents/01M3YNNVTSCXS8YM2V1YMHMVSE",
-      "as_of": "2026-10-05",
-      "source_kind": "status"
     },
     {
       "title": "A model guide for the GPT-6 family",
       "date": "2026-10-02",
       "source_url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "as_of": "2026-10-05",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "date": "2026-10-02",
-      "source_url": "https://openai.com/index/chatham-financial",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "source_kind": "blog"
     }
   ]
