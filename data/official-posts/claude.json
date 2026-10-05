@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+      "date": "2026-10-05",
+      "source_url": "https://status.claude.com/incidents/bhphxz3vr58g",
+      "as_of": "2026-10-05",
+      "source_kind": "status"
+    },
+    {
       "title": "claude-code v2.1.289",
       "date": "2026-10-03",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
@@ -60,13 +67,6 @@
       "source_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "as_of": "2026-10-05",
       "source_kind": "blog"
-    },
-    {
-      "title": "Elevated errors for multiple models",
-      "date": "2026-09-22",
-      "source_url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
-      "as_of": "2026-10-05",
-      "source_kind": "status"
     }
   ]
 }
