@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Server-Side Code Execution Tools for AI Agents, Compared",
+      "date": "2026-10-05",
+      "source_url": "https://openrouter.ai/blog/insights/server-side-code-execution-tools-for-ai-agents-compared/",
+      "as_of": "2026-10-05",
+      "source_kind": "blog"
+    },
+    {
       "title": "Model Routing for Support Bots: Cheap-First FAQ Handling",
       "date": "2026-10-02",
       "source_url": "https://openrouter.ai/blog/tutorials/model-routing-for-support-bots-cheap-first-faq-handling/",
@@ -16,13 +23,6 @@
       "title": "LangChain vs CrewAI: Orchestration Compared to OpenRouter-Native Routing",
       "date": "2026-10-02",
       "source_url": "https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/",
-      "as_of": "2026-10-05",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Agent Frameworks Compared: Tool-Calling Schema Handling",
-      "date": "2026-10-02",
-      "source_url": "https://openrouter.ai/blog/insights/agent-frameworks-compared-tool-calling-schema-handling/",
       "as_of": "2026-10-05",
       "source_kind": "blog"
     }
