@@ -6,11 +6,25 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.291",
+      "date": "2026-10-06",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "as_of": "2026-10-06",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
       "date": "2026-10-05",
       "source_url": "https://status.claude.com/incidents/bhphxz3vr58g",
       "as_of": "2026-10-06",
       "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.290",
+      "date": "2026-10-05",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+      "as_of": "2026-10-06",
+      "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.289",
@@ -27,13 +41,6 @@
       "source_kind": "blog"
     },
     {
-      "title": "claude-code v2.1.288",
-      "date": "2026-10-02",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
-      "as_of": "2026-10-06",
-      "source_kind": "releases"
-    },
-    {
       "title": "Barclays scales Claude to upgrade operations and improve client experience",
       "date": "2026-10-01",
       "source_url": "https://www.anthropic.com/news/barclays-scales-claude",
@@ -46,13 +53,6 @@
       "source_url": "https://status.claude.com/incidents/k0h22tsvnydg",
       "as_of": "2026-10-06",
       "source_kind": "status"
-    },
-    {
-      "title": "claude-code v2.1.287",
-      "date": "2026-10-01",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
-      "as_of": "2026-10-06",
-      "source_kind": "releases"
     },
     {
       "title": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",

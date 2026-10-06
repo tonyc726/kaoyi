@@ -6,23 +6,30 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
+      "date": "2026-10-06",
+      "source_url": "https://status.openai.com/incidents/01M47HC9SGHGFPBN44KGC6SKAQ",
+      "as_of": "2026-10-06",
+      "source_kind": "status"
+    },
+    {
+      "title": "Elevated errors in API Platform login and administration APIs.",
+      "date": "2026-10-06",
+      "source_url": "https://status.openai.com/incidents/01M47AFBNRNXKJWN549T3PMYV8",
+      "as_of": "2026-10-06",
+      "source_kind": "status"
+    },
+    {
+      "title": "codex rust-v0.161.0-alpha.13.1",
+      "date": "2026-10-06",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.13.1",
+      "as_of": "2026-10-06",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated error rates in Codex Cloud",
       "date": "2026-10-05",
       "source_url": "https://status.openai.com/incidents/01M46KED6KQ6PR195KZYYVNY8W",
-      "as_of": "2026-10-06",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors in ChatGPT conversations",
-      "date": "2026-10-05",
-      "source_url": "https://status.openai.com/incidents/01M46G248GGHV9RSAJE82BZY1X",
-      "as_of": "2026-10-06",
-      "source_kind": "status"
-    },
-    {
-      "title": "Admin Console Intermittently Inaccessible",
-      "date": "2026-10-05",
-      "source_url": "https://status.openai.com/incidents/01M46C47WYYD9NMZVGH83X3ZR1",
       "as_of": "2026-10-06",
       "source_kind": "status"
     },
@@ -51,13 +58,6 @@
       "title": "codex 0.162.0-alpha.15",
       "date": "2026-10-05",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15",
-      "as_of": "2026-10-06",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.162.0-alpha.14",
-      "date": "2026-10-05",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.14",
       "as_of": "2026-10-06",
       "source_kind": "releases"
     },
