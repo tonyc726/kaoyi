@@ -1,72 +1,72 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-06",
+  "as_of": "2026-10-07",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
+      "title": "Computer Use Is Experiencing Issues",
       "date": "2026-10-06",
-      "source_url": "https://status.openai.com/incidents/01M47HC9SGHGFPBN44KGC6SKAQ",
-      "as_of": "2026-10-06",
+      "source_url": "https://status.openai.com/incidents/01M493CZ0CB14KPC0EER83MNVB",
+      "as_of": "2026-10-07",
       "source_kind": "status"
     },
     {
-      "title": "Elevated errors in API Platform login and administration APIs.",
+      "title": "Errors processing large PDFs in the Responses API",
       "date": "2026-10-06",
-      "source_url": "https://status.openai.com/incidents/01M47AFBNRNXKJWN549T3PMYV8",
-      "as_of": "2026-10-06",
+      "source_url": "https://status.openai.com/incidents/01M48Y8E81QAFF9XKVGE118E6X",
+      "as_of": "2026-10-07",
       "source_kind": "status"
+    },
+    {
+      "title": "Elevated error rates in ChatGPT Go conversations",
+      "date": "2026-10-06",
+      "source_url": "https://status.openai.com/incidents/01M48PT6B8SDTW023NC9XZTBC0",
+      "as_of": "2026-10-07",
+      "source_kind": "status"
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "date": "2026-10-06",
+      "source_url": "https://openai.com/index/atlassian-partnership",
+      "as_of": "2026-10-07",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Advancing computer use with Ironclad",
+      "date": "2026-10-06",
+      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "as_of": "2026-10-07",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex rust-v0.162.0-alpha.17",
+      "date": "2026-10-06",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.17",
+      "as_of": "2026-10-07",
+      "source_kind": "releases"
     },
     {
       "title": "codex 0.161.0-alpha.13.1",
       "date": "2026-10-06",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.13.1",
-      "as_of": "2026-10-06",
+      "as_of": "2026-10-07",
       "source_kind": "releases"
-    },
-    {
-      "title": "Elevated errors in ChatGPT conversations",
-      "date": "2026-10-05",
-      "source_url": "https://status.openai.com/incidents/01M46G248GGHV9RSAJE82BZY1X",
-      "as_of": "2026-10-06",
-      "source_kind": "status"
     },
     {
       "title": "Building advertising for the way people use AI",
       "date": "2026-10-05",
       "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "as_of": "2026-10-06",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Our approach to EU text provenance rules",
-      "date": "2026-10-05",
-      "source_url": "https://openai.com/index/eu-text-provenance",
-      "as_of": "2026-10-06",
+      "as_of": "2026-10-07",
       "source_kind": "blog"
     },
     {
       "title": "codex 0.162.0-alpha.16",
       "date": "2026-10-05",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.16",
-      "as_of": "2026-10-06",
+      "as_of": "2026-10-07",
       "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.162.0-alpha.15",
-      "date": "2026-10-05",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15",
-      "as_of": "2026-10-06",
-      "source_kind": "releases"
-    },
-    {
-      "title": "A model guide for the GPT-6 family",
-      "date": "2026-10-02",
-      "source_url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "as_of": "2026-10-06",
-      "source_kind": "blog"
     }
   ]
 }

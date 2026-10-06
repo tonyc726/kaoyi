@@ -1,71 +1,50 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-10-06",
+  "as_of": "2026-10-07",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "Elevated errors for Claude Opus 5.5",
+      "title": "Expanding the Cyber Verification Program",
       "date": "2026-10-06",
-      "source_url": "https://status.claude.com/incidents/ch27pb90bn85",
-      "as_of": "2026-10-06",
-      "source_kind": "status"
+      "source_url": "https://www.anthropic.com/news/cyber-verification-program",
+      "as_of": "2026-10-07",
+      "source_kind": "blog"
+    },
+    {
+      "title": "claude-code v2.1.292",
+      "date": "2026-10-06",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "as_of": "2026-10-07",
+      "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.291",
       "date": "2026-10-06",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
-      "as_of": "2026-10-06",
+      "as_of": "2026-10-07",
       "source_kind": "releases"
-    },
-    {
-      "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
-      "date": "2026-10-05",
-      "source_url": "https://status.claude.com/incidents/bhphxz3vr58g",
-      "as_of": "2026-10-06",
-      "source_kind": "status"
     },
     {
       "title": "claude-code v2.1.290",
       "date": "2026-10-05",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
-      "as_of": "2026-10-06",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.289",
-      "date": "2026-10-03",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
-      "as_of": "2026-10-06",
+      "as_of": "2026-10-07",
       "source_kind": "releases"
     },
     {
       "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
       "date": "2026-10-02",
       "source_url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "as_of": "2026-10-06",
+      "as_of": "2026-10-07",
       "source_kind": "blog"
     },
     {
       "title": "Barclays scales Claude to upgrade operations and improve client experience",
       "date": "2026-10-01",
       "source_url": "https://www.anthropic.com/news/barclays-scales-claude",
-      "as_of": "2026-10-06",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Delayed credits on the Claude Platform",
-      "date": "2026-10-01",
-      "source_url": "https://status.claude.com/incidents/k0h22tsvnydg",
-      "as_of": "2026-10-06",
-      "source_kind": "status"
-    },
-    {
-      "title": "Science Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "date": "2026-09-23",
-      "source_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "as_of": "2026-10-06",
+      "as_of": "2026-10-07",
       "source_kind": "blog"
     }
   ]
