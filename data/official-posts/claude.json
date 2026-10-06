@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors for Claude Opus 5.5",
+      "date": "2026-10-06",
+      "source_url": "https://status.claude.com/incidents/ch27pb90bn85",
+      "as_of": "2026-10-06",
+      "source_kind": "status"
+    },
+    {
       "title": "claude-code v2.1.291",
       "date": "2026-10-06",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
@@ -51,13 +58,6 @@
       "title": "Delayed credits on the Claude Platform",
       "date": "2026-10-01",
       "source_url": "https://status.claude.com/incidents/k0h22tsvnydg",
-      "as_of": "2026-10-06",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
-      "date": "2026-09-29",
-      "source_url": "https://status.claude.com/incidents/4xvtc2gnq73l",
       "as_of": "2026-10-06",
       "source_kind": "status"
     },
