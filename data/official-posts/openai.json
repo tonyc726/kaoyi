@@ -6,23 +6,30 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Unable to create new ChatGPT Work threads in latest version of desktop app",
+      "date": "2026-10-07",
+      "source_url": "https://status.openai.com/incidents/01M4ADHMMBK7K92NJFJ0DXRYJM",
+      "as_of": "2026-10-07",
+      "source_kind": "status"
+    },
+    {
+      "title": "Workspace Agents Degraded and Responses Impacted",
+      "date": "2026-10-07",
+      "source_url": "https://status.openai.com/incidents/01M49YQE6WZT02WYF0KBXVMQ5G",
+      "as_of": "2026-10-07",
+      "source_kind": "status"
+    },
+    {
+      "title": "codex 0.162.0-alpha.18",
+      "date": "2026-10-07",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.18",
+      "as_of": "2026-10-07",
+      "source_kind": "releases"
+    },
+    {
       "title": "Computer Use Is Experiencing Issues",
       "date": "2026-10-06",
       "source_url": "https://status.openai.com/incidents/01M493CZ0CB14KPC0EER83MNVB",
-      "as_of": "2026-10-07",
-      "source_kind": "status"
-    },
-    {
-      "title": "Errors processing large PDFs in the Responses API",
-      "date": "2026-10-06",
-      "source_url": "https://status.openai.com/incidents/01M48Y8E81QAFF9XKVGE118E6X",
-      "as_of": "2026-10-07",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated error rates in ChatGPT Go conversations",
-      "date": "2026-10-06",
-      "source_url": "https://status.openai.com/incidents/01M48PT6B8SDTW023NC9XZTBC0",
       "as_of": "2026-10-07",
       "source_kind": "status"
     },
@@ -58,13 +65,6 @@
       "title": "codex 0.161.0-alpha.13.1",
       "date": "2026-10-06",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.13.1",
-      "as_of": "2026-10-07",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.161.0",
-      "date": "2026-10-06",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0",
       "as_of": "2026-10-07",
       "source_kind": "releases"
     }

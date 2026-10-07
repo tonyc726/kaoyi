@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors loading usage data on platform.claude.com",
+      "date": "2026-10-07",
+      "source_url": "https://status.claude.com/incidents/wf2v8ms031sx",
+      "as_of": "2026-10-07",
+      "source_kind": "status"
+    },
+    {
       "title": "Expanding the Cyber Verification Program",
       "date": "2026-10-06",
       "source_url": "https://www.anthropic.com/news/cyber-verification-program",
@@ -60,13 +67,6 @@
       "source_url": "https://www.anthropic.com/news/barclays-scales-claude",
       "as_of": "2026-10-07",
       "source_kind": "blog"
-    },
-    {
-      "title": "Delayed credits on the Claude Platform",
-      "date": "2026-10-01",
-      "source_url": "https://status.claude.com/incidents/k0h22tsvnydg",
-      "as_of": "2026-10-07",
-      "source_kind": "status"
     }
   ]
 }
