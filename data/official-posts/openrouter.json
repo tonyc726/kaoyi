@@ -1,29 +1,29 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-10-07",
+  "as_of": "2026-10-08",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "Server-Side Code Execution Tools for AI Agents, Compared",
-      "date": "2026-10-05",
-      "source_url": "https://openrouter.ai/blog/insights/server-side-code-execution-tools-for-ai-agents-compared/",
-      "as_of": "2026-10-07",
+      "title": "ElevenLabs is now on OpenRouter",
+      "date": "2026-10-07",
+      "source_url": "https://openrouter.ai/blog/announcements/elevenlabs-on-openrouter/",
+      "as_of": "2026-10-08",
       "source_kind": "blog"
     },
     {
-      "title": "Model Routing for Support Bots: Cheap-First FAQ Handling",
-      "date": "2026-10-02",
-      "source_url": "https://openrouter.ai/blog/tutorials/model-routing-for-support-bots-cheap-first-faq-handling/",
-      "as_of": "2026-10-07",
+      "title": "Server-Side Code Execution Tools for AI Agents, Compared",
+      "date": "2026-10-05",
+      "source_url": "https://openrouter.ai/blog/insights/server-side-code-execution-tools-for-ai-agents-compared/",
+      "as_of": "2026-10-08",
       "source_kind": "blog"
     },
     {
       "title": "LangChain vs CrewAI: Orchestration Compared to OpenRouter-Native Routing",
       "date": "2026-10-02",
       "source_url": "https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-08",
       "source_kind": "blog"
     }
   ]
