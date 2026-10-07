@@ -27,6 +27,20 @@
       "source_kind": "status"
     },
     {
+      "title": "Sharing AI progress in mathematics",
+      "date": "2026-10-06",
+      "source_url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "as_of": "2026-10-07",
+      "source_kind": "blog"
+    },
+    {
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "date": "2026-10-06",
+      "source_url": "https://openai.com/index/jump-trading",
+      "as_of": "2026-10-07",
+      "source_kind": "blog"
+    },
+    {
       "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
       "date": "2026-10-06",
       "source_url": "https://openai.com/index/atlassian-partnership",
@@ -34,14 +48,7 @@
       "source_kind": "blog"
     },
     {
-      "title": "Advancing computer use with Ironclad",
-      "date": "2026-10-06",
-      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "as_of": "2026-10-07",
-      "source_kind": "blog"
-    },
-    {
-      "title": "codex rust-v0.162.0-alpha.17",
+      "title": "codex 0.162.0-alpha.17",
       "date": "2026-10-06",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.17",
       "as_of": "2026-10-07",
@@ -55,16 +62,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "Building advertising for the way people use AI",
-      "date": "2026-10-05",
-      "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "as_of": "2026-10-07",
-      "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.162.0-alpha.16",
-      "date": "2026-10-05",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.16",
+      "title": "codex rust-v0.161.0",
+      "date": "2026-10-06",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0",
       "as_of": "2026-10-07",
       "source_kind": "releases"
     }

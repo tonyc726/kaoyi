@@ -20,11 +20,18 @@
       "source_kind": "status"
     },
     {
-      "title": "Investigating service degradation — Cloud Agents and Grok Bot",
+      "title": "Investigating service degradation — Cloud Agents",
       "date": "2026-10-06",
-      "source_url": "https://status.cursor.com/incidents/bccntkmymws0",
+      "source_url": "https://status.cursor.com/incidents/lft9b2dfmfsy",
       "as_of": "2026-10-07",
       "source_kind": "status"
+    },
+    {
+      "title": "Remote control for local agents",
+      "date": "2026-10-06",
+      "source_url": "https://cursor.com/changelog/remote-control-local-agents",
+      "as_of": "2026-10-07",
+      "source_kind": "blog"
     },
     {
       "title": "Rollouts and Security Review",
@@ -37,13 +44,6 @@
       "title": "Bots for the last mile: Rollouts, Security Review",
       "date": "2026-09-23",
       "source_url": "https://cursor.com/blog/rollouts-and-security-reviewer",
-      "as_of": "2026-10-07",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Improved token efficiency for longer agent runsJediah, Connor & Calvin7mJediah, Connor & Calvin",
-      "date": "2026-09-23",
-      "source_url": "https://cursor.com/blog/improved-token-efficiency",
       "as_of": "2026-10-07",
       "source_kind": "blog"
     },
