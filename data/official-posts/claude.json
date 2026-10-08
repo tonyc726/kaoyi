@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.294",
+      "date": "2026-10-08",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "as_of": "2026-10-08",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors loading usage data on platform.claude.com",
       "date": "2026-10-07",
       "source_url": "https://status.claude.com/incidents/wf2v8ms031sx",
@@ -44,13 +51,6 @@
       "title": "claude-code v2.1.292",
       "date": "2026-10-06",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
-      "as_of": "2026-10-08",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.291",
-      "date": "2026-10-06",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
       "as_of": "2026-10-08",
       "source_kind": "releases"
     },

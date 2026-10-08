@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
+      "date": "2026-10-08",
+      "source_url": "https://status.openai.com/incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
+      "as_of": "2026-10-08",
+      "source_kind": "status"
+    },
+    {
+      "title": "codex 0.162.0-alpha.20",
+      "date": "2026-10-08",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.20",
+      "as_of": "2026-10-08",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex rust-v0.162.0-alpha.19",
       "date": "2026-10-08",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.19",
@@ -13,9 +27,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.162.0-alpha.17.1",
+      "title": "codex 0.162.0-alpha.18.1",
       "date": "2026-10-08",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.17.1",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.18.1",
       "as_of": "2026-10-08",
       "source_kind": "releases"
     },
@@ -30,13 +44,6 @@
       "title": "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
       "date": "2026-10-07",
       "source_url": "https://status.openai.com/incidents/01M4BP5JE7DKJSP3VG2S2DCWF2",
-      "as_of": "2026-10-08",
-      "source_kind": "status"
-    },
-    {
-      "title": "Dot in Codex may fail to create new threads",
-      "date": "2026-10-07",
-      "source_url": "https://status.openai.com/incidents/01M4BK9J2M83R4SSC71D9FXW45",
       "as_of": "2026-10-08",
       "source_kind": "status"
     },
@@ -60,13 +67,6 @@
       "source_url": "https://openai.com/index/gpt-6-for-everyone",
       "as_of": "2026-10-08",
       "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.162.0-alpha.18",
-      "date": "2026-10-07",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.18",
-      "as_of": "2026-10-08",
-      "source_kind": "releases"
     }
   ]
 }
