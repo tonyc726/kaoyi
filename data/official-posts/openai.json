@@ -1,7 +1,7 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-08",
+  "as_of": "2026-10-09",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,64 +9,64 @@
       "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
       "date": "2026-10-08",
       "source_url": "https://status.openai.com/incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "source_kind": "status"
+    },
+    {
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "date": "2026-10-08",
+      "source_url": "https://openai.com/index/pollo-ai",
+      "as_of": "2026-10-09",
+      "source_kind": "blog"
+    },
+    {
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "date": "2026-10-08",
+      "source_url": "https://openai.com/index/oracle",
+      "as_of": "2026-10-09",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Disrupting AI-enabled “false front” operations",
+      "date": "2026-10-08",
+      "source_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "as_of": "2026-10-09",
+      "source_kind": "blog"
     },
     {
       "title": "codex 0.162.0-alpha.20",
       "date": "2026-10-08",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.20",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "source_kind": "releases"
     },
     {
       "title": "codex rust-v0.162.0-alpha.19",
       "date": "2026-10-08",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.19",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.162.0-alpha.18.1",
       "date": "2026-10-08",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.18.1",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "source_kind": "releases"
     },
     {
       "title": "Elevated errors with GPT-5.6 Instant in FedRAMP workspaces",
       "date": "2026-10-07",
       "source_url": "https://status.openai.com/incidents/01M4CBXZ62A9SVH8D74KVYQC8M",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "source_kind": "status"
     },
     {
       "title": "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
       "date": "2026-10-07",
       "source_url": "https://status.openai.com/incidents/01M4BP5JE7DKJSP3VG2S2DCWF2",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "source_kind": "status"
-    },
-    {
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "date": "2026-10-07",
-      "source_url": "https://openai.com/index/teens-learn-and-plan",
-      "as_of": "2026-10-08",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "date": "2026-10-07",
-      "source_url": "https://openai.com/index/radisson",
-      "as_of": "2026-10-08",
-      "source_kind": "blog"
-    },
-    {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "date": "2026-10-07",
-      "source_url": "https://openai.com/index/gpt-6-for-everyone",
-      "as_of": "2026-10-08",
-      "source_kind": "blog"
     }
   ]
 }
