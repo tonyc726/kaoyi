@@ -6,7 +6,14 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "codex rust-v0.163.0-alpha.2",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "date": "2026-10-09",
+      "source_url": "https://openai.com/index/sophos",
+      "as_of": "2026-10-09",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.163.0-alpha.2",
       "date": "2026-10-09",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2",
       "as_of": "2026-10-09",
@@ -30,13 +37,6 @@
       "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
       "date": "2026-10-08",
       "source_url": "https://openai.com/index/oracle",
-      "as_of": "2026-10-09",
-      "source_kind": "blog"
-    },
-    {
-      "title": "LegalOn halves Codex costs while maintaining development speed",
-      "date": "2026-10-08",
-      "source_url": "https://openai.com/index/legalon-halves-codex-costs",
       "as_of": "2026-10-09",
       "source_kind": "blog"
     },
