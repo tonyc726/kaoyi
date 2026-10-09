@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Investigating service degradation — Cloud Agents",
+      "date": "2026-10-09",
+      "source_url": "https://status.cursor.com/incidents/ktfzb72q01z5",
+      "as_of": "2026-10-10",
+      "source_kind": "status"
+    },
+    {
       "title": "Opus 5.5 is Experiencing 429s",
       "date": "2026-10-08",
       "source_url": "https://status.cursor.com/incidents/x4mnlflpqc4w",
@@ -16,13 +23,6 @@
       "title": "Elevated errors affecting Opus 5.5",
       "date": "2026-10-08",
       "source_url": "https://status.cursor.com/incidents/25l5bm6rdrb6",
-      "as_of": "2026-10-10",
-      "source_kind": "status"
-    },
-    {
-      "title": "Investigating service degradation — Grok Bot",
-      "date": "2026-10-07",
-      "source_url": "https://status.cursor.com/incidents/p7fmcg2j968f",
       "as_of": "2026-10-10",
       "source_kind": "status"
     },

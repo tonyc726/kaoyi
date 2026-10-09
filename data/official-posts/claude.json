@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.296",
+      "date": "2026-10-09",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "as_of": "2026-10-10",
+      "source_kind": "releases"
+    },
+    {
       "title": "Building on our commitment to American scientific discovery",
       "date": "2026-10-08",
       "source_url": "https://www.anthropic.com/news/genesis-mission-commitment",
@@ -60,13 +67,6 @@
       "source_url": "https://status.claude.com/incidents/978mjkgw6mh7",
       "as_of": "2026-10-10",
       "source_kind": "status"
-    },
-    {
-      "title": "claude-code v2.1.293",
-      "date": "2026-10-07",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "as_of": "2026-10-10",
-      "source_kind": "releases"
     }
   ]
 }

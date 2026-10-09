@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Workspace admins may be unable to manage plugins",
+      "date": "2026-10-09",
+      "source_url": "https://status.openai.com/incidents/01M4HA7BCCXVHTR5DCYMSBQF2H",
+      "as_of": "2026-10-10",
+      "source_kind": "status"
+    },
+    {
+      "title": "Some ChatGPT content may be unavailable on Android",
+      "date": "2026-10-09",
+      "source_url": "https://status.openai.com/incidents/01M4H7FKXDA425TDNP2CRGEYA3",
+      "as_of": "2026-10-10",
+      "source_kind": "status"
+    },
+    {
       "title": "Delayed Costs data in the Compliance API",
       "date": "2026-10-09",
       "source_url": "https://status.openai.com/incidents/01M4GV1M2A3K38T73JCVCD9G0R",
@@ -16,6 +30,13 @@
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "date": "2026-10-09",
       "source_url": "https://openai.com/index/sophos",
+      "as_of": "2026-10-10",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "date": "2026-10-09",
+      "source_url": "https://openai.com/index/asana-browser-agent",
       "as_of": "2026-10-10",
       "source_kind": "blog"
     },
@@ -34,18 +55,11 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex rust-v0.162.1",
+      "title": "codex 0.162.1",
       "date": "2026-10-09",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
       "as_of": "2026-10-10",
       "source_kind": "releases"
-    },
-    {
-      "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
-      "date": "2026-10-08",
-      "source_url": "https://status.openai.com/incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
-      "as_of": "2026-10-10",
-      "source_kind": "status"
     },
     {
       "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
@@ -53,20 +67,6 @@
       "source_url": "https://openai.com/index/pollo-ai",
       "as_of": "2026-10-10",
       "source_kind": "blog"
-    },
-    {
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "date": "2026-10-08",
-      "source_url": "https://openai.com/index/oracle",
-      "as_of": "2026-10-10",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Elevated errors with GPT-5.6 Instant in FedRAMP workspaces",
-      "date": "2026-10-07",
-      "source_url": "https://status.openai.com/incidents/01M4CBXZ62A9SVH8D74KVYQC8M",
-      "as_of": "2026-10-10",
-      "source_kind": "status"
     }
   ]
 }
