@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-10-09",
+  "as_of": "2026-10-10",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "How an AI Sales Agent Saved Our Sales Team 600 Hours a Month",
       "date": "2026-10-07",
       "source_url": "https://openrouter.ai/blog/case-studies/how-an-ai-sales-agent-saved-our-sales-team-600-hours-a-month/",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-10",
       "source_kind": "blog"
     },
     {
       "title": "ElevenLabs is now on OpenRouter",
       "date": "2026-10-07",
       "source_url": "https://openrouter.ai/blog/announcements/elevenlabs-on-openrouter/",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-10",
       "source_kind": "blog"
     },
     {
       "title": "Server-Side Code Execution Tools for AI Agents, Compared",
       "date": "2026-10-05",
       "source_url": "https://openrouter.ai/blog/insights/server-side-code-execution-tools-for-ai-agents-compared/",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-10",
       "source_kind": "blog"
     }
   ]
