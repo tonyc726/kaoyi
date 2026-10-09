@@ -13,11 +13,25 @@
       "source_kind": "blog"
     },
     {
+      "title": "Introducing the Anthropic Cyber Mission",
+      "date": "2026-10-08",
+      "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "as_of": "2026-10-09",
+      "source_kind": "blog"
+    },
+    {
       "title": "2026 Usage Policy update",
       "date": "2026-10-08",
       "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
       "as_of": "2026-10-09",
       "source_kind": "blog"
+    },
+    {
+      "title": "claude-code v2.1.295",
+      "date": "2026-10-08",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "as_of": "2026-10-09",
+      "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.294",
@@ -51,20 +65,6 @@
       "title": "claude-code v2.1.293",
       "date": "2026-10-07",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "as_of": "2026-10-09",
-      "source_kind": "releases"
-    },
-    {
-      "title": "Expanding the Cyber Verification Program",
-      "date": "2026-10-06",
-      "source_url": "https://www.anthropic.com/news/cyber-verification-program",
-      "as_of": "2026-10-09",
-      "source_kind": "blog"
-    },
-    {
-      "title": "claude-code v2.1.292",
-      "date": "2026-10-06",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
       "as_of": "2026-10-09",
       "source_kind": "releases"
     }

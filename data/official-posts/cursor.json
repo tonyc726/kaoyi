@@ -13,16 +13,16 @@
       "source_kind": "status"
     },
     {
-      "title": "Investigating service degradation — Grok Bot",
-      "date": "2026-10-07",
-      "source_url": "https://status.cursor.com/incidents/p7fmcg2j968f",
+      "title": "Elevated errors affecting Opus 5.5",
+      "date": "2026-10-08",
+      "source_url": "https://status.cursor.com/incidents/25l5bm6rdrb6",
       "as_of": "2026-10-09",
       "source_kind": "status"
     },
     {
-      "title": "Investigating service degradation — Security Reviewer Agents",
-      "date": "2026-10-06",
-      "source_url": "https://status.cursor.com/incidents/xgj4x58k55dx",
+      "title": "Investigating service degradation — Grok Bot",
+      "date": "2026-10-07",
+      "source_url": "https://status.cursor.com/incidents/p7fmcg2j968f",
       "as_of": "2026-10-09",
       "source_kind": "status"
     },
