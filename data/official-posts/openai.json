@@ -1,7 +1,7 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-10",
+  "as_of": "2026-10-11",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "codex rust-v0.163.0-alpha.6",
       "date": "2026-10-10",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.6",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.163.0-alpha.5",
       "date": "2026-10-10",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.5",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "releases"
     },
     {
       "title": "Workspace admins may be unable to manage plugins",
       "date": "2026-10-09",
       "source_url": "https://status.openai.com/incidents/01M4HA7BCCXVHTR5DCYMSBQF2H",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "status"
     },
     {
       "title": "Some ChatGPT content may be unavailable on Android",
       "date": "2026-10-09",
       "source_url": "https://status.openai.com/incidents/01M4H7FKXDA425TDNP2CRGEYA3",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "status"
     },
     {
       "title": "Delayed Costs data in the Compliance API",
       "date": "2026-10-09",
       "source_url": "https://status.openai.com/incidents/01M4GV1M2A3K38T73JCVCD9G0R",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "status"
     },
     {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "date": "2026-10-09",
       "source_url": "https://openai.com/index/sophos",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "blog"
     },
     {
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
       "date": "2026-10-09",
       "source_url": "https://openai.com/index/asana-browser-agent",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "blog"
     },
     {
       "title": "codex 0.163.0-alpha.4",
       "date": "2026-10-09",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.4",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "releases"
     },
     {
       "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
       "date": "2026-10-08",
       "source_url": "https://openai.com/index/pollo-ai",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "blog"
     }
   ]

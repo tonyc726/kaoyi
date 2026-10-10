@@ -1,7 +1,7 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-10-10",
+  "as_of": "2026-10-11",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "claude-code v2.1.296",
       "date": "2026-10-09",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "releases"
     },
     {
       "title": "Building on our commitment to American scientific discovery",
       "date": "2026-10-08",
       "source_url": "https://www.anthropic.com/news/genesis-mission-commitment",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "blog"
     },
     {
       "title": "Introducing the Anthropic Cyber Mission",
       "date": "2026-10-08",
       "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "blog"
     },
     {
       "title": "2026 Usage Policy update",
       "date": "2026-10-08",
       "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "blog"
     },
     {
       "title": "claude-code v2.1.295",
       "date": "2026-10-08",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.294",
       "date": "2026-10-08",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "releases"
     },
     {
       "title": "Elevated errors loading usage data on platform.claude.com",
       "date": "2026-10-07",
       "source_url": "https://status.claude.com/incidents/wf2v8ms031sx",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "status"
     },
     {
       "title": "Issue with spend limits",
       "date": "2026-10-07",
       "source_url": "https://status.claude.com/incidents/vmys9qn874h4",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "status"
     },
     {
       "title": "Elevated errors on platform.claude.com",
       "date": "2026-10-07",
       "source_url": "https://status.claude.com/incidents/978mjkgw6mh7",
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-11",
       "source_kind": "status"
     }
   ]
