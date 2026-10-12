@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "cli v1.0.28",
+      "date": "2026-10-12",
+      "source_url": "https://github.com/MiniMax-AI/cli/releases/tag/v1.0.28",
+      "as_of": "2026-10-12",
+      "source_kind": "releases"
+    },
+    {
       "title": "cli v1.0.27",
       "date": "2026-09-29",
       "source_url": "https://github.com/MiniMax-AI/cli/releases/tag/v1.0.27",
@@ -16,13 +23,6 @@
       "title": "cli v1.0.26",
       "date": "2026-09-19",
       "source_url": "https://github.com/MiniMax-AI/cli/releases/tag/v1.0.26",
-      "as_of": "2026-10-12",
-      "source_kind": "releases"
-    },
-    {
-      "title": "cli v1.0.25",
-      "date": "2026-09-01",
-      "source_url": "https://github.com/MiniMax-AI/cli/releases/tag/v1.0.25",
       "as_of": "2026-10-12",
       "source_kind": "releases"
     },
