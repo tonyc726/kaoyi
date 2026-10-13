@@ -5,6 +5,7 @@
     "minimax",
     "volcengine",
     "volcengine-agent",
+    "cursor",
     "grok",
     "openai"
   ]
