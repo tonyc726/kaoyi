@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Degraded performance in Codex and ChatGPT Work",
+      "date": "2026-10-14",
+      "source_url": "https://status.openai.com/incidents/01M4WKPE1EY48ZB4RZJ80YH7ES",
+      "as_of": "2026-10-14",
+      "source_kind": "status"
+    },
+    {
+      "title": "codex 0.163.0-alpha.11",
+      "date": "2026-10-14",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
+      "as_of": "2026-10-14",
+      "source_kind": "releases"
+    },
+    {
       "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
       "date": "2026-10-13",
       "source_url": "https://status.openai.com/incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
@@ -34,23 +48,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.163.0-alpha.10",
-      "date": "2026-10-13",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
-      "as_of": "2026-10-14",
-      "source_kind": "releases"
-    },
-    {
       "title": "Workspace admins may be unable to manage plugins",
       "date": "2026-10-09",
       "source_url": "https://status.openai.com/incidents/01M4HA7BCCXVHTR5DCYMSBQF2H",
-      "as_of": "2026-10-14",
-      "source_kind": "status"
-    },
-    {
-      "title": "Some ChatGPT content may be unavailable on Android",
-      "date": "2026-10-09",
-      "source_url": "https://status.openai.com/incidents/01M4H7FKXDA425TDNP2CRGEYA3",
       "as_of": "2026-10-14",
       "source_kind": "status"
     },
