@@ -13,6 +13,13 @@
       "source_kind": "blog"
     },
     {
+      "title": "Preparing for the 2026 US midterms",
+      "date": "2026-10-14",
+      "source_url": "https://www.anthropic.com/news/2026-us-midterms",
+      "as_of": "2026-10-15",
+      "source_kind": "blog"
+    },
+    {
       "title": "claude-code v2.1.300",
       "date": "2026-10-14",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
@@ -37,13 +44,6 @@
       "title": "Building on our commitment to American scientific discovery",
       "date": "2026-10-08",
       "source_url": "https://www.anthropic.com/news/genesis-mission-commitment",
-      "as_of": "2026-10-15",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Introducing the Anthropic Cyber Mission",
-      "date": "2026-10-08",
-      "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
       "as_of": "2026-10-15",
       "source_kind": "blog"
     },
