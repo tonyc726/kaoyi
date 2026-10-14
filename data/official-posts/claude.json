@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "date": "2026-10-14",
+      "source_url": "https://www.anthropic.com/news/singapore-office-opening",
+      "as_of": "2026-10-14",
+      "source_kind": "blog"
+    },
+    {
       "title": "claude-code v2.1.299",
       "date": "2026-10-14",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
@@ -30,13 +37,6 @@
       "title": "Introducing the Anthropic Cyber Mission",
       "date": "2026-10-08",
       "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-      "as_of": "2026-10-14",
-      "source_kind": "blog"
-    },
-    {
-      "title": "2026 Usage Policy update",
-      "date": "2026-10-08",
-      "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
       "as_of": "2026-10-14",
       "source_kind": "blog"
     },
