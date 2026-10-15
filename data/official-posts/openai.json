@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Widespread feature degradation",
+      "date": "2026-10-15",
+      "source_url": "https://status.openai.com/incidents/01M506BA4XRSWH7THR53HQGN3Z",
+      "as_of": "2026-10-16",
+      "source_kind": "status"
+    },
+    {
+      "title": "Teaching students to think and learn through questions",
+      "date": "2026-10-15",
+      "source_url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "as_of": "2026-10-16",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.163.0-alpha.10.2",
+      "date": "2026-10-15",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
+      "as_of": "2026-10-16",
+      "source_kind": "releases"
+    },
+    {
       "title": "Delayed Costs data in the Compliance API",
       "date": "2026-10-14",
       "source_url": "https://status.openai.com/incidents/01M4XNQX7C6RCBNGX9H711WFSG",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "source_kind": "status"
     },
     {
       "title": "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst",
       "date": "2026-10-14",
       "source_url": "https://status.openai.com/incidents/01M4WYPP5QA0CJ3JV76KH285K8",
-      "as_of": "2026-10-15",
-      "source_kind": "status"
-    },
-    {
-      "title": "Degraded performance in Codex and ChatGPT Work",
-      "date": "2026-10-14",
-      "source_url": "https://status.openai.com/incidents/01M4WKPE1EY48ZB4RZJ80YH7ES",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "source_kind": "status"
     },
     {
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
       "date": "2026-10-14",
       "source_url": "https://openai.com/index/third-moment-research",
-      "as_of": "2026-10-15",
-      "source_kind": "blog"
-    },
-    {
-      "title": "The EU’s next chapter in AI is agentic",
-      "date": "2026-10-14",
-      "source_url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "source_kind": "blog"
     },
     {
       "title": "SentinelOne cuts malware analysis from weeks to hours",
       "date": "2026-10-14",
       "source_url": "https://openai.com/index/sentinelone",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "source_kind": "blog"
     },
     {
       "title": "codex rust-v0.163.0-alpha.13",
       "date": "2026-10-14",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "source_kind": "releases"
     },
     {
       "title": "codex rust-v0.163.0-alpha.12",
       "date": "2026-10-14",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12",
-      "as_of": "2026-10-15",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.163.0-alpha.11",
-      "date": "2026-10-14",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "source_kind": "releases"
     }
   ]
