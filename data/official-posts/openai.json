@@ -20,9 +20,23 @@
       "source_kind": "blog"
     },
     {
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "date": "2026-10-15",
+      "source_url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "as_of": "2026-10-16",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.163.0-alpha.10.2",
       "date": "2026-10-15",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
+      "as_of": "2026-10-16",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.163.0",
+      "date": "2026-10-15",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
       "as_of": "2026-10-16",
       "source_kind": "releases"
     },
@@ -48,23 +62,9 @@
       "source_kind": "blog"
     },
     {
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "date": "2026-10-14",
-      "source_url": "https://openai.com/index/sentinelone",
-      "as_of": "2026-10-16",
-      "source_kind": "blog"
-    },
-    {
       "title": "codex rust-v0.163.0-alpha.13",
       "date": "2026-10-14",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
-      "as_of": "2026-10-16",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex rust-v0.163.0-alpha.12",
-      "date": "2026-10-14",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12",
       "as_of": "2026-10-16",
       "source_kind": "releases"
     }
