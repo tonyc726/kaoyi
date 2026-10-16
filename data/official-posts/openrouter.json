@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-17",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "Private Endpoints: Bring Your Fine-Tuned Models and Capacity to OpenRouter",
       "date": "2026-10-14",
       "source_url": "https://openrouter.ai/blog/announcements/private-endpoints/",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "blog"
     },
     {
       "title": "How an AI Sales Agent Saved Our Sales Team 600 Hours a Month",
       "date": "2026-10-07",
       "source_url": "https://openrouter.ai/blog/case-studies/how-an-ai-sales-agent-saved-our-sales-team-600-hours-a-month/",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "blog"
     },
     {
       "title": "ElevenLabs is now on OpenRouter",
       "date": "2026-10-07",
       "source_url": "https://openrouter.ai/blog/announcements/elevenlabs-on-openrouter/",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "blog"
     }
   ]

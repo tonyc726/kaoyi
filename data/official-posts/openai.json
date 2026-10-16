@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-17",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "codex rust-v0.164.0-alpha.1",
+      "title": "codex 0.164.0-alpha.2",
+      "date": "2026-10-16",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
+      "as_of": "2026-10-17",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.164.0-alpha.1",
       "date": "2026-10-16",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "releases"
     },
     {
       "title": "Widespread feature degradation",
       "date": "2026-10-15",
       "source_url": "https://status.openai.com/incidents/01M506BA4XRSWH7THR53HQGN3Z",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "status"
     },
     {
       "title": "Teaching students to think and learn through questions",
       "date": "2026-10-15",
       "source_url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "blog"
     },
     {
       "title": "Sullivan & Cromwell brings legal expertise into agreement review",
       "date": "2026-10-15",
       "source_url": "https://openai.com/index/sullivan-cromwell",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "blog"
     },
     {
       "title": "Bringing GPT-Rosalind to academic research labs",
       "date": "2026-10-15",
       "source_url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "blog"
     },
     {
       "title": "codex 0.163.0-alpha.10.2",
       "date": "2026-10-15",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
-      "as_of": "2026-10-16",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.163.0",
-      "date": "2026-10-15",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "releases"
     },
     {
       "title": "Delayed Costs data in the Compliance API",
       "date": "2026-10-14",
       "source_url": "https://status.openai.com/incidents/01M4XNQX7C6RCBNGX9H711WFSG",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "status"
     },
     {
       "title": "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst",
       "date": "2026-10-14",
       "source_url": "https://status.openai.com/incidents/01M4WYPP5QA0CJ3JV76KH285K8",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "source_kind": "status"
     }
   ]
