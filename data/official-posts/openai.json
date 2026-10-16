@@ -20,6 +20,13 @@
       "source_kind": "blog"
     },
     {
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "date": "2026-10-15",
+      "source_url": "https://openai.com/index/sullivan-cromwell",
+      "as_of": "2026-10-16",
+      "source_kind": "blog"
+    },
+    {
       "title": "Bringing GPT-Rosalind to academic research labs",
       "date": "2026-10-15",
       "source_url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -53,13 +60,6 @@
       "source_url": "https://status.openai.com/incidents/01M4WYPP5QA0CJ3JV76KH285K8",
       "as_of": "2026-10-16",
       "source_kind": "status"
-    },
-    {
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "date": "2026-10-14",
-      "source_url": "https://openai.com/index/third-moment-research",
-      "as_of": "2026-10-16",
-      "source_kind": "blog"
     },
     {
       "title": "codex rust-v0.163.0-alpha.13",
