@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "date": "2026-10-16",
+      "source_url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "as_of": "2026-10-17",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.164.0-alpha.2",
       "date": "2026-10-16",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
@@ -37,13 +44,6 @@
       "title": "Sullivan & Cromwell brings legal expertise into agreement review",
       "date": "2026-10-15",
       "source_url": "https://openai.com/index/sullivan-cromwell",
-      "as_of": "2026-10-17",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "date": "2026-10-15",
-      "source_url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "as_of": "2026-10-17",
       "source_kind": "blog"
     },
