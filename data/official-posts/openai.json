@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex rust-v0.164.0-alpha.1",
+      "date": "2026-10-16",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
+      "as_of": "2026-10-16",
+      "source_kind": "releases"
+    },
+    {
       "title": "Widespread feature degradation",
       "date": "2026-10-15",
       "source_url": "https://status.openai.com/incidents/01M506BA4XRSWH7THR53HQGN3Z",
@@ -60,13 +67,6 @@
       "source_url": "https://status.openai.com/incidents/01M4WYPP5QA0CJ3JV76KH285K8",
       "as_of": "2026-10-16",
       "source_kind": "status"
-    },
-    {
-      "title": "codex rust-v0.163.0-alpha.13",
-      "date": "2026-10-14",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
-      "as_of": "2026-10-16",
-      "source_kind": "releases"
     }
   ]
 }
