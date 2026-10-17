@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.164.0-alpha.3",
+      "date": "2026-10-17",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3",
+      "as_of": "2026-10-17",
+      "source_kind": "releases"
+    },
+    {
       "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
       "date": "2026-10-16",
       "source_url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
@@ -16,6 +23,13 @@
       "title": "How Itaú is building generative AI for its entire customer base",
       "date": "2026-10-16",
       "source_url": "https://openai.com/index/itau-generative-ai",
+      "as_of": "2026-10-17",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "date": "2026-10-16",
+      "source_url": "https://openai.com/index/benefit-street-partners",
       "as_of": "2026-10-17",
       "source_kind": "blog"
     },
@@ -39,20 +53,6 @@
       "source_url": "https://status.openai.com/incidents/01M506BA4XRSWH7THR53HQGN3Z",
       "as_of": "2026-10-17",
       "source_kind": "status"
-    },
-    {
-      "title": "Teaching students to think and learn through questions",
-      "date": "2026-10-15",
-      "source_url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "as_of": "2026-10-17",
-      "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.163.0-alpha.10.2",
-      "date": "2026-10-15",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
-      "as_of": "2026-10-17",
-      "source_kind": "releases"
     },
     {
       "title": "Delayed Costs data in the Compliance API",
