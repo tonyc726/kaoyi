@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Investing in the public benefit",
+      "date": "2026-10-18",
+      "source_url": "https://www.anthropic.com/news/public-benefit-fund",
+      "as_of": "2026-10-19",
+      "source_kind": "blog"
+    },
+    {
       "title": "claude-code v2.1.302",
       "date": "2026-10-16",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
@@ -30,13 +37,6 @@
       "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
       "date": "2026-10-14",
       "source_url": "https://www.anthropic.com/news/singapore-office-opening",
-      "as_of": "2026-10-19",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Preparing for the 2026 US midterms",
-      "date": "2026-10-14",
-      "source_url": "https://www.anthropic.com/news/2026-us-midterms",
       "as_of": "2026-10-19",
       "source_kind": "blog"
     },
