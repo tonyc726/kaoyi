@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.304",
+      "date": "2026-10-19",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "as_of": "2026-10-20",
+      "source_kind": "releases"
+    },
+    {
       "title": "Investing in the public benefit",
       "date": "2026-10-18",
       "source_url": "https://www.anthropic.com/news/public-benefit-fund",
@@ -32,13 +39,6 @@
       "source_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
       "as_of": "2026-10-20",
       "source_kind": "blog"
-    },
-    {
-      "title": "claude-code v2.1.301",
-      "date": "2026-10-15",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
-      "as_of": "2026-10-20",
-      "source_kind": "releases"
     },
     {
       "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
