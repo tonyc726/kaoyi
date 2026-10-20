@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.164.0-alpha.7",
+      "date": "2026-10-20",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
+      "as_of": "2026-10-20",
+      "source_kind": "releases"
+    },
+    {
       "title": "File Download errors",
       "date": "2026-10-19",
       "source_url": "https://status.openai.com/incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
@@ -30,13 +37,6 @@
       "title": "codex 0.164.0-alpha.5",
       "date": "2026-10-19",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
-      "as_of": "2026-10-20",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.164.0-alpha.4",
-      "date": "2026-10-19",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4",
       "as_of": "2026-10-20",
       "source_kind": "releases"
     },
