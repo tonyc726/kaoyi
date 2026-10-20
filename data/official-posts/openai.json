@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-20",
+  "as_of": "2026-10-21",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "date": "2026-10-20",
+      "source_url": "https://openai.com/index/ted-taylor-restaurant",
+      "as_of": "2026-10-21",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.164.0-alpha.7",
       "date": "2026-10-20",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "source_kind": "releases"
     },
     {
       "title": "File Download errors",
       "date": "2026-10-19",
       "source_url": "https://status.openai.com/incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "source_kind": "status"
     },
     {
       "title": "Advancing coding in low‑resource programming languages",
       "date": "2026-10-19",
       "source_url": "https://openai.com/index/low-resource-programming-languages",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "source_kind": "blog"
     },
     {
       "title": "codex 0.164.0-alpha.6",
       "date": "2026-10-19",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.164.0-alpha.5",
       "date": "2026-10-19",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "source_kind": "releases"
     },
     {
       "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
       "date": "2026-10-16",
       "source_url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "as_of": "2026-10-20",
-      "source_kind": "blog"
-    },
-    {
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "date": "2026-10-16",
-      "source_url": "https://openai.com/index/itau-generative-ai",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "source_kind": "blog"
     },
     {
       "title": "Widespread feature degradation",
       "date": "2026-10-15",
       "source_url": "https://status.openai.com/incidents/01M506BA4XRSWH7THR53HQGN3Z",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "source_kind": "status"
     },
     {
       "title": "Delayed Costs data in the Compliance API",
       "date": "2026-10-14",
       "source_url": "https://status.openai.com/incidents/01M4XNQX7C6RCBNGX9H711WFSG",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "source_kind": "status"
     }
   ]
