@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Degraded performance for Claude Fable 5",
+      "date": "2026-10-21",
+      "source_url": "https://status.claude.com/incidents/njk29r81v3wg",
+      "as_of": "2026-10-22",
+      "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.307",
+      "date": "2026-10-21",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "as_of": "2026-10-22",
+      "source_kind": "releases"
+    },
+    {
       "title": "claude-code v2.1.306",
       "date": "2026-10-21",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
@@ -20,13 +34,6 @@
       "source_kind": "releases"
     },
     {
-      "title": "claude-code v2.1.304",
-      "date": "2026-10-19",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
-      "as_of": "2026-10-22",
-      "source_kind": "releases"
-    },
-    {
       "title": "Elevated errors loading usage data on platform.claude.com",
       "date": "2026-10-07",
       "source_url": "https://status.claude.com/incidents/wf2v8ms031sx",
@@ -37,13 +44,6 @@
       "title": "Issue with spend limits",
       "date": "2026-10-07",
       "source_url": "https://status.claude.com/incidents/vmys9qn874h4",
-      "as_of": "2026-10-22",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors on platform.claude.com",
-      "date": "2026-10-07",
-      "source_url": "https://status.claude.com/incidents/978mjkgw6mh7",
       "as_of": "2026-10-22",
       "source_kind": "status"
     }

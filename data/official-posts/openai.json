@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Authentication errors for some users",
+      "date": "2026-10-21",
+      "source_url": "https://status.openai.com/incidents/01M5G9QQ9V4CYDWFRYF9BWZ5GG",
+      "as_of": "2026-10-22",
+      "source_kind": "status"
+    },
+    {
       "title": "Elevated error rates for gpt-5.6-luna API requests",
       "date": "2026-10-21",
       "source_url": "https://status.openai.com/incidents/01M5FHKHPQJMSHCE2B2WDPZW2N",
@@ -18,20 +25,6 @@
       "source_url": "https://status.openai.com/incidents/01M5FD63HHDRPQPM5YMQWJ5HTN",
       "as_of": "2026-10-22",
       "source_kind": "status"
-    },
-    {
-      "title": "Degraded performance in ChatGPT, Codex, and APIs",
-      "date": "2026-10-21",
-      "source_url": "https://status.openai.com/incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
-      "as_of": "2026-10-22",
-      "source_kind": "status"
-    },
-    {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "date": "2026-10-21",
-      "source_url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "as_of": "2026-10-22",
-      "source_kind": "blog"
     },
     {
       "title": "OpenAI models are coming to Google Cloud",
@@ -48,6 +41,13 @@
       "source_kind": "blog"
     },
     {
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "date": "2026-10-21",
+      "source_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "as_of": "2026-10-22",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.164.0-alpha.9",
       "date": "2026-10-21",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.9",
@@ -55,16 +55,16 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.164.0-alpha.8",
-      "date": "2026-10-20",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.8",
+      "title": "codex rust-v0.164.0-alpha.10",
+      "date": "2026-10-21",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.10",
       "as_of": "2026-10-22",
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.164.0-alpha.7",
-      "date": "2026-10-20",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
+      "title": "codex 0.163.0-alpha.11.1",
+      "date": "2026-10-21",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.1",
       "as_of": "2026-10-22",
       "source_kind": "releases"
     }
