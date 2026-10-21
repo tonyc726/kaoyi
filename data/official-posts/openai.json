@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Degraded performance in ChatGPT, Codex, and APIs",
+      "date": "2026-10-21",
+      "source_url": "https://status.openai.com/incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
+      "as_of": "2026-10-21",
+      "source_kind": "status"
+    },
+    {
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "date": "2026-10-20",
+      "source_url": "https://openai.com/index/terminal-x",
+      "as_of": "2026-10-21",
+      "source_kind": "blog"
+    },
+    {
       "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
       "date": "2026-10-20",
       "source_url": "https://openai.com/index/ted-taylor-restaurant",
@@ -41,13 +55,6 @@
       "source_kind": "status"
     },
     {
-      "title": "Advancing coding in low‑resource programming languages",
-      "date": "2026-10-19",
-      "source_url": "https://openai.com/index/low-resource-programming-languages",
-      "as_of": "2026-10-21",
-      "source_kind": "blog"
-    },
-    {
       "title": "codex 0.164.0-alpha.6",
       "date": "2026-10-19",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6",
@@ -58,13 +65,6 @@
       "title": "Widespread feature degradation",
       "date": "2026-10-15",
       "source_url": "https://status.openai.com/incidents/01M506BA4XRSWH7THR53HQGN3Z",
-      "as_of": "2026-10-21",
-      "source_kind": "status"
-    },
-    {
-      "title": "Delayed Costs data in the Compliance API",
-      "date": "2026-10-14",
-      "source_url": "https://status.openai.com/incidents/01M4XNQX7C6RCBNGX9H711WFSG",
       "as_of": "2026-10-21",
       "source_kind": "status"
     }
