@@ -13,25 +13,32 @@
       "source_kind": "status"
     },
     {
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "date": "2026-10-20",
-      "source_url": "https://openai.com/index/terminal-x",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "date": "2026-10-21",
+      "source_url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "as_of": "2026-10-21",
       "source_kind": "blog"
     },
     {
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "date": "2026-10-20",
-      "source_url": "https://openai.com/index/ted-taylor-restaurant",
+      "title": "OpenAI models are coming to Google Cloud",
+      "date": "2026-10-21",
+      "source_url": "https://openai.com/index/openai-models-google-cloud",
       "as_of": "2026-10-21",
       "source_kind": "blog"
     },
     {
-      "title": "OpenAI acquires Orchestra Bio",
-      "date": "2026-10-20",
-      "source_url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "date": "2026-10-21",
+      "source_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "as_of": "2026-10-21",
       "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.164.0-alpha.9",
+      "date": "2026-10-21",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.9",
+      "as_of": "2026-10-21",
+      "source_kind": "releases"
     },
     {
       "title": "codex 0.164.0-alpha.8",
@@ -53,13 +60,6 @@
       "source_url": "https://status.openai.com/incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
       "as_of": "2026-10-21",
       "source_kind": "status"
-    },
-    {
-      "title": "codex 0.164.0-alpha.6",
-      "date": "2026-10-19",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6",
-      "as_of": "2026-10-21",
-      "source_kind": "releases"
     },
     {
       "title": "Widespread feature degradation",
