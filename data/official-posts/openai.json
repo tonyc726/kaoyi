@@ -6,7 +6,14 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "Enterprise Dot Message Failures",
+      "title": "New Ad Accounts failing to provision admins",
+      "date": "2026-10-22",
+      "source_url": "https://status.openai.com/incidents/01M5JHVJVC8WAXB4WRYFMKG6HP",
+      "as_of": "2026-10-23",
+      "source_kind": "status"
+    },
+    {
+      "title": "Degraded Performance of Dots on Enterprise",
       "date": "2026-10-22",
       "source_url": "https://status.openai.com/incidents/01M5JF8DR3EGQJNTXPZ24AKX2G",
       "as_of": "2026-10-23",
@@ -27,9 +34,9 @@
       "source_kind": "blog"
     },
     {
-      "title": "What FDE means at OpenAI",
+      "title": "Build more responsive apps with the Decisions API",
       "date": "2026-10-22",
-      "source_url": "https://openai.com/index/forward-deployed-engineering-means",
+      "source_url": "https://openai.com/index/decisions-api",
       "as_of": "2026-10-23",
       "source_kind": "blog"
     },
@@ -41,25 +48,18 @@
       "source_kind": "releases"
     },
     {
+      "title": "codex rust-v0.164.0-alpha.11.1",
+      "date": "2026-10-22",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1",
+      "as_of": "2026-10-23",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.164.0-alpha.11",
       "date": "2026-10-22",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
       "as_of": "2026-10-23",
       "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.164.0-alpha.10",
-      "date": "2026-10-22",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.10",
-      "as_of": "2026-10-23",
-      "source_kind": "releases"
-    },
-    {
-      "title": "Elevated error rates for gpt-5.6-luna API requests",
-      "date": "2026-10-21",
-      "source_url": "https://status.openai.com/incidents/01M5FHKHPQJMSHCE2B2WDPZW2N",
-      "as_of": "2026-10-23",
-      "source_kind": "status"
     },
     {
       "title": "OpenAI models are coming to Google Cloud",
