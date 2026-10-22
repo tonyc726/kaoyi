@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Enterprise Dot Message Failures",
+      "date": "2026-10-22",
+      "source_url": "https://status.openai.com/incidents/01M5JF8DR3EGQJNTXPZ24AKX2G",
+      "as_of": "2026-10-23",
+      "source_kind": "status"
+    },
+    {
       "title": "Elevated ChatGPT conversation and Responses API errors",
       "date": "2026-10-22",
       "source_url": "https://status.openai.com/incidents/01M5GPE9C4E19HE461P8JAMYXD",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "source_kind": "status"
+    },
+    {
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "date": "2026-10-22",
+      "source_url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "as_of": "2026-10-23",
+      "source_kind": "blog"
     },
     {
       "title": "What FDE means at OpenAI",
       "date": "2026-10-22",
       "source_url": "https://openai.com/index/forward-deployed-engineering-means",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "source_kind": "blog"
     },
     {
       "title": "codex 0.164.0-alpha.12",
       "date": "2026-10-22",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.164.0-alpha.11",
       "date": "2026-10-22",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.164.0-alpha.10",
       "date": "2026-10-22",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.10",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "source_kind": "releases"
-    },
-    {
-      "title": "Authentication errors for some users",
-      "date": "2026-10-21",
-      "source_url": "https://status.openai.com/incidents/01M5G9QQ9V4CYDWFRYF9BWZ5GG",
-      "as_of": "2026-10-22",
-      "source_kind": "status"
     },
     {
       "title": "Elevated error rates for gpt-5.6-luna API requests",
       "date": "2026-10-21",
       "source_url": "https://status.openai.com/incidents/01M5FHKHPQJMSHCE2B2WDPZW2N",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "source_kind": "status"
     },
     {
       "title": "OpenAI models are coming to Google Cloud",
       "date": "2026-10-21",
       "source_url": "https://openai.com/index/openai-models-google-cloud",
-      "as_of": "2026-10-22",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "date": "2026-10-21",
-      "source_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "source_kind": "blog"
     }
   ]
