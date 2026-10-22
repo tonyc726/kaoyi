@@ -6,11 +6,25 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "ChatGPT conversion failures in India, Japan and Korea. And Response API errors",
+      "title": "Elevated ChatGPT conversation and Responses API errors",
       "date": "2026-10-22",
       "source_url": "https://status.openai.com/incidents/01M5GPE9C4E19HE461P8JAMYXD",
       "as_of": "2026-10-22",
       "source_kind": "status"
+    },
+    {
+      "title": "What FDE means at OpenAI",
+      "date": "2026-10-22",
+      "source_url": "https://openai.com/index/forward-deployed-engineering-means",
+      "as_of": "2026-10-22",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.164.0-alpha.12",
+      "date": "2026-10-22",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
+      "as_of": "2026-10-22",
+      "source_kind": "releases"
     },
     {
       "title": "codex 0.164.0-alpha.11",
@@ -23,13 +37,6 @@
       "title": "codex 0.164.0-alpha.10",
       "date": "2026-10-22",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.10",
-      "as_of": "2026-10-22",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.163.0-alpha.11.2",
-      "date": "2026-10-22",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.2",
       "as_of": "2026-10-22",
       "source_kind": "releases"
     },
@@ -58,13 +65,6 @@
       "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
       "date": "2026-10-21",
       "source_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "as_of": "2026-10-22",
-      "source_kind": "blog"
-    },
-    {
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "date": "2026-10-21",
-      "source_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "as_of": "2026-10-22",
       "source_kind": "blog"
     }
