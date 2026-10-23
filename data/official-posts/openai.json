@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.164.0-alpha.11.1",
+      "date": "2026-10-23",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1",
+      "as_of": "2026-10-23",
+      "source_kind": "releases"
+    },
+    {
       "title": "New Ad Accounts failing to provision admins",
       "date": "2026-10-22",
       "source_url": "https://status.openai.com/incidents/01M5JHVJVC8WAXB4WRYFMKG6HP",
@@ -34,6 +41,13 @@
       "source_kind": "blog"
     },
     {
+      "title": "What FDE means at OpenAI",
+      "date": "2026-10-22",
+      "source_url": "https://openai.com/index/forward-deployed-engineering-means",
+      "as_of": "2026-10-23",
+      "source_kind": "blog"
+    },
+    {
       "title": "Build more responsive apps with the Decisions API",
       "date": "2026-10-22",
       "source_url": "https://openai.com/index/decisions-api",
@@ -48,25 +62,11 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex rust-v0.164.0-alpha.11.1",
-      "date": "2026-10-22",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1",
-      "as_of": "2026-10-23",
-      "source_kind": "releases"
-    },
-    {
       "title": "codex 0.164.0-alpha.11",
       "date": "2026-10-22",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
       "as_of": "2026-10-23",
       "source_kind": "releases"
-    },
-    {
-      "title": "OpenAI models are coming to Google Cloud",
-      "date": "2026-10-21",
-      "source_url": "https://openai.com/index/openai-models-google-cloud",
-      "as_of": "2026-10-23",
-      "source_kind": "blog"
     }
   ]
 }
