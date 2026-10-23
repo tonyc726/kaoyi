@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+      "date": "2026-10-23",
+      "source_url": "https://status.claude.com/incidents/h101vcmhnfky",
+      "as_of": "2026-10-24",
+      "source_kind": "status"
+    },
+    {
+      "title": "claude-code v2.1.310",
+      "date": "2026-10-23",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "as_of": "2026-10-24",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors affecting Connectors",
       "date": "2026-10-22",
       "source_url": "https://status.claude.com/incidents/wj6r4t6mxq1r",
@@ -30,20 +44,6 @@
       "title": "Degraded performance for Claude Fable 5",
       "date": "2026-10-21",
       "source_url": "https://status.claude.com/incidents/njk29r81v3wg",
-      "as_of": "2026-10-24",
-      "source_kind": "status"
-    },
-    {
-      "title": "claude-code v2.1.307",
-      "date": "2026-10-21",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
-      "as_of": "2026-10-24",
-      "source_kind": "releases"
-    },
-    {
-      "title": "Elevated errors loading usage data on platform.claude.com",
-      "date": "2026-10-07",
-      "source_url": "https://status.claude.com/incidents/wf2v8ms031sx",
       "as_of": "2026-10-24",
       "source_kind": "status"
     }

@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Investigating service outage - Grok models unavailable",
+      "date": "2026-10-23",
+      "source_url": "https://status.cursor.com/incidents/z1rz4fcd48j6",
+      "as_of": "2026-10-24",
+      "source_kind": "status"
+    },
+    {
       "title": "Investigating service degradation",
       "date": "2026-10-21",
       "source_url": "https://status.cursor.com/incidents/ysjcf4lrs5y0",
@@ -16,13 +23,6 @@
       "title": "Investigating service degradation",
       "date": "2026-10-21",
       "source_url": "https://status.cursor.com/incidents/qy67qt0s4n18",
-      "as_of": "2026-10-24",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors for Bitbucket Cloud integrations",
-      "date": "2026-10-21",
-      "source_url": "https://status.cursor.com/incidents/691lnxhmwgs6",
       "as_of": "2026-10-24",
       "source_kind": "status"
     },
