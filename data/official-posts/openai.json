@@ -1,7 +1,7 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-25",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "Degraded experience with ChatGPT app connections using CIMD",
       "date": "2026-10-23",
       "source_url": "https://status.openai.com/incidents/01M5NFF94XCJ6CGTD4S78A9BEB",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "status"
     },
     {
       "title": "Help Center Chat Support Degraded",
       "date": "2026-10-23",
       "source_url": "https://status.openai.com/incidents/01M5NAR5GZC5M7D0S7AQ6CGEEN",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "status"
     },
     {
       "title": "Delays in customer support responses",
       "date": "2026-10-23",
       "source_url": "https://status.openai.com/incidents/01M5KDJ4079XQTZDSRX40NMN6H",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "status"
     },
     {
       "title": "Securing our frontier model training environment",
       "date": "2026-10-23",
       "source_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "blog"
     },
     {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "date": "2026-10-23",
       "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "blog"
     },
     {
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "date": "2026-10-23",
       "source_url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "blog"
     },
     {
       "title": "codex 0.165.0-alpha.1",
       "date": "2026-10-23",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.164.0-alpha.11.1",
       "date": "2026-10-23",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "releases"
     },
     {
       "title": "codex 0.164.0",
       "date": "2026-10-23",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
-      "as_of": "2026-10-24",
+      "as_of": "2026-10-25",
       "source_kind": "releases"
     }
   ]
