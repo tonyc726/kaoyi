@@ -1,7 +1,7 @@
 {
   "vendor_id": "claude",
   "source_url": "https://www.anthropic.com/news",
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-26",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,42 +9,42 @@
       "title": "Elevated errors for Claude Fable 5.1",
       "date": "2026-10-25",
       "source_url": "https://status.claude.com/incidents/vx06kp8wfpq2",
-      "as_of": "2026-10-25",
+      "as_of": "2026-10-26",
       "source_kind": "status"
     },
     {
       "title": "Elevated errors for Claude Sonnet 5.5 and other models",
       "date": "2026-10-25",
       "source_url": "https://status.claude.com/incidents/334jvgbrc4ff",
-      "as_of": "2026-10-25",
+      "as_of": "2026-10-26",
       "source_kind": "status"
     },
     {
       "title": "Elevated errors for Claude Opus 5.5",
       "date": "2026-10-24",
       "source_url": "https://status.claude.com/incidents/3cqf3pmlnr96",
-      "as_of": "2026-10-25",
+      "as_of": "2026-10-26",
       "source_kind": "status"
     },
     {
       "title": "claude-code v2.1.310",
       "date": "2026-10-23",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
-      "as_of": "2026-10-25",
+      "as_of": "2026-10-26",
       "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.309",
       "date": "2026-10-22",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
-      "as_of": "2026-10-25",
+      "as_of": "2026-10-26",
       "source_kind": "releases"
     },
     {
       "title": "claude-code v2.1.308",
       "date": "2026-10-22",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
-      "as_of": "2026-10-25",
+      "as_of": "2026-10-26",
       "source_kind": "releases"
     }
   ]
