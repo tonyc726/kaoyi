@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated error rates for Ads POST requests",
+      "date": "2026-10-26",
+      "source_url": "https://status.openai.com/incidents/01M5WPZTT0385GMEV1353ZC4AM",
+      "as_of": "2026-10-27",
+      "source_kind": "status"
+    },
+    {
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "date": "2026-10-26",
+      "source_url": "https://openai.com/index/openai-cut-incident-investigation",
+      "as_of": "2026-10-27",
+      "source_kind": "blog"
+    },
+    {
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "date": "2026-10-26",
+      "source_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "as_of": "2026-10-27",
+      "source_kind": "blog"
+    },
+    {
       "title": "How Fanatics and OpenAI streamline the fan experience",
       "date": "2026-10-26",
       "source_url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.165.0-alpha.3",
+      "date": "2026-10-26",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.3",
+      "as_of": "2026-10-27",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex rust-v0.165.0-alpha.2",
+      "date": "2026-10-26",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.2",
+      "as_of": "2026-10-27",
+      "source_kind": "releases"
     },
     {
       "title": "Degraded experience with ChatGPT app connections using CIMD",
       "date": "2026-10-23",
       "source_url": "https://status.openai.com/incidents/01M5NFF94XCJ6CGTD4S78A9BEB",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "status"
     },
     {
       "title": "Help Center Chat Support Degraded",
       "date": "2026-10-23",
       "source_url": "https://status.openai.com/incidents/01M5NAR5GZC5M7D0S7AQ6CGEEN",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "status"
-    },
-    {
-      "title": "Delays in customer support responses",
-      "date": "2026-10-23",
-      "source_url": "https://status.openai.com/incidents/01M5KDJ4079XQTZDSRX40NMN6H",
-      "as_of": "2026-10-26",
-      "source_kind": "status"
-    },
-    {
-      "title": "Securing our frontier model training environment",
-      "date": "2026-10-23",
-      "source_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "as_of": "2026-10-26",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "date": "2026-10-23",
-      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "as_of": "2026-10-26",
-      "source_kind": "blog"
     },
     {
       "title": "codex 0.165.0-alpha.1",
       "date": "2026-10-23",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
-      "as_of": "2026-10-26",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.164.0-alpha.11.1",
-      "date": "2026-10-23",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1",
-      "as_of": "2026-10-26",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.164.0",
-      "date": "2026-10-23",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "releases"
     }
   ]

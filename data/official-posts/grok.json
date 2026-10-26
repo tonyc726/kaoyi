@@ -1,7 +1,7 @@
 {
   "vendor_id": "grok",
   "source_url": "https://x.ai/news",
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "Introducing the SpaceX Super Intelligence Partner Network",
       "date": "2026-10-22",
       "source_url": "https://x.ai/news/partnernetworkannouncement",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "blog"
     },
     {
       "title": "Using Grok Bot to detect and respond to incidents",
       "date": "2026-10-20",
       "source_url": "https://x.ai/news/incident-sweep",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "blog"
     },
     {
       "title": "Introducing Grok Voice 3.0",
       "date": "2026-10-14",
       "source_url": "https://x.ai/news/grok-voice-3",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "blog"
     }
   ]

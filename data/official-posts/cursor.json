@@ -1,71 +1,71 @@
 {
   "vendor_id": "cursor",
   "source_url": "https://cursor.com/changelog/rss.xml",
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
       "title": "Elevated errors for Claude Sonnet 5.5",
       "date": "2026-10-26",
-      "source_url": "https://status.cursor.com/incidents/tf5vxc32161d",
-      "as_of": "2026-10-26",
+      "source_url": "https://status.x.ai/incidents/tf5vxc32161d",
+      "as_of": "2026-10-27",
       "source_kind": "status"
     },
     {
-      "title": "Investigating service outage - Grok models unavailable",
-      "date": "2026-10-23",
-      "source_url": "https://status.cursor.com/incidents/z1rz4fcd48j6",
-      "as_of": "2026-10-26",
+      "title": "Degraded codebase indexing and agent personalization",
+      "date": "2026-10-26",
+      "source_url": "https://status.x.ai/incidents/ps_67a789782eda77b3",
+      "as_of": "2026-10-27",
       "source_kind": "status"
     },
     {
-      "title": "Investigating service degradation",
-      "date": "2026-10-21",
-      "source_url": "https://status.cursor.com/incidents/ysjcf4lrs5y0",
-      "as_of": "2026-10-26",
+      "title": "Degraded Model Performance",
+      "date": "2026-10-24",
+      "source_url": "https://status.x.ai/incidents/ps_1bf7caceaa5f7a94",
+      "as_of": "2026-10-27",
       "source_kind": "status"
+    },
+    {
+      "title": "Agent SDK",
+      "date": "2026-10-20",
+      "source_url": "https://cursor.com/changelog/agent-sdk",
+      "as_of": "2026-10-27",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Introducing the Agent SDKRustam Lalkaka5m",
+      "date": "2026-10-20",
+      "source_url": "https://cursor.com/blog/agent-sdk",
+      "as_of": "2026-10-27",
+      "source_kind": "blog"
     },
     {
       "title": "Cloud Agent Canvases and Environment Improvements",
       "date": "2026-10-16",
       "source_url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
-      "as_of": "2026-10-26",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Origin App Marketplace",
-      "date": "2026-10-13",
-      "source_url": "https://cursor.com/changelog/origin-app-marketplace",
-      "as_of": "2026-10-26",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Remote control for local agents",
-      "date": "2026-10-06",
-      "source_url": "https://cursor.com/changelog/remote-control-local-agents",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "blog"
     },
     {
       "title": "Grok 4.7 is now Live!",
       "date": "2026-09-21",
       "source_url": "https://forum.cursor.com/t/grok-4-7-is-now-live/172526",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "forum"
     },
     {
       "title": "Grok Bot is Now Live on Android",
       "date": "2026-09-02",
       "source_url": "https://forum.cursor.com/t/grok-bot-is-now-live-on-android/170384",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "forum"
     },
     {
       "title": "Grok 4.6 is now Live!",
       "date": "2026-08-12",
       "source_url": "https://forum.cursor.com/t/grok-4-6-is-now-live/168189",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_kind": "forum"
     }
   ]
