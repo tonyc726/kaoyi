@@ -1,7 +1,7 @@
 {
   "vendor_id": "aliyun",
   "source_url": "https://www.aliyun.com/product/news/",
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-28",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "大模型服务平台百炼 - 新增图像生成与编辑模型Qwen-Image-2.1-Pro",
       "date": "2026-10-12",
       "source_url": "https://www.aliyun.com/product/news/31350",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "source_kind": "blog"
     },
     {
       "title": "大模型服务平台百炼 - 新增图像生成大模型Qwen-Image-2.1-Turbo",
       "date": "2026-10-12",
       "source_url": "https://www.aliyun.com/product/news/31349",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "source_kind": "blog"
     },
     {
       "title": "大模型服务平台百炼 - 新增决策模型 Decision-Model-Preview",
       "date": "2026-09-24",
       "source_url": "https://www.aliyun.com/product/news/31351",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "source_kind": "blog"
     }
   ]
