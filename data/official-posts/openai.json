@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories",
+      "date": "2026-10-27",
+      "source_url": "https://status.openai.com/incidents/01M5Y60NQGGN514EB3943V94EN",
+      "as_of": "2026-10-27",
+      "source_kind": "status"
+    },
+    {
+      "title": "codex rust-v0.166.0-alpha.2",
+      "date": "2026-10-27",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.2",
+      "as_of": "2026-10-27",
+      "source_kind": "releases"
+    },
+    {
       "title": "codex 0.166.0-alpha.1",
       "date": "2026-10-27",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.1",
@@ -13,9 +27,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.165.0-alpha.1.1",
+      "title": "codex 0.165.0-alpha.1.2",
       "date": "2026-10-27",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.1",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.2",
       "as_of": "2026-10-27",
       "source_kind": "releases"
     },
@@ -48,23 +62,9 @@
       "source_kind": "blog"
     },
     {
-      "title": "codex 0.165.0-alpha.3",
-      "date": "2026-10-26",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.3",
-      "as_of": "2026-10-27",
-      "source_kind": "releases"
-    },
-    {
       "title": "Degraded experience with ChatGPT app connections using CIMD",
       "date": "2026-10-23",
       "source_url": "https://status.openai.com/incidents/01M5NFF94XCJ6CGTD4S78A9BEB",
-      "as_of": "2026-10-27",
-      "source_kind": "status"
-    },
-    {
-      "title": "Help Center Chat Support Degraded",
-      "date": "2026-10-23",
-      "source_url": "https://status.openai.com/incidents/01M5NAR5GZC5M7D0S7AQ6CGEEN",
       "as_of": "2026-10-27",
       "source_kind": "status"
     }
