@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "CSAM Screening Across OpenRouter",
+      "date": "2026-10-27",
+      "source_url": "https://openrouter.ai/blog/announcements/csam-screening/",
+      "as_of": "2026-10-28",
+      "source_kind": "blog"
+    },
+    {
       "title": "Private Endpoints: Bring Your Fine-Tuned Models and Capacity to OpenRouter",
       "date": "2026-10-14",
       "source_url": "https://openrouter.ai/blog/announcements/private-endpoints/",
@@ -16,13 +23,6 @@
       "title": "How an AI Sales Agent Saved Our Sales Team 600 Hours a Month",
       "date": "2026-10-07",
       "source_url": "https://openrouter.ai/blog/case-studies/how-an-ai-sales-agent-saved-our-sales-team-600-hours-a-month/",
-      "as_of": "2026-10-28",
-      "source_kind": "blog"
-    },
-    {
-      "title": "ElevenLabs is now on OpenRouter",
-      "date": "2026-10-07",
-      "source_url": "https://openrouter.ai/blog/announcements/elevenlabs-on-openrouter/",
       "as_of": "2026-10-28",
       "source_kind": "blog"
     }
