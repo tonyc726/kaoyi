@@ -6,6 +6,20 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "codex 0.166.0-alpha.1",
+      "date": "2026-10-27",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.1",
+      "as_of": "2026-10-27",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.165.0-alpha.1.1",
+      "date": "2026-10-27",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.1",
+      "as_of": "2026-10-27",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated error rates for Ads POST requests",
       "date": "2026-10-26",
       "source_url": "https://status.openai.com/incidents/01M5WPZTT0385GMEV1353ZC4AM",
@@ -13,9 +27,9 @@
       "source_kind": "status"
     },
     {
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
       "date": "2026-10-26",
-      "source_url": "https://openai.com/index/openai-cut-incident-investigation",
+      "source_url": "https://openai.com/index/greptile-code-review-codex-astra",
       "as_of": "2026-10-27",
       "source_kind": "blog"
     },
@@ -41,13 +55,6 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex rust-v0.165.0-alpha.2",
-      "date": "2026-10-26",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.2",
-      "as_of": "2026-10-27",
-      "source_kind": "releases"
-    },
-    {
       "title": "Degraded experience with ChatGPT app connections using CIMD",
       "date": "2026-10-23",
       "source_url": "https://status.openai.com/incidents/01M5NFF94XCJ6CGTD4S78A9BEB",
@@ -60,13 +67,6 @@
       "source_url": "https://status.openai.com/incidents/01M5NAR5GZC5M7D0S7AQ6CGEEN",
       "as_of": "2026-10-27",
       "source_kind": "status"
-    },
-    {
-      "title": "codex 0.165.0-alpha.1",
-      "date": "2026-10-23",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
-      "as_of": "2026-10-27",
-      "source_kind": "releases"
     }
   ]
 }
