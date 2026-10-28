@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Multiple services degraded",
+      "date": "2026-10-28",
+      "source_url": "https://status.x.ai/incidents/ps_d25569b21cabd283",
+      "as_of": "2026-10-29",
+      "source_kind": "status"
+    },
+    {
       "title": "Elevated errors affecting repository integrations",
       "date": "2026-10-27",
       "source_url": "https://status.x.ai/incidents/ps_7e6bd6bbd3e53c30",
@@ -16,13 +23,6 @@
       "title": "Delayed responses in Grok Bot",
       "date": "2026-10-27",
       "source_url": "https://status.x.ai/incidents/ps_45622ec185897742",
-      "as_of": "2026-10-29",
-      "source_kind": "status"
-    },
-    {
-      "title": "Payment System Sync Issues",
-      "date": "2026-10-27",
-      "source_url": "https://status.x.ai/incidents/ps_3e59314c94d41d47",
       "as_of": "2026-10-29",
       "source_kind": "status"
     },

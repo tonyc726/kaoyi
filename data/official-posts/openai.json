@@ -6,9 +6,16 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "Legora is building the agentic operating system for legal work",
+      "title": "The future of the firm",
       "date": "2026-10-28",
-      "source_url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source_url": "https://openai.com/index/the-future-of-the-firm",
+      "as_of": "2026-10-29",
+      "source_kind": "blog"
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "date": "2026-10-28",
+      "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "as_of": "2026-10-29",
       "source_kind": "blog"
     },
@@ -20,7 +27,7 @@
       "source_kind": "blog"
     },
     {
-      "title": "codex rust-v0.166.0-alpha.5.1",
+      "title": "codex 0.166.0-alpha.5.1",
       "date": "2026-10-28",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.5.1",
       "as_of": "2026-10-29",
@@ -53,13 +60,6 @@
       "source_url": "https://status.openai.com/incidents/01M5Y60NQGGN514EB3943V94EN",
       "as_of": "2026-10-29",
       "source_kind": "status"
-    },
-    {
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "date": "2026-10-27",
-      "source_url": "https://openai.com/index/retell-ai",
-      "as_of": "2026-10-29",
-      "source_kind": "blog"
     },
     {
       "title": "Elevated error rates for Ads POST requests",
