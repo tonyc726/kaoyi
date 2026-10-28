@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors affecting the Gmail connector",
+      "date": "2026-10-28",
+      "source_url": "https://status.claude.com/incidents/9ftx658xtd5z",
+      "as_of": "2026-10-28",
+      "source_kind": "status"
+    },
+    {
       "title": "Elevated errors for Claude Sonnet 5.5",
       "date": "2026-10-27",
       "source_url": "https://status.claude.com/incidents/lqhknfdjrcst",
@@ -32,13 +39,6 @@
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
       "as_of": "2026-10-28",
       "source_kind": "releases"
-    },
-    {
-      "title": "Elevated errors for Claude Fable 5.1",
-      "date": "2026-10-25",
-      "source_url": "https://status.claude.com/incidents/vx06kp8wfpq2",
-      "as_of": "2026-10-28",
-      "source_kind": "status"
     },
     {
       "title": "claude-code v2.1.310",
