@@ -6,23 +6,23 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "How to Prevent Prompt Injection: 13 Attacks, Tested",
+      "date": "2026-10-29",
+      "source_url": "https://openrouter.ai/blog/tutorials/prevent-prompt-injection/",
+      "as_of": "2026-10-29",
+      "source_kind": "blog"
+    },
+    {
+      "title": "How to Extract Tables from a PDF with an LLM",
+      "date": "2026-10-29",
+      "source_url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+      "as_of": "2026-10-29",
+      "source_kind": "blog"
+    },
+    {
       "title": "Hit Your Claude Code Usage Limit? How to Keep Coding",
       "date": "2026-10-28",
       "source_url": "https://openrouter.ai/blog/tutorials/claude-code-usage-limit/",
-      "as_of": "2026-10-29",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Claude 529 Overloaded: What It Means and How to Fix It",
-      "date": "2026-10-28",
-      "source_url": "https://openrouter.ai/blog/tutorials/claude-529-overloaded/",
-      "as_of": "2026-10-29",
-      "source_kind": "blog"
-    },
-    {
-      "title": "CSAM Screening Across OpenRouter",
-      "date": "2026-10-27",
-      "source_url": "https://openrouter.ai/blog/announcements/csam-screening/",
       "as_of": "2026-10-29",
       "source_kind": "blog"
     }
