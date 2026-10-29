@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "date": "2026-10-29",
+      "source_url": "https://openai.com/index/updated-model-spec",
+      "as_of": "2026-10-30",
+      "source_kind": "blog"
+    },
+    {
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "date": "2026-10-29",
+      "source_url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "as_of": "2026-10-30",
+      "source_kind": "blog"
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "date": "2026-10-29",
+      "source_url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "as_of": "2026-10-30",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.166.0-alpha.6",
       "date": "2026-10-29",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.6",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "source_kind": "releases"
     },
     {
-      "title": "The future of the firm",
-      "date": "2026-10-28",
-      "source_url": "https://openai.com/index/the-future-of-the-firm",
-      "as_of": "2026-10-29",
-      "source_kind": "blog"
-    },
-    {
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "date": "2026-10-28",
-      "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "as_of": "2026-10-29",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Legora is building the agentic operating system for legal work",
-      "date": "2026-10-28",
-      "source_url": "https://openai.com/index/legora",
-      "as_of": "2026-10-29",
-      "source_kind": "blog"
+      "title": "codex rust-v0.166.0",
+      "date": "2026-10-29",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+      "as_of": "2026-10-30",
+      "source_kind": "releases"
     },
     {
       "title": "codex 0.166.0-alpha.5.1",
       "date": "2026-10-28",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.5.1",
-      "as_of": "2026-10-29",
-      "source_kind": "releases"
-    },
-    {
-      "title": "codex 0.166.0-alpha.5",
-      "date": "2026-10-28",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.5",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "source_kind": "releases"
     },
     {
       "title": "6.1 Sol Degraded Model Performance",
       "date": "2026-10-27",
       "source_url": "https://status.openai.com/incidents/01M5YY4A3TQETEQ53DVSK8SW10",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "source_kind": "status"
     },
     {
       "title": "Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories",
       "date": "2026-10-27",
       "source_url": "https://status.openai.com/incidents/01M5Y60NQGGN514EB3943V94EN",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "source_kind": "status"
     },
     {
       "title": "Elevated error rates for Ads POST requests",
       "date": "2026-10-26",
       "source_url": "https://status.openai.com/incidents/01M5WPZTT0385GMEV1353ZC4AM",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "source_kind": "status"
     }
   ]

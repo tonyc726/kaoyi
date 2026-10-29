@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "How to Prevent Prompt Injection: 13 Attacks, Tested",
       "date": "2026-10-29",
       "source_url": "https://openrouter.ai/blog/tutorials/prevent-prompt-injection/",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "source_kind": "blog"
     },
     {
       "title": "How to Extract Tables from a PDF with an LLM",
       "date": "2026-10-29",
       "source_url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "source_kind": "blog"
     },
     {
       "title": "Hit Your Claude Code Usage Limit? How to Keep Coding",
       "date": "2026-10-28",
       "source_url": "https://openrouter.ai/blog/tutorials/claude-code-usage-limit/",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "source_kind": "blog"
     }
   ]
