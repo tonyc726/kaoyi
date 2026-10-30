@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "claude-code v2.1.314",
+      "date": "2026-10-30",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "as_of": "2026-10-30",
+      "source_kind": "releases"
+    },
+    {
       "title": "Elevated errors affecting the Google Calendar connector",
       "date": "2026-10-28",
       "source_url": "https://status.claude.com/incidents/phg1y2yh07n2",
@@ -37,13 +44,6 @@
       "title": "claude-code v2.1.311",
       "date": "2026-10-26",
       "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
-      "as_of": "2026-10-30",
-      "source_kind": "releases"
-    },
-    {
-      "title": "claude-code v2.1.310",
-      "date": "2026-10-23",
-      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
       "as_of": "2026-10-30",
       "source_kind": "releases"
     }

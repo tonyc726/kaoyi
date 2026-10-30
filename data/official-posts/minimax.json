@@ -6,7 +6,7 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "MiniMax CodeMini AppAgent插件即应用：MiniMax Code Mini App 正式发布",
+      "title": "MiniMax Code Mini App",
       "date": "2026-10-22",
       "source_url": "https://www.minimaxi.com/blog/minimax-code-mini-app-1792650729",
       "as_of": "2026-10-30",
@@ -39,6 +39,13 @@
       "source_url": "https://github.com/MiniMax-AI/cli/releases/tag/v1.0.26",
       "as_of": "2026-10-30",
       "source_kind": "releases"
+    },
+    {
+      "title": "MiniMax Music 3.0：新一代开放权重、生产级全能音乐模型",
+      "date": "2026-08-13",
+      "source_url": "https://www.minimaxi.com/blog/minimax-music-3-0-cn",
+      "as_of": "2026-10-30",
+      "source_kind": "blog"
     }
   ]
 }
