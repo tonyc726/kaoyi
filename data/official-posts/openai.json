@@ -34,7 +34,7 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex rust-v0.166.0",
+      "title": "codex 0.166.0",
       "date": "2026-10-29",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
       "as_of": "2026-10-30",
