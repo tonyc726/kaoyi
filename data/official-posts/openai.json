@@ -6,11 +6,25 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences",
+      "date": "2026-10-30",
+      "source_url": "https://status.openai.com/incidents/01M6754SR14HCQ3E9FX426E2N7",
+      "as_of": "2026-10-31",
+      "source_kind": "status"
+    },
+    {
       "title": "Elevated errors for GPT Image 2 API image edits",
       "date": "2026-10-30",
       "source_url": "https://status.openai.com/incidents/01M66KSDH67V5BQ73PE8AD2W8S",
       "as_of": "2026-10-31",
       "source_kind": "status"
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "date": "2026-10-30",
+      "source_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "as_of": "2026-10-31",
+      "source_kind": "blog"
     },
     {
       "title": "Community safety report and new protections for teens",
@@ -20,16 +34,16 @@
       "source_kind": "blog"
     },
     {
+      "title": "codex rust-v0.167.0-alpha.1",
+      "date": "2026-10-30",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.1",
+      "as_of": "2026-10-31",
+      "source_kind": "releases"
+    },
+    {
       "title": "An updated Model Spec for more capable and beneficial AI",
       "date": "2026-10-29",
       "source_url": "https://openai.com/index/updated-model-spec",
-      "as_of": "2026-10-31",
-      "source_kind": "blog"
-    },
-    {
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "date": "2026-10-29",
-      "source_url": "https://openai.com/index/ropes-gray-ai-diligence",
       "as_of": "2026-10-31",
       "source_kind": "blog"
     },
@@ -48,23 +62,9 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.166.0-alpha.5.1",
-      "date": "2026-10-28",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.5.1",
-      "as_of": "2026-10-31",
-      "source_kind": "releases"
-    },
-    {
       "title": "6.1 Sol Degraded Model Performance",
       "date": "2026-10-27",
       "source_url": "https://status.openai.com/incidents/01M5YY4A3TQETEQ53DVSK8SW10",
-      "as_of": "2026-10-31",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories",
-      "date": "2026-10-27",
-      "source_url": "https://status.openai.com/incidents/01M5Y60NQGGN514EB3943V94EN",
       "as_of": "2026-10-31",
       "source_kind": "status"
     }

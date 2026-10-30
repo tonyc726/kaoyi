@@ -27,7 +27,7 @@
       "source_kind": "status"
     },
     {
-      "title": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace",
+      "title": "Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace",
       "date": "2026-10-29",
       "source_url": "https://cursor.com/blog/claude-code-extension-security-notice",
       "as_of": "2026-10-31",
