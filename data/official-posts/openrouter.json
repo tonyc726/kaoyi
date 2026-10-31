@@ -1,7 +1,7 @@
 {
   "vendor_id": "openrouter",
   "source_url": "https://openrouter.ai/blog/feed.xml",
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,21 +9,21 @@
       "title": "How to Build Your Own Always-On AI Agent",
       "date": "2026-10-31",
       "source_url": "https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "blog"
     },
     {
       "title": "Open-Weight vs Closed-Weight Models: What's the Difference?",
       "date": "2026-10-31",
       "source_url": "https://openrouter.ai/blog/insights/open-weight-vs-closed-weight-models/",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "blog"
     },
     {
       "title": "Claude Opus vs Sonnet vs Haiku: Which Should You Use?",
       "date": "2026-10-30",
       "source_url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "blog"
     }
   ]

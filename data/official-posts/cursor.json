@@ -1,7 +1,7 @@
 {
   "vendor_id": "cursor",
   "source_url": "https://cursor.com/changelog/rss.xml",
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
@@ -9,63 +9,63 @@
       "title": "Multiple services degraded",
       "date": "2026-10-31",
       "source_url": "https://status.x.ai/incidents/ps_061cf14060aff263",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "status"
     },
     {
       "title": "Auto Review Degradation",
       "date": "2026-10-29",
       "source_url": "https://status.x.ai/incidents/ps_e5eb22a9954466c4",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "status"
     },
     {
       "title": "Investigating Service Degradation with VS Code Extensions",
       "date": "2026-10-29",
       "source_url": "https://status.x.ai/incidents/ps_ad31c985bfc193b9",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "status"
     },
     {
       "title": "Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace",
       "date": "2026-10-29",
       "source_url": "https://cursor.com/blog/claude-code-extension-security-notice",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "blog"
     },
     {
       "title": "Agent SDK",
       "date": "2026-10-20",
       "source_url": "https://cursor.com/changelog/agent-sdk",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "blog"
     },
     {
       "title": "Introducing the Agent SDKRustam Lalkaka5m",
       "date": "2026-10-20",
       "source_url": "https://cursor.com/blog/agent-sdk",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "blog"
     },
     {
       "title": "Grok 4.7 is now Live!",
       "date": "2026-09-21",
       "source_url": "https://forum.cursor.com/t/grok-4-7-is-now-live/172526",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "forum"
     },
     {
       "title": "Grok Bot is Now Live on Android",
       "date": "2026-09-02",
       "source_url": "https://forum.cursor.com/t/grok-bot-is-now-live-on-android/170384",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "forum"
     },
     {
       "title": "Grok 4.6 is now Live!",
       "date": "2026-08-12",
       "source_url": "https://forum.cursor.com/t/grok-4-6-is-now-live/168189",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "source_kind": "forum"
     }
   ]
