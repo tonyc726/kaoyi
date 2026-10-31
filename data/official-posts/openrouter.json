@@ -6,23 +6,23 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "How to Build Your Own Always-On AI Agent",
+      "date": "2026-10-31",
+      "source_url": "https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/",
+      "as_of": "2026-10-31",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Open-Weight vs Closed-Weight Models: What's the Difference?",
+      "date": "2026-10-31",
+      "source_url": "https://openrouter.ai/blog/insights/open-weight-vs-closed-weight-models/",
+      "as_of": "2026-10-31",
+      "source_kind": "blog"
+    },
+    {
       "title": "Claude Opus vs Sonnet vs Haiku: Which Should You Use?",
       "date": "2026-10-30",
       "source_url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/",
-      "as_of": "2026-10-31",
-      "source_kind": "blog"
-    },
-    {
-      "title": "How Much Does Claude Code Cost? Real Session Costs by Model",
-      "date": "2026-10-30",
-      "source_url": "https://openrouter.ai/blog/insights/claude-code-cost/",
-      "as_of": "2026-10-31",
-      "source_kind": "blog"
-    },
-    {
-      "title": "How to Prevent Prompt Injection: 13 Attacks, Tested",
-      "date": "2026-10-29",
-      "source_url": "https://openrouter.ai/blog/tutorials/prevent-prompt-injection/",
       "as_of": "2026-10-31",
       "source_kind": "blog"
     }

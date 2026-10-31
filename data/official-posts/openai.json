@@ -27,6 +27,13 @@
       "source_kind": "blog"
     },
     {
+      "title": "Fair use benefits everyone",
+      "date": "2026-10-30",
+      "source_url": "https://openai.com/index/fair-use-benefits-everyone",
+      "as_of": "2026-10-31",
+      "source_kind": "blog"
+    },
+    {
       "title": "Community safety report and new protections for teens",
       "date": "2026-10-30",
       "source_url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
@@ -39,13 +46,6 @@
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.1",
       "as_of": "2026-10-31",
       "source_kind": "releases"
-    },
-    {
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "date": "2026-10-29",
-      "source_url": "https://openai.com/index/updated-model-spec",
-      "as_of": "2026-10-31",
-      "source_kind": "blog"
     },
     {
       "title": "codex 0.166.0-alpha.6",
