@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Multiple services degraded",
+      "date": "2026-10-31",
+      "source_url": "https://status.x.ai/incidents/ps_061cf14060aff263",
+      "as_of": "2026-10-31",
+      "source_kind": "status"
+    },
+    {
       "title": "Auto Review Degradation",
       "date": "2026-10-29",
       "source_url": "https://status.x.ai/incidents/ps_e5eb22a9954466c4",
@@ -16,13 +23,6 @@
       "title": "Investigating Service Degradation with VS Code Extensions",
       "date": "2026-10-29",
       "source_url": "https://status.x.ai/incidents/ps_ad31c985bfc193b9",
-      "as_of": "2026-10-31",
-      "source_kind": "status"
-    },
-    {
-      "title": "Degraded performance — Origin and Cloud Agents",
-      "date": "2026-10-29",
-      "source_url": "https://status.x.ai/incidents/ps_95a4f0b2be913452",
       "as_of": "2026-10-31",
       "source_kind": "status"
     },
