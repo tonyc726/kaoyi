@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Build an AI Code Reviewer with OpenRouter",
+      "date": "2026-11-01",
+      "source_url": "https://openrouter.ai/blog/tutorials/ai-code-review/",
+      "as_of": "2026-11-01",
+      "source_kind": "blog"
+    },
+    {
       "title": "How to Build Your Own Always-On AI Agent",
       "date": "2026-10-31",
       "source_url": "https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/",
@@ -16,13 +23,6 @@
       "title": "Open-Weight vs Closed-Weight Models: What's the Difference?",
       "date": "2026-10-31",
       "source_url": "https://openrouter.ai/blog/insights/open-weight-vs-closed-weight-models/",
-      "as_of": "2026-11-01",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Claude Opus vs Sonnet vs Haiku: Which Should You Use?",
-      "date": "2026-10-30",
-      "source_url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/",
       "as_of": "2026-11-01",
       "source_kind": "blog"
     }
