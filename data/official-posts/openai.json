@@ -13,6 +13,13 @@
       "source_kind": "status"
     },
     {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "date": "2026-11-03",
+      "source_url": "https://openai.com/index/heimstaden",
+      "as_of": "2026-11-03",
+      "source_kind": "blog"
+    },
+    {
       "title": "codex 0.167.0-alpha.4",
       "date": "2026-11-03",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4",
@@ -30,13 +37,6 @@
       "title": "Rewarding defenders with bigger bug bounties",
       "date": "2026-11-02",
       "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "as_of": "2026-11-03",
-      "source_kind": "blog"
-    },
-    {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "date": "2026-11-02",
-      "source_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "as_of": "2026-11-03",
       "source_kind": "blog"
     },
