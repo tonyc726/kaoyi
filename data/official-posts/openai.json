@@ -6,23 +6,37 @@
   "parse_ok": true,
   "posts": [
     {
-      "title": "Qodo builds context into AI code review with Codex",
+      "title": "File upload errors in ChatGPT",
+      "date": "2026-11-03",
+      "source_url": "https://status.openai.com/incidents/01M6FDZ89W4PKDS19K496J307G",
+      "as_of": "2026-11-03",
+      "source_kind": "status"
+    },
+    {
+      "title": "codex 0.167.0-alpha.4",
+      "date": "2026-11-03",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4",
+      "as_of": "2026-11-03",
+      "source_kind": "releases"
+    },
+    {
+      "title": "Scaling Git at OpenAI",
       "date": "2026-11-02",
-      "source_url": "https://openai.com/index/qodo-codex-plugin",
+      "source_url": "https://openai.com/index/scaling-git-at-openai",
       "as_of": "2026-11-03",
       "source_kind": "blog"
     },
     {
-      "title": "LifeVal",
+      "title": "Rewarding defenders with bigger bug bounties",
       "date": "2026-11-02",
-      "source_url": "https://openai.com/index/lifeval",
+      "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "as_of": "2026-11-03",
       "source_kind": "blog"
     },
     {
-      "title": "Introducing the Grid Protectors Program",
+      "title": "Preparing our next security sprint to harden OpenAI",
       "date": "2026-11-02",
-      "source_url": "https://openai.com/index/grid-protectors-program",
+      "source_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "as_of": "2026-11-03",
       "source_kind": "blog"
     },
@@ -51,20 +65,6 @@
       "title": "Elevated errors for GPT Image 2 API image edits",
       "date": "2026-10-30",
       "source_url": "https://status.openai.com/incidents/01M66KSDH67V5BQ73PE8AD2W8S",
-      "as_of": "2026-11-03",
-      "source_kind": "status"
-    },
-    {
-      "title": "codex rust-v0.167.0-alpha.1",
-      "date": "2026-10-30",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.1",
-      "as_of": "2026-11-03",
-      "source_kind": "releases"
-    },
-    {
-      "title": "6.1 Sol Degraded Model Performance",
-      "date": "2026-10-27",
-      "source_url": "https://status.openai.com/incidents/01M5YY4A3TQETEQ53DVSK8SW10",
       "as_of": "2026-11-03",
       "source_kind": "status"
     }
