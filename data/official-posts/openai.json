@@ -1,71 +1,71 @@
 {
   "vendor_id": "openai",
   "source_url": "https://openai.com/news/rss.xml",
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-05",
   "fetched_ok": true,
   "parse_ok": true,
   "posts": [
     {
-      "title": "codex rust-v0.168.0-alpha.1",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "date": "2026-11-04",
+      "source_url": "https://openai.com/index/openai-to-acquire-pierre",
+      "as_of": "2026-11-05",
+      "source_kind": "blog"
+    },
+    {
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "date": "2026-11-04",
+      "source_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "as_of": "2026-11-05",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.168.0-alpha.1",
       "date": "2026-11-04",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "source_kind": "releases"
     },
     {
-      "title": "codex rust-v0.167.0-alpha.5",
+      "title": "codex 0.167.0-alpha.5",
       "date": "2026-11-04",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.5",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
+      "source_kind": "releases"
+    },
+    {
+      "title": "codex 0.167.0-alpha.3.1",
+      "date": "2026-11-04",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.1",
+      "as_of": "2026-11-05",
       "source_kind": "releases"
     },
     {
       "title": "File upload errors in ChatGPT",
       "date": "2026-11-03",
       "source_url": "https://status.openai.com/incidents/01M6FDZ89W4PKDS19K496J307G",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "source_kind": "status"
-    },
-    {
-      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "date": "2026-11-03",
-      "source_url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-      "as_of": "2026-11-04",
-      "source_kind": "blog"
     },
     {
       "title": "Heimstaden is changing residential real estate management with AI",
       "date": "2026-11-03",
       "source_url": "https://openai.com/index/heimstaden",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "source_kind": "blog"
-    },
-    {
-      "title": "How Cisco defends at machine speed with OpenAI",
-      "date": "2026-11-03",
-      "source_url": "https://openai.com/index/cisco-cyber",
-      "as_of": "2026-11-04",
-      "source_kind": "blog"
-    },
-    {
-      "title": "codex 0.167.0-alpha.4",
-      "date": "2026-11-03",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4",
-      "as_of": "2026-11-04",
-      "source_kind": "releases"
     },
     {
       "title": "Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences",
       "date": "2026-10-30",
       "source_url": "https://status.openai.com/incidents/01M6754SR14HCQ3E9FX426E2N7",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "source_kind": "status"
     },
     {
       "title": "Elevated errors for GPT Image 2 API image edits",
       "date": "2026-10-30",
       "source_url": "https://status.openai.com/incidents/01M66KSDH67V5BQ73PE8AD2W8S",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "source_kind": "status"
     }
   ]
