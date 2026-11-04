@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "3 \"Slow clones from GH due to Github degradation\"",
+      "date": "2026-11-03",
+      "source_url": "https://status.x.ai/incidents/ps_b88ca87004b1d3b9",
+      "as_of": "2026-11-04",
+      "source_kind": "status"
+    },
+    {
       "title": "Issues with source control integrations",
       "date": "2026-11-02",
       "source_url": "https://status.x.ai/incidents/ps_dece7cc03ecef152",
@@ -16,13 +23,6 @@
       "title": "Service Degradation - Billing and Usage Dashboard",
       "date": "2026-11-01",
       "source_url": "https://status.x.ai/incidents/ps_838fe2a3a154acfa",
-      "as_of": "2026-11-04",
-      "source_kind": "status"
-    },
-    {
-      "title": "Multiple services degraded",
-      "date": "2026-10-31",
-      "source_url": "https://status.x.ai/incidents/ps_061cf14060aff263",
       "as_of": "2026-11-04",
       "source_kind": "status"
     },
