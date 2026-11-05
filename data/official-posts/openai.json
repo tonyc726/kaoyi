@@ -6,6 +6,13 @@
   "parse_ok": true,
   "posts": [
     {
+      "title": "Elevated error rates across paid ChatGPT plans",
+      "date": "2026-11-04",
+      "source_url": "https://status.openai.com/incidents/01M6MBCX427A7113A3T4FJ1N6Y",
+      "as_of": "2026-11-05",
+      "source_kind": "status"
+    },
+    {
       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
       "date": "2026-11-04",
       "source_url": "https://openai.com/index/openai-to-acquire-pierre",
@@ -13,11 +20,25 @@
       "source_kind": "blog"
     },
     {
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "title": "Introducing Images 2.6",
       "date": "2026-11-04",
-      "source_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source_url": "https://openai.com/index/introducing-images-2-6",
       "as_of": "2026-11-05",
       "source_kind": "blog"
+    },
+    {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "date": "2026-11-04",
+      "source_url": "https://openai.com/index/devrev-enterprise-self-service",
+      "as_of": "2026-11-05",
+      "source_kind": "blog"
+    },
+    {
+      "title": "codex 0.168.0-alpha.2",
+      "date": "2026-11-04",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.2",
+      "as_of": "2026-11-05",
+      "source_kind": "releases"
     },
     {
       "title": "codex 0.168.0-alpha.1",
@@ -34,13 +55,6 @@
       "source_kind": "releases"
     },
     {
-      "title": "codex 0.167.0-alpha.3.1",
-      "date": "2026-11-04",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.1",
-      "as_of": "2026-11-05",
-      "source_kind": "releases"
-    },
-    {
       "title": "File upload errors in ChatGPT",
       "date": "2026-11-03",
       "source_url": "https://status.openai.com/incidents/01M6FDZ89W4PKDS19K496J307G",
@@ -48,23 +62,9 @@
       "source_kind": "status"
     },
     {
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "date": "2026-11-03",
-      "source_url": "https://openai.com/index/heimstaden",
-      "as_of": "2026-11-05",
-      "source_kind": "blog"
-    },
-    {
       "title": "Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences",
       "date": "2026-10-30",
       "source_url": "https://status.openai.com/incidents/01M6754SR14HCQ3E9FX426E2N7",
-      "as_of": "2026-11-05",
-      "source_kind": "status"
-    },
-    {
-      "title": "Elevated errors for GPT Image 2 API image edits",
-      "date": "2026-10-30",
-      "source_url": "https://status.openai.com/incidents/01M66KSDH67V5BQ73PE8AD2W8S",
       "as_of": "2026-11-05",
       "source_kind": "status"
     }

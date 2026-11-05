@@ -1,0 +1,12 @@
+id: 2026-11-05-openai-go-8-to-dash
+vendor_id: openai
+layer: official
+kind: price_change
+title: OpenAI ChatGPT/Codex Go 目录价变动
+summary: 官方标价从 $8 变为 -。
+as_of: '2026-11-05'
+source_url: https://chatgpt.com/pricing/
+example: false
+status: OPEN
+note: 官方层。由每日抓取对照上次快照生成，不是社区传闻。
+confidence: 0.9

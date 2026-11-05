@@ -7,7 +7,6 @@
     "volcengine-agent",
     "cursor",
     "claude",
-    "grok",
-    "openai"
+    "grok"
   ]
 }
